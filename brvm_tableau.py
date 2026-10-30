@@ -278,7 +278,7 @@ def index_equipondere(px, annees=3):
     for t, df in px.items():
         if len(df) >= HISTORIQUE_MIN and (fin - df.index[-1]).days <= RETARD_MAX:
             cols[t] = df["Close"].loc[debut:]
-    allc = pd.concat(cols, axis=1).sort_index().ffill()
+    allc = pd.concat(cols, axis=1, sort=True).sort_index().ffill()
     ret = allc.pct_change().clip(-0.10, 0.10).mean(axis=1).fillna(0)
     ind = 100 * (1 + ret).cumprod()
     return ind
