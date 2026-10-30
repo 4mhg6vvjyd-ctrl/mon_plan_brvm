@@ -37,7 +37,7 @@ def construire():
     if not px:
         raise SystemExit("Aucune donnee : lance d'abord brvm_data.py")
     aujourdhui = pd.Timestamp.now().normalize()
-    news, _ = T.preparer_news(actus, aujourdhui)
+    news, toutes = T.preparer_news(actus, aujourdhui)
     res = [T.analyser(t, df, divs, news) for t, df in px.items() if len(df) >= 60]
     stocks = []
     for r in res:
@@ -50,9 +50,46 @@ def construire():
                        "prix": int(round(r["prix"])), "score": int(r["score"]), "etat": r["etat"], "p1m": nb(r["p1m"]), "p3m": nb(r["p3m"]), "p6m": nb(r["p6m"]), "p1a": nb(r["p1a"]),
                        "vol": nb(r["vol"]), "dd": nb(r["dd"]), "d50": nb(r["d50"]), "d200": nb(r["d200"]), "med": float(r["med"]), "rend_der": nb(r["rend_der"]), "rend_moy": nb(r["rend_moy"]),
                        "divs": dv, "serie": int(r["serie"]), "croiss3": nb(r["croiss3"]), "suspect": bool(r.get("suspect")), "coupe": bool(r.get("coupe")),
-                       "grave": bool(r.get("grave")), "vigilance": bool(r.get("vigilance"))})
+                       "grave": bool(r.get("grave")), "vigilance": bool(r.get("vigilance")),
+                       "p1j": nb(r.get("p1j")), "ytd": nb(r.get("ytd")), "h": historique(px[r["t"]]), "news": actus_valeur(news.get(r["t"], []))})
     fin = max(r["fin"] for r in res)
-    return stocks, fin
+    return stocks, fin, agenda(actus), actus_marche(toutes, {s["t"] for s in stocks})
+
+
+def historique(df):
+    """Cours de cloture hebdomadaires sur 2 ans, pour la courbe de la fiche valeur."""
+    c = df["Close"].resample("W-FRI").last().dropna().tail(105)
+    if not len(c):
+        return {"d0": None, "v": []}
+    return {"d0": c.index[0].strftime("%Y-%m-%d"), "d1": c.index[-1].strftime("%Y-%m-%d"), "v": [int(round(x)) for x in c.values]}
+
+
+def actus_valeur(lst, n=4, jours=120):
+    """Titres et liens seulement (pas d'extraits) : les dernieres annonces d'une societe."""
+    out = []
+    for x in lst:
+        if x.get("jours", 999) <= jours and x.get("url"):
+            out.append({"d": x["date"][:10], "titre": x.get("titre", "")[:140], "url": x["url"], "type": x.get("type", "")})
+        if len(out) >= n:
+            break
+    return out
+
+
+def actus_marche(toutes, cotees, n=12):
+    out = []
+    for x in toutes:
+        if x.get("url") and (set(x.get("tickers", [])) & cotees or "BRVM" in x.get("titre", "").upper()):
+            out.append({"d": x["date"][:10], "titre": x.get("titre", "")[:140], "url": x["url"], "t": (x.get("tickers") or [""])[0]})
+        if len(out) >= n:
+            break
+    return out
+
+
+def agenda(actus):
+    out = []
+    for x in actus.get("dividendes_a_venir", []):
+        out.append({"date": x.get("date", ""), "t": x.get("ticker", ""), "montant": nb(x.get("montant")), "rendement": nb(x.get("rendement"))})
+    return out
 
 
 def main():
@@ -63,11 +100,11 @@ def main():
     if not m:
         raise SystemExit("Bloc de donnees introuvable dans %s" % FICHIER)
     ancien = json.loads(m.group(1))
-    stocks, fin = construire()
+    stocks, fin, agd, act = construire()
     fees = ancien["fees"]
     if os.path.exists("frais_sgi.json"):
         fees = json.load(open("frais_sgi.json", encoding="utf-8"))
-    data = {"maj": fin.strftime("%d/%m/%Y"), "stocks": stocks, "fees": fees}
+    data = {"maj": fin.strftime("%d/%m/%Y"), "stocks": stocks, "fees": fees, "agenda": agd, "actus": act}
     nouveau = html[:m.start()] + "/*DATA_DEBUT*/const DATA = " + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";/*DATA_FIN*/" + html[m.end():]
     open(FICHIER, "w", encoding="utf-8").write(nouveau)
     n_etude = sum(1 for s in stocks if s["etat"] == "A etudier")
