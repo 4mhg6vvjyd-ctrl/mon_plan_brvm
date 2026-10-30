@@ -1,0 +1,993 @@
+{
+ "maj": "2026-10-30 15:42",
+ "articles": [
+  {
+   "id": "65379",
+   "source": "Actualites du marche",
+   "date": "2026-10-30 15:28",
+   "titre": "BRVM : Sonatel impulse le rebond du marché avec 200 milliards FCFA de capitalisation gagnés",
+   "extrait": "La BRVM retrouve des couleurs au terme de la séance, portée par une progression simultanée de ses trois principaux indi...",
+   "url": "https://www.sikafinance.com/marches/brvm-sonatel-impulse-le-rebond-du-marche-avec-200-milliards-fcfa-de-capitalisation-gagnes_65379",
+   "ticker": "SNTS",
+   "premium": false,
+   "categorie": "Autre",
+   "score": 1,
+   "sentiment": 1,
+   "tickers": [
+    "SNTS"
+   ]
+  },
+  {
+   "id": "65378",
+   "source": "Actualites du marche",
+   "date": "2026-10-30 14:23",
+   "titre": "CIE : Le résultat net se hisse à 5 milliards FCFA au 1er semestre 2026",
+   "extrait": "La Compagnie Ivoirienne d'Électricité (CIE) améliore son résultat net à fin juin 2026, mais moins rapidement que...",
+   "url": "https://www.sikafinance.com/marches/cie-le-resultat-net-se-hisse-a-5-milliards-fcfa-au-1er-semestre-2026_65378",
+   "ticker": "CIEC",
+   "premium": true,
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 1,
+   "tickers": [
+    "CIEC"
+   ]
+  },
+  {
+   "id": "65377",
+   "source": "Actualites economiques",
+   "date": "2026-10-30 14:09",
+   "titre": "Gabon : Millennial Potash recherche 480 millions de dollars pour Banio et vise jusqu’à 1,2 million de tonnes de potasse par an",
+   "extrait": "La société minière canadienne Millennial Potash prépare un investissement initial de 480 millions de dollars, soit environ 274 milliards FCFA, pour développer ...",
+   "url": "https://www.sikafinance.com/marches/gabon-millennial-potash-recherche-480-millions-de-dollars-pour-banio-et-vise-jusqua-1-2-million-de-tonnes-de-potasse-par-an_65377",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65374",
+   "source": "Actualites economiques",
+   "date": "2026-10-30 13:30",
+   "titre": "Cyberattaque record chez Binance : 6,3 milliards USD dérobés en une heure",
+   "extrait": "Dans la soirée du jeudi 29 octobre 2026, Binance, le géant des plateformes d'échange de cryptomonnaies, a été le théâtre du plus vaste piratage de l'hist...",
+   "url": "https://www.sikafinance.com/marches/cyberattaque-record-chez-binance-6-3-milliards-usd-derobes-en-une-heure_65374",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 1,
+   "tickers": []
+  },
+  {
+   "id": "65373",
+   "source": "Actualites du marche",
+   "date": "2026-10-30 12:18",
+   "titre": "Tractafric Motors CI : La croissance de l'activité ne suffit pas à soutenir le bénéfice au 1er semestre 2026",
+   "extrait": "Tractafric Motors Côte d'Ivoire affiche une activité en progression au premier semestre 2026, avec une améliorati...",
+   "url": "https://www.sikafinance.com/marches/tractafric-motors-ci-la-croissance-de-l-activite-ne-suffit-pas-a-soutenir-le-benefice-au-1er-semestre-2026_65373",
+   "ticker": "PRSC",
+   "premium": true,
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 1,
+   "tickers": [
+    "PRSC"
+   ]
+  },
+  {
+   "id": "65372",
+   "source": "Actualites du marche",
+   "date": "2026-10-30 11:58",
+   "titre": "Jean Damascène NIGNAN, DG UAB Vie : ‘’Notre ambition est de passer d’une logique de reconquête à une logique de leadership durable’’",
+   "extrait": "Jean Damascène NIGNAN, Directeur général de UAB Vie : Notre ambition est de passer d'une logique de reconquête à une lo...",
+   "url": "https://www.sikafinance.com/marches/jean-damascene-nignan-dg-uab-vie-notre-ambition-est-de-passer-dune-logique-de-reconquete-a-une-logique-de-leadership-durable_65372",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Gouvernance",
+   "score": 1,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65369",
+   "source": "Actualites du marche",
+   "date": "2026-10-30 11:49",
+   "titre": "Congés et jours fériés : Dans quels pays africains travaille-t-on le moins dans l’année ?",
+   "extrait": "Le nombre de jours de congés et de jours fériés chômés et payés varie considérablement d'un pays à l'autre, en fo...",
+   "url": "https://www.sikafinance.com/marches/conges-et-jours-feries-dans-quels-pays-africains-travaille-t-on-le-moins-dans-lannee-_65369",
+   "ticker": null,
+   "premium": true,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65371",
+   "source": "Actualites economiques",
+   "date": "2026-10-30 11:48",
+   "titre": "Gabon : Une nouvelle redevance de 5 000 FCFA par tonne de marchandise prévue dans les ports dès 2027",
+   "extrait": "Le projet de loi de finances 2027 prévoit l'instauration d'une redevance de dragage portuaire de 5 000 FCFA hors taxes par tonne métrique de marchandises. Cett...",
+   "url": "https://www.sikafinance.com/marches/gabon-une-nouvelle-redevance-de-5-000-fcfa-par-tonne-de-marchandise-prevue-dans-les-ports-des-2027_65371",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65370",
+   "source": "Actualites economiques",
+   "date": "2026-10-30 11:46",
+   "titre": "Congo : La nouvelle loi minière menace le financement du projet de potasse Kola, évalué à 2,2 milliards USD",
+   "extrait": "La société britannique Kore Potash, qui détient les projets de potasse Kola et DX en République du Congo, réclame des éclaircissements sur l'application du nou...",
+   "url": "https://www.sikafinance.com/marches/congo-la-nouvelle-loi-miniere-menace-le-financement-du-projet-de-potasse-kola-evalue-a-2-2-milliards-usd_65370",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65367",
+   "source": "Actualites economiques",
+   "date": "2026-10-30 11:39",
+   "titre": "Gabon : Plus de 2 000 milliards FCFA de dette à rembourser en 2027, une facture en hausse de 54%",
+   "extrait": "Le Gabon prévoit de consacrer 2 022,4 milliards FCFA aux remboursements de principal de sa dette en 2027, contre 1 309,2 milliards dans la loi de finances rect...",
+   "url": "https://www.sikafinance.com/marches/gabon-plus-de-2-000-milliards-fcfa-de-dette-a-rembourser-en-2027-une-facture-en-hausse-de-54_65367",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 1,
+   "tickers": []
+  },
+  {
+   "id": "65368",
+   "source": "Actualites economiques",
+   "date": "2026-10-30 11:37",
+   "titre": "Gabon : Les recettes fiscales des sociétés pétrolières attendues en hausse de 388% à 242 milliards FCFA en 2027",
+   "extrait": "Le gouvernement gabonais prévoit une multiplication par près de cinq des recettes tirées de l'impôt sur les sociétés pétrolières en 2027. Selon le projet...",
+   "url": "https://www.sikafinance.com/marches/gabon-les-recettes-fiscales-des-societes-petrolieres-attendues-en-hausse-de-388-a-242-milliards-fcfa-en-2027_65368",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 1,
+   "tickers": []
+  },
+  {
+   "id": "65362",
+   "source": "Actualites du marche",
+   "date": "2026-10-30 08:45",
+   "titre": "Sénégal : Moody’s abaisse la dette extérieure à ‘’Ca’’ et anticipe jusqu’à 65% de pertes pour les créanciers",
+   "extrait": "L'agence a dégradé de deux crans la note des emprunts sénégalais en devises, désormais classés parmi les dettes présent...",
+   "url": "https://www.sikafinance.com/marches/senegal-moodys-abaisse-la-dette-exterieure-a-ca-et-anticipe-jusqua-65-de-pertes-pour-les-creanciers_65362",
+   "ticker": null,
+   "premium": true,
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": -1,
+   "tickers": []
+  },
+  {
+   "id": "65361",
+   "source": "Actualites du marche",
+   "date": "2026-10-30 08:35",
+   "titre": "Hausse de 13% à 354 milliards FCFA du résultat net de Sonatel à fin septembre 2026",
+   "extrait": "Le groupe Sonatel poursuit sa croissance à fin septembre 2026, avec un résultat net de 354 milliards FCFA, en progressi...",
+   "url": "https://www.sikafinance.com/marches/hausse-de-13-a-354-milliards-fcfa-du-resultat-net-de-sonatel-a-fin-septembre-2026_65361",
+   "ticker": "SNTS",
+   "premium": true,
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 1,
+   "tickers": [
+    "SNTS"
+   ]
+  },
+  {
+   "id": "65360",
+   "source": "Actualites economiques",
+   "date": "2026-10-30 08:31",
+   "titre": "Cameroun : Déficit, factures des producteurs et dettes, triple risque pour le secteur électrique entre 2027 et 2029",
+   "extrait": "Le Cameroun pourrait aborder la période 2027-2029 avec un système électrique confronté à trois difficultés simultanées : une production insuffisante face à la ...",
+   "url": "https://www.sikafinance.com/marches/cameroun-deficit-factures-des-producteurs-et-dettes-triple-risque-pour-le-secteur-electrique-entre-2027-et-2029_65360",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": -1,
+   "tickers": []
+  },
+  {
+   "id": "65359",
+   "source": "Actualites economiques",
+   "date": "2026-10-30 08:26",
+   "titre": "Cameroun : 807 milliards FCFA pour bitumer plus de 2 600 km de routes d’ici 2029",
+   "extrait": "Le Cameroun prévoit de porter le cumul des nouvelles routes bitumées de 2 441,1 km à fin 2025 à 5 047,9 km à fin 2029, soit 2 606,8 km supplémentaires en quatr...",
+   "url": "https://www.sikafinance.com/marches/cameroun-807-milliards-fcfa-pour-bitumer-plus-de-2-600-km-de-routes-dici-2029_65359",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65357",
+   "source": "Actualites economiques",
+   "date": "2026-10-29 17:24",
+   "titre": "Le Cameroun veut mettre en place un dispositif de suivi et de contrôle des dépenses liées aux importations pétrolières",
+   "extrait": "Depuis l'incendie de la Société nationale de raffinage (SONARA) en 2019, le Cameroun dépend davantage des importations pour satisfaire sa demande en produits p...",
+   "url": "https://www.sikafinance.com/marches/le-cameroun-veut-mettre-en-place-un-dispositif-de-suivi-et-de-controle-des-depenses-liees-aux-importations-petrolieres_65357",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65356",
+   "source": "Actualites economiques",
+   "date": "2026-10-29 00:00",
+   "titre": "NSIA Banque Côte d’Ivoire mobilise 100 millions d’euros pour renforcer le financement des PME et accélérer la transition énergétique",
+   "extrait": "29/10/2026",
+   "url": "https://www.sikafinance.com/marches/nsia-banque-cote-divoire-mobilise-100-millions-deuros-pour-renforcer-le-financement-des-pme-et-accelerer-la-transition-energetique_65356",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Financement",
+   "score": 2,
+   "sentiment": 0,
+   "tickers": [
+    "NSBC"
+   ]
+  },
+  {
+   "id": "65353",
+   "source": "Actualites economiques",
+   "date": "2026-10-29 00:00",
+   "titre": "Pareto Labs : La pépite ivoirienne de l’IA intègre la cohorte Askya et vise une enveloppe globale de 500 000 USD",
+   "extrait": "29/10/2026",
+   "url": "https://www.sikafinance.com/marches/pareto-labs-la-pepite-ivoirienne-de-lia-integre-la-cohorte-askya-et-vise-une-enveloppe-globale-de-500-000-usd_65353",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65354",
+   "source": "Actualites economiques",
+   "date": "2026-10-29 00:00",
+   "titre": "Côte d’Ivoire : Avec un potentiel qui s’accroît, Turaco Gold veut racheter les parts de son unique associé sur projet aurifère d’Afema",
+   "extrait": "29/10/2026",
+   "url": "https://www.sikafinance.com/marches/cote-divoire-avec-un-potentiel-qui-saccroit-turaco-gold-veut-racheter-les-parts-de-son-unique-associe-sur-projet-aurifere-dafema_65354",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65346",
+   "source": "Actualites economiques",
+   "date": "2026-10-29 00:00",
+   "titre": "Cameroun : Après le ciment, le groupe Dangote crée une filiale dédiée aux opérations pétrolières",
+   "extrait": "29/10/2026",
+   "url": "https://www.sikafinance.com/marches/cameroun-apres-le-ciment-le-groupe-dangote-cree-une-filiale-dediee-aux-operations-petrolieres_65346",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65344",
+   "source": "Actualites economiques",
+   "date": "2026-10-29 00:00",
+   "titre": "Fintech : Daniel DINDJI, le CEO de CinetPay, décroche 3 distinctions au PADEV 2026 à Kigali",
+   "extrait": "29/10/2026",
+   "url": "https://www.sikafinance.com/marches/fintech-daniel-dindji-le-ceo-de-cinetpay-decroche-3-distinctions-au-padev-2026-a-kigali_65344",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65343",
+   "source": "Actualites economiques",
+   "date": "2026-10-29 00:00",
+   "titre": "Datacenters prêts pour l’IA, parc TIC : Le Nigeria lance un complexe numérique de 3 milliards USD",
+   "extrait": "29/10/2026",
+   "url": "https://www.sikafinance.com/marches/datacenters-prets-pour-lia-parc-tic-le-nigeria-lance-un-complexe-numerique-de-3-milliards-usd_65343",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65342",
+   "source": "Actualites economiques",
+   "date": "2026-10-29 00:00",
+   "titre": "Le Cameroun pourrait emprunter jusqu’à 2,5 milliards USD sur les marchés internationaux en 2027",
+   "extrait": "29/10/2026",
+   "url": "https://www.sikafinance.com/marches/le-cameroun-pourrait-emprunter-jusqua-2-5-milliards-usd-sur-les-marches-internationaux-en-2027_65342",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65336",
+   "source": "Actualites economiques",
+   "date": "2026-10-29 00:00",
+   "titre": "Bénin : Le Capital Reach Forum clôture ses travaux sur les leviers de financement de l’économie",
+   "extrait": "29/10/2026",
+   "url": "https://www.sikafinance.com/marches/benin-le-capital-reach-forum-cloture-ses-travaux-sur-les-leviers-de-financement-de-leconomie_65336",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Financement",
+   "score": 2,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65338",
+   "source": "Actualites economiques",
+   "date": "2026-10-29 00:00",
+   "titre": "Sénégal : Babacar Sène nommé Directeur du développement du secteur privé",
+   "extrait": "29/10/2026",
+   "url": "https://www.sikafinance.com/marches/senegal-babacar-sene-nomme-directeur-du-developpement-du-secteur-prive_65338",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65330",
+   "source": "Actualites economiques",
+   "date": "2026-10-29 00:00",
+   "titre": "Le Cameroun cherche des investisseurs pour financer la construction d’une ligne de tramway à Douala",
+   "extrait": "28/10/2026",
+   "url": "https://www.sikafinance.com/marches/le-cameroun-cherche-des-investisseurs-pour-financer-la-construction-dune-ligne-de-tramway-a-douala_65330",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65329",
+   "source": "Actualites economiques",
+   "date": "2026-10-28 00:00",
+   "titre": "Guinée équatoriale : Malabo ouvre la voie à un investissement de 20 millions USD dans une loterie nationale",
+   "extrait": "28/10/2026",
+   "url": "https://www.sikafinance.com/marches/guinee-equatoriale-malabo-ouvre-la-voie-a-un-investissement-de-20-millions-usd-dans-une-loterie-nationale_65329",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65328",
+   "source": "Actualites economiques",
+   "date": "2026-10-28 00:00",
+   "titre": "Cameroun : 216 millions d’euros pour renforcer la production de cacao et de café",
+   "extrait": "28/10/2026",
+   "url": "https://www.sikafinance.com/marches/cameroun-216-millions-deuros-pour-renforcer-la-production-de-cacao-et-de-cafe_65328",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65327",
+   "source": "Actualites economiques",
+   "date": "2026-10-28 00:00",
+   "titre": "Cameroun : La Sonara va signer un accord avec les Nigérians Dangote et MRS pour sécuriser les approvisionnements en carburants",
+   "extrait": "28/10/2026",
+   "url": "https://www.sikafinance.com/marches/cameroun-la-sonara-va-signer-un-accord-avec-les-nigerians-dangote-et-mrs-pour-securiser-les-approvisionnements-en-carburants_65327",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65318",
+   "source": "Actualites economiques",
+   "date": "2026-10-28 00:00",
+   "titre": "RDC : La contrebande d’or rapporte jusqu’à 1,6 million USD par an aux rebelles affiliés à l’État islamique",
+   "extrait": "28/10/2026",
+   "url": "https://www.sikafinance.com/marches/rdc-la-contrebande-dor-rapporte-jusqua-1-6-million-usd-par-an-aux-rebelles-affilies-a-letat-islamique_65318",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65316",
+   "source": "Actualites economiques",
+   "date": "2026-10-28 00:00",
+   "titre": "RDC : Glencore veut céder 40% de ses actifs miniers pour renflouer sa trésorerie",
+   "extrait": "28/10/2026",
+   "url": "https://www.sikafinance.com/marches/rdc-glencore-veut-ceder-40-de-ses-actifs-miniers-pour-renflouer-sa-tresorerie_65316",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65313",
+   "source": "Actualites economiques",
+   "date": "2026-10-28 00:00",
+   "titre": "SIREXE 2026 : Plus de 24 pays attendus au rendez-vous d’Abidjan pour 5 jours de rencontres dans les mines, le pétrole et l’énergie",
+   "extrait": "05/06/2026",
+   "url": "https://www.sikafinance.com/marches/sirexe-2026-plus-de-24-pays-attendus-au-rendez-vous-dabidjan-pour-5-jours-de-rencontres-dans-les-mines-le-petrole-et-lenergie_65313",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Matieres premieres",
+   "score": 1,
+   "sentiment": 0,
+   "tickers": []
+  }
+ ],
+ "communiques": [
+  {
+   "date": "2026-10-29",
+   "societe": "TRACTAFRIC MOTORS CI",
+   "titre": "TRACTAFRIC MOTORS CI - Rapport dactivites - 1er semestre 2026",
+   "url": "https://www.sikafinance.com/docs/tractafric-motors-ci-tractafric-motors-ci--rapport-dactivites--1er-semestre-2026.pdf",
+   "ticker": "PRSC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "PRSC"
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "societe": "TRACTAFRIC MOTORS CI",
+   "titre": "TRACTAFRIC MOTORS CI - Etats financiers - 1er semestre 2026",
+   "url": "https://www.sikafinance.com/docs/tractafric-motors-ci-tractafric-motors-ci--etats-financiers--1er-semestre-2026.pdf",
+   "ticker": "PRSC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "PRSC"
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "societe": "SONATEL",
+   "titre": "SONATEL SN - Rapport dactivites - 3e trimestre 2026",
+   "url": "https://www.sikafinance.com/docs/sonatel-sonatel-sn--rapport-dactivites--3e-trimestre-2026.pdf",
+   "ticker": "SNTS",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "SNTS"
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "societe": "CIE CI",
+   "titre": "CIE CI - Rapport dactivites - 1er semestre 2026",
+   "url": "https://www.sikafinance.com/docs/cie-ci-cie-ci--rapport-dactivites--1er-semestre-2026.pdf",
+   "ticker": "CIEC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "CIEC"
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "societe": "CIE CI",
+   "titre": "CIE CI - Attestation des Commissaires Aux Comptes sur le rapport dactivites - 1er semestre 2026",
+   "url": "https://www.sikafinance.com/docs/cie-ci-cie-ci--attestation-des-commissaires-aux-comptes-sur-le-rapport-dactivites--1er-semestre-2026.pdf",
+   "ticker": "CIEC",
+   "categorie": "Attestation",
+   "score": 1,
+   "sentiment": 0,
+   "tickers": [
+    "CIEC"
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "societe": "CORIS BANK INTERNATIONAL BF",
+   "titre": "CORIS BANK INTERNATIONAL BF - Rapport dactivites - 3e trimestre 2026",
+   "url": "https://www.sikafinance.com/docs/coris-bank-international-bf-coris-bank-international-bf--rapport-dactivites--3e-trimestre-2026.pdf",
+   "ticker": "CBIBF",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "CBIBF"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "societe": "UNIWAX CI",
+   "titre": "UNIWAX CI - Rapport dactivites - 3e trimestre 2026",
+   "url": "https://www.sikafinance.com/docs/uniwax-ci-uniwax-ci--rapport-dactivites--3e-trimestre-2026.pdf",
+   "ticker": "UNXC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "UNXC"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "societe": "ETI TG",
+   "titre": "ETI TG - Rapport dactivites - 3e trimestre 2026",
+   "url": "https://www.sikafinance.com/docs/eti-tg-eti-tg--rapport-dactivites--3e-trimestre-2026.pdf",
+   "ticker": "ETIT",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "ETIT"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "societe": "LOTERIE NATIONALE DU BENIN",
+   "titre": "LNB BN - Rapport dactivites - 3e trimestre 2026",
+   "url": "https://www.sikafinance.com/docs/loterie-nationale-du-benin-lnb-bn--rapport-dactivites--3e-trimestre-2026.pdf",
+   "ticker": "LNBB",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "LNBB"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "societe": "BRIDGE BANK GROUP COTE D’IVOIRE",
+   "titre": "BRIDGE BANK GROUP CI - Rapport dactivites - 3e trimestre 2026",
+   "url": "https://www.sikafinance.com/docs/bridge-bank-group-cote-divoire-bridge-bank-group-ci--rapport-dactivites--3e-trimestre-2026.pdf",
+   "ticker": "BBGC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "BBGC"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "societe": "ORANGE CI",
+   "titre": "ORANGE CI - Rapport dactivites - 3e trimestre 2026",
+   "url": "https://www.sikafinance.com/docs/orange-ci-orange-ci--rapport-dactivites--3e-trimestre-2026.pdf",
+   "ticker": "ORAC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "ORAC"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "societe": "BERNABE",
+   "titre": "BERNABE CI - Rapport dactivites - 3e trimestre 2026",
+   "url": "https://www.sikafinance.com/docs/bernabe-bernabe-ci--rapport-dactivites--3e-trimestre-2026.pdf",
+   "ticker": "BNBC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "BNBC"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "societe": "TOTAL CI",
+   "titre": "TOTALENERGIES MARKETING CI - Attestation des Commissaires Aux Comptes sur le rapport dactivites - 1er semestre 2026",
+   "url": "https://www.sikafinance.com/docs/total-ci-totalenergies-marketing-ci--attestation-des-commissaires-aux-comptes-sur-le-rapport-dactivites--1er-semestre-2026.pdf",
+   "ticker": "TTLC",
+   "categorie": "Attestation",
+   "score": 1,
+   "sentiment": 0,
+   "tickers": [
+    "TTLC"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "societe": "BERNABE",
+   "titre": "BERNABE CI - Attestation des Commissaires Aux Comptes sur le rapport dactivites - 1er semestre 2026",
+   "url": "https://www.sikafinance.com/docs/bernabe-bernabe-ci--attestation-des-commissaires-aux-comptes-sur-le-rapport-dactivites--1er-semestre-2026.pdf",
+   "ticker": "BNBC",
+   "categorie": "Attestation",
+   "score": 1,
+   "sentiment": 0,
+   "tickers": [
+    "BNBC"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "societe": "TOTAL CI",
+   "titre": "TOTALENERGIES MARKETING CI - Rapport dactivites - 1er semestre 2026",
+   "url": "https://www.sikafinance.com/docs/total-ci-totalenergies-marketing-ci--rapport-dactivites--1er-semestre-2026.pdf",
+   "ticker": "TTLC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "TTLC"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "societe": "BERNABE",
+   "titre": "BERNABE CI - Rapport dactivites - 1er semestre 2026",
+   "url": "https://www.sikafinance.com/docs/bernabe-bernabe-ci--rapport-dactivites--1er-semestre-2026.pdf",
+   "ticker": "BNBC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "BNBC"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "societe": "PALMCI",
+   "titre": "PALM CI - Rapport dactivites - 3e trimestre 2026",
+   "url": "https://www.sikafinance.com/docs/palmci-palm-ci--rapport-dactivites--3e-trimestre-2026.pdf",
+   "ticker": "PALC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "PALC"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "societe": "ECOBANK CI",
+   "titre": "ECOBANK CI - Rapport dactivites - 3e trimestre 2026",
+   "url": "https://www.sikafinance.com/docs/ecobank-ci-ecobank-ci--rapport-dactivites--3e-trimestre-2026.pdf",
+   "ticker": "ECOC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "ECOC"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "societe": "TOTAL CI",
+   "titre": "TOTALENERGIES MARKETING CI - Rapport dactivites - 3e trimestre 2026",
+   "url": "https://www.sikafinance.com/docs/total-ci-totalenergies-marketing-ci--rapport-dactivites--3e-trimestre-2026.pdf",
+   "ticker": "TTLC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "TTLC"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "societe": "BANK OF AFRICA BURKINA FASO",
+   "titre": "BOA BF - Rapport dactivites - 3e trimestre 2026",
+   "url": "https://www.sikafinance.com/docs/bank-of-africa-burkina-faso-boa-bf--rapport-dactivites--3e-trimestre-2026.pdf",
+   "ticker": "BOABF",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "BOABF"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "societe": "BANK OF AFRICA NIGER",
+   "titre": "BOA NG - Rapport dactivites - 3e trimestre 2026",
+   "url": "https://www.sikafinance.com/docs/bank-of-africa-niger-boa-ng--rapport-dactivites--3e-trimestre-2026.pdf",
+   "ticker": "BOAN",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "BOAN"
+   ]
+  },
+  {
+   "date": "2026-10-23",
+   "societe": "NSIA BANQUE",
+   "titre": "NSIA BANQUE CI - Rapport dactivites - 1er semestre 2026",
+   "url": "https://www.sikafinance.com/docs/nsia-banque-nsia-banque-ci--rapport-dactivites--1er-semestre-2026.pdf",
+   "ticker": "NSBC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "NSBC"
+   ]
+  },
+  {
+   "date": "2026-10-23",
+   "societe": "ONATEL BF",
+   "titre": "ONATEL BF - Rapport dactivites - 3e trimestre 2026",
+   "url": "https://www.sikafinance.com/docs/onatel-bf-onatel-bf--rapport-dactivites--3e-trimestre-2026.pdf",
+   "ticker": "ONTBF",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "ONTBF"
+   ]
+  },
+  {
+   "date": "2026-10-23",
+   "societe": "ETI TG",
+   "titre": "ETI TG - Communiqué - Annulation de l'Assemblée Générale Ordinaire",
+   "url": "https://www.sikafinance.com/docs/eti-tg-eti-tg--communique--annulation-de-l-assemblee-generale-ordinaire.pdf",
+   "ticker": "ETIT",
+   "categorie": "Gouvernance",
+   "score": 1,
+   "sentiment": -1,
+   "tickers": [
+    "ETIT"
+   ]
+  },
+  {
+   "date": "2026-10-23",
+   "societe": "SONATEL",
+   "titre": "SONATEL SN - Fractionnement dactions - Valeur theorique",
+   "url": "https://www.sikafinance.com/docs/sonatel-sonatel-sn--fractionnement-dactions--valeur-theorique.pdf",
+   "ticker": "SNTS",
+   "categorie": "Operation sur titres",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "SNTS"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "societe": "ECOBANK CI",
+   "titre": "ECOBANK CI - Notation Financiere",
+   "url": "https://www.sikafinance.com/docs/ecobank-ci-ecobank-ci--notation-financiere.pdf",
+   "ticker": "ECOC",
+   "categorie": "Notation",
+   "score": 2,
+   "sentiment": 0,
+   "tickers": [
+    "ECOC"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "societe": "NESTLE CI",
+   "titre": "NESTLE CI - Rapport dactivites - 3e trimestre 2026",
+   "url": "https://www.sikafinance.com/docs/nestle-ci-nestle-ci--rapport-dactivites--3e-trimestre-2026.pdf",
+   "ticker": "NTLC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "NTLC"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "societe": "LOTERIE NATIONALE DU BENIN",
+   "titre": "LNB BN - Notation Financiere",
+   "url": "https://www.sikafinance.com/docs/loterie-nationale-du-benin-lnb-bn--notation-financiere.pdf",
+   "ticker": "LNBB",
+   "categorie": "Notation",
+   "score": 2,
+   "sentiment": 0,
+   "tickers": [
+    "LNBB"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "societe": "NESTLE CI",
+   "titre": "NESTLE CI - Rapport dactivites - 1er semestre 2026",
+   "url": "https://www.sikafinance.com/docs/nestle-ci-nestle-ci--rapport-dactivites--1er-semestre-2026.pdf",
+   "ticker": "NTLC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "NTLC"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "societe": "BERNABE",
+   "titre": "BERNABE CI - Notation Financiere",
+   "url": "https://www.sikafinance.com/docs/bernabe-bernabe-ci--notation-financiere.pdf",
+   "ticker": "BNBC",
+   "categorie": "Notation",
+   "score": 2,
+   "sentiment": 0,
+   "tickers": [
+    "BNBC"
+   ]
+  }
+ ],
+ "matieres": [
+  {
+   "nom": "ALUMINIUM",
+   "dernier": 3332.25,
+   "variation": 1.65
+  },
+  {
+   "nom": "ARGENT (ONCE EN $)",
+   "dernier": 50.55,
+   "variation": -4.12
+  },
+  {
+   "nom": "AVOINE",
+   "dernier": 343.0,
+   "variation": -1.29
+  },
+  {
+   "nom": "BLÉ",
+   "dernier": 603.75,
+   "variation": 0.79
+  },
+  {
+   "nom": "BOIS DE CONSTRUCTION",
+   "dernier": 537.5,
+   "variation": -2.63
+  },
+  {
+   "nom": "CACAO",
+   "dernier": 5456.0,
+   "variation": 0.0
+  },
+  {
+   "nom": "CAFÉ",
+   "dernier": 285.45,
+   "variation": -0.45
+  },
+  {
+   "nom": "CAOUTCHOUC",
+   "dernier": 442.0,
+   "variation": -0.85
+  },
+  {
+   "nom": "COTON",
+   "dernier": 78.5,
+   "variation": 0.45
+  },
+  {
+   "nom": "CUIVRE",
+   "dernier": 6.58,
+   "variation": -0.91
+  },
+  {
+   "nom": "GAZ NATUREL",
+   "dernier": 2.95,
+   "variation": 4.79
+  },
+  {
+   "nom": "JUS D'ORANGE",
+   "dernier": 128.55,
+   "variation": -7.22
+  },
+  {
+   "nom": "MAIS",
+   "dernier": 451.25,
+   "variation": -0.11
+  },
+  {
+   "nom": "NICKEL",
+   "dernier": 15499.38,
+   "variation": -0.78
+  },
+  {
+   "nom": "OR (ONCE EN $)",
+   "dernier": 3983.09,
+   "variation": -1.24
+  },
+  {
+   "nom": "PALLADIUM",
+   "dernier": 980.59,
+   "variation": -2.2
+  },
+  {
+   "nom": "PALM OIL FUTURES ($)",
+   "dernier": 1072.5,
+   "variation": 1.83
+  },
+  {
+   "nom": "PETROLE BRENT",
+   "dernier": 112.84,
+   "variation": 2.65
+  },
+  {
+   "nom": "PETROLE WTI",
+   "dernier": 103.96,
+   "variation": 1.15
+  },
+  {
+   "nom": "PLATINE",
+   "dernier": 1442.89,
+   "variation": -3.89
+  },
+  {
+   "nom": "RIZ FUTURES ($)",
+   "dernier": 9.9,
+   "variation": 1.33
+  },
+  {
+   "nom": "SOJA",
+   "dernier": 1219.75,
+   "variation": -0.39
+  },
+  {
+   "nom": "SUCRE",
+   "dernier": 19.47,
+   "variation": 0.67
+  },
+  {
+   "nom": "ZINC",
+   "dernier": 3121.7,
+   "variation": 0.12
+  }
+ ],
+ "dividendes_a_venir": [
+  {
+   "date": "26/10/2026",
+   "ticker": "SDSC",
+   "nom": "AFRICA GLOBAL LOGISTICS",
+   "montant": 92.0,
+   "rendement": 3.02
+  },
+  {
+   "date": "A préciser",
+   "ticker": "LNBB",
+   "nom": "LOTERIE NATIONALE DU BENIN",
+   "montant": 164.0,
+   "rendement": 4.15
+  }
+ ]
+}
