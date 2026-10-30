@@ -1,0 +1,64 @@
+name: Mise à jour quotidienne BRVM
+
+on:
+  schedule:
+    - cron: "45 18 * * 1-5"   # chaque jour ouvré à 18 h 45 (heure UTC, qui est aussi l'heure du Mali)
+  workflow_dispatch:           # permet aussi de la lancer à la main depuis l'onglet Actions
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  maj:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installer les outils
+        run: pip install -r requirements.txt
+
+      - name: Télécharger les cours, les annonces et les dividendes
+        run: |
+          python brvm_data.py
+          python brvm_actus.py
+          if [ ! -d brvm_dividendes ] || [ "$(date +%d)" = "01" ]; then python brvm_dividendes.py; fi
+
+      - name: Calculer le tableau de bord et mettre à jour l'application
+        run: |
+          python brvm_tableau.py --sans-ouverture
+          python brvm_assistant.py --sans-ouverture
+          python preparer_site.py
+
+      - name: Enregistrer les données pour les exécutions suivantes
+        run: |
+          git config user.name "robot-brvm"
+          git config user.email "robot-brvm@users.noreply.github.com"
+          git add brvm_donnees brvm_dividendes actualites.json candidats.json brvm_assistant.html || true
+          git commit -m "Données du $(date -u +%F)" || echo "Rien de nouveau à enregistrer"
+          git push || echo "Enregistrement impossible"
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  publier:
+    needs: maj
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploiement.outputs.page_url }}
+    steps:
+      - id: deploiement
+        uses: actions/deploy-pages@v4

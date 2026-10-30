@@ -1,0 +1,48 @@
+ALERTES BRVM SUR WHATSAPP (et Telegram) - MODE D'EMPLOI
+
+CE QUE VOUS RECEVEZ
+- Une variation forte de l'un de vos titres sur la seance (par defaut 5 %).
+- Les detachements de dividendes proches (7 jours) pour les titres que vous detenez.
+- Les annonces importantes concernant vos titres (resultats, dividendes, operations sur titres...).
+- Un changement de classement defavorable d'un de vos titres.
+- Un titre qui pese trop dans votre portefeuille (par defaut plus de 25 %).
+- Un rappel avant chaque versement prevu, et un resume chaque lundi.
+
+1) VOS ACHATS
+Lancez "py brvm_alertes.py --init" (ou le bouton BRVM : alertes). Deux fichiers sont crees dans C:\trading :
+- mes_achats.csv : une ligne par operation : date;ticker;type;quantite;prix;frais
+  type = achat, vente ou dividende. Pour un dividende : quantite = nombre d'actions, prix = dividende par action.
+- config_alertes.json : vos reglages (canaux, seuils, versements). Ne le partagez jamais : il contient vos codes d'acces.
+Voir votre portefeuille : py brvm_alertes.py --portefeuille
+
+2) TELEGRAM (le plus simple, gratuit)
+Remplissez "telegram" : actif true, token du robot, chat_id (le meme que pour votre agent de trading).
+
+3) WHATSAPP (API officielle de Meta)
+a. Allez sur developers.facebook.com, connectez-vous, "Creer une application" de type Entreprise, ajoutez le produit WhatsApp.
+b. Meta vous donne un numero d'essai gratuit, un identifiant de numero (Phone number ID) et un jeton temporaire valable 24 heures.
+c. Ajoutez votre propre numero WhatsApp comme destinataire (5 au maximum en mode essai) et validez avec le code recu.
+d. Jeton permanent : Business Settings > Users > System Users > Add (role Admin) > donnez-lui l'application et les droits
+   whatsapp_business_messaging et whatsapp_business_management > Generate token.
+e. Modele de message : dans WhatsApp Manager > Message templates, creez "alerte_brvm", categorie Utility, langue francais,
+   texte : "Alerte BRVM : {{1}}" avec un exemple pour la variable. L'approbation prend de quelques heures a quelques jours.
+f. Dans config_alertes.json : "whatsapp": {"actif": true, "phone_number_id": "...", "token": "...", "destinataire": "223XXXXXXXX" (indicatif du pays sans le +),
+   "template": "alerte_brvm", "langue": "fr", "version_api": "v23.0"} (verifiez la version actuelle dans la documentation de Meta).
+   Vous pouvez aussi mettre le jeton dans la variable d'environnement WHATSAPP_TOKEN.
+g. Test : py brvm_alertes.py --test (ou le bouton "BRVM : test WhatsApp/Telegram").
+
+REGLES DE WHATSAPP A CONNAITRE
+- Un texte libre n'est accepte que dans les 24 heures qui suivent votre dernier message au numero du robot. Au-dela, le programme envoie
+  automatiquement le modele approuve. Astuce : envoyez "ok" au numero du robot chaque matin pour ouvrir la fenetre de 24 heures.
+- Les messages par modele sont facturables par Meta, a un tarif qui depend de la categorie et du pays du destinataire ; Meta a aussi
+  annonce des changements de tarification au 1er octobre 2026 (1 000 messages de service gratuits par mois et par numero).
+  Consultez la grille tarifaire officielle de Meta pour le Mali avant tout usage regulier.
+- Le numero d'essai sert au developpement. Pour un usage durable ou pour plusieurs personnes, il faut enregistrer un vrai numero et
+  suivre la procedure de verification de Meta. N'envoyez des alertes qu'aux personnes qui l'ont accepte.
+- N'utilisez pas de bibliotheques non officielles qui pilotent votre WhatsApp personnel : elles enfreignent les regles de WhatsApp et exposent votre compte a un blocage.
+
+4) LANCEMENT AUTOMATIQUE
+Dans l'application, cliquez sur "Planification auto" : la tache "AssistantTrading-BRVM" met a jour les donnees puis envoie les alertes
+du lundi au vendredi a 18 h 45.
+
+Ceci n'est pas un conseil en investissement.

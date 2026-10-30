@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#2a3f8f">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Mon plan BRVM">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<title>Mon plan BRVM – épargner en actions, pas à pas</title>
+<style>
+:root{
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+  --bg:#f1f4f8;--surf:#ffffff;--ink:#14202e;--mut:#566579;--line:#d5dce6;
+  --acc:#2a3f8f;--acc-ink:#ffffff;--acc-t:#e6ebfa;
+  --ok:#16704a;--ok-t:#e2f3ea;--warn:#a85f00;--warn-t:#fdf0d9;--bad:#b0302a;--bad-t:#fbe6e4;
+  --c-verse:#6c7a8b;--c-prud:#b9770e;--c-cent:#2a3f8f;--c-fav:#16704a;--c-krach:#b0302a;--c-dif:#b0302a;--c-sr:#7b4fc4;
+  --f-tit:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+  --f-txt:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#0f1722;--surf:#17212f;--ink:#e7edf5;--mut:#9aa8ba;--line:#2b3849;
+    --acc:#9db0ff;--acc-ink:#0f1722;--acc-t:#212d4d;
+    --ok:#52c98f;--ok-t:#16322a;--warn:#e3a53f;--warn-t:#3a2d12;--bad:#ff8077;--bad-t:#3b1d1b;
+    --c-verse:#8d9bad;--c-prud:#e3a53f;--c-cent:#9db0ff;--c-fav:#52c98f;--c-krach:#ff8077;--c-sr:#c4a8ff;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#0f1722;--surf:#17212f;--ink:#e7edf5;--mut:#9aa8ba;--line:#2b3849;
+  --acc:#9db0ff;--acc-ink:#0f1722;--acc-t:#212d4d;
+  --ok:#52c98f;--ok-t:#16322a;--warn:#e3a53f;--warn-t:#3a2d12;--bad:#ff8077;--bad-t:#3b1d1b;
+  --c-verse:#8d9bad;--c-prud:#e3a53f;--c-cent:#9db0ff;--c-fav:#52c98f;--c-krach:#ff8077;--c-sr:#c4a8ff;
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px);-webkit-text-size-adjust:100%}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 var(--f-txt);font-variant-numeric:tabular-nums}
+.app{max-width:760px;margin:0 auto;padding:0 16px}
+header.haut{padding:18px 0 8px}
+.marque{font-family:var(--f-tit);font-size:25px;font-weight:700;letter-spacing:.2px}
+.accroche{margin:2px 0 14px;color:var(--mut);font-size:15px}
+#progression{display:flex;gap:6px;align-items:flex-start;margin:0 0 6px;padding:0;list-style:none}
+#progression li{flex:1;min-width:0;font-size:12.5px;color:var(--mut);border-top:4px solid var(--line);padding-top:6px;line-height:1.25}
+#progression li.fait{border-color:var(--acc);color:var(--ink)}
+#progression li.ici{border-color:var(--acc);color:var(--ink);font-weight:700}
+#progression .nom{display:none}
+#progression li.ici .nom{display:block}
+@media (min-width:640px){#progression .nom{display:block}}
+main{display:block;padding:10px 0 24px;outline:none}
+h1,h2,h3{font-family:var(--f-tit);line-height:1.2;margin:0 0 .5em}
+h2{font-size:26px;text-wrap:balance}
+h3{font-size:19px;margin-top:1.5em}
+p{margin:.5em 0;max-width:66ch}
+.aide{color:var(--mut);font-size:15px}
+.etape-intro{font-size:18px;margin-bottom:18px}
+.champ{margin:18px 0}
+.champ>label,.champ>.lib{display:block;font-weight:650;margin-bottom:6px}
+.entree{display:flex;align-items:center;gap:8px;background:var(--surf);border:1.5px solid var(--line);border-radius:10px;padding:0 12px}
+.entree:focus-within{border-color:var(--acc);outline:2px solid var(--acc-t);outline-offset:0}
+.entree input{flex:1;min-width:0;border:0;background:transparent;color:var(--ink);font:inherit;font-size:22px;font-weight:650;padding:11px 0;outline:none}
+.entree .u{color:var(--mut);font-size:15px}
+select,input[type=text],input[type=number]{font:inherit;color:var(--ink)}
+select{width:100%;padding:12px;border-radius:10px;border:1.5px solid var(--line);background:var(--surf)}
+.puces{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+button{font:inherit;color:inherit;cursor:pointer}
+.puce{border:1.5px solid var(--line);background:var(--surf);border-radius:999px;padding:7px 13px;font-size:15px;min-height:40px}
+.puce[aria-pressed=true]{background:var(--acc);border-color:var(--acc);color:var(--acc-ink)}
+button:focus-visible,select:focus-visible,input:focus-visible,summary:focus-visible,a:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
+.resume{background:var(--acc-t);border-left:5px solid var(--acc);padding:12px 14px;border-radius:0 10px 10px 0;margin:18px 0}
+.resume b{font-weight:700}
+input[type=range]{width:100%;accent-color:var(--acc);height:36px}
+.regle{display:flex;justify-content:space-between;color:var(--mut);font-size:13.5px}
+.choix{display:block;background:var(--surf);border:1.5px solid var(--line);border-radius:12px;padding:14px 14px 12px;margin:10px 0;cursor:pointer}
+.choix:has(input:checked){border-color:var(--acc);background:var(--acc-t)}
+.choix .tete{display:flex;gap:10px;align-items:flex-start}
+.choix input{margin-top:5px;width:20px;height:20px;accent-color:var(--acc)}
+.choix .t{font-weight:700;font-size:18px}
+.choix .d{color:var(--mut);font-size:15px;margin-top:2px}
+.choix .stat{font-size:14px;margin-top:8px;color:var(--ink)}
+.alerte{border-radius:10px;padding:11px 14px;margin:14px 0;font-size:15.5px}
+.alerte.ok{background:var(--ok-t)}.alerte.warn{background:var(--warn-t)}.alerte.bad{background:var(--bad-t)}.alerte.info{background:var(--acc-t)}
+.ligne{background:var(--surf);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:10px 0}
+.ligne.sortie{opacity:.55}
+.ligne .l1{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+.ligne .nom{font-weight:700;font-size:17.5px}
+.ligne .sous{color:var(--mut);font-size:14px}
+.ligne .note{margin-left:auto;font-weight:700;color:var(--acc)}
+.ligne ul{margin:6px 0 0;padding-left:20px;font-size:14.5px}
+.ligne li.pos::marker{content:"✓ ";color:var(--ok)}
+.ligne li.att::marker{content:"⚠ ";color:var(--warn)}
+.ligne .act{margin-top:8px}
+.petit{border:1px solid var(--line);background:var(--surf);border-radius:8px;padding:6px 11px;font-size:14px;min-height:36px}
+.tablewrap{overflow-x:auto;margin:10px 0}
+table{border-collapse:collapse;width:100%;font-size:14.5px;background:var(--surf)}
+th,td{padding:8px 9px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}
+th{font-weight:650;background:var(--bg);position:sticky;top:0}
+th:first-child,td:first-child{text-align:left;white-space:normal;min-width:120px}
+tr.moi td{background:var(--acc-t);font-weight:650}
+.pos{color:var(--ok)}.neg{color:var(--bad)}
+.graphe{margin:8px 0 4px}
+.graphe svg{width:100%;height:auto;display:block}
+.lege{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:14px;margin:6px 0}
+.lege i{display:inline-block;width:18px;height:4px;border-radius:2px;vertical-align:middle;margin-right:6px}
+.interrupteur{display:flex;gap:10px;align-items:flex-start;margin:10px 0}
+.interrupteur input{width:22px;height:22px;margin-top:3px;accent-color:var(--acc)}
+details{margin:12px 0}
+summary{cursor:pointer;font-weight:650;padding:6px 0}
+details>div{padding:4px 0 6px}
+.etapes-plan{counter-reset:p;list-style:none;padding:0;margin:0}
+.etapes-plan>li{counter-increment:p;position:relative;padding:0 0 18px 46px;border-left:2px solid var(--line);margin-left:15px}
+.etapes-plan>li::before{content:counter(p);position:absolute;left:-17px;top:-2px;width:32px;height:32px;border-radius:50%;background:var(--acc);color:var(--acc-ink);display:flex;align-items:center;justify-content:center;font-weight:700}
+.etapes-plan>li:last-child{border-left-color:transparent}
+.etapes-plan h3{margin:0 0 4px;font-size:18px}
+.pied{color:var(--mut);font-size:13.5px;border-top:1px solid var(--line);padding:14px 0 90px}
+.barre{position:sticky;bottom:0;background:var(--bg);border-top:1px solid var(--line);padding:10px 0 calc(10px + env(safe-area-inset-bottom,0px));display:flex;gap:10px;margin:0 -16px;padding-left:16px;padding-right:16px}
+.barre button{flex:1;min-height:50px;border-radius:12px;border:1.5px solid var(--line);background:var(--surf);font-weight:650;font-size:17px}
+.barre button.primaire{background:var(--acc);border-color:var(--acc);color:var(--acc-ink);flex:2}
+.barre button[disabled]{opacity:.4;cursor:default}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0}
+.actions button{border:1.5px solid var(--acc);background:var(--surf);color:var(--acc);border-radius:10px;padding:10px 16px;font-weight:650;min-height:44px}
+.rec{font-size:14px;color:var(--mut)}
+@media print{
+  header.haut,.barre,.pied .ne-pas-imprimer,#progression,.actions,details>summary{display:none!important}
+  body{background:#fff;color:#000;font-size:12pt}
+  .page-plan-seulement{display:block}
+  .ligne,.choix,table{break-inside:avoid}
+}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="app">
+  <header class="haut">
+    <div class="marque">Mon plan BRVM</div>
+    <p class="accroche">Épargner en actions de la BRVM, pas à pas.</p>
+    <ol id="progression" aria-label="Étapes"></ol>
+  </header>
+  <main id="contenu" tabindex="-1"></main>
+  <footer class="pied">
+    <p><b>À lire avant de continuer.</b> Cet outil aide à réfléchir ; il ne constitue pas un conseil en investissement. Les chiffres sont des simulations fondées sur des données passées et des hypothèses : ils ne garantissent rien. Vous pouvez perdre une partie, voire la totalité, de l’argent investi. Les tarifs des intermédiaires (SGI) sont indicatifs : demandez-les par écrit avant d’ouvrir un compte. Données de marché au <span id="maj"></span>.</p>
+    <p class="ne-pas-imprimer"><button class="petit" id="recommencer" type="button">Tout effacer et recommencer</button></p>
+  </footer>
+  <div class="barre" id="barre">
+    <button id="retour" type="button">Retour</button>
+    <button id="suite" type="button" class="primaire">Continuer</button>
+  </div>
+</div>
+<script>
+/*DATA_DEBUT*/const DATA = {"maj":"29/10/2026","stocks":[{"t":"SGBC","nom":"SGBCI","secteur":"Finance","pays":"Côte d’Ivoire","prix":39990,"score":94,"etat":"A etudier","p1m":0.026000000000000002,"p3m":0.053,"p6m":0.19699999999999998,"p1a":0.48700000000000004,"vol":0.26,"dd":0.0,"d50":0.03,"d200":0.1,"med":154700000.0,"rend_der":0.057,"rend_moy":0.046,"divs":{"2021":1005.0,"2022":1107.0,"2023":1547.0,"2024":1639.0,"2025":2293.0},"serie":5,"croiss3":0.27473177430288476,"suspect":false,"coupe":false,"grave":false,"vigilance":false},{"t":"SNTS","nom":"Sonatel","secteur":"Télécoms","pays":"Sénégal","prix":4150,"score":92,"etat":"A etudier","p1m":-0.078,"p3m":0.33899999999999997,"p6m":0.436,"p1a":0.621,"vol":0.27,"dd":-0.12,"d50":0.01,"d200":0.29,"med":319600000.0,"rend_der":0.042,"rend_moy":0.04,"divs":{"2021":140.0,"2022":150.0,"2023":158.0,"2024":166.0,"2025":174.0},"serie":5,"croiss3":0.050717574498580165,"suspect":false,"coupe":false,"grave":false,"vigilance":false},{"t":"BOAC","nom":"BOA Côte d’Ivoire","secteur":"Finance","pays":"Côte d’Ivoire","prix":12100,"score":91,"etat":"A etudier","p1m":0.052000000000000005,"p3m":0.066,"p6m":0.377,"p1a":0.684,"vol":0.25,"dd":-0.1,"d50":0.02,"d200":0.24,"med":86800000.0,"rend_der":0.049,"rend_moy":0.038,"divs":{"2021":187.0,"2022":270.0,"2023":342.0,"2024":459.0,"2025":594.0},"serie":5,"croiss3":0.30059144685138706,"suspect":false,"coupe":false,"grave":false,"vigilance":false},{"t":"BOAS","nom":"BOA Sénégal","secteur":"Finance","pays":"Sénégal","prix":8300,"score":91,"etat":"A etudier","p1m":0.019,"p3m":0.08,"p6m":0.149,"p1a":0.5660000000000001,"vol":0.23,"dd":-0.02,"d50":0.01,"d200":0.13,"med":64400000.00000001,"rend_der":0.054000000000000006,"rend_moy":0.04,"divs":{"2021":107.0,"2022":125.0,"2023":200.0,"2024":350.0,"2025":450.0},"serie":5,"croiss3":0.5326188647871062,"suspect":false,"coupe":false,"grave":false,"vigilance":false},{"t":"SIBC","nom":"SIB CI","secteur":"Finance","pays":"Côte d’Ivoire","prix":8800,"score":91,"etat":"A etudier","p1m":-0.039,"p3m":0.0,"p6m":0.248,"p1a":0.56,"vol":0.27,"dd":-0.07,"d50":-0.02,"d200":0.09,"med":80000000.0,"rend_der":0.042,"rend_moy":0.036000000000000004,"divs":{"2021":202.0,"2022":248.0,"2023":248.0,"2024":330.0,"2025":374.0},"serie":5,"croiss3":0.14676203626099937,"suspect":false,"coupe":false,"grave":false,"vigilance":false},{"t":"ORAC","nom":"Orange CI","secteur":"Télécoms","pays":"Côte d’Ivoire","prix":21000,"score":85,"etat":"A etudier","p1m":-0.023,"p3m":0.235,"p6m":0.382,"p1a":0.43799999999999994,"vol":0.32,"dd":-0.07,"d50":-0.01,"d200":0.23,"med":39700000.0,"rend_der":0.034,"rend_moy":0.034,"divs":{"2021":717.0,"2022":753.0,"2023":780.0,"2024":660.0,"2025":704.0},"serie":5,"croiss3":-0.0221792981672585,"suspect":false,"coupe":false,"grave":false,"vigilance":false},{"t":"BOAB","nom":"BOA Bénin","secteur":"Finance","pays":"Bénin","prix":9300,"score":81,"etat":"A etudier","p1m":-0.046,"p3m":0.07,"p6m":-0.004,"p1a":0.838,"vol":0.28,"dd":-0.1,"d50":-0.03,"d200":0.09,"med":38500000.0,"rend_der":0.063,"rend_moy":0.05,"divs":{"2021":218.0,"2022":273.0,"2023":353.0,"2024":468.0,"2025":585.0},"serie":5,"croiss3":0.28923198938929806,"suspect":false,"coupe":false,"grave":false,"vigilance":false},{"t":"SDCC","nom":"SODECI","secteur":"Services publics","pays":"Côte d’Ivoire","prix":12700,"score":81,"etat":"A etudier","p1m":-0.023,"p3m":0.067,"p6m":0.41100000000000003,"p1a":1.082,"vol":0.39,"dd":-0.09,"d50":0.0,"d200":0.24,"med":11700000.0,"rend_der":0.036000000000000004,"rend_moy":0.034,"divs":{"2021":432.0,"2022":450.0,"2023":482.0,"2024":352.0,"2025":462.0},"serie":5,"croiss3":0.00881102668532896,"suspect":false,"coupe":false,"grave":false,"vigilance":false},{"t":"BOABF","nom":"BOA Burkina Faso","secteur":"Finance","pays":"Burkina Faso","prix":8000,"score":80,"etat":"A etudier","p1m":-0.024,"p3m":0.111,"p6m":0.48,"p1a":1.2570000000000001,"vol":0.32,"dd":-0.12,"d50":-0.03,"d200":0.27,"med":26800000.0,"rend_der":0.05,"rend_moy":0.049,"divs":{"2021":185.0,"2022":224.0,"2023":352.0,"2024":428.0,"2025":397.0},"serie":5,"croiss3":0.21017310288338997,"suspect":false,"coupe":false,"grave":false,"vigilance":false},{"t":"BOAM","nom":"BOA Mali","secteur":"Finance","pays":"Mali","prix":5750,"score":80,"etat":"A etudier","p1m":-0.064,"p3m":0.022000000000000002,"p6m":0.22899999999999998,"p1a":0.509,"vol":0.32,"dd":-0.2,"d50":-0.08,"d200":0.1,"med":29900000.0,"rend_der":0.053,"rend_moy":0.037000000000000005,"divs":{"2021":null,"2022":null,"2023":96.0,"2024":237.0,"2025":305.0},"serie":3,"croiss3":0.7824374696839531,"suspect":false,"coupe":false,"grave":false,"vigilance":false},{"t":"ONTBF","nom":"Onatel BF","secteur":"Télécoms","pays":"Burkina Faso","prix":3060,"score":79,"etat":"A etudier","p1m":0.039,"p3m":0.023,"p6m":0.129,"p1a":0.226,"vol":0.32,"dd":-0.02,"d50":0.04,"d200":0.07,"med":11800000.0,"rend_der":0.047,"rend_moy":0.066,"divs":{"2021":417.0,"2022":288.0,"2023":266.0,"2024":195.0,"2025":145.0},"serie":5,"croiss3":-0.20446644088666333,"suspect":false,"coupe":false,"grave":false,"vigilance":false},{"t":"SPHC","nom":"SAPH CI","secteur":"Agro-industrie","pays":"Côte d’Ivoire","prix":8150,"score":78,"etat":"A etudier","p1m":0.019,"p3m":0.087,"p6m":0.136,"p1a":0.08900000000000001,"vol":0.39,"dd":-0.21,"d50":-0.02,"d200":0.05,"med":19500000.0,"rend_der":0.053,"rend_moy":0.034,"divs":{"2021":365.0,"2022":294.0,"2023":65.0,"2024":324.0,"2025":430.0},"serie":5,"croiss3":0.13511633912969656,"suspect":false,"coupe":false,"grave":false,"vigilance":false},{"t":"BICC","nom":"BICICI","secteur":"Finance","pays":"Côte d’Ivoire","prix":32150,"score":77,"etat":"A etudier","p1m":-0.013999999999999999,"p3m":0.10800000000000001,"p6m":0.28600000000000003,"p1a":0.607,"vol":0.32,"dd":-0.08,"d50":0.02,"d200":0.18,"med":14000000.0,"rend_der":0.036000000000000004,"rend_moy":0.026000000000000002,"divs":{"2021":518.0,"2022":402.0,"2023":541.0,"2024":831.0,"2025":1157.0},"serie":5,"croiss3":0.4224459353679848,"suspect":false,"coupe":false,"grave":false,"vigilance":false},{"t":"CBIBF","nom":"Coris Bank International","secteur":"Finance","pays":"Burkina Faso","prix":31900,"score":77,"etat":"A surveiller","p1m":0.061,"p3m":0.12,"p6m":0.91,"p1a":2.195,"vol":0.38,"dd":-0.07,"d50":0.01,"d200":0.43,"med":31600000.0,"rend_der":0.027999999999999997,"rend_moy":0.023,"divs":{"2021":448.0,"2022":525.0,"2023":790.0,"2024":555.0,"2025":900.0},"serie":5,"croiss3":0.19681696117715086,"suspect":false,"coupe":false,"grave":false,"vigilance":true},{"t":"SLBC","nom":"Solibra CI","secteur":"Consommation de base","pays":"Côte d’Ivoire","prix":39000,"score":77,"etat":"A etudier","p1m":0.04,"p3m":0.034,"p6m":0.04,"p1a":0.579,"vol":0.38,"dd":-0.12,"d50":0.03,"d200":0.04,"med":15900000.0,"rend_der":0.048,"rend_moy":0.027000000000000003,"divs":{"2021":405.0,"2022":null,"2023":270.0,"2024":1074.0,"2025":1872.0},"serie":3,"croiss3":1.6331223544175333,"suspect":false,"coupe":false,"grave":false,"vigilance":false},{"t":"NSBC","nom":"NSIA Banque CI","secteur":"Finance","pays":"Côte d’Ivoire","prix":18650,"score":73,"etat":"A surveiller","p1m":-0.133,"p3m":-0.22399999999999998,"p6m":0.331,"p1a":0.581,"vol":0.34,"dd":-0.25,"d50":-0.16,"d200":0.02,"med":40300000.0,"rend_der":0.036000000000000004,"rend_moy":0.032,"divs":{"2021":null,"2022":364.0,"2023":455.0,"2024":671.0,"2025":676.0},"serie":4,"croiss3":0.2291789212788069,"suspect":false,"coupe":false,"grave":false,"vigilance":true},{"t":"SMBC","nom":"SMB CI","secteur":"Énergie","pays":"Côte d’Ivoire","prix":14595,"score":73,"etat":"A surveiller","p1m":-0.115,"p3m":-0.057999999999999996,"p6m":0.26899999999999996,"p1a":0.49,"vol":0.38,"dd":-0.21,"d50":-0.11,"d200":0.01,"med":13500000.0,"rend_der":0.048,"rend_moy":0.055,"divs":{"2021":720.0,"2022":720.0,"2023":1080.0,"2024":616.0,"2025":704.0},"serie":5,"croiss3":-0.007462964697448338,"suspect":false,"coupe":false,"grave":false,"vigilance":true},{"t":"BICB","nom":"Banque Intl pour le Commerce du Bénin","secteur":"Finance","pays":"Bénin","prix":8440,"score":71,"etat":"A surveiller","p1m":-0.053,"p3m":0.098,"p6m":0.623,"p1a":0.69,"vol":0.31,"dd":-0.22,"d50":-0.07,"d200":0.29,"med":47100000.0,"rend_der":0.03,"rend_moy":0.03,"divs":{"2021":null,"2022":null,"2023":null,"2024":254.0,"2025":255.0},"serie":2,"croiss3":null,"suspect":false,"coupe":false,"grave":false,"vigilance":true},{"t":"STBC","nom":"Sitab","secteur":"Consommation de base","pays":"Côte d’Ivoire","prix":21300,"score":71,"etat":"A surveiller","p1m":-0.03,"p3m":-0.11199999999999999,"p6m":0.024,"p1a":0.092,"vol":0.29,"dd":-0.15,"d50":-0.02,"d200":-0.03,"med":52200000.0,"rend_der":0.08,"rend_moy":0.07,"divs":{"2021":445.0,"2022":540.0,"2023":675.0,"2024":2090.0,"2025":1707.0},"serie":5,"croiss3":0.4676187573878605,"suspect":false,"coupe":false,"grave":false,"vigilance":false},{"t":"TTLC","nom":"Total CI","secteur":"Énergie","pays":"Côte d’Ivoire","prix":3025,"score":71,"etat":"A surveiller","p1m":-0.055,"p3m":0.012,"p6m":0.10400000000000001,"p1a":0.301,"vol":0.37,"dd":-0.16,"d50":-0.04,"d200":0.04,"med":12300000.0,"rend_der":0.046,"rend_moy":0.059000000000000004,"divs":{"2021":159.0,"2022":176.0,"2023":200.0,"2024":196.0,"2025":140.0},"serie":5,"croiss3":-0.07344375129870184,"suspect":false,"coupe":false,"grave":false,"vigilance":false},{"t":"ECOC","nom":"Ecobank CI","secteur":"Finance","pays":"Côte d’Ivoire","prix":15950,"score":69,"etat":"A surveiller","p1m":-0.053,"p3m":-0.009000000000000001,"p6m":-0.009000000000000001,"p1a":0.028999999999999998,"vol":0.29,"dd":-0.1,"d50":-0.05,"d200":-0.03,"med":35100000.0,"rend_der":0.049,"rend_moy":0.044000000000000004,"divs":{"2021":420.0,"2022":549.0,"2023":594.0,"2024":708.0,"2025":781.0},"serie":5,"croiss3":0.1246728980732279,"suspect":false,"coupe":false,"grave":false,"vigilance":false},{"t":"SDSC","nom":"Africa Global Logistics","secteur":"Transport et services","pays":"Côte d’Ivoire","prix":2960,"score":68,"etat":"A surveiller","p1m":-0.018000000000000002,"p3m":0.076,"p6m":0.757,"p1a":0.741,"vol":0.5,"dd":-0.08,"d50":0.01,"d200":0.29,"med":37300000.0,"rend_der":0.027000000000000003,"rend_moy":0.03,"divs":{"2021":130.0,"2022":83.0,"2023":92.0,"2024":92.0,"2025":81.0},"serie":5,"croiss3":-0.008097521382163131,"suspect":false,"coupe":false,"grave":false,"vigilance":true},{"t":"TTLS","nom":"Total Sénégal","secteur":"Énergie","pays":"Sénégal","prix":3700,"score":68,"etat":"A surveiller","p1m":0.016,"p3m":0.012,"p6m":0.231,"p1a":0.486,"vol":0.4,"dd":-0.18,"d50":-0.01,"d200":0.08,"med":7600000.0,"rend_der":0.048,"rend_moy":0.055,"divs":{"2021":187.0,"2022":234.0,"2023":208.0,"2024":222.0,"2025":177.0},"serie":5,"croiss3":-0.08885855250992858,"suspect":false,"coupe":false,"grave":false,"vigilance":false},{"t":"BOAN","nom":"BOA Niger","secteur":"Finance","pays":"Niger","prix":5300,"score":66,"etat":"A surveiller","p1m":0.0,"p3m":0.019,"p6m":0.514,"p1a":1.083,"vol":0.41,"dd":-0.06,"d50":0.03,"d200":0.33,"med":32799999.999999996,"rend_der":0.039,"rend_moy":0.059000000000000004,"divs":{"2021":343.0,"2022":355.0,"2023":381.0,"2024":209.0,"2025":null},"serie":5,"croiss3":null,"suspect":false,"coupe":true,"grave":false,"vigilance":true},{"t":"CIEC","nom":"CIE CI","secteur":"Services publics","pays":"Côte d’Ivoire","prix":5400,"score":62,"etat":"A surveiller","p1m":-0.163,"p3m":0.08,"p6m":0.688,"p1a":1.069,"vol":0.42,"dd":-0.27,"d50":-0.15,"d200":0.18,"med":32000000.0,"rend_der":0.038,"rend_moy":0.033,"divs":{"2021":153.0,"2022":158.0,"2023":171.0,"2024":158.0,"2025":206.0},"serie":5,"croiss3":0.09245454995918623,"suspect":false,"coupe":false,"grave":false,"vigilance":true},{"t":"ETIT","nom":"ETI (Ecobank Transnational)","secteur":"Finance","pays":"Togo","prix":64,"score":58,"etat":"Neutre","p1m":-0.045,"p3m":-0.07200000000000001,"p6m":1.207,"p1a":1.7830000000000001,"vol":0.52,"dd":-0.18,"d50":-0.04,"d200":0.39,"med":59500000.0,"rend_der":0.013999999999999999,"rend_moy":0.013999999999999999,"divs":{"2021":1.0,"2022":1.0,"2023":null,"2024":null,"2025":1.0},"serie":1,"croiss3":0.0,"suspect":false,"coupe":false,"grave":false,"vigilance":true},{"t":"SOGC","nom":"SOGB","secteur":"Agro-industrie","pays":"Côte d’Ivoire","prix":7600,"score":57,"etat":"Neutre","p1m":-0.062,"p3m":-0.095,"p6m":0.013000000000000001,"p1a":-0.047,"vol":0.33,"dd":-0.16,"d50":-0.04,"d200":-0.06,"med":21200000.0,"rend_der":0.066,"rend_moy":0.054000000000000006,"divs":{"2021":558.0,"2022":554.0,"2023":207.0,"2024":528.0,"2025":502.0},"serie":5,"croiss3":-0.03232099749768058,"suspect":false,"coupe":false,"grave":false,"vigilance":false},{"t":"NEIC","nom":"NEI-CEDA CI","secteur":"Industrie","pays":"Côte d’Ivoire","prix":2300,"score":54,"etat":"Neutre","p1m":0.0,"p3m":0.009000000000000001,"p6m":0.341,"p1a":1.3,"vol":0.5,"dd":-0.23,"d50":-0.06,"d200":0.18,"med":4400000.0,"rend_der":0.061,"rend_moy":0.048,"divs":{"2021":null,"2022":35.0,"2023":82.0,"2024":null,"2025":140.0},"serie":1,"croiss3":0.5874010519681994,"suspect":false,"coupe":false,"grave":false,"vigilance":true},{"t":"NTLC","nom":"Nestlé CI","secteur":"Consommation de base","pays":"Côte d’Ivoire","prix":13190,"score":54,"etat":"Neutre","p1m":-0.121,"p3m":-0.203,"p6m":0.10800000000000001,"p1a":0.205,"vol":0.35,"dd":-0.27,"d50":-0.16,"d200":-0.07,"med":14100000.0,"rend_der":0.027999999999999997,"rend_moy":0.045,"divs":{"2021":857.0,"2022":728.0,"2023":675.0,"2024":722.0,"2025":370.0},"serie":5,"croiss3":-0.2019622265637635,"suspect":false,"coupe":true,"grave":false,"vigilance":true},{"t":"LNBB","nom":"Loterie Nationale du Bénin","secteur":"Transport et services","pays":"Bénin","prix":3975,"score":53,"etat":"Neutre","p1m":0.027999999999999997,"p3m":-0.128,"p6m":0.006,"p1a":0.021,"vol":0.31,"dd":-0.13,"d50":0.0,"d200":0.0,"med":12600000.0,"rend_der":0.040999999999999995,"rend_moy":0.055,"divs":{"2021":107.0,"2022":107.0,"2023":null,"2024":276.0,"2025":164.0},"serie":2,"croiss3":0.15297535277519403,"suspect":false,"coupe":true,"grave":false,"vigilance":true},{"t":"PALC","nom":"PalmCI","secteur":"Agro-industrie","pays":"Côte d’Ivoire","prix":7500,"score":53,"etat":"Neutre","p1m":-0.095,"p3m":-0.166,"p6m":-0.038,"p1a":-0.102,"vol":0.3,"dd":-0.22,"d50":-0.1,"d200":-0.12,"med":21800000.0,"rend_der":0.059000000000000004,"rend_moy":0.065,"divs":{"2021":1236.0,"2022":1214.0,"2023":563.0,"2024":451.0,"2025":441.0},"serie":5,"croiss3":-0.2864792059231601,"suspect":false,"coupe":false,"grave":false,"vigilance":false},{"t":"SHEC","nom":"Vivo Energy CI","secteur":"Énergie","pays":"Côte d’Ivoire","prix":2115,"score":50,"etat":"Neutre","p1m":-0.10400000000000001,"p3m":-0.09,"p6m":0.149,"p1a":0.706,"vol":0.41,"dd":-0.29,"d50":-0.12,"d200":-0.01,"med":8400000.0,"rend_der":0.04,"rend_moy":0.034,"divs":{"2021":29.0,"2022":53.0,"2023":57.0,"2024":75.0,"2025":85.0},"serie":5,"croiss3":0.17052587578495726,"suspect":false,"coupe":false,"grave":false,"vigilance":true},{"t":"BNBC","nom":"Bernabé CI","secteur":"Distribution","pays":"Côte d’Ivoire","prix":1985,"score":47,"etat":"Neutre","p1m":0.059000000000000004,"p3m":0.027999999999999997,"p6m":0.47,"p1a":0.51,"vol":0.51,"dd":-0.17,"d50":0.0,"d200":0.12,"med":3900000.0,"rend_der":0.076,"rend_moy":0.076,"divs":{"2021":null,"2022":150.0,"2023":null,"2024":null,"2025":null},"serie":1,"croiss3":null,"suspect":false,"coupe":false,"grave":false,"vigilance":true},{"t":"UNXC","nom":"Uniwax CI","secteur":"Industrie","pays":"Côte d’Ivoire","prix":2100,"score":47,"etat":"Neutre","p1m":-0.134,"p3m":0.105,"p6m":0.126,"p1a":0.317,"vol":0.48,"dd":-0.16,"d50":-0.09,"d200":0.04,"med":17100000.0,"rend_der":0.028999999999999998,"rend_moy":0.019,"divs":{"2021":61.0,"2022":null,"2023":null,"2024":null,"2025":null},"serie":2,"croiss3":null,"suspect":true,"coupe":false,"grave":false,"vigilance":true},{"t":"ABJC","nom":"Servair Abidjan CI","secteur":"Transport et services","pays":"Côte d’Ivoire","prix":3280,"score":45,"etat":"Neutre","p1m":-0.099,"p3m":0.09699999999999999,"p6m":0.08800000000000001,"p1a":0.39,"vol":0.46,"dd":-0.2,"d50":-0.08,"d200":-0.01,"med":7600000.0,"rend_der":0.061,"rend_moy":0.062,"divs":{"2021":58.0,"2022":83.0,"2023":206.0,"2024":null,"2025":202.0},"serie":1,"croiss3":0.34510986876920513,"suspect":false,"coupe":false,"grave":false,"vigilance":true},{"t":"PRSC","nom":"Tractafric Motors CI","secteur":"Distribution","pays":"Côte d’Ivoire","prix":3800,"score":40,"etat":"Neutre","p1m":-0.073,"p3m":-0.136,"p6m":0.027000000000000003,"p1a":0.045,"vol":0.4,"dd":-0.31,"d50":-0.1,"d200":-0.15,"med":2800000.0,"rend_der":0.048,"rend_moy":0.048,"divs":{"2021":176.0,"2022":224.0,"2023":183.0,"2024":182.0,"2025":184.0},"serie":5,"croiss3":-0.06346660473612109,"suspect":false,"coupe":false,"grave":true,"vigilance":true},{"t":"CABC","nom":"Sicable CI","secteur":"Industrie","pays":"Côte d’Ivoire","prix":2925,"score":35,"etat":"Prudence","p1m":-0.138,"p3m":-0.198,"p6m":-0.142,"p1a":0.33,"vol":0.56,"dd":-0.35,"d50":-0.12,"d200":-0.18,"med":4500000.0,"rend_der":0.052000000000000005,"rend_moy":0.039,"divs":{"2021":69.0,"2022":69.0,"2023":80.0,"2024":113.0,"2025":152.0},"serie":5,"croiss3":0.3011623825905887,"suspect":false,"coupe":false,"grave":false,"vigilance":true},{"t":"CFAC","nom":"CFAO CI","secteur":"Distribution","pays":"Côte d’Ivoire","prix":1395,"score":35,"etat":"Prudence","p1m":-0.09699999999999999,"p3m":-0.177,"p6m":-0.004,"p1a":-0.109,"vol":0.46,"dd":-0.24,"d50":-0.12,"d200":-0.13,"med":4600000.0,"rend_der":0.04,"rend_moy":0.019,"divs":{"2021":69.0,"2022":29.0,"2023":16.0,"2024":7.0,"2025":55.0},"serie":5,"croiss3":0.23781259438060753,"suspect":true,"coupe":false,"grave":false,"vigilance":true},{"t":"ORGT","nom":"Oragroup Togo","secteur":"Finance","pays":"Togo","prix":2700,"score":29,"etat":"Prudence","p1m":-0.069,"p3m":-0.13699999999999998,"p6m":-0.092,"p1a":0.023,"vol":0.42,"dd":-0.32,"d50":-0.11,"d200":-0.11,"med":10700000.0,"rend_der":0.022000000000000002,"rend_moy":0.021,"divs":{"2021":null,"2022":null,"2023":null,"2024":null,"2025":null},"serie":5,"croiss3":null,"suspect":false,"coupe":false,"grave":false,"vigilance":true},{"t":"SAFC","nom":"Safca CI","secteur":"Finance","pays":"Côte d’Ivoire","prix":3770,"score":24,"etat":"Prudence","p1m":-0.18,"p3m":-0.24600000000000002,"p6m":0.077,"p1a":1.015,"vol":0.62,"dd":-0.39,"d50":-0.2,"d200":-0.12,"med":20400000.0,"rend_der":null,"rend_moy":null,"divs":{},"serie":0,"croiss3":null,"suspect":false,"coupe":false,"grave":false,"vigilance":true},{"t":"SCRC","nom":"Sucrivoire","secteur":"Agro-industrie","pays":"Côte d’Ivoire","prix":2230,"score":24,"etat":"Prudence","p1m":-0.213,"p3m":-0.381,"p6m":0.121,"p1a":1.084,"vol":0.52,"dd":-0.43,"d50":-0.24,"d200":-0.11,"med":25700000.0,"rend_der":0.018000000000000002,"rend_moy":0.018000000000000002,"divs":{"2021":null,"2022":null,"2023":null,"2024":null,"2025":null},"serie":1,"croiss3":null,"suspect":false,"coupe":false,"grave":false,"vigilance":true},{"t":"SICC","nom":"Sicor","secteur":"Industrie","pays":"Côte d’Ivoire","prix":8400,"score":20,"etat":"Inactive","p1m":-0.17600000000000002,"p3m":0.883,"p6m":1.182,"p1a":1.27,"vol":0.59,"dd":-0.18,"d50":0.15,"d200":0.73,"med":400000.0,"rend_der":null,"rend_moy":null,"divs":{},"serie":0,"croiss3":null,"suspect":false,"coupe":false,"grave":true,"vigilance":true},{"t":"STAC","nom":"Setao CI","secteur":"Industrie","pays":"Côte d’Ivoire","prix":1745,"score":19,"etat":"Prudence","p1m":-0.24100000000000002,"p3m":-0.381,"p6m":-0.38799999999999996,"p1a":0.616,"vol":0.66,"dd":-0.55,"d50":-0.23,"d200":-0.32,"med":11100000.0,"rend_der":0.038,"rend_moy":0.038,"divs":{"2021":66.0,"2022":null,"2023":null,"2024":null,"2025":null},"serie":2,"croiss3":null,"suspect":false,"coupe":false,"grave":false,"vigilance":true},{"t":"FTSC","nom":"Filtisac CI","secteur":"Industrie","pays":"Côte d’Ivoire","prix":1770,"score":17,"etat":"Prudence","p1m":-0.10400000000000001,"p3m":-0.073,"p6m":-0.195,"p1a":-0.303,"vol":0.38,"dd":-0.29,"d50":-0.11,"d200":-0.18,"med":6600000.0,"rend_der":0.975,"rend_moy":0.524,"divs":{"2021":null,"2022":null,"2023":130.0,"2024":1727.0,"2025":null},"serie":2,"croiss3":null,"suspect":true,"coupe":false,"grave":false,"vigilance":true},{"t":"SEMC","nom":"Crown Siem","secteur":"Industrie","pays":"Côte d’Ivoire","prix":1495,"score":8,"etat":"Inactive","p1m":0.01,"p3m":-0.042,"p6m":-0.249,"p1a":1.265,"vol":0.61,"dd":-0.45,"d50":0.0,"d200":-0.06,"med":7200000.0,"rend_der":0.01,"rend_moy":0.01,"divs":{"2021":null,"2022":null,"2023":null,"2024":null,"2025":null},"serie":1,"croiss3":null,"suspect":false,"coupe":false,"grave":true,"vigilance":true},{"t":"SIVC","nom":"SIVC (nom a verifier)","secteur":"Industrie","pays":"Côte d’Ivoire","prix":1685,"score":4,"etat":"Prudence","p1m":-0.157,"p3m":-0.23399999999999999,"p6m":-0.4,"p1a":1.39,"vol":0.57,"dd":-0.48,"d50":-0.19,"d200":-0.32,"med":7100000.0,"rend_der":0.037000000000000005,"rend_moy":0.037000000000000005,"divs":{"2021":null,"2022":null,"2023":null,"2024":null,"2025":null},"serie":1,"croiss3":null,"suspect":false,"coupe":false,"grave":false,"vigilance":true},{"t":"UNLC","nom":"Unilever CI","secteur":"Consommation de base","pays":"Côte d’Ivoire","prix":46000,"score":0,"etat":"Prudence","p1m":-0.032,"p3m":-0.177,"p6m":-0.24,"p1a":1.485,"vol":0.68,"dd":-0.46,"d50":-0.08,"d200":-0.19,"med":700000.0,"rend_der":null,"rend_moy":null,"divs":{},"serie":0,"croiss3":null,"suspect":false,"coupe":false,"grave":true,"vigilance":true}],"fees":[{"id":"gek","nom":"GEK Capital (Côte d’Ivoire)","tout":1.18,"garde":0.5,"tenue_ligne":0,"fixe":0,"depot":null,"src":"relevés d’investisseurs","fiab":"relevés","note":"garde : maximum de la fourchette 0,10–0,50 %"},{"id":"boacap","nom":"BOA Capital Securities (Côte d’Ivoire)","tout":1.4,"garde":0.27,"tenue_ligne":0,"fixe":5000,"depot":null,"src":"relevés et grille","fiab":"relevés","note":"tenue de compte 5 000 FCFA, période à confirmer"},{"id":"nsia","nom":"NSIA Capital (Côte d’Ivoire)","tout":1.3,"garde":0.52,"tenue_ligne":0,"fixe":24160,"depot":200000,"src":"relevés et grille","fiab":"relevés","note":"tenue 2 500 FCFA par trimestre et plateforme en ligne 1 180 FCFA par mois"},{"id":"sirius","nom":"Sirius Capital (Côte d’Ivoire)","tout":1.4,"garde":0.5,"tenue_ligne":0,"fixe":11000,"depot":1000000,"src":"relevés et grille","fiab":"relevés","note":"tenue 2 750 FCFA par trimestre"},{"id":"bridge","nom":"Bridge Securities (Côte d’Ivoire)","tout":1.4,"garde":0.8,"tenue_ligne":0,"fixe":15950,"depot":250000,"src":"relevés et forum 2023","fiab":"témoignage","note":"garde 0,8 % selon un forum de 2023, plateforme 1 100 FCFA par mois"},{"id":"sgcswa","nom":"SG Capital Securities West Africa (Côte d’Ivoire)","tout":1.1,"garde":0.5,"tenue_ligne":0,"fixe":16000,"depot":null,"src":"relevés et grille","fiab":"relevés","note":"tenue 2 750 FCFA et plateforme 1 100 FCFA, périodes supposées"},{"id":"bici","nom":"BICI Bourse (Côte d’Ivoire)","tout":1.22,"garde":0.5,"tenue_ligne":5000,"fixe":0,"depot":null,"src":"relevés et grille","fiab":"relevés","note":"tenue de compte 5 000 FCFA par société détenue"},{"id":"phoenix","nom":"Phoenix Capital Management (Côte d’Ivoire)","tout":1.4,"garde":0.4,"tenue_ligne":0,"fixe":13750,"depot":null,"src":"relevés et grille","fiab":"relevés","note":"tenue 2 750 FCFA par an et plateforme 2 750 FCFA par trimestre"},{"id":"sgimali","nom":"SGI Mali (Bamako)","tout":1.12,"garde":0.5,"tenue_ligne":12500,"fixe":0,"depot":null,"src":"relevés et décision CREPMF 2012","fiab":"relevés","note":"tenue de compte 12 500 FCFA par société détenue ; garde : plafond homologué"},{"id":"cifa","nom":"CIFA Bourse (Bamako)","tout":1.2,"garde":0.35,"tenue_ligne":12500,"fixe":0,"depot":null,"src":"décision CREPMF 2021","fiab":"grille","note":"tenue de compte 12 500 FCFA « par ligne » dans la décision, « par an » selon un comparateur : à confirmer"},{"id":"impaxis","nom":"Impaxis Securities (Dakar)","tout":1.16,"garde":0.2,"tenue_ligne":0,"fixe":2000,"depot":250000,"src":"relevés et grille","fiab":"relevés","note":"accepte-t-elle l’ouverture à distance depuis le Mali ? à demander"},{"id":"coris","nom":"Coris Bourse (Ouagadougou)","tout":1.22,"garde":0.5,"tenue_ligne":0,"fixe":2500,"depot":50000,"src":"relevés et grille","fiab":"relevés","note":"tenue 2 500 FCFA, période supposée annuelle"},{"id":"togo","nom":"SGI Togo (Lomé)","tout":1.3,"garde":0.4,"tenue_ligne":0,"fixe":2000,"depot":160000,"src":"relevés et grille","fiab":"relevés","note":"plateforme en ligne gratuite"},{"id":"africabourse","nom":"Africabourse (Bénin)","tout":0.9,"garde":0.35,"tenue_ligne":0,"fixe":1000,"depot":100000,"src":"grille homologuée","fiab":"grille","note":"courtage 0,60 % hors taxe + 0,30 % de commissions BRVM et DC/BR : taxe non incluse"}]};/*DATA_FIN*/
+
+/* ===== Outils ===== */
+const NB = "\u202f", ESP = "\u00a0";
+const fmt = n => (n == null || isNaN(n)) ? "–" : Math.round(n).toString().replace(/\B(?=(\d{3})+(?!\d))/g, NB);
+const fcfa = n => fmt(n) + ESP + "FCFA";
+const pc = (x, d = 1) => (x == null || isNaN(x)) ? "–" : (x * 100).toFixed(d).replace(".", ",") + ESP + "%";
+const pcs = (x, d = 0) => (x == null || isNaN(x)) ? "–" : (x > 0 ? "+" : "") + pc(x, d);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const $ = s => document.querySelector(s);
+const parseNum = s => { const v = parseInt(String(s).replace(/[^\d]/g, ""), 10); return isNaN(v) ? 0 : v; };
+const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
+const median = a => { const b = a.filter(x => x != null && !isNaN(x)).sort((x, y) => x - y); if (!b.length) return null; const m = b.length >> 1; return b.length % 2 ? b[m] : (b[m - 1] + b[m]) / 2; };
+const mean = a => { const b = a.filter(x => x != null && !isNaN(x)); return b.length ? b.reduce((x, y) => x + y, 0) / b.length : null; };
+
+/* ===== État ===== */
+const ETAPES = ["Votre projet", "Votre style", "Votre portefeuille", "Vos frais", "Votre projection", "Votre plan"];
+const DEF = { matelas: "", echeance: "", reaction: "", txSR: 4, step: 0, initial: 1000000, contrib: 250000, freq: "trimestre", horizon: 10, style: "equilibre", partDiv: 50, n: 0, exclus: [], sgi: "gek",
+  custom: { tout: 1.3, garde: 0.35, tenue_ligne: 0, fixe: 0 }, impot: 0, reinvest: true, reel: false, krach: false, infl: 3, ordreMin: 100000,
+  hyp: { dif: { p: -2, d: -3 }, prud: { p: 0, d: 0 }, cent: { p: 3, d: 3 }, fav: { p: 7, d: 6 } } };
+const CLE = "brvm_plan_v1";
+function charger() { try { const v = localStorage.getItem(CLE); return v ? JSON.parse(v) : {}; } catch (e) { return {}; } }
+function sauver() { try { localStorage.setItem(CLE, JSON.stringify(S)); } catch (e) { /* stockage indisponible */ } }
+let S = Object.assign({}, DEF, charger());
+S.step = 0;
+S.hyp = Object.assign({}, DEF.hyp, S.hyp);
+S.custom = Object.assign({}, DEF.custom, S.custom);
+
+/* ===== Règles de sélection (reprise de brvm_regles.py) ===== */
+const GROUPES = { BOA: ["BOAB", "BOABF", "BOAC", "BOAM", "BOAN", "BOAS"], Total: ["TTLC", "TTLS"], Orange: ["SNTS", "ORAC"] };
+const groupeDe = t => { for (const g in GROUPES) if (GROUPES[g].includes(t)) return g; return null; };
+const okCommun = c => !c.grave && !c.suspect && c.med >= 10e6;
+const PROFILS = {
+  stable: { nom: "Stabilité", n: 8, groupe: .25, secteur: .40, pays: .65, etats: ["A etudier"], cle: "score", filtre: c => !c.vigilance },
+  equilibre: { nom: "Dividendes et croissance", n: 8, groupe: .30, secteur: .45, pays: .70, etats: ["A etudier", "A surveiller"], cle: "mixte",
+    filtre: c => okCommun(c) && !c.coupe && c.d200 != null && c.d200 > 0 && c.serie >= 3 && c.croiss3 != null && c.croiss3 >= -0.05 },
+  revenu: { nom: "Revenu", n: 5, groupe: .40, secteur: .60, pays: 1, etats: ["A etudier", "A surveiller"], cle: "rend_moy",
+    filtre: c => okCommun(c) && !c.coupe && c.d200 != null && c.d200 > 0 },
+  dynamique: { nom: "Dynamique", n: 5, groupe: .40, secteur: .60, pays: 1, etats: ["A etudier", "A surveiller"], cle: "p6m",
+    filtre: c => okCommun(c) && !c.coupe && c.d200 != null && c.d200 > 0 }
+};
+const plafond = (part, n, mini = 1) => Math.max(mini, Math.floor(part * n + 1e-9));
+function limites(profil, n) { const P = PROFILS[profil], mini = n >= 3 ? 2 : 1; return [plafond(P.groupe, n), plafond(P.secteur, n, mini), plafond(P.pays, n, mini)]; }
+function rang(vals) {
+  const o = vals.filter(v => v != null && !isNaN(v)).sort((a, b) => a - b);
+  return vals.map(v => { if (v == null || isNaN(v) || !o.length) return 0.4; let inf = 0, eg = 0; o.forEach(x => { if (x < v) inf++; else if (x === v) eg++; }); return (inf + 0.5 * eg) / o.length; });
+}
+const cl = (v, a, b) => (v == null || isNaN(v)) ? 0 : Math.max(a, Math.min(b, v));
+function calculerMixte(base, partDiv) {
+  const y = rang(base.map(c => c.rend_moy)), g = rang(base.map(c => 0.5 * cl(c.croiss3, -0.2, 0.3) + 0.5 * cl(c.p1a, -0.2, 0.6)));
+  base.forEach((c, i) => { c.mixte = partDiv * y[i] + (1 - partDiv) * g[i]; });
+}
+function selection(profil, n, partDiv, exclus) {
+  const P = PROFILS[profil];
+  const base = DATA.stocks.filter(c => !exclus.includes(c.t) && P.etats.includes(c.etat) && P.filtre(c)).map(c => Object.assign({}, c));
+  if (P.cle === "mixte") calculerMixte(base, partDiv);
+  base.sort((a, b) => (b[P.cle] == null ? -1e9 : b[P.cle]) - (a[P.cle] == null ? -1e9 : a[P.cle]));
+  const [pg, ps, pp] = limites(profil, n);
+  const ret = [], ec = [], cg = {}, cs = {}, cp = {};
+  base.forEach(c => {
+    if (ret.length >= n) { ec.push([c.t, "liste complète"]); return; }
+    const g = groupeDe(c.t);
+    if (g && (cg[g] || 0) >= pg) { ec.push([c.t, "limite du groupe " + g + " atteinte"]); return; }
+    if ((cs[c.secteur] || 0) >= ps) { ec.push([c.t, "limite du secteur « " + c.secteur + " » atteinte"]); return; }
+    if ((cp[c.pays] || 0) >= pp) { ec.push([c.t, "limite du pays atteinte"]); return; }
+    ret.push(c); if (g) cg[g] = (cg[g] || 0) + 1; cs[c.secteur] = (cs[c.secteur] || 0) + 1; cp[c.pays] = (cp[c.pays] || 0) + 1;
+  });
+  return { ret, ec, lim: [pg, ps, pp] };
+}
+const nAuto = () => clamp(Math.floor(S.initial / 150000), 2, 8);
+const nLignes = () => S.n > 0 ? S.n : nAuto();
+function portefeuille(style, n) { return selection(style || S.style, n || nLignes(), S.partDiv / 100, S.exclus); }
+
+/* ===== Frais ===== */
+const fraisActifs = () => {
+  if (S.sgi === "autre") return { nom: "Mes propres frais", tout: S.custom.tout, garde: S.custom.garde, tenue_ligne: S.custom.tenue_ligne, fixe: S.custom.fixe };
+  const f = DATA.fees.find(x => x.id === S.sgi) || DATA.fees[0];
+  return f;
+};
+const PERIODES = { mois: 1, trimestre: 3, semestre: 6, an: 12 };
+const LIB_FREQ = { mois: "chaque mois", trimestre: "chaque trimestre", semestre: "chaque semestre", an: "chaque année" };
+const nbVersements = () => S.contrib > 0 ? Math.floor(S.horizon * 12 / PERIODES[S.freq]) : 0;
+const totalVerse = () => S.initial + S.contrib * nbVersements();
+
+/* ===== Projection (mois par mois) ===== */
+function rendementPortefeuille(sel) {
+  const y = mean(sel.map(c => c.rend_moy));
+  return y == null ? 0.04 : Math.min(y, 0.12);
+}
+function projeter(o) {
+  const M = Math.round(o.H * 12), f = o.tout / 100, mp = Math.pow(1 + o.gp, 1 / 12) - 1, per = PERIODES[o.freq], infl = o.reel ? o.infl / 100 : 0;
+  let V = o.A0 * (1 - f), cash = 0, verse = o.A0, versReel = o.A0, frais = o.A0 * f, div = 0, dernierDiv = 0, plusDiv = 0;
+  const pts = [{ m: 0, verse, versReel, val: V * (1 - f) + cash, frais, div }];
+  for (let m = 1; m <= M; m++) {
+    V *= (1 + mp);
+    if (o.C > 0 && m % per === 0) { V += o.C * (1 - f); verse += o.C; versReel += o.C / Math.pow(1 + infl, m / 12); frais += o.C * f; }
+    const rec = V * o.garde / 100 / 12 + (o.tenue * o.n + o.fixe) / 12;
+    const r = Math.min(V, rec); V -= r; frais += r;
+    if (m % 12 === 7) {
+      const an = Math.floor((m - 1) / 12), y = o.y0 * Math.pow((1 + o.gd) / (1 + o.gp), an), D = V * y * (1 - o.impot / 100);
+      div += D; dernierDiv = D;
+      if (o.reinvest) { V += D * (1 - f); frais += D * f; } else cash += D;
+    }
+    if (o.krach && m === 24) V *= 0.70;
+    const deflate = Math.pow(1 + infl, m / 12);
+    pts.push({ m, verse, versReel: o.reel ? versReel : verse, val: (V * (1 - f) + cash) / deflate, frais, div, valBrute: V + cash });
+  }
+  return { pts, fin: pts[pts.length - 1], dernierDiv, M };
+}
+function paramsProjection(scen, sel, sgiFrais) {
+  const h = S.hyp[scen], fr = sgiFrais || fraisActifs();
+  return { A0: S.initial, C: S.contrib, freq: S.freq, H: S.horizon, tout: fr.tout, garde: fr.garde, tenue: fr.tenue_ligne, fixe: fr.fixe, n: sel.length || 1,
+    y0: rendementPortefeuille(sel), gp: h.p / 100, gd: h.d / 100, impot: S.impot, reinvest: S.reinvest, krach: S.krach, infl: S.infl, reel: S.reel };
+}
+
+/* ===== Questionnaire de risque ===== */
+function profilRisque() {
+  const m = [], niveau = S.reaction === "vendre" ? "faible" : S.reaction === "racheter" ? "eleve" : S.reaction === "attendre" ? "moyen" : "";
+  if (S.echeance === "court") m.push(["bad", "Vous pourriez avoir besoin de cet argent dans moins de 3 ans. Les actions peuvent baisser pendant plusieurs années : n’y placez pas une somme dont vous aurez besoin si tôt."]);
+  else if (S.horizon < 3 || (S.echeance === "moyen" && S.horizon > 7)) m.push(["warn", "Votre durée de placement et l’échéance indiquée ne vont pas ensemble : vérifiez-les."]);
+  if (S.matelas === "non") m.push(["warn", "Constituez d’abord une épargne de précaution (3 à 6 mois de dépenses) sur un support facilement disponible : investir en actions sans ce matelas oblige parfois à vendre au plus mauvais moment."]);
+  else if (S.matelas === "partiel") m.push(["info", "Complétez si possible votre épargne de précaution avant d’augmenter vos versements en actions."]);
+  if (niveau === "faible") m.push(["info", "Vous vendriez en cas de forte baisse : le style « Stabilité » et un montant plus modeste vous conviennent mieux. Vendre au plus bas transforme une baisse passagère en perte définitive."]);
+  return { niveau, messages: m, style: niveau === "faible" ? "stable" : niveau ? "equilibre" : "" };
+}
+const blocRisque = () => profilRisque().messages.map(([t, x]) => `<div class="alerte ${t}">${x}</div>`).join("");
+/* ===== Placement sans risque (comparaison) ===== */
+function sansRisque(o) {
+  const M = Math.round(o.H * 12), r = Math.pow(1 + o.taux / 100, 1 / 12) - 1, per = PERIODES[o.freq], infl = o.reel ? o.infl / 100 : 0;
+  let B = o.A0; const pts = [{ m: 0, val: B }];
+  for (let m = 1; m <= M; m++) { B *= (1 + r); if (o.C > 0 && m % per === 0) B += o.C; pts.push({ m, val: B / Math.pow(1 + infl, m / 12) }); }
+  return { pts, fin: pts[pts.length - 1] };
+}
+/* ===== Plans d’achat ===== */
+function premierAchat(sel) {
+  const fr = fraisActifs(), n = sel.length, part = S.initial / n;
+  return sel.map(c => { const parts = Math.floor(part / (c.prix * (1 + fr.tout / 100))); const cout = parts * c.prix * (1 + fr.tout / 100); return { c, montant: part, parts, cout }; });
+}
+function planVersements(sel, nb) {
+  const n = sel.length, inv = {}; sel.forEach(c => inv[c.t] = S.initial / n);
+  const k = clamp(Math.floor(S.contrib / S.ordreMin), 1, n), out = [];
+  for (let i = 1; i <= nb; i++) {
+    const ordre = sel.slice().sort((a, b) => inv[a.t] - inv[b.t]).slice(0, k);
+    ordre.forEach(c => inv[c.t] += S.contrib / k);
+    out.push({ i, lignes: ordre, montant: S.contrib / k });
+  }
+  return out;
+}
+function raisons(c) {
+  const r = [], a = [];
+  if (c.med >= 50e6) r.push("très échangée en bourse : facile à revendre"); else if (c.med >= 10e6) r.push("assez échangée en bourse");
+  if (c.d200 != null && c.d200 > 0) r.push("cours au-dessus de sa moyenne des 200 derniers jours");
+  if (c.serie >= 3) r.push("dividende versé " + c.serie + " années de suite");
+  if (c.rend_moy) r.push("dividende moyen de " + pc(c.rend_moy) + " du cours actuel");
+  if (c.croiss3 != null && c.croiss3 > 0.05) r.push("dividende en hausse (environ " + pc(c.croiss3, 0) + " par an, valeur passée)");
+  if (c.med < 10e6) a.push("peu échangée : revente parfois lente");
+  if (c.d200 != null && c.d200 < 0) a.push("cours sous sa moyenne de 200 jours");
+  if (c.p1m != null && c.p1m <= -0.10) a.push("a perdu " + pc(Math.abs(c.p1m), 0) + " en un mois");
+  if (c.p6m != null && c.p6m > 0.6) a.push("a beaucoup monté en 6 mois (" + pcs(c.p6m) + ") : risque de retour en arrière");
+  if (c.vol != null && c.vol > 0.4) a.push("cours très variable");
+  if (c.dd != null && c.dd <= -0.25) a.push("à " + pc(c.dd, 0) + " de son plus haut sur un an");
+  if (c.coupe) a.push("dividende réduit");
+  if (c.suspect) a.push("dividende exceptionnel ou douteux");
+  if (c.croiss3 != null && c.croiss3 < -0.05) a.push("dividende en baisse");
+  return { r: r.slice(0, 4), a: a.slice(0, 3) };
+}
+
+/* ===== Rendu ===== */
+function entete() {
+  $("#progression").innerHTML = ETAPES.map((n, i) => `<li class="${i < S.step ? "fait" : i === S.step ? "ici" : ""}"${i === S.step ? ' aria-current="step"' : ""}><span class="num">${i + 1}</span><span class="nom">${esc(n)}</span></li>`).join("");
+  $("#retour").disabled = S.step === 0;
+  $("#suite").textContent = S.step === ETAPES.length - 1 ? "Terminé" : "Continuer";
+  $("#suite").disabled = S.step === ETAPES.length - 1;
+  $("#maj").textContent = DATA.maj;
+}
+function aller(i) { S.step = clamp(i, 0, ETAPES.length - 1); sauver(); rendre(); const m = $("#contenu"); m.focus({ preventScroll: true }); window.scrollTo({ top: 0, behavior: "auto" }); }
+function rendre() { window.__majGraphe = null; entete(); [e1, e2, e3, e4, e5, e6][S.step](); }
+
+/* --- Étape 1 : projet --- */
+function e1() {
+  $("#contenu").innerHTML = `
+  <h2>Quel est votre projet d’épargne ?</h2>
+  <p class="etape-intro">Trois réponses suffisent pour commencer. Vous pourrez tout modifier ensuite.</p>
+  <div class="champ"><label for="initial">Combien voulez-vous investir au départ ?</label>
+    <div class="entree"><input id="initial" type="text" inputmode="numeric" autocomplete="off" value="${fmt(S.initial)}"><span class="u">FCFA</span></div>
+    <div class="puces" data-cible="initial">${[250000, 500000, 1000000, 2500000, 5000000].map(v => `<button type="button" class="puce" data-v="${v}" aria-pressed="${S.initial === v}">${fmt(v)}</button>`).join("")}</div></div>
+  <div class="champ"><label for="contrib">Voulez-vous ajouter de l’argent régulièrement ?</label>
+    <div class="entree"><input id="contrib" type="text" inputmode="numeric" autocomplete="off" value="${fmt(S.contrib)}"><span class="u">FCFA</span></div>
+    <div class="puces" data-cible="contrib">${[0, 100000, 250000, 500000, 1000000].map(v => `<button type="button" class="puce" data-v="${v}" aria-pressed="${S.contrib === v}">${v === 0 ? "Non" : fmt(v)}</button>`).join("")}</div></div>
+  <div class="champ" id="bloc-freq"><label for="freq">À quel rythme ?</label>
+    <select id="freq">${Object.keys(LIB_FREQ).map(k => `<option value="${k}"${S.freq === k ? " selected" : ""}>${LIB_FREQ[k]}</option>`).join("")}</select></div>
+  <div class="champ"><label for="horizon">Pendant combien de temps ? <b id="hor-val">${S.horizon} ans</b></label>
+    <input id="horizon" type="range" min="3" max="30" step="1" value="${S.horizon}"><div class="regle"><span>3 ans</span><span>30 ans</span></div></div>
+  <div class="resume" id="res1" aria-live="polite"></div>
+  <h3>Trois questions pour vous protéger</h3>
+  <div class="champ"><div class="lib">Avez-vous déjà de l’argent de côté pour les imprévus (3 à 6 mois de dépenses) ?</div>
+    <div class="puces" data-q="matelas">${[["oui", "Oui"], ["partiel", "En partie"], ["non", "Non"]].map(([v, l]) => `<button type="button" class="puce" data-v="${v}" aria-pressed="${S.matelas === v}">${l}</button>`).join("")}</div></div>
+  <div class="champ"><div class="lib">Quand pourriez-vous avoir besoin de cet argent ?</div>
+    <div class="puces" data-q="echeance">${[["court", "Dans moins de 3 ans"], ["moyen", "Dans 3 à 7 ans"], ["long", "Dans plus de 7 ans"]].map(([v, l]) => `<button type="button" class="puce" data-v="${v}" aria-pressed="${S.echeance === v}">${l}</button>`).join("")}</div></div>
+  <div class="champ"><div class="lib">Si votre épargne perdait 30 % en un an, que feriez-vous ?</div>
+    <div class="puces" data-q="reaction">${[["vendre", "Je vendrais tout"], ["attendre", "J’attendrais"], ["racheter", "J’en rachèterais"]].map(([v, l]) => `<button type="button" class="puce" data-v="${v}" aria-pressed="${S.reaction === v}">${l}</button>`).join("")}</div></div>
+  <div id="risque1" aria-live="polite"></div>
+  <details><summary>Pourquoi ces questions ?</summary><div class="aide">Plus vous investissez longtemps, plus les dividendes réinvestis ont le temps de produire eux-mêmes des dividendes : c’est l’effet « boule de neige » (intérêts composés). Les versements réguliers lissent aussi le moment où vous achetez. En revanche, les actions peuvent baisser : n’investissez que de l’argent dont vous n’aurez pas besoin avant plusieurs années.</div></details>`;
+  const maj = () => {
+    const nb = nbVersements();
+    $("#bloc-freq").style.display = S.contrib > 0 ? "" : "none";
+    if ($("#risque1")) $("#risque1").innerHTML = blocRisque();
+    $("#res1").innerHTML = S.contrib > 0
+      ? `En <b>${S.horizon} ans</b>, vous aurez versé <b>${fcfa(totalVerse())}</b> (${fcfa(S.initial)} au départ, puis ${nb} versements de ${fcfa(S.contrib)}).`
+      : `Vous investissez <b>${fcfa(S.initial)}</b> une seule fois et vous laissez travailler l’argent pendant <b>${S.horizon} ans</b>.`;
+    if (S.initial < 100000) $("#res1").innerHTML += `<br><span class="neg">Avec moins de 100 000 FCFA, les frais fixes risquent de manger l’essentiel du gain.</span>`;
+  };
+  maj();
+  const majR = () => { $("#risque1").innerHTML = blocRisque(); };
+  majR();
+  document.querySelectorAll(".puces[data-q] .puce").forEach(b => b.addEventListener("click", () => {
+    const q = b.parentNode.dataset.q; S[q] = b.dataset.v; b.parentNode.querySelectorAll(".puce").forEach(x => x.setAttribute("aria-pressed", String(x.dataset.v === S[q]))); majR(); sauver();
+  }));
+  const lie = (id, cle) => {
+    const el = $("#" + id);
+    el.addEventListener("input", () => { S[cle] = parseNum(el.value); document.querySelectorAll(`.puces[data-cible=${cle}] .puce`).forEach(b => b.setAttribute("aria-pressed", String(+b.dataset.v === S[cle]))); maj(); sauver(); });
+    el.addEventListener("change", () => { el.value = fmt(S[cle]); });
+  };
+  lie("initial", "initial"); lie("contrib", "contrib");
+  document.querySelectorAll(".puces[data-cible] .puce").forEach(b => b.addEventListener("click", () => {
+    const cle = b.parentNode.dataset.cible; S[cle] = +b.dataset.v; $("#" + cle).value = fmt(S[cle]);
+    b.parentNode.querySelectorAll(".puce").forEach(x => x.setAttribute("aria-pressed", String(+x.dataset.v === S[cle]))); maj(); sauver();
+  }));
+  $("#freq").addEventListener("change", e => { S.freq = e.target.value; maj(); sauver(); });
+  $("#horizon").addEventListener("input", e => { S.horizon = +e.target.value; $("#hor-val").textContent = S.horizon + " ans"; maj(); sauver(); });
+}
+
+/* --- Étape 2 : style --- */
+function stats(sel) {
+  if (!sel.length) return null;
+  return { n: sel.length, rend: mean(sel.map(c => c.rend_moy)), croiss: median(sel.map(c => c.croiss3)), vol: mean(sel.map(c => c.vol)), dd: mean(sel.map(c => c.dd)) };
+}
+function e2() {
+  const n = nLignes();
+  const defs = [
+    ["stable", "Stabilité", "Des sociétés grandes et très échangées, sans signal d’alerte. Moins de rendement, moins de mauvaises surprises."],
+    ["equilibre", "Dividendes et croissance", "Pour épargner longtemps : des sociétés qui versent un dividende depuis plusieurs années, sans qu’il baisse, et dont le dividende ou le cours progresse. C’est le choix conseillé pour faire « boule de neige »."],
+    ["revenu", "Revenu", "Les plus gros dividendes du moment. Attention : un dividende élevé n’est pas garanti et il peut baisser."]
+  ];
+  $("#contenu").innerHTML = `
+  <h2>Que cherchez-vous en priorité ?</h2>
+  <p class="etape-intro">Il n’y a pas de bon choix universel : plus on vise de rendement, plus on accepte de variations. Choisissez ce qui vous correspond.</p>
+  ${(() => { const p = profilRisque(); return p.style ? `<div class="alerte info">D’après vos réponses, le style « <b>${PROFILS[p.style].nom}</b> » vous correspond le mieux. Vous restez libre de choisir autre chose.</div>` : ""; })()}
+  <div id="choix-style">${defs.map(d => `<label class="choix"><div class="tete"><input type="radio" name="style" value="${d[0]}"${S.style === d[0] ? " checked" : ""}><div><div class="t">${d[1]}</div><div class="d">${d[2]}</div><div class="stat" id="st-${d[0]}"></div></div></div></label>`).join("")}</div>
+  <div class="champ" id="bloc-part"><label for="part">Dans « Dividendes et croissance » : quelle part pour le dividende ? <b id="part-val"></b></label>
+    <input id="part" type="range" min="0" max="100" step="10" value="${S.partDiv}"><div class="regle"><span>plus de croissance</span><span>plus de revenu</span></div>
+    <p class="aide">À gauche, on préfère les sociétés dont le dividende et le cours progressent ; à droite, celles qui versent le plus aujourd’hui.</p></div>
+  <details><summary>Plus d’options (risque élevé)</summary><div>
+    <label class="choix"><div class="tete"><input type="radio" name="style" value="dynamique"${S.style === "dynamique" ? " checked" : ""}><div><div class="t">Dynamique</div><div class="d">Les sociétés qui ont le plus monté ces six derniers mois. Le risque de retournement est le plus élevé : à réserver à une petite partie de votre épargne.</div><div class="stat" id="st-dynamique"></div></div></div></label></div></details>
+  <details><summary>Comment les sociétés sont-elles choisies ?</summary><div class="aide">Les sociétés sont classées par des règles fixes (échanges en bourse, dividende versé plusieurs années, cours au-dessus de sa moyenne de 200 jours, absence de signal d’alerte) puis réparties pour ne pas mettre trop d’argent dans un même groupe, un même secteur ou un même pays. Ces règles décrivent le passé : elles ne prédisent pas l’avenir.</div></details>`;
+  const maj = () => {
+    $("#part-val").textContent = S.partDiv + " % dividende, " + (100 - S.partDiv) + " % croissance";
+    $("#bloc-part").style.display = S.style === "equilibre" ? "" : "none";
+    ["stable", "equilibre", "revenu", "dynamique"].forEach(k => {
+      const s = stats(selection(k, n, S.partDiv / 100, S.exclus).ret), el = $("#st-" + k);
+      if (el) el.innerHTML = s ? `Avec ${s.n} sociétés : dividende moyen <b>${pc(s.rend)}</b> par an, variations moyennes des cours <b>${pc(s.vol, 0)}</b>, plus forte baisse sur un an <b>${pc(s.dd, 0)}</b>.` : "Aucune société ne remplit les critères aujourd’hui.";
+    });
+  };
+  maj();
+  document.querySelectorAll("input[name=style]").forEach(r => r.addEventListener("change", () => { S.style = r.value; S.n = S.n; maj(); sauver(); }));
+  $("#part").addEventListener("input", e => { S.partDiv = +e.target.value; maj(); sauver(); });
+}
+
+/* --- Étape 3 : portefeuille --- */
+function composition(sel) {
+  const cnt = (f) => { const o = {}; sel.forEach(c => { const k = f(c); if (k) o[k] = (o[k] || 0) + 1; }); return o; };
+  const txt = o => Object.entries(o).sort((a, b) => b[1] - a[1]).map(([k, v]) => k + " " + v).join(", ");
+  const sec = cnt(c => c.secteur), pays = cnt(c => c.pays), grp = cnt(groupeDe), n = sel.length, al = [];
+  Object.entries(sec).forEach(([k, v]) => { if (n >= 3 && v / n > 0.5) al.push(k + " : " + Math.round(100 * v / n) + " % des sociétés"); });
+  Object.entries(pays).forEach(([k, v]) => { if (n >= 3 && v / n > 0.70) al.push(k + " : " + Math.round(100 * v / n) + " % des sociétés"); });
+  Object.entries(grp).forEach(([k, v]) => { if (v >= 3) al.push(v + " sociétés du groupe " + k); });
+  return { sec: txt(sec), pays: txt(pays), grp: txt(grp), al };
+}
+function e3() {
+  $("#contenu").innerHTML = `
+  <h2>Voici les sociétés à étudier pour votre plan</h2>
+  <p class="etape-intro">Le programme les a sélectionnées avec vos critères. Vous pouvez en retirer une : elle sera remplacée automatiquement.</p>
+  <div class="champ"><div class="lib">Nombre de sociétés</div>
+    <div class="puces"><button type="button" class="puce" id="moins" aria-label="Une société de moins">–</button><span id="nlig" style="align-self:center;font-weight:700;min-width:2ch;text-align:center"></span><button type="button" class="puce" id="plus" aria-label="Une société de plus">+</button><button type="button" class="puce" id="auto" aria-pressed="${S.n === 0}">Automatique</button></div>
+    <p class="aide" id="nlig-aide"></p></div>
+  <div id="liste" aria-live="polite"></div>
+  <div id="compo"></div>
+  <h3>Votre premier achat</h3>
+  <div id="achat"></div>`;
+  const maj = () => {
+    const n = nLignes(), res = portefeuille(), sel = res.ret;
+    $("#nlig").textContent = n; $("#auto").setAttribute("aria-pressed", String(S.n === 0));
+    $("#nlig-aide").textContent = S.n === 0 ? `Choix automatique : environ une société par tranche de 150 000 FCFA investis au départ (entre 2 et 8).` : `Choix manuel. Plus de sociétés répartit mieux le risque, mais certaines SGI facturent des frais par société détenue.`;
+    $("#liste").innerHTML = sel.length ? sel.map((c, i) => {
+      const rs = raisons(c);
+      return `<div class="ligne"><div class="l1"><span class="nom">${i + 1}. ${esc(c.nom)}</span><span class="sous">${esc(c.t)} · ${esc(c.secteur)} · ${esc(c.pays)}</span><span class="note">${c.score}/100</span></div>
+      <ul>${rs.r.map(x => `<li class="pos">${esc(x)}</li>`).join("")}${rs.a.map(x => `<li class="att">${esc(x)}</li>`).join("")}</ul>
+      <div class="act"><button type="button" class="petit" data-ex="${c.t}">Retirer cette société</button></div></div>`;
+    }).join("") : `<div class="alerte warn">Aucune société ne remplit les critères de ce style aujourd’hui. Revenez à l’étape précédente et choisissez un autre style.</div>`;
+    if (S.exclus.length) $("#liste").innerHTML += `<p class="aide">Sociétés retirées : ${S.exclus.map(t => `<button type="button" class="petit" data-re="${t}">${esc(t)} ✕</button>`).join(" ")}</p>`;
+    const cp = composition(sel);
+    $("#compo").innerHTML = sel.length ? `<div class="alerte ${cp.al.length ? "warn" : "ok"}"><b>Répartition :</b> secteurs : ${esc(cp.sec)}. Pays : ${esc(cp.pays)}.${cp.grp ? " Groupes : " + esc(cp.grp) + "." : ""}${cp.al.length ? "<br><b>Concentration à surveiller :</b> " + esc(cp.al.join(" ; ")) + ". Des sociétés d’un même groupe ou d’un même secteur évoluent souvent ensemble." : ""}${sel.length < n ? `<br>Seulement ${sel.length} société(s) sur ${n} respectent à la fois vos critères et les limites de répartition.` : ""}</div>` : "";
+    const ach = sel.length ? premierAchat(sel) : [], fr = fraisActifs();
+    $("#achat").innerHTML = sel.length ? `<p>Vous répartissez <b>${fcfa(S.initial)}</b> à parts égales (${fcfa(S.initial / sel.length)} par société). Les quantités ci-dessous tiennent compte des frais d’achat estimés à ${pc(fr.tout / 100, 2)} (à confirmer avec votre SGI).</p>
+      <div class="tablewrap"><table><thead><tr><th>Société</th><th>Cours</th><th>Actions</th><th>Coût estimé</th></tr></thead><tbody>${ach.map(a => `<tr><td>${esc(a.c.nom)}</td><td>${fmt(a.c.prix)}</td><td>${a.parts}</td><td>${fcfa(a.cout)}</td></tr>`).join("")}</tbody></table></div>
+      <p class="aide">Reste non investi (actions entières seulement) : ${fcfa(S.initial - ach.reduce((s, a) => s + a.cout, 0))}. Les cours bougent chaque jour : vérifiez-les avant d’acheter.${ach.some(a => a.parts === 0) ? `<br><span class="neg">Une action coûte plus que la somme prévue pour sa société : réduisez le nombre de sociétés.</span>` : ""}</p>` : "";
+    document.querySelectorAll("[data-ex]").forEach(b => b.addEventListener("click", () => { S.exclus.push(b.dataset.ex); sauver(); maj(); }));
+    document.querySelectorAll("[data-re]").forEach(b => b.addEventListener("click", () => { S.exclus = S.exclus.filter(t => t !== b.dataset.re); sauver(); maj(); }));
+  };
+  maj();
+  $("#moins").addEventListener("click", () => { S.n = clamp(nLignes() - 1, 2, 10); sauver(); maj(); });
+  $("#plus").addEventListener("click", () => { S.n = clamp(nLignes() + 1, 2, 10); sauver(); maj(); });
+  $("#auto").addEventListener("click", () => { S.n = 0; sauver(); maj(); });
+}
+
+/* --- Étape 4 : frais --- */
+function coutsPlan(fr, sel) {
+  const p = paramsProjection("cent", sel, fr), r = projeter(p);
+  return { frais: r.fin.frais, fin: r.fin.val };
+}
+function e4() {
+  const sel = portefeuille().ret;
+  $("#contenu").innerHTML = `
+  <h2>Combien va coûter votre intermédiaire ?</h2>
+  <p class="etape-intro">À la BRVM, on n’achète pas directement : il faut ouvrir un compte chez une SGI (société de gestion et d’intermédiation). Ses frais diminuent votre gain chaque année, c’est donc un choix important.</p>
+  <div class="champ"><label for="sgi">Quelle SGI envisagez-vous ?</label>
+    <select id="sgi">${DATA.fees.map(f => `<option value="${f.id}"${S.sgi === f.id ? " selected" : ""}>${esc(f.nom)}</option>`).join("")}<option value="autre"${S.sgi === "autre" ? " selected" : ""}>Autre : je saisis mes propres frais</option></select></div>
+  <div id="detail-sgi"></div>
+  <div class="champ"><label for="impot">Impôt sur les dividendes (en %)</label>
+    <div class="entree"><input id="impot" type="text" inputmode="decimal" value="${String(S.impot).replace(".", ",")}"><span class="u">%</span></div>
+    <p class="aide">Mettez 0 si vous ne savez pas, puis demandez à votre SGI le taux applicable à votre pays de résidence. Les frais ne sont pas déductibles automatiquement.</p></div>
+  <h3>Combien coûterait chaque SGI pour votre plan ?</h3>
+  <p class="aide">Sur ${S.horizon} ans, avec vos versements et dans le scénario central. Les SGI qui facturent un montant par société détenue coûtent plus cher quand on diversifie.</p>
+  <div class="tablewrap"><table id="comp"></table></div>
+  <div class="alerte warn">Ces tarifs viennent de relevés d’investisseurs et de décisions du régulateur, parfois anciennes. Ils sont <b>indicatifs</b> : demandez toujours à la SGI sa grille tarifaire écrite, le coût total d’un ordre (commissions de la BRVM et taxes comprises) et l’unité de chaque frais (par an, par trimestre, par société).</div>`;
+  const maj = () => {
+    const fr = fraisActifs();
+    if (S.sgi === "autre") {
+      $("#detail-sgi").innerHTML = `<div class="champ"><div class="lib">Vos frais</div>
+        ${[["tout", "Coût total d’un ordre d’achat ou de vente, en % du montant (commissions de la BRVM comprises)", "%"], ["garde", "Droits de garde ou de conservation, en % par an de la valeur", "%"], ["tenue_ligne", "Tenue de compte, en FCFA par an et par société détenue", "FCFA"], ["fixe", "Frais fixes par an (abonnement, tenue de compte), en FCFA", "FCFA"]].map(([k, l, u]) => `<label for="c-${k}" class="aide" style="display:block;margin-top:8px">${l}</label><div class="entree"><input id="c-${k}" data-k="${k}" type="text" inputmode="decimal" value="${String(S.custom[k]).replace(".", ",")}"><span class="u">${u}</span></div>`).join("")}</div>`;
+      document.querySelectorAll("#detail-sgi input").forEach(i => i.addEventListener("input", () => { S.custom[i.dataset.k] = parseFloat(String(i.value).replace(",", ".")) || 0; sauver(); tab(); }));
+    } else {
+      $("#detail-sgi").innerHTML = `<div class="alerte info"><b>${esc(fr.nom)}</b><br>Coût d’un ordre : environ <b>${pc(fr.tout / 100, 2)}</b> (tout compris) · droits de garde : <b>${pc(fr.garde / 100, 2)}</b> par an · par société détenue : <b>${fcfa(fr.tenue_ligne)}</b> par an · frais fixes : <b>${fcfa(fr.fixe)}</b> par an${fr.depot ? " · dépôt minimum : <b>" + fcfa(fr.depot) + "</b>" : ""}.<br><span class="aide">Source : ${esc(fr.src)}. ${esc(fr.note)}</span></div>`;
+    }
+    tab();
+  };
+  const tab = () => {
+    const rows = DATA.fees.map(f => Object.assign({ id: f.id, nom: f.nom, f, fiab: f.fiab }, coutsPlan(f, sel)));
+    if (S.sgi === "autre") rows.push(Object.assign({ id: "autre", nom: "Mes propres frais", f: fraisActifs() }, coutsPlan(fraisActifs(), sel)));
+    rows.sort((a, b) => a.frais - b.frais);
+    const meilleur = rows[0].frais;
+    $("#comp").innerHTML = `<thead><tr><th>SGI</th><th>Frais cumulés</th><th>Écart</th><th>Valeur finale</th></tr></thead><tbody>${rows.map(r => `<tr class="${r.id === S.sgi ? "moi" : ""}"><td>${esc(r.nom)}${r.f.depot && r.f.depot > S.initial ? ' <span class="neg">(dépôt min. ' + fmt(r.f.depot) + ')</span>' : ""}</td><td>${fcfa(r.frais)}</td><td>${r.frais === meilleur ? "–" : "+" + fmt(r.frais - meilleur)}</td><td>${fcfa(r.fin)}</td></tr>`).join("")}</tbody>`;
+  };
+  maj();
+  $("#sgi").addEventListener("change", e => { S.sgi = e.target.value; sauver(); maj(); });
+  $("#impot").addEventListener("input", e => { S.impot = clamp(parseFloat(String(e.target.value).replace(",", ".")) || 0, 0, 60); sauver(); tab(); });
+}
+
+/* --- Étape 5 : projection --- */
+function grapheSVG(sc, maxM, annee, W) {
+  W = W || 720; const H = W < 520 ? 300 : 320, L = W < 520 ? 52 : 62, R = 12, T = 12, B = 30, xs = m => L + (W - L - R) * m / maxM;
+  const maxY = Math.max(...sc.fav.pts.map(p => p.val), ...sc.verse.map(p => p.versReel), ...sc.sr.pts.map(p => p.val), 1) * 1.05;
+  const ys = v => T + (H - T - B) * (1 - v / maxY);
+  const ligne = (arr, key) => arr.map((p, i) => (i ? "L" : "M") + xs(p.m).toFixed(1) + " " + ys(p[key]).toFixed(1)).join(" ");
+  const pas = Math.max(1, Math.ceil(S.horizon / 6));
+  let g = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Évolution possible de votre épargne selon quatre scénarios">`;
+  for (let k = 0; k <= 4; k++) { const v = maxY * k / 4, y = ys(v); g += `<line x1="${L}" y1="${y}" x2="${W - R}" y2="${y}" stroke="var(--line)"/><text x="${L - 6}" y="${y + 4}" text-anchor="end" font-size="11.5" fill="var(--mut)">${v === 0 ? "0" : v >= 1e6 ? (v / 1e6).toFixed(v >= 1e7 ? 0 : 1).replace(".", ",") + " M" : fmt(v / 1000) + " k"}</text>`; }
+  for (let a = 0; a <= S.horizon; a += pas) g += `<text x="${xs(a * 12)}" y="${H - 8}" text-anchor="middle" font-size="11.5" fill="var(--mut)">${a} an${a > 1 ? "s" : ""}</text>`;
+  const bande = sc.fav.pts.map((p, i) => (i ? "L" : "M") + xs(p.m).toFixed(1) + " " + ys(p.val).toFixed(1)).join(" ") + " " + sc.dif.pts.slice().reverse().map(p => "L" + xs(p.m).toFixed(1) + " " + ys(p.val).toFixed(1)).join(" ") + " Z";
+  g += `<path d="${bande}" fill="var(--c-cent)" opacity=".12"/>`;
+  g += `<path d="${ligne(sc.verse, "versReel")}" fill="none" stroke="var(--c-verse)" stroke-width="2" stroke-dasharray="5 4"/>`;
+  g += `<path d="${ligne(sc.sr.pts, "val")}" fill="none" stroke="var(--c-sr)" stroke-width="2" stroke-dasharray="2 4"/>`;
+  g += `<path d="${ligne(sc.dif.pts, "val")}" fill="none" stroke="var(--c-dif)" stroke-width="2"/>`;
+  g += `<path d="${ligne(sc.prud.pts, "val")}" fill="none" stroke="var(--c-prud)" stroke-width="2"/>`;
+  g += `<path d="${ligne(sc.fav.pts, "val")}" fill="none" stroke="var(--c-fav)" stroke-width="2"/>`;
+  g += `<path d="${ligne(sc.cent.pts, "val")}" fill="none" stroke="var(--c-cent)" stroke-width="3.2"/>`;
+  const x = xs(annee * 12); g += `<line x1="${x}" y1="${T}" x2="${x}" y2="${H - B}" stroke="var(--ink)" stroke-width="1" opacity=".5"/></svg>`;
+  return g;
+}
+function e5() {
+  const res = portefeuille(), sel = res.ret;
+  if (!sel.length) { $("#contenu").innerHTML = `<h2>Votre projection</h2><div class="alerte warn">Aucune société ne remplit les critères du style choisi : revenez à l’étape 2.</div>`; return; }
+  $("#contenu").innerHTML = `
+  <h2>Que pourrait devenir votre épargne ?</h2>
+  <div class="resume" id="phrase" aria-live="polite"></div>
+  <div class="graphe" id="graphe"></div>
+  <div class="lege"><span><i style="background:var(--c-verse)"></i>Ce que vous versez</span><span><i style="background:var(--c-sr)"></i>Placement sans risque</span><span><i style="background:var(--c-dif)"></i>Difficile</span><span><i style="background:var(--c-prud)"></i>Prudent (cours stables)</span><span><i style="background:var(--c-cent)"></i>Central</span><span><i style="background:var(--c-fav)"></i>Favorable</span></div>
+  <div class="champ"><label for="an">Voir l’année <b id="an-val"></b></label><input id="an" type="range" min="1" max="${S.horizon}" step="1" value="${S.horizon}"></div>
+  <div id="lecture" class="aide" aria-live="polite"></div>
+  <div class="champ"><label for="txsr">Comparer avec un placement sans risque (dépôt à terme, bons du Trésor…) : taux par an</label>
+    <div class="entree"><input id="txsr" type="text" inputmode="decimal" value="${String(S.txSR).replace(".", ",")}"><span class="u">%</span></div>
+    <p class="aide">4 % est une valeur d’exemple : remplacez-la par le taux réellement proposé par votre banque ou par l’État. Impôts et frais non pris en compte.</p></div>
+  <div class="interrupteur"><input type="checkbox" id="reinv"${S.reinvest ? " checked" : ""}><label for="reinv"><b>Réinvestir les dividendes</b> chaque année dans les mêmes sociétés (effet « boule de neige »)</label></div>
+  <div class="interrupteur"><input type="checkbox" id="reel"${S.reel ? " checked" : ""}><label for="reel"><b>Montrer en pouvoir d’achat d’aujourd’hui</b> (en tenant compte d’une inflation de <span id="infl-val"></span> par an)</label></div>
+  <div class="interrupteur"><input type="checkbox" id="krach"${S.krach ? " checked" : ""}><label for="krach"><b>Imaginer un krach</b> : les cours perdent 30 % au bout de 2 ans</label></div>
+  <h3>Les chiffres, année par année</h3>
+  <div class="tablewrap"><table id="tab5"></table></div>
+  <h3>D’où viendrait l’argent ? (scénario central)</h3><div id="decomp"></div>
+  <details><summary>Les hypothèses (modifiables)</summary><div id="hyp"></div></details>
+  <div class="alerte warn"><b>Ce que cette projection ne dit pas.</b> Elle repose sur des hypothèses, pas sur des prévisions : les cours de la BRVM ont beaucoup monté récemment et ne le feront pas forcément. Un dividende peut baisser ou disparaître. Un krach de plus de 30 % est possible. Le scénario « difficile » suppose des cours qui reculent de 2 % par an et des dividendes en baisse de 3 % par an : ce n’est pas non plus le pire cas. Moins de dix ans de données de dividendes sont disponibles pour ces sociétés.</div>`;
+  const hypUI = () => {
+    const l = [["dif", "Difficile"], ["prud", "Prudent"], ["cent", "Central"], ["fav", "Favorable"]];
+    $("#hyp").innerHTML = `<p class="aide">« Hausse des cours » et « hausse du dividende » sont des moyennes annuelles supposées. Le dividende de départ est celui que ces sociétés ont versé en moyenne ces trois dernières années (${pc(rendementPortefeuille(sel))} du cours actuel).</p>
+    <div class="tablewrap"><table><thead><tr><th>Scénario</th><th>Hausse des cours par an</th><th>Hausse du dividende par an</th></tr></thead><tbody>${l.map(([k, n]) => `<tr><td>${n}</td><td><input data-h="${k}.p" type="number" step="0.5" min="-10" max="30" value="${S.hyp[k].p}" style="width:5.5em" aria-label="Hausse des cours, scénario ${n}"> %</td><td><input data-h="${k}.d" type="number" step="0.5" min="-10" max="30" value="${S.hyp[k].d}" style="width:5.5em" aria-label="Hausse du dividende, scénario ${n}"> %</td></tr>`).join("")}</tbody></table></div>
+    <label for="infl" class="aide">Inflation supposée (par an) : </label><input id="infl" type="number" step="0.5" min="0" max="20" value="${S.infl}" style="width:5.5em"> %`;
+    document.querySelectorAll("[data-h]").forEach(i => i.addEventListener("input", () => { const [k, c] = i.dataset.h.split("."); S.hyp[k][c] = parseFloat(i.value) || 0; sauver(); maj(); }));
+    $("#infl").addEventListener("input", e => { S.infl = clamp(parseFloat(e.target.value) || 0, 0, 20); sauver(); maj(); });
+  };
+  const calc = () => ({ sr: sansRisque({ A0: S.initial, C: S.contrib, freq: S.freq, H: S.horizon, taux: S.txSR, reel: S.reel, infl: S.infl }), dif: projeter(paramsProjection("dif", sel)), prud: projeter(paramsProjection("prud", sel)), cent: projeter(paramsProjection("cent", sel)), fav: projeter(paramsProjection("fav", sel)) });
+  const maj = () => {
+    const r = calc(), sc = { sr: r.sr, dif: r.dif, prud: r.prud, cent: r.cent, fav: r.fav, verse: r.cent.pts }, an = clamp(+$("#an").value, 1, S.horizon), i = an * 12;
+    $("#infl-val").textContent = S.infl + " %"; $("#an-val").textContent = an;
+    const f = r.cent.fin, p = r.dif.fin, v = r.fav.fin, vers = f.versReel;
+    $("#phrase").innerHTML = `En <b>${S.horizon} ans</b>, avec <b>${fcfa(vers)}</b> versés${S.reel ? " (en pouvoir d’achat d’aujourd’hui)" : ""}, votre épargne pourrait valoir <b>entre ${fcfa(p.val)} (scénario difficile) et ${fcfa(v.val)} (favorable)</b>, soit environ <b>${fcfa(f.val)}</b> dans le scénario central${S.krach ? " (avec un krach de 30 % la deuxième année)" : ""}. À titre de comparaison, un placement sans risque à ${S.txSR} % par an vous donnerait environ <b>${fcfa(r.sr.fin.val)}</b> (sans impôt ni frais). Dans le scénario difficile, ${p.val < vers ? "vous <b class=\"neg\">récupéreriez moins que ce que vous avez versé</b>." : "vous récupéreriez tout de même ce que vous avez versé, mais ce n’est pas le pire cas possible."}`;
+    $("#graphe").innerHTML = grapheSVG(sc, r.cent.M, an, Math.max(300, Math.min(720, $("#graphe").clientWidth || 720)));
+    const a = r.dif.pts[i], b = r.cent.pts[i], c = r.fav.pts[i];
+    $("#lecture").innerHTML = `Après <b>${an} an${an > 1 ? "s" : ""}</b> : vous aurez versé <b>${fcfa(b.verse)}</b>. Un placement sans risque à ${S.txSR} % vaudrait <b>${fcfa(r.sr.pts[i].val)}</b>. Votre épargne en actions vaudra <b>${fcfa(a.val)}</b> (difficile), <b>${fcfa(r.prud.pts[i].val)}</b> (prudent), <b>${fcfa(b.val)}</b> (central) ou <b>${fcfa(c.val)}</b> (favorable). Frais payés depuis le début : ${fcfa(b.frais)}.`;
+    const annees = []; for (let y = 1; y <= S.horizon; y++) if (y <= 3 || y % 5 === 0 || y === S.horizon) annees.push(y);
+    $("#tab5").innerHTML = `<thead><tr><th>Année</th><th>Versé</th><th>Sans risque (${S.txSR} %)</th><th>Difficile</th><th>Prudent</th><th>Central</th><th>Favorable</th></tr></thead><tbody>${annees.map(y => `<tr><td>${y}</td><td>${fmt(r.cent.pts[y * 12].versReel)}</td><td>${fmt(r.sr.pts[y * 12].val)}</td><td>${fmt(r.dif.pts[y * 12].val)}</td><td>${fmt(r.prud.pts[y * 12].val)}</td><td><b>${fmt(r.cent.pts[y * 12].val)}</b></td><td>${fmt(r.fav.pts[y * 12].val)}</td></tr>`).join("")}</tbody>`;
+    const fin = r.cent.fin, gainTotal = fin.val - fin.versReel;
+    const brut = r.cent.pts[r.cent.M].valBrute;
+    $("#decomp").innerHTML = `<p>Sur <b>${fcfa(fin.versReel)}</b> versés, le scénario central donne <b>${fcfa(fin.val)}</b> après frais de vente : un résultat de <b class="${gainTotal >= 0 ? "pos" : "neg"}">${gainTotal >= 0 ? "+" : "–"}${fcfa(Math.abs(gainTotal))}</b>.</p>
+    <p class="aide">Les dividendes reçus au total sont d’environ ${fcfa(fin.div)} (nets d’impôt)${S.reinvest ? ", réinvestis chaque année" : ", gardés en espèces"}. Les frais payés (achats, ventes, garde, tenue de compte) pèsent ${fcfa(fin.frais)} sur la période. Dernier dividende annuel : environ ${fcfa(r.cent.dernierDiv)}, soit ${fcfa(r.cent.dernierDiv / 12)} par mois en moyenne.</p>`;
+  };
+  hypUI(); maj(); window.__majGraphe = maj;
+  $("#an").addEventListener("input", maj);
+  $("#txsr").addEventListener("input", e => { S.txSR = clamp(parseFloat(String(e.target.value).replace(",", ".")) || 0, 0, 30); sauver(); maj(); });
+  $("#reinv").addEventListener("change", e => { S.reinvest = e.target.checked; sauver(); maj(); });
+  $("#reel").addEventListener("change", e => { S.reel = e.target.checked; sauver(); maj(); });
+  $("#krach").addEventListener("change", e => { S.krach = e.target.checked; sauver(); maj(); });
+}
+
+/* --- Étape 6 : plan --- */
+function e6() {
+  const res = portefeuille(), sel = res.ret, fr = fraisActifs();
+  if (!sel.length) { $("#contenu").innerHTML = `<h2>Votre plan</h2><div class="alerte warn">Aucune société ne remplit les critères : revenez à l’étape 2.</div>`; return; }
+  const ach = premierAchat(sel), nb = Math.min(nbVersements(), 6), pv = S.contrib > 0 ? planVersements(sel, Math.max(nb, 1)) : [];
+  const c = projeter(paramsProjection("cent", sel)).fin;
+  $("#contenu").innerHTML = `
+  <h2>Votre plan, pas à pas</h2>
+  <p class="etape-intro">Voici ce qu’il vous reste à faire, dans l’ordre. Gardez cette page : vous pouvez l’imprimer ou l’enregistrer en PDF.</p>
+  <ol class="etapes-plan">
+    <li><h3>Choisissez et contactez une SGI</h3>
+      <p>Pour ce plan, vous avez retenu : <b>${esc(fr.nom)}</b>. Demandez-lui par écrit (message ou courriel) : la grille tarifaire complète ; le coût total d’un ordre, commissions de la BRVM et taxes comprises ; l’unité de chaque frais (par an, par trimestre, par société) ; le dépôt minimum${fr.depot ? " (indiqué : " + fcfa(fr.depot) + ")" : ""} ; si l’ouverture se fait à distance pour un résident de votre pays ; comment passer les ordres (application, WhatsApp, agence) ; la fiscalité sur les dividendes. Comparez au moins deux SGI.</p></li>
+    <li><h3>Ouvrez le compte-titres</h3><p>Prévoyez une pièce d’identité, un justificatif de domicile et des coordonnées bancaires ou de paiement mobile. Comptez souvent de quelques jours à deux semaines.</p></li>
+    <li><h3>Faites un tout petit achat d’essai</h3><p>Avant d’investir le montant prévu, achetez une action pour vérifier le circuit : passage de l’ordre, frais réellement prélevés, relevé, délai de livraison des titres.</p></li>
+    <li><h3>Passez votre premier achat</h3>
+      <div class="tablewrap"><table><thead><tr><th>Société</th><th>Actions</th><th>Montant estimé</th></tr></thead><tbody>${ach.map(a => `<tr><td>${esc(a.c.nom)} <span class="rec">(${esc(a.c.t)})</span></td><td>${a.parts}</td><td>${fmt(a.cout)}</td></tr>`).join("")}</tbody></table></div>
+      <p class="aide">Cours indicatifs au ${esc(DATA.maj)}. Passez des ordres « à cours limité » et évitez de dépasser environ 10 % des échanges quotidiens d’une société peu échangée.</p></li>
+    ${S.contrib > 0 ? `<li><h3>Versez ${fcfa(S.contrib)} ${LIB_FREQ[S.freq]} et répartissez-les</h3><p>Pour garder des ordres d’une taille raisonnable, chaque versement va à quelques sociétés à la fois, en commençant par celles dont vous détenez le moins :</p>
+      <div class="tablewrap"><table><thead><tr><th>Versement</th><th>Sociétés à acheter</th><th>Par société</th></tr></thead><tbody>${pv.map(p => `<tr><td>n° ${p.i}</td><td>${p.lignes.map(l => esc(l.t)).join(", ")}</td><td>${fmt(p.montant)}</td></tr>`).join("")}</tbody></table></div>
+      <p class="aide">Ensuite, le même principe se répète. Plus un ordre est petit, plus les frais pèsent : visez au moins ${fcfa(S.ordreMin)} par ordre.</p></li>` : ""}
+    <li><h3>Réinvestissez les dividendes une fois par an</h3><p>La plupart des sociétés de la BRVM paient leur dividende entre avril et août. Une fois l’argent reçu, rachetez des actions des sociétés de votre liste ${S.reinvest ? "(c’est ce que suppose la projection)" : "(vous avez choisi de les garder en espèces : la projection n’en tient pas compte)"}. Les dates exactes de paiement sont publiées chaque année.</p></li>
+    <li><h3>Faites le point deux fois par an</h3><p>Pas plus : acheter et vendre souvent coûte cher. À chaque revue, vérifiez si une société a réduit ou supprimé son dividende, si elle s’est effondrée en bourse ou si elle est devenue difficile à vendre. Si oui, étudiez son remplacement. Ne changez rien à cause d’une seule mauvaise journée.</p></li>
+  </ol>
+  <h3>Rappel de votre projet</h3>
+  <p>Départ : <b>${fcfa(S.initial)}</b>${S.contrib > 0 ? ", puis <b>" + fcfa(S.contrib) + "</b> " + LIB_FREQ[S.freq] : ""}, pendant <b>${S.horizon} ans</b>. Style : <b>${esc(PROFILS[S.style].nom)}</b>${S.style === "equilibre" ? " (" + S.partDiv + " % dividende, " + (100 - S.partDiv) + " % croissance)" : ""}. ${sel.length} sociétés : ${sel.map(x => esc(x.nom)).join(", ")}. Scénario central : environ <b>${fcfa(c.val)}</b> après ${S.horizon} ans pour ${fcfa(c.versReel)} versés. <i>Simulation, pas une promesse.</i></p>
+  <div class="actions"><button type="button" id="imprimer">Imprimer ou enregistrer en PDF</button><button type="button" id="copier">Copier le résumé</button></div>
+  <p class="aide" id="copie-ok" aria-live="polite"></p>`;
+  $("#imprimer").addEventListener("click", () => { try { window.print(); } catch (e) { $("#copie-ok").textContent = "Impression impossible ici : utilisez la fonction Imprimer de votre navigateur."; } });
+  $("#copier").addEventListener("click", () => {
+    const t = `Mon plan BRVM\nDépart : ${fcfa(S.initial)}${S.contrib > 0 ? " puis " + fcfa(S.contrib) + " " + LIB_FREQ[S.freq] : ""} pendant ${S.horizon} ans.\nStyle : ${PROFILS[S.style].nom}. Sociétés : ${sel.map(x => x.nom + " (" + x.t + ")").join(", ")}.\nSGI envisagée : ${fr.nom}.\nScénario central : environ ${fcfa(c.val)} pour ${fcfa(c.versReel)} versés. Simulation, pas une promesse. Ce n’est pas un conseil en investissement.`;
+    const ok = () => { $("#copie-ok").textContent = "Résumé copié."; };
+    try { navigator.clipboard.writeText(t).then(ok, () => { $("#copie-ok").textContent = "Copie impossible : sélectionnez le texte à la main."; }); } catch (e) { $("#copie-ok").textContent = "Copie impossible : sélectionnez le texte à la main."; }
+  });
+}
+
+/* ===== Démarrage ===== */
+let tempo = null; window.addEventListener("resize", () => { clearTimeout(tempo); tempo = setTimeout(() => { if (S.step === 4 && window.__majGraphe) window.__majGraphe(); }, 150); });
+$("#retour").addEventListener("click", () => aller(S.step - 1));
+$("#suite").addEventListener("click", () => aller(S.step + 1));
+let attente = null;
+$("#recommencer").addEventListener("click", () => {
+  const b = $("#recommencer");
+  if (!attente) { b.textContent = "Cliquez encore pour confirmer l’effacement"; attente = setTimeout(() => { b.textContent = "Tout effacer et recommencer"; attente = null; }, 4000); return; }
+  clearTimeout(attente); attente = null; b.textContent = "Tout effacer et recommencer";
+  try { localStorage.removeItem(CLE); } catch (e) { /* rien */ }
+  S = JSON.parse(JSON.stringify(DEF)); aller(0);
+});
+rendre();
+if ("serviceWorker" in navigator) { window.addEventListener("load", () => { navigator.serviceWorker.register("sw.js").catch(() => { /* mode hors ligne indisponible */ }); }); }
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+MISE A JOUR AUTOMATIQUE DE "MON PLAN BRVM" (GitHub, gratuit)
+
+But : chaque soir de la semaine, un robot telecharge les cours et les annonces, recalcule le tableau de bord et republie l'application,
+sans que votre ordinateur soit allume.
+
+AVANT DE COMMENCER - A SAVOIR
+- Les donnees viennent de pages publiques de Sikafinance. Verifiez leurs conditions d'utilisation avant de diffuser l'application au public.
+- Un site a le droit de bloquer les robots de GitHub. Si la mise a jour echoue (onglet Actions), lancez-la depuis votre ordinateur
+  avec le bouton "BRVM : tout mettre a jour" de l'application.
+- Le depot GitHub, et donc l'application, seront PUBLICS : n'y mettez jamais mes_achats.csv ni config_alertes.json (le fichier .gitignore les exclut).
+- Les alertes WhatsApp se lancent sur votre ordinateur (application), pas dans ce robot : elles lisent vos achats personnels.
+
+MISE EN PLACE (environ 15 minutes)
+1. Creez un compte sur github.com, puis un depot public (bouton "New"), par exemple "mon-plan-brvm".
+2. Envoyez-y TOUT le contenu de ce dossier (bouton "Add file" > "Upload files"). Le dossier cache .github doit etre envoye aussi.
+3. Reglages du depot > Pages > Source : "GitHub Actions".
+4. Onglet Actions > "Mise a jour quotidienne BRVM" > "Run workflow" pour lancer la premiere fois.
+   La premiere execution peut durer 20 a 30 minutes (telechargement de tout l'historique). Les suivantes durent quelques minutes.
+5. Votre application est publiee a l'adresse indiquee par l'etape "publier" : https://VOTRE-NOM.github.io/mon-plan-brvm/
+   Ouvrez ce lien sur votre telephone puis installez l'application (voir le LISEZ-MOI de l'application installable).
+
+EN CAS DE PROBLEME
+- Onglet Actions > cliquez sur l'execution en echec pour lire le message.
+- Les mises a jour sont lancees du lundi au vendredi a 18 h 45 (heure du Mali).
+- Ce n'est pas un conseil en investissement.

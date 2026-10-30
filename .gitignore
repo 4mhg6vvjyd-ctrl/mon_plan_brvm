@@ -1,0 +1,7 @@
+# Fichiers personnels : ne jamais les envoyer sur GitHub
+mes_achats.csv
+config_alertes.json
+alertes_etat.json
+*_resultats.txt
+site/
+__pycache__/
