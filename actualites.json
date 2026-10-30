@@ -1,12 +1,26 @@
 {
- "maj": "2026-10-30 19:28",
+ "maj": "2026-10-30 20:55",
  "articles": [
+  {
+   "id": "65390",
+   "source": "Actualites economiques",
+   "date": "2026-10-30 19:24",
+   "titre": "Blanchiment de capitaux : La Côte d’Ivoire officiellement retirée de la liste grise du GAFI",
+   "extrait": "Le Groupe d'action financière (GAFI) a officiellement acté, ce vendredi 30 octobre 2026 à Paris, le retrait de la C&ocirc;te d'Ivoire de sa liste grise des pay...",
+   "url": "https://www.sikafinance.com/marches/blanchiment-de-capitaux-la-cote-divoire-officiellement-retiree-de-la-liste-grise-du-gafi_65390",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": -1,
+   "tickers": []
+  },
   {
    "id": "65388",
    "source": "Actualites economiques",
    "date": "2026-10-30 17:24",
    "titre": "France : La police interpelle un ado de 16 ans lié au vol de données du fisc",
-   "extrait": "Trois mois après l'incident informatique, la cyberattaque contre le fisc fran&ccedil;ais livre ses secrets. Selon des informations confirmées par le parquet de...",
+   "extrait": "Trois mois après l'incident informatique, la cyberattaque contre le fisc français livre ses secrets. Selon des informations confirmées par le parquet de...",
    "url": "https://www.sikafinance.com/marches/france-la-police-interpelle-un-ado-de-16-ans-lie-au-vol-de-donnees-du-fisc_65388",
    "ticker": null,
    "premium": false,
@@ -160,20 +174,6 @@
    "tickers": []
   },
   {
-   "id": "65374",
-   "source": "Actualites economiques",
-   "date": "2026-10-30 13:30",
-   "titre": "Cyberattaque record chez Binance : 6,3 milliards USD dérobés en une heure",
-   "extrait": "Dans la soirée du jeudi 29 octobre 2026, Binance, le géant des plateformes d'échange de cryptomonnaies, a été le théâtre du plus vaste piratage de l'hist...",
-   "url": "https://www.sikafinance.com/marches/cyberattaque-record-chez-binance-6-3-milliards-usd-derobes-en-une-heure_65374",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Autre",
-   "score": 0,
-   "sentiment": 1,
-   "tickers": []
-  },
-  {
    "id": "65373",
    "source": "Actualites du marche",
    "date": "2026-10-30 12:18",
@@ -246,6 +246,20 @@
    "tickers": [
     "SNTS"
    ]
+  },
+  {
+   "id": "65374",
+   "source": "Actualites economiques",
+   "date": "2026-10-30 00:00",
+   "titre": "Cyberattaque record chez Binance : 6,3 milliards USD dérobés en une heure",
+   "extrait": "30/10/2026",
+   "url": "https://www.sikafinance.com/marches/cyberattaque-record-chez-binance-6-3-milliards-usd-derobes-en-une-heure_65374",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 1,
+   "tickers": []
   },
   {
    "id": "65371",
@@ -450,7 +464,7 @@
    "source": "Actualites economiques",
    "date": "2026-10-29 00:00",
    "titre": "Bénin : Le Capital Reach Forum clôture ses travaux sur les leviers de financement de l’économie",
-   "extrait": "29/10/2026",
+   "extrait": "05/06/2026",
    "url": "https://www.sikafinance.com/marches/benin-le-capital-reach-forum-cloture-ses-travaux-sur-les-leviers-de-financement-de-leconomie_65336",
    "ticker": null,
    "premium": false,
