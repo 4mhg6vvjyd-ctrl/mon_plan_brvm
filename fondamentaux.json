@@ -51,11 +51,11 @@
    "notes": [],
    "a_verifier": false,
    "signaux": [
-    "Titre trompeur possible : l'activite progresse (+7%) mais le benefice chute (-96%). Regarder d'ou vient la baisse.",
-    "Le benefice ne vient pas de l'activite propre (resultat d'exploitation negatif) : il vient des produits financiers, souvent les dividendes des filiales.",
-    "Les produits financiers ont fortement baisse (-64%).",
-    "Taux de distribution propose : 69% du benefice.",
-    "Les investissements ont fortement augmente (+88%)."
+    "Titre trompeur possible : l’activité progresse (+7%) mais le bénéfice chute (-96%). Regardez d’où vient la baisse avant de conclure.",
+    "Le bénéfice ne vient pas de l’activité propre (résultat d’exploitation négatif) : il vient des produits financiers, souvent les dividendes des filiales.",
+    "Les produits financiers ont fortement baissé (-64%).",
+    "Dividende proposé : 69% du bénéfice de l’exercice.",
+    "Les investissements ont fortement augmenté (+88%)."
    ]
   }
  },
@@ -107,7 +107,7 @@
    "notes": [],
    "a_verifier": false,
    "signaux": [
-    "Taux de distribution propose : 80% du benefice."
+    "Dividende proposé : 80% du bénéfice de l’exercice."
    ]
   }
  },
@@ -126,7 +126,7 @@
      "res_net": 413588000000,
      "res_net_part_groupe": 341963000000,
      "bpa": 3420,
-     "capitaux_propres": 1399263000000,
+     "capitaux_propres": 1160715000000,
      "dette_fin_nc": 232660000000,
      "dette_fin_c": 170026000000,
      "investissements": -289218000000,
@@ -140,7 +140,7 @@
      "res_net": 393662000000,
      "res_net_part_groupe": 328750000000,
      "bpa": 3288,
-     "capitaux_propres": 1274638000000,
+     "capitaux_propres": 1050347000000,
      "dette_fin_nc": 241468000000,
      "dette_fin_c": 219081000000,
      "investissements": -300900000000,
@@ -149,7 +149,7 @@
    },
    "dividende_brut_par_action": 1933,
    "dividende_total": null,
-   "nombre_actions": 99989181,
+   "nombre_actions": 99990000,
    "controles": [
     {
      "ok": true,
@@ -157,7 +157,7 @@
     }
    ],
    "notes": [
-    "Nombre d'actions deduit du benefice par action publie."
+    "Nombre d’actions déduit du bénéfice par action publié (valeur approchée)."
    ],
    "a_verifier": false,
    "signaux": []

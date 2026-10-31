@@ -1,6 +1,7 @@
 """Met a jour l'application brvm_assistant.html avec les donnees du jour (cours, scores, dividendes).
 Utilisation : py brvm_assistant.py   (a lancer apres brvm_data.py et brvm_actus.py)"""
 import json
+import math
 import os
 import re
 import sys
@@ -53,7 +54,56 @@ def construire():
                        "grave": bool(r.get("grave")), "vigilance": bool(r.get("vigilance")),
                        "p1j": nb(r.get("p1j")), "ytd": nb(r.get("ytd")), "h": historique(px[r["t"]]), "news": actus_valeur(news.get(r["t"], []))})
     fin = max(r["fin"] for r in res)
+    fond, nb_act = lire_json("fondamentaux.json"), lire_json("actions.json")
+    for st in stocks:
+        st["fond"] = fondamentaux(st, fond.get(st["t"]), nb_act.get(st["t"]))
     return stocks, fin, agenda(actus), actus_marche(toutes, {s["t"] for s in stocks})
+
+
+def lire_json(nom):
+    try:
+        return json.load(open(nom, encoding="utf-8")) if os.path.exists(nom) else {}
+    except Exception:
+        return {}
+
+
+DIVISIONS = [2, 4, 5, 10, 20, 25, 50, 100]
+
+
+def fondamentaux(st, par_exercice, nb_officiel):
+    """Derniers etats financiers annuels de la societe, prets pour la fiche (montants en FCFA)."""
+    if not par_exercice:
+        return None
+    an = max(par_exercice, key=int)
+    e = par_exercice[an]
+    n, n1 = e["valeurs"].get(an, {}), e["valeurs"].get(str(int(an) - 1), {})
+    benef = "res_net_part_groupe" if "res_net_part_groupe" in n else "res_net"
+    nb_actions, dpa, notes = nb_officiel, e.get("dividende_brut_par_action"), list(e.get("notes", []))
+    a_verifier = bool(e.get("a_verifier"))
+    if not nb_actions:
+        nb_actions = e.get("nombre_actions")
+        # Division du nominal ? on compare le dividende du rapport au dernier dividende connu
+        der = [v for a, v in sorted(st["divs"].items()) if v]
+        if dpa and der and dpa / der[-1] >= 4:
+            r = dpa / der[-1]
+            f = min(DIVISIONS, key=lambda k: abs(math.log(r / k)))
+            if abs(math.log(r / f)) < math.log(1.6):
+                nb_actions = nb_actions * f if nb_actions else None
+                dpa = round(dpa / f, 2)
+                notes.append(f"Le rapport semble antérieur à une division du nominal par {f} : chiffres par action ajustés automatiquement, à confirmer.")
+                a_verifier = True
+    if dpa is None and e.get("dividende_total") and nb_actions:
+        dpa = round(e["dividende_total"] / nb_actions, 2)
+    der = [v for a, v in sorted(st["divs"].items()) if v]
+    if dpa and der and dpa / der[-1] < 0.4:
+        notes.append(f"Le dividende proposé dans ces comptes ({str(round(dpa, 2)).replace('.', ',')} FCFA brut par action) est très inférieur au dernier versé ({str(round(der[-1], 2)).replace('.', ',')} FCFA) : vérifiez la décision finale de l’assemblée générale, qui a pu puiser dans les réserves.")
+        a_verifier = True
+    if not nb_actions:
+        notes.append("Nombre d’actions inconnu : à renseigner dans actions.json.")
+    garde = lambda d: {k: d[k] for k in d if k != "bpa"}
+    return {"an": int(an), "norme": e["norme"], "n": garde(n), "n1": garde(n1), "benef": benef, "nb_actions": nb_actions,
+            "dpa": dpa, "signaux": e.get("signaux", []), "a_verifier": a_verifier, "notes": notes,
+            "controles_ko": [c["texte"] for c in e.get("controles", []) if not c["ok"]], "source": e.get("source"), "url": e.get("url")}
 
 
 def historique(df):

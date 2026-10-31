@@ -62,7 +62,7 @@ LIBELLES = {
         "res_net_part_groupe": ["resultat net attribuable aux proprietaires de la maison mere",
                                 "resultat net part du groupe"],
         "bpa": ["- de base", "de base"],
-        "capitaux_propres": ["total capitaux propres"],
+        "capitaux_propres": ["capitaux propres attribuables aux proprietaires de la societe mere", "total capitaux propres"],
         "tresorerie": ["disponibilites et quasi-disponibilites a la cloture"],
         "dette_fin_nc": ["passifs financiers non courants"],
         "dette_fin_c": ["passifs financiers courants"],
@@ -243,8 +243,9 @@ def extraire(pdf_path, ticker=None, historique_div=None):
                     if v:
                         div_total = v[0] * (unite_de(texte_page) or unite_doc or 1)
     if nb_actions is None and n.get("res_net_part_groupe") and n.get("bpa"):
-        nb_actions = round(n["res_net_part_groupe"] / n["bpa"])
-        notes.append("Nombre d'actions deduit du benefice par action publie.")
+        brut = n["res_net_part_groupe"] / n["bpa"]
+        nb_actions = int(round(brut, -int(math.log10(brut)) + 3))  # le BPA publie est arrondi
+        notes.append("Nombre d’actions déduit du bénéfice par action publié (valeur approchée).")
     if dpa is None and div_total and nb_actions:
         dpa = round(div_total / nb_actions, 2)
 
@@ -304,35 +305,89 @@ def signaux(e):
     ca = var("ca") if "ca" in n else var("pnb")
     rn = var("res_net")
     if ca is not None and rn is not None and ca > 0 and rn < -0.5:
-        out.append(f"Titre trompeur possible : l'activite progresse ({ca:+.0%}) mais le benefice chute ({rn:+.0%}). Regarder d'ou vient la baisse.")
+        out.append(f"Titre trompeur possible : l’activité progresse ({ca:+.0%}) mais le bénéfice chute ({rn:+.0%}). Regardez d’où vient la baisse avant de conclure.")
     if n.get("res_exploitation") is not None and n["res_exploitation"] < 0 < (n.get("res_net") or 0):
-        out.append("Le benefice ne vient pas de l'activite propre (resultat d'exploitation negatif) : il vient des produits financiers, souvent les dividendes des filiales.")
+        out.append("Le bénéfice ne vient pas de l’activité propre (résultat d’exploitation négatif) : il vient des produits financiers, souvent les dividendes des filiales.")
     if n.get("produits_financiers") and n1.get("produits_financiers") and n["produits_financiers"] < 0.5 * n1["produits_financiers"]:
-        out.append(f"Les produits financiers ont fortement baisse ({var('produits_financiers'):+.0%}).")
+        out.append(f"Les produits financiers ont fortement baissé ({var('produits_financiers'):+.0%}).")
     if n.get("res_net") and e.get("dividende_total"):
         taux = e["dividende_total"] / n["res_net"]
-        out.append(f"Taux de distribution propose : {taux:.0%} du benefice.")
+        out.append(f"Dividende proposé : {taux:.0%} du bénéfice de l’exercice.")
     inv = n.get("investissements_corporels") or n.get("investissements")
     inv1 = n1.get("investissements_corporels") or n1.get("investissements")
     if inv and inv1 and abs(inv) > 1.6 * abs(inv1):
-        out.append(f"Les investissements ont fortement augmente ({abs(inv) / abs(inv1) - 1:+.0%}).")
+        out.append(f"Les investissements ont fortement augmenté ({abs(inv) / abs(inv1) - 1:+.0%}).")
     return out
+
+
+UA = {"User-Agent": "Mozilla/5.0 (mon_plan_brvm ; lecture des etats financiers publics)"}
+
+
+def est_annuel(titre):
+    t = sans_accents(titre)
+    return "etats financiers" in t and not re.search(r"semestre|semestriel|trimestre|trimestriel|s1 |t1 |t2 |t3 ", t)
+
+
+def automatique(base):
+    """Lit les communiques collectes par brvm_actus.py et traite les nouveaux etats financiers annuels."""
+    import tempfile
+    import requests
+    actus = ICI / "actualites.json"
+    if not actus.exists():
+        print("actualites.json absent : rien a faire.")
+        return
+    comms = json.loads(actus.read_text(encoding="utf-8")).get("communiques", [])
+    traites = base.setdefault("_traites", {})
+    nouveaux = 0
+    for c in comms:
+        url, t = c.get("url", ""), c.get("ticker") or (c.get("tickers") or [None])[0]
+        if not url.lower().endswith(".pdf") or not t or not est_annuel(c.get("titre", "")):
+            continue
+        etat = traites.get(url, {})
+        if etat.get("ok") or etat.get("essais", 0) >= 3:
+            continue
+        try:
+            r = requests.get(url, headers=UA, timeout=60)
+            r.raise_for_status()
+            with tempfile.NamedTemporaryFile(suffix=".pdf", delete=False) as f:
+                f.write(r.content)
+                chemin = f.name
+            e = enregistrer(base, chemin, t, Path(url).name, url)
+            traites[url] = {"ok": True, "ticker": t, "exercice": e["exercice"], "date": c.get("date")}
+            nouveaux += 1
+        except Exception as ex:  # un rapport illisible ne doit jamais bloquer la mise a jour
+            traites[url] = {"ok": False, "essais": etat.get("essais", 0) + 1, "erreur": str(ex)[:150]}
+            print(f"{t} : echec ({str(ex)[:80]})")
+    print(f"Fondamentaux : {nouveaux} nouveau(x) rapport(s) traite(s).")
+
+
+def enregistrer(base, chemin, ticker, nom=None, url=None):
+    e = extraire(chemin, ticker)
+    if nom:
+        e["source"] = nom
+    if url:
+        e["url"] = url
+    e["signaux"] = signaux(e)
+    if e["exercice"] is None:
+        raise ValueError("exercice introuvable")
+    base.setdefault(ticker, {})[str(e["exercice"])] = e
+    etat = "A VERIFIER" if e["a_verifier"] else "ok"
+    print(f"{ticker} {e['exercice']} ({e['norme']}) : {len(e['valeurs'].get(str(e['exercice']), {}))} chiffres, {etat}")
+    return e
 
 
 def main(args):
     base = json.loads(SORTIE.read_text(encoding="utf-8")) if SORTIE.exists() else {}
-    i = 0
-    while i < len(args):
-        f = args[i]; t = None
-        if i + 1 < len(args) and not args[i + 1].lower().endswith(".pdf"):
-            t = args[i + 1]; i += 1
-        i += 1
-        e = extraire(f, t)
-        e["signaux"] = signaux(e)
-        cle = t or Path(f).stem
-        base.setdefault(cle, {})[str(e["exercice"])] = e
-        etat = "A VERIFIER" if e["a_verifier"] else "ok"
-        print(f"{cle} {e['exercice']} ({e['norme']}) : {len(e['valeurs'].get(str(e['exercice']), {}))} chiffres, {etat}")
+    if args and args[0] == "--auto":
+        automatique(base)
+    else:  # mode manuel : python brvm_fondamentaux.py rapport.pdf TICKER [autre.pdf TICKER ...]
+        i = 0
+        while i < len(args):
+            f = args[i]; t = None
+            if i + 1 < len(args) and not args[i + 1].lower().endswith(".pdf"):
+                t = args[i + 1]; i += 1
+            i += 1
+            enregistrer(base, f, t or Path(f).stem, Path(f).name)
     SORTIE.write_text(json.dumps(base, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
