@@ -244,7 +244,7 @@ def extraire(pdf_path, ticker=None, historique_div=None):
                         div_total = v[0] * (unite_de(texte_page) or unite_doc or 1)
     if nb_actions is None and n.get("res_net_part_groupe") and n.get("bpa"):
         brut = n["res_net_part_groupe"] / n["bpa"]
-        nb_actions = int(round(brut, -int(math.log10(brut)) + 3))  # le BPA publie est arrondi
+        nb_actions = int(round(brut, -int(math.log10(brut)) + 2))  # le BPA publie est arrondi
         notes.append("Nombre d’actions déduit du bénéfice par action publié (valeur approchée).")
     if dpa is None and div_total and nb_actions:
         dpa = round(div_total / nb_actions, 2)
@@ -353,18 +353,76 @@ def automatique(base):
                 f.write(r.content)
                 chemin = f.name
             e = enregistrer(base, chemin, t, Path(url).name, url)
+            e["date_publication"] = c.get("date")
             traites[url] = {"ok": True, "ticker": t, "exercice": e["exercice"], "date": c.get("date")}
             nouveaux += 1
         except Exception as ex:  # un rapport illisible ne doit jamais bloquer la mise a jour
             traites[url] = {"ok": False, "essais": etat.get("essais", 0) + 1, "erreur": str(ex)[:150]}
             print(f"{t} : echec ({str(ex)[:80]})")
     print(f"Fondamentaux : {nouveaux} nouveau(x) rapport(s) traite(s).")
+    # Operations sur titres : fractionnements (divisions du nominal)
+    ops = base.setdefault("_operations", {})
+    for c in comms:
+        url, t = c.get("url", ""), c.get("ticker") or (c.get("tickers") or [None])[0]
+        titre = sans_accents(c.get("titre", ""))
+        if not t or not re.search(r"fractionnement|division du nominal|split", titre):
+            continue
+        deja = [o for o in ops.get(t, []) if o.get("url") == url]
+        if deja and (deja[0].get("facteur") or deja[0].get("essais", 0) >= 3):
+            continue
+        op = deja[0] if deja else {"type": "fractionnement", "date": c.get("date"), "url": url, "titre": c.get("titre")}
+        if not deja:
+            ops.setdefault(t, []).append(op)
+        if url.lower().endswith(".pdf"):
+            try:
+                r = requests.get(url, headers=UA, timeout=60)
+                r.raise_for_status()
+                with tempfile.NamedTemporaryFile(suffix=".pdf", delete=False) as f:
+                    f.write(r.content)
+                with pdfplumber.open(f.name) as pdf:
+                    texte = "\n".join(p.extract_text() or "" for p in pdf.pages)
+                op["facteur"] = facteur_fractionnement(texte)
+            except Exception as ex:
+                op["erreur"] = str(ex)[:150]
+            op["essais"] = op.get("essais", 0) + 1
+        print(f"{t} : fractionnement du {op['date']}, facteur {op.get('facteur') or 'non lu'}")
+
+
+def facteur_fractionnement(texte):
+    """Lit la parite d'un fractionnement dans un communique (ex. 10 actions nouvelles pour 1 ancienne)."""
+    t = re.sub(r"\s+", " ", sans_accents(texte))
+    t = re.sub(r"(?<=\d) (?=\d{3}\b)", "", t)  # 1 000 000 -> 1000000
+    motifs = [
+        r"(\d+) actions? nouvelles? (?:pour|contre) (?:une|1) actions? anciennes?",
+        r"(?:une|1) actions? anciennes? (?:donne(?:ra)? droit a|pour|contre|=) (\d+) actions? nouvelles?",
+        r"parite (?:de )?(?:une|1) (?:pour|contre|/|:) ?(\d+)",
+        r"parite (?:de )?(\d+) (?:pour|contre|/|:) ?(?:une|1)\b",
+        r"divis(?:ee|e|ion)? (?:de la valeur nominale )?par (\d+)",
+        r"fractionnement (?:de (?:l'? ?)?actions? |des actions )?par (\d+)",
+        r"(?:valeur|cours) (?:theorique|ajuste)[^.]{0,80}?/ ?(\d+)\b",
+    ]
+    for m in motifs:
+        x = re.search(m, t)
+        if x and 1 < int(x.group(1)) <= 1000:
+            return int(x.group(1))
+    # valeur nominale qui passe de A a B, ou nombre d'actions qui passe de A a B
+    for m in [r"valeur nominale[^.]{0,80}?de (\d+) ?f? ?cfa a (\d+) ?f? ?cfa", r"de (\d{6,}) actions a (\d{6,}) actions"]:
+        x = re.search(m, t)
+        if x:
+            a, b = int(x.group(1)), int(x.group(2))
+            r = a / b if "nominale" in m else b / a
+            if r > 1 and abs(r - round(r)) < 0.01:
+                return int(round(r))
+    return None
 
 
 def enregistrer(base, chemin, ticker, nom=None, url=None):
     e = extraire(chemin, ticker)
     if nom:
         e["source"] = nom
+        m = re.match(r"(20\d\d)(\d\d)(\d\d)", nom)
+        if m and not e.get("date_publication"):
+            e["date_publication"] = "-".join(m.groups())
     if url:
         e["url"] = url
     e["signaux"] = signaux(e)
