@@ -1,27 +1,83 @@
 {
- "maj": "2026-10-30 20:55",
+ "maj": "2026-10-31 20:35",
  "articles": [
   {
-   "id": "65390",
+   "id": "65399",
    "source": "Actualites economiques",
-   "date": "2026-10-30 19:24",
-   "titre": "Blanchiment de capitaux : La Côte d’Ivoire officiellement retirée de la liste grise du GAFI",
-   "extrait": "Le Groupe d'action financière (GAFI) a officiellement acté, ce vendredi 30 octobre 2026 à Paris, le retrait de la C&ocirc;te d'Ivoire de sa liste grise des pay...",
-   "url": "https://www.sikafinance.com/marches/blanchiment-de-capitaux-la-cote-divoire-officiellement-retiree-de-la-liste-grise-du-gafi_65390",
+   "date": "2026-10-31 18:46",
+   "titre": "Gabon : L’État muscle sa planification des investissements publics avec 487 projets supplémentaires recensés, portant le total à 1 162",
+   "extrait": "Le Gabon dispose désormais d'une cartographie élargie de ses investissements publics, avec 1 162 projets recensés sur l'ensemble du territoire national, contre...",
+   "url": "https://www.sikafinance.com/marches/gabon-letat-muscle-sa-planification-des-investissements-publics-avec-487-projets-supplementaires-recenses-portant-le-total-a-1-162_65399",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65398",
+   "source": "Actualites economiques",
+   "date": "2026-10-31 15:52",
+   "titre": "Gabon: Face à une subventions de 30 milliards FCFA en septembre, l’État augmente les carburants mais préserve le gaz domestique",
+   "extrait": "Le Gabon engage un réajustement de sa politique de soutien aux carburants à compter du 1er novembre 2026. Selon la nouvelle grille tarifaire de la Commission n...",
+   "url": "https://www.sikafinance.com/marches/gabon-face-a-une-subventions-de-30-milliards-fcfa-en-septembre-letat-augmente-les-carburants-mais-preserve-le-gaz-domestique_65398",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65400",
+   "source": "Actualites economiques",
+   "date": "2026-10-31 15:51",
+   "titre": "Libreville réussi à collecter 210 millions FCFA par paiements mobiles et veut désormais réduire les encaissements manuels de taxes",
+   "extrait": "La mairie de Libreville accélère la numérisation de ses recettes fiscales et parafiscales, avec 210 millions FCFA déjà collectés via les paiements mobiles. Selo...",
+   "url": "https://www.sikafinance.com/marches/libreville-reussi-a-collecter-210-millions-fcfa-par-paiements-mobiles-et-veut-desormais-reduire-les-encaissements-manuels-de-taxes_65400",
    "ticker": null,
    "premium": false,
    "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65397",
+   "source": "Actualites economiques",
+   "date": "2026-10-31 15:40",
+   "titre": "Gabon : Rougier accuse une perte de 1,3 milliard FCFA au premier semestre malgré ses efforts de redressement",
+   "extrait": "Le groupe forestier français Rougier, présent notamment au Gabon et au Congo, a clôturé le premier semestre 2026 sur une perte nette consolidée de...",
+   "url": "https://www.sikafinance.com/marches/gabon-rougier-accuse-une-perte-de-1-3-milliard-fcfa-au-premier-semestre-malgre-ses-efforts-de-redressement_65397",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
    "score": 0,
    "sentiment": -1,
    "tickers": []
   },
   {
-   "id": "65388",
+   "id": "65396",
    "source": "Actualites economiques",
-   "date": "2026-10-30 17:24",
-   "titre": "France : La police interpelle un ado de 16 ans lié au vol de données du fisc",
-   "extrait": "Trois mois après l'incident informatique, la cyberattaque contre le fisc français livre ses secrets. Selon des informations confirmées par le parquet de...",
-   "url": "https://www.sikafinance.com/marches/france-la-police-interpelle-un-ado-de-16-ans-lie-au-vol-de-donnees-du-fisc_65388",
+   "date": "2026-10-31 14:40",
+   "titre": "Gabon : Fortescue double ses équipements de forage à Bélinga et prolonge de deux ans son contrat avec Capital Limited",
+   "extrait": "Le groupe minier australien Fortescue intensifie ses travaux d'exploration sur le projet de fer de Bélinga, dans la province de l'Ogooué-Ivindo. Selon une comm...",
+   "url": "https://www.sikafinance.com/marches/gabon-fortescue-double-ses-equipements-de-forage-a-belinga-et-prolonge-de-deux-ans-son-contrat-avec-capital-limited_65396",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65395",
+   "source": "Actualites economiques",
+   "date": "2026-10-31 13:54",
+   "titre": "Petroci fait face à une fuite enflammée au niveau de son installation de gaz de Vridi",
+   "extrait": "Ce matin, à 7h25, une fuite enflammée est survenue sur la ligne de retour de la sphère 1 de notre installation de gaz de Vridi. Le plan d'urgence a été immédia...",
+   "url": "https://www.sikafinance.com/marches/petroci-fait-face-a-une-fuite-enflammee-au-niveau-de-son-installation-de-gaz-de-vridi_65395",
    "ticker": null,
    "premium": false,
    "categorie": "Autre",
@@ -30,87 +86,59 @@
    "tickers": []
   },
   {
-   "id": "65387",
+   "id": "65394",
    "source": "Actualites economiques",
-   "date": "2026-10-30 17:18",
-   "titre": "UEMOA : La BOAD et Proparco mobilisent de nouvelles ressources pour financer le secteur privé",
-   "extrait": "Le financement des entreprises dans l'Union économique et monétaire ouest-africaine (UEMOA) repose aussi sur la capacité des institutions financières à mobilis...",
-   "url": "https://www.sikafinance.com/marches/uemoa-la-boad-et-proparco-mobilisent-de-nouvelles-ressources-pour-financer-le-secteur-prive_65387",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Macro / monnaie",
-   "score": 2,
-   "sentiment": 0,
-   "tickers": []
-  },
-  {
-   "id": "65386",
-   "source": "Actualites economiques",
-   "date": "2026-10-30 16:44",
-   "titre": "Lithium : Après le Mali, Kodal Minerals veut renforcer sa présence en Afrique de l’Ouest en misant sur le Ghana",
-   "extrait": "Kodal Minerals veut accélérer son développement dans le lithium en Afrique de l'Ouest. Après la mise en production de sa mine de Bougouni, au Mali, le groupe c...",
-   "url": "https://www.sikafinance.com/marches/lithium-apres-le-mali-kodal-minerals-veut-renforcer-sa-presence-en-afrique-de-louest-en-misant-sur-le-ghana_65386",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Autre",
-   "score": 0,
-   "sentiment": 0,
-   "tickers": []
-  },
-  {
-   "id": "65385",
-   "source": "Actualites economiques",
-   "date": "2026-10-30 16:20",
-   "titre": "Ghana : Le russe Rusal prévoit de construire une raffinerie d’alumine et d’exploiter un gisement de bauxite",
-   "extrait": "Le groupe russe Rusal, l'un des plus grands producteurs mondiaux d'aluminium, entend renforcer sa présence en Afrique avec un projet minier au Ghana. L'entrepr...",
-   "url": "https://www.sikafinance.com/marches/ghana-le-russe-rusal-prevoit-de-construire-une-raffinerie-dalumine-et-dexploiter-un-gisement-de-bauxite_65385",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Hors zone UEMOA",
-   "score": 0,
-   "sentiment": 0,
-   "tickers": []
-  },
-  {
-   "id": "65384",
-   "source": "Actualites economiques",
-   "date": "2026-10-30 16:15",
-   "titre": "Nigeria : Google Play et Google Wallet font leur entrée officielle sur le marché du paiement mobile",
-   "extrait": "Google Play et Google Wallet, les services de paiement mobile du géant technologique américain Google, ont été officiellement lancés le 28 octobre 2026 au Nige...",
-   "url": "https://www.sikafinance.com/marches/nigeria-google-play-et-google-wallet-font-leur-entree-officielle-sur-le-marche-du-paiement-mobile_65384",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Hors zone UEMOA",
-   "score": 0,
-   "sentiment": 0,
-   "tickers": []
-  },
-  {
-   "id": "65383",
-   "source": "Actualites economiques",
-   "date": "2026-10-30 15:56",
-   "titre": "Guinée équatoriale : Malabo signe un nouvel accord avec le français Sogea-Satom et annonce 20 milliards FCFA d'économies",
-   "extrait": "Le gouvernement équato-guinéen a annoncé, ce 29 octobre 2026, la signature d'un nouvel accord avec l'entreprise française Sogea-Satom, filiale du groupe...",
-   "url": "https://www.sikafinance.com/marches/guinee-equatoriale-malabo-signe-un-nouvel-accord-avec-le-francais-sogea-satom-et-annonce-20-milliards-fcfa-d-economies_65383",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Hors zone UEMOA",
-   "score": 0,
-   "sentiment": 0,
-   "tickers": []
-  },
-  {
-   "id": "65381",
-   "source": "Actualites economiques",
-   "date": "2026-10-30 15:50",
-   "titre": "Gabon : La recapitalisation d’Eramet de 328 milliards FCFA progresse avec trois accords signés et un feu vert de l’AMF",
-   "extrait": "Le projet de recapitalisation du groupe minier français Eramet, maison mère de Comilog au Gabon, a enregistré deux avancées financières importantes au c...",
-   "url": "https://www.sikafinance.com/marches/gabon-la-recapitalisation-deramet-de-328-milliards-fcfa-progresse-avec-trois-accords-signes-et-un-feu-vert-de-lamf_65381",
+   "date": "2026-10-31 10:51",
+   "titre": "Gabon : Les revenus du minerai de manganèse d’Eramet bondissent de 31% à 190 milliards FCFA au troisième trimestre 2026",
+   "extrait": "Le groupe minier français Eramet a enregistré une progression de 31% du chiffre d'affaires de son activité minerai de manganèse au troisième trimestre 2...",
+   "url": "https://www.sikafinance.com/marches/gabon-les-revenus-du-minerai-de-manganese-deramet-bondissent-de-31-a-190-milliards-fcfa-au-troisieme-trimestre-2026_65394",
    "ticker": null,
    "premium": false,
    "categorie": "Hors zone UEMOA",
    "score": 0,
    "sentiment": 1,
+   "tickers": []
+  },
+  {
+   "id": "65393",
+   "source": "Actualites economiques",
+   "date": "2026-10-31 10:48",
+   "titre": "Guinée équatoriale : Le chinois Beijing Weineng confirme son ambition et porte son projet énergétique à 500 MW",
+   "extrait": "Le groupe chinois Beijing Weineng Investment poursuit ses discussions avec les autorités équato-guinéennes pour développer les capacités de production électriqu...",
+   "url": "https://www.sikafinance.com/marches/guinee-equatoriale-le-chinois-beijing-weineng-confirme-son-ambition-et-porte-son-projet-energetique-a-500-mw_65393",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65392",
+   "source": "Actualites economiques",
+   "date": "2026-10-31 08:44",
+   "titre": "BGFI Holding : Derrière l’ouverture du capital, 97% des souscriptions à l’IPO de 101 milliards FCFA concentrées chez sa filiale BGFIBourse",
+   "extrait": "L'introduction en Bourse de BGFI Holding Corporation met en évidence la puissance de mobilisation financière de son réseau, à travers une opération ayant susci...",
+   "url": "https://www.sikafinance.com/marches/bgfi-holding-derriere-louverture-du-capital-97-des-souscriptions-a-lipo-de-101-milliards-fcfa-concentrees-chez-sa-filiale-bgfibourse_65392",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Operation sur titres",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65391",
+   "source": "Actualites du marche",
+   "date": "2026-10-31 07:13",
+   "titre": "Jean Damascène NIGNAN, DG UAB Vie : ‘’Notre ambition est de passer d’une logique de reconquête à une logique de leadership durable’’",
+   "extrait": "Jean Damascène NIGNAN, Directeur général de UAB Vie : Notre ambition est de passer d'une logique de reconquête à une lo...",
+   "url": "https://www.sikafinance.com/marches/jean-damascene-nignan-dg-uab-vie-notre-ambition-est-de-passer-dune-logique-de-reconquete-a-une-logique-de-leadership-durable_65391",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Gouvernance",
+   "score": 1,
+   "sentiment": 0,
    "tickers": []
   },
   {
@@ -158,20 +186,6 @@
    "tickers": [
     "CIEC"
    ]
-  },
-  {
-   "id": "65377",
-   "source": "Actualites economiques",
-   "date": "2026-10-30 14:09",
-   "titre": "Gabon : Millennial Potash recherche 480 millions de dollars pour Banio et vise jusqu’à 1,2 million de tonnes de potasse par an",
-   "extrait": "La société minière canadienne Millennial Potash prépare un investissement initial de 480 millions de dollars, soit environ 274 milliards FCFA, pour développer ...",
-   "url": "https://www.sikafinance.com/marches/gabon-millennial-potash-recherche-480-millions-de-dollars-pour-banio-et-vise-jusqua-1-2-million-de-tonnes-de-potasse-par-an_65377",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Hors zone UEMOA",
-   "score": 0,
-   "sentiment": 0,
-   "tickers": []
   },
   {
    "id": "65373",
@@ -246,6 +260,132 @@
    "tickers": [
     "SNTS"
    ]
+  },
+  {
+   "id": "65390",
+   "source": "Actualites economiques",
+   "date": "2026-10-30 00:00",
+   "titre": "Blanchiment de capitaux : La Côte d’Ivoire officiellement retirée de la liste grise du GAFI",
+   "extrait": "30/10/2026",
+   "url": "https://www.sikafinance.com/marches/blanchiment-de-capitaux-la-cote-divoire-officiellement-retiree-de-la-liste-grise-du-gafi_65390",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65388",
+   "source": "Actualites economiques",
+   "date": "2026-10-30 00:00",
+   "titre": "France : La police interpelle un ado de 16 ans lié au vol de données du fisc",
+   "extrait": "30/10/2026",
+   "url": "https://www.sikafinance.com/marches/france-la-police-interpelle-un-ado-de-16-ans-lie-au-vol-de-donnees-du-fisc_65388",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65387",
+   "source": "Actualites economiques",
+   "date": "2026-10-30 00:00",
+   "titre": "UEMOA : La BOAD et Proparco mobilisent de nouvelles ressources pour financer le secteur privé",
+   "extrait": "30/10/2026",
+   "url": "https://www.sikafinance.com/marches/uemoa-la-boad-et-proparco-mobilisent-de-nouvelles-ressources-pour-financer-le-secteur-prive_65387",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Macro / monnaie",
+   "score": 2,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65386",
+   "source": "Actualites economiques",
+   "date": "2026-10-30 00:00",
+   "titre": "Lithium : Après le Mali, Kodal Minerals veut renforcer sa présence en Afrique de l’Ouest en misant sur le Ghana",
+   "extrait": "30/10/2026",
+   "url": "https://www.sikafinance.com/marches/lithium-apres-le-mali-kodal-minerals-veut-renforcer-sa-presence-en-afrique-de-louest-en-misant-sur-le-ghana_65386",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65385",
+   "source": "Actualites economiques",
+   "date": "2026-10-30 00:00",
+   "titre": "Ghana : Le russe Rusal prévoit de construire une raffinerie d’alumine et d’exploiter un gisement de bauxite",
+   "extrait": "30/10/2026",
+   "url": "https://www.sikafinance.com/marches/ghana-le-russe-rusal-prevoit-de-construire-une-raffinerie-dalumine-et-dexploiter-un-gisement-de-bauxite_65385",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65384",
+   "source": "Actualites economiques",
+   "date": "2026-10-30 00:00",
+   "titre": "Nigeria : Google Play et Google Wallet font leur entrée officielle sur le marché du paiement mobile",
+   "extrait": "30/10/2026",
+   "url": "https://www.sikafinance.com/marches/nigeria-google-play-et-google-wallet-font-leur-entree-officielle-sur-le-marche-du-paiement-mobile_65384",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65383",
+   "source": "Actualites economiques",
+   "date": "2026-10-30 00:00",
+   "titre": "Guinée équatoriale : Malabo signe un nouvel accord avec le français Sogea-Satom et annonce 20 milliards FCFA d'économies",
+   "extrait": "30/10/2026",
+   "url": "https://www.sikafinance.com/marches/guinee-equatoriale-malabo-signe-un-nouvel-accord-avec-le-francais-sogea-satom-et-annonce-20-milliards-fcfa-d-economies_65383",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65381",
+   "source": "Actualites economiques",
+   "date": "2026-10-30 00:00",
+   "titre": "Gabon : La recapitalisation d’Eramet de 328 milliards FCFA progresse avec trois accords signés et un feu vert de l’AMF",
+   "extrait": "30/10/2026",
+   "url": "https://www.sikafinance.com/marches/gabon-la-recapitalisation-deramet-de-328-milliards-fcfa-progresse-avec-trois-accords-signes-et-un-feu-vert-de-lamf_65381",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 1,
+   "tickers": []
+  },
+  {
+   "id": "65377",
+   "source": "Actualites economiques",
+   "date": "2026-10-30 00:00",
+   "titre": "Gabon : Millennial Potash recherche 480 millions de dollars pour Banio et vise jusqu’à 1,2 million de tonnes de potasse par an",
+   "extrait": "30/10/2026",
+   "url": "https://www.sikafinance.com/marches/gabon-millennial-potash-recherche-480-millions-de-dollars-pour-banio-et-vise-jusqua-1-2-million-de-tonnes-de-potasse-par-an_65377",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
   },
   {
    "id": "65374",
@@ -336,7 +476,7 @@
    "source": "Actualites economiques",
    "date": "2026-10-30 00:00",
    "titre": "Cameroun : 807 milliards FCFA pour bitumer plus de 2 600 km de routes d’ici 2029",
-   "extrait": "29/10/2026",
+   "extrait": "05/06/2026",
    "url": "https://www.sikafinance.com/marches/cameroun-807-milliards-fcfa-pour-bitumer-plus-de-2-600-km-de-routes-dici-2029_65359",
    "ticker": null,
    "premium": false,
@@ -981,23 +1121,23 @@
  "matieres": [
   {
    "nom": "ALUMINIUM",
-   "dernier": 3332.25,
-   "variation": 1.65
+   "dernier": 3310.5,
+   "variation": -0.65
   },
   {
    "nom": "ARGENT (ONCE EN $)",
-   "dernier": 50.55,
-   "variation": -4.12
+   "dernier": 49.12,
+   "variation": -2.83
   },
   {
    "nom": "AVOINE",
-   "dernier": 343.0,
-   "variation": -1.29
+   "dernier": 343.75,
+   "variation": 0.22
   },
   {
    "nom": "BLÉ",
-   "dernier": 603.75,
-   "variation": 0.79
+   "dernier": 603.5,
+   "variation": -0.04
   },
   {
    "nom": "BOIS DE CONSTRUCTION",
@@ -1006,58 +1146,58 @@
   },
   {
    "nom": "CACAO",
-   "dernier": 5456.0,
-   "variation": 0.0
+   "dernier": 5453.0,
+   "variation": -0.05
   },
   {
    "nom": "CAFÉ",
-   "dernier": 285.45,
-   "variation": -0.45
+   "dernier": 287.2,
+   "variation": 0.61
   },
   {
    "nom": "CAOUTCHOUC",
-   "dernier": 442.0,
-   "variation": -0.85
+   "dernier": 441.0,
+   "variation": -0.23
   },
   {
    "nom": "COTON",
-   "dernier": 78.5,
-   "variation": 0.45
+   "dernier": 77.83,
+   "variation": -0.85
   },
   {
    "nom": "CUIVRE",
-   "dernier": 6.58,
-   "variation": -0.91
+   "dernier": 6.46,
+   "variation": -1.86
   },
   {
    "nom": "GAZ NATUREL",
-   "dernier": 2.95,
-   "variation": 4.79
+   "dernier": 2.9,
+   "variation": -1.83
   },
   {
    "nom": "JUS D'ORANGE",
-   "dernier": 128.55,
-   "variation": -7.22
+   "dernier": 115.35,
+   "variation": -10.27
   },
   {
    "nom": "MAIS",
-   "dernier": 451.25,
-   "variation": -0.11
-  },
-  {
-   "nom": "NICKEL",
-   "dernier": 15499.38,
+   "dernier": 447.75,
    "variation": -0.78
   },
   {
+   "nom": "NICKEL",
+   "dernier": 15226.88,
+   "variation": -1.76
+  },
+  {
    "nom": "OR (ONCE EN $)",
-   "dernier": 3983.09,
-   "variation": -1.24
+   "dernier": 3875.29,
+   "variation": -2.71
   },
   {
    "nom": "PALLADIUM",
-   "dernier": 980.59,
-   "variation": -2.2
+   "dernier": 980.45,
+   "variation": -0.01
   },
   {
    "nom": "PALM OIL FUTURES ($)",
@@ -1066,18 +1206,18 @@
   },
   {
    "nom": "PETROLE BRENT",
-   "dernier": 112.84,
-   "variation": 2.65
+   "dernier": 111.75,
+   "variation": -0.97
   },
   {
    "nom": "PETROLE WTI",
-   "dernier": 103.96,
-   "variation": 1.15
+   "dernier": 104.12,
+   "variation": 1.3
   },
   {
    "nom": "PLATINE",
-   "dernier": 1442.89,
-   "variation": -3.89
+   "dernier": 1434.59,
+   "variation": -0.58
   },
   {
    "nom": "RIZ FUTURES ($)",
@@ -1086,13 +1226,13 @@
   },
   {
    "nom": "SOJA",
-   "dernier": 1219.75,
-   "variation": -0.39
+   "dernier": 1234.25,
+   "variation": 1.19
   },
   {
    "nom": "SUCRE",
-   "dernier": 19.47,
-   "variation": 0.67
+   "dernier": 19.36,
+   "variation": -0.56
   },
   {
    "nom": "ZINC",
