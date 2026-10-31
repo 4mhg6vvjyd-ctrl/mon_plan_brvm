@@ -1,0 +1,166 @@
+{
+ "SDSC": {
+  "2025": {
+   "ticker": "SDSC",
+   "source": "20260803_-_etats_financiers_-_exercice_2025_-_africa_global_logistics_ci.pdf",
+   "norme": "syscohada",
+   "exercice": 2025,
+   "valeurs": {
+    "2025": {
+     "capitaux_propres": 72872106000,
+     "tresorerie_actif": 76781848000,
+     "ca": 92004268000,
+     "investissements_corporels": -27718335000,
+     "dividendes_verses": -5008048000,
+     "res_exploitation": -2271029000,
+     "produits_financiers": 7864830000,
+     "res_financier": 7079898000,
+     "res_ordinaire": 4808869000,
+     "res_hao": -80990000,
+     "impot": 3942910000,
+     "res_net": 784970000
+    },
+    "2024": {
+     "capitaux_propres": 77095183000,
+     "tresorerie_actif": 21202541000,
+     "ca": 85643038000,
+     "investissements_corporels": -14772054000,
+     "dividendes_verses": -5008048000,
+     "res_exploitation": 941675000,
+     "produits_financiers": 22108212000,
+     "res_financier": 20870055000,
+     "res_ordinaire": 21811730000,
+     "res_hao": -64811000,
+     "impot": 677946000,
+     "res_net": 21068973000
+    }
+   },
+   "dividende_brut_par_action": null,
+   "dividende_total": 544353000,
+   "nombre_actions": null,
+   "controles": [
+    {
+     "ok": true,
+     "texte": "Activites ordinaires = exploitation + financier : calcule 4 808 869 000 / publie 4 808 869 000"
+    },
+    {
+     "ok": true,
+     "texte": "Resultat net = ordinaire + HAO - impot : calcule 784 969 000 / publie 784 970 000"
+    }
+   ],
+   "notes": [],
+   "a_verifier": false,
+   "signaux": [
+    "Titre trompeur possible : l'activite progresse (+7%) mais le benefice chute (-96%). Regarder d'ou vient la baisse.",
+    "Le benefice ne vient pas de l'activite propre (resultat d'exploitation negatif) : il vient des produits financiers, souvent les dividendes des filiales.",
+    "Les produits financiers ont fortement baisse (-64%).",
+    "Taux de distribution propose : 69% du benefice.",
+    "Les investissements ont fortement augmente (+88%)."
+   ]
+  }
+ },
+ "SGBC": {
+  "2025": {
+   "ticker": "SGBC",
+   "source": "20260421_-_rapport_dactivites_annuel_et_etats_financiers_-_exercice_2025_-_societe_generale_ci_annule_et_remplace_le_precedent.pdf",
+   "norme": "banque",
+   "exercice": 2025,
+   "valeurs": {
+    "2025": {
+     "pnb": 276048000000,
+     "frais_generaux": -106974000000,
+     "res_brut_exploitation": 169074000000,
+     "cout_risque": -46829000000,
+     "res_net": 101352000000,
+     "credits_clientele": 2546290000000,
+     "capitaux_propres": 495113000000,
+     "res_exploitation": 122245000000,
+     "gains_immobilises": 4262000000,
+     "impot": -25155000000
+    },
+    "2024": {
+     "pnb": 263207000000,
+     "frais_generaux": -99723000000,
+     "res_brut_exploitation": 163484000000,
+     "cout_risque": -36235000000,
+     "res_net": 101228000000,
+     "credits_clientele": 2474604000000,
+     "capitaux_propres": 451721000000,
+     "res_exploitation": 127248000000,
+     "gains_immobilises": 313000000,
+     "impot": -26333000000
+    }
+   },
+   "dividende_brut_par_action": 2606,
+   "dividende_total": 81075552660,
+   "nombre_actions": 31111110,
+   "controles": [
+    {
+     "ok": true,
+     "texte": "RBE = PNB + frais generaux : calcule 169 074 000 000 / publie 169 074 000 000"
+    },
+    {
+     "ok": true,
+     "texte": "Resultat net = exploitation + gains - impot : calcule 101 352 000 000 / publie 101 352 000 000"
+    }
+   ],
+   "notes": [],
+   "a_verifier": false,
+   "signaux": [
+    "Taux de distribution propose : 80% du benefice."
+   ]
+  }
+ },
+ "SNTS": {
+  "2025": {
+   "ticker": "SNTS",
+   "source": "20260216_-_etats_financiers_2025_et_attestation_des_cac_-_sonatel_sn.pdf",
+   "norme": "ifrs",
+   "exercice": 2025,
+   "valeurs": {
+    "2025": {
+     "ca": 1923122000000,
+     "res_exploitation": 669792000000,
+     "res_financier": -20805000000,
+     "impot": -235398000000,
+     "res_net": 413588000000,
+     "res_net_part_groupe": 341963000000,
+     "bpa": 3420,
+     "capitaux_propres": 1399263000000,
+     "dette_fin_nc": 232660000000,
+     "dette_fin_c": 170026000000,
+     "investissements": -289218000000,
+     "tresorerie": 536105000000
+    },
+    "2024": {
+     "ca": 1776443000000,
+     "res_exploitation": 619523000000,
+     "res_financier": -23268000000,
+     "impot": -202593000000,
+     "res_net": 393662000000,
+     "res_net_part_groupe": 328750000000,
+     "bpa": 3288,
+     "capitaux_propres": 1274638000000,
+     "dette_fin_nc": 241468000000,
+     "dette_fin_c": 219081000000,
+     "investissements": -300900000000,
+     "tresorerie": 460360000000
+    }
+   },
+   "dividende_brut_par_action": 1933,
+   "dividende_total": null,
+   "nombre_actions": 99989181,
+   "controles": [
+    {
+     "ok": true,
+     "texte": "Resultat net = exploitation + financier - impot : calcule 413 589 000 000 / publie 413 588 000 000"
+    }
+   ],
+   "notes": [
+    "Nombre d'actions deduit du benefice par action publie."
+   ],
+   "a_verifier": false,
+   "signaux": []
+  }
+ }
+}
