@@ -1,69 +1,29 @@
 {
- "maj": "2026-10-31 21:00",
+ "maj": "2026-11-02 19:36",
  "articles": [
   {
-   "id": "65399",
-   "source": "Actualites economiques",
-   "date": "2026-10-31 18:46",
-   "titre": "Gabon : L’État muscle sa planification des investissements publics avec 487 projets supplémentaires recensés, portant le total à 1 162",
-   "extrait": "Le Gabon dispose désormais d'une cartographie élargie de ses investissements publics, avec 1 162 projets recensés sur l'ensemble du territoire national, contre...",
-   "url": "https://www.sikafinance.com/marches/gabon-letat-muscle-sa-planification-des-investissements-publics-avec-487-projets-supplementaires-recenses-portant-le-total-a-1-162_65399",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Hors zone UEMOA",
-   "score": 0,
-   "sentiment": 0,
-   "tickers": []
-  },
-  {
-   "id": "65398",
-   "source": "Actualites economiques",
-   "date": "2026-10-31 15:52",
-   "titre": "Gabon: Face à une subventions de 30 milliards FCFA en septembre, l’État augmente les carburants mais préserve le gaz domestique",
-   "extrait": "Le Gabon engage un réajustement de sa politique de soutien aux carburants à compter du 1er novembre 2026. Selon la nouvelle grille tarifaire de la Commission n...",
-   "url": "https://www.sikafinance.com/marches/gabon-face-a-une-subventions-de-30-milliards-fcfa-en-septembre-letat-augmente-les-carburants-mais-preserve-le-gaz-domestique_65398",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Hors zone UEMOA",
-   "score": 0,
-   "sentiment": 0,
-   "tickers": []
-  },
-  {
-   "id": "65400",
-   "source": "Actualites economiques",
-   "date": "2026-10-31 15:51",
-   "titre": "Libreville réussi à collecter 210 millions FCFA par paiements mobiles et veut désormais réduire les encaissements manuels de taxes",
-   "extrait": "La mairie de Libreville accélère la numérisation de ses recettes fiscales et parafiscales, avec 210 millions FCFA déjà collectés via les paiements mobiles. Selo...",
-   "url": "https://www.sikafinance.com/marches/libreville-reussi-a-collecter-210-millions-fcfa-par-paiements-mobiles-et-veut-desormais-reduire-les-encaissements-manuels-de-taxes_65400",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Autre",
-   "score": 0,
-   "sentiment": 0,
-   "tickers": []
-  },
-  {
-   "id": "65397",
-   "source": "Actualites economiques",
-   "date": "2026-10-31 15:40",
-   "titre": "Gabon : Rougier accuse une perte de 1,3 milliard FCFA au premier semestre malgré ses efforts de redressement",
-   "extrait": "Le groupe forestier français Rougier, présent notamment au Gabon et au Congo, a clôturé le premier semestre 2026 sur une perte nette consolidée de...",
-   "url": "https://www.sikafinance.com/marches/gabon-rougier-accuse-une-perte-de-1-3-milliard-fcfa-au-premier-semestre-malgre-ses-efforts-de-redressement_65397",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Hors zone UEMOA",
-   "score": 0,
+   "id": "65441",
+   "source": "Actualites du marche",
+   "date": "2026-11-02 17:19",
+   "titre": "NEI-CEDA CI : Baisse de 94% du résultat net à fin septembre 2026",
+   "extrait": "NEI-CEDA CI retrouve un résultat net positif à fin septembre 2026, après un premier semestre déficitaire marqué p...",
+   "url": "https://www.sikafinance.com/marches/nei-ceda-ci-baisse-de-94-du-resultat-net-a-fin-septembre-2026_65441",
+   "ticker": "NEIC",
+   "premium": true,
+   "categorie": "Resultats",
+   "score": 3,
    "sentiment": -1,
-   "tickers": []
+   "tickers": [
+    "NEIC"
+   ]
   },
   {
-   "id": "65396",
+   "id": "65438",
    "source": "Actualites economiques",
-   "date": "2026-10-31 14:40",
-   "titre": "Gabon : Fortescue double ses équipements de forage à Bélinga et prolonge de deux ans son contrat avec Capital Limited",
-   "extrait": "Le groupe minier australien Fortescue intensifie ses travaux d'exploration sur le projet de fer de Bélinga, dans la province de l'Ogooué-Ivindo. Selon une comm...",
-   "url": "https://www.sikafinance.com/marches/gabon-fortescue-double-ses-equipements-de-forage-a-belinga-et-prolonge-de-deux-ans-son-contrat-avec-capital-limited_65396",
+   "date": "2026-11-02 17:06",
+   "titre": "Gabon : 2 semaines après l’accord de rachat de Portek, Maersk explore de nouveaux projets portuaires",
+   "extrait": "Le Gabon suscite un nouvel intérêt de la part d'acteurs internationaux du transport maritime et de l'investissement portuaire. Le 29 octobre 2026, une délégati...",
+   "url": "https://www.sikafinance.com/marches/gabon-2-semaines-apres-laccord-de-rachat-de-portek-maersk-explore-de-nouveaux-projets-portuaires_65438",
    "ticker": null,
    "premium": false,
    "categorie": "Hors zone UEMOA",
@@ -72,12 +32,100 @@
    "tickers": []
   },
   {
-   "id": "65395",
+   "id": "65437",
+   "source": "Actualites du marche",
+   "date": "2026-11-02 16:48",
+   "titre": "BRVM : SMB fait sensation au milieu de la vague de publications trimestrielles",
+   "extrait": "La BRVM ouvre la semaine sous pression. Ses trois principaux indices accusent un repli marqué : le BRVM-Composite perd ...",
+   "url": "https://www.sikafinance.com/marches/brvm-smb-fait-sensation-au-milieu-de-la-vague-de-publications-trimestrielles_65437",
+   "ticker": "SMBC",
+   "premium": false,
+   "categorie": "Autre",
+   "score": 1,
+   "sentiment": -1,
+   "tickers": [
+    "SMBC"
+   ]
+  },
+  {
+   "id": "65436",
+   "source": "Actualites du marche",
+   "date": "2026-11-02 16:32",
+   "titre": "BICICI : Une croissance de 15 % du bénéfice au 3ème trimestre 2026",
+   "extrait": "Au terme des neuf premiers mois de 2026, la Banque internationale pour le commerce et l'industrie de Côte d'Ivoir...",
+   "url": "https://www.sikafinance.com/marches/bicici-une-croissance-de-15-du-benefice-au-3eme-trimestre-2026_65436",
+   "ticker": "BICC",
+   "premium": true,
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 1,
+   "tickers": [
+    "BICC"
+   ]
+  },
+  {
+   "id": "65435",
    "source": "Actualites economiques",
-   "date": "2026-10-31 13:54",
-   "titre": "Petroci fait face à une fuite enflammée au niveau de son installation de gaz de Vridi",
-   "extrait": "Ce matin, à 7h25, une fuite enflammée est survenue sur la ligne de retour de la sphère 1 de notre installation de gaz de Vridi. Le plan d'urgence a été immédia...",
-   "url": "https://www.sikafinance.com/marches/petroci-fait-face-a-une-fuite-enflammee-au-niveau-de-son-installation-de-gaz-de-vridi_65395",
+   "date": "2026-11-02 16:21",
+   "titre": "Le nouveau numéro du magazine Sika Finance est disponible, avec à la Une Gilles Thierry Beugré, directeur général de l’ANSUT !",
+   "extrait": "Pour cette édition du troisième trimestre 2026, Sika Finance met le cap sur la transformation numérique de l'Afrique, avec un éclairage particulier sur les déf...",
+   "url": "https://www.sikafinance.com/marches/le-nouveau-numero-du-magazine-sika-finance-est-disponible-avec-a-la-une-gilles-thierry-beugre-directeur-general-de-lansut-_65435",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65440",
+   "source": "Actualites economiques",
+   "date": "2026-11-02 16:17",
+   "titre": "CEMAC : La BEAC s’allie au Cambodge pour accélérer la modernisation des paiements",
+   "extrait": "Après son adhésion au Système panafricain de paiement et de règlement (PAPSS) en juillet 2026 et le lancement de SYSTAC 2 en août, la Banque des É...",
+   "url": "https://www.sikafinance.com/marches/cemac-la-beac-sallie-au-cambodge-pour-accelerer-la-modernisation-des-paiements_65440",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65433",
+   "source": "Actualites economiques",
+   "date": "2026-11-02 15:50",
+   "titre": "RDC : L'accord commercial avec les Émirats arabes unis entre en vigueur et ouvre l’accès de 6 000 produits au marché émirati",
+   "extrait": "Depuis le 30 octobre 2026, quelque 6 000 produits d'origine congolaise peuvent accéder au marché des Émirats arabes unis en franchise de droits de douan...",
+   "url": "https://www.sikafinance.com/marches/rdc-l-accord-commercial-avec-les-emirats-arabes-unis-entre-en-vigueur-et-ouvre-lacces-de-6-000-produits-au-marche-emirati_65433",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65434",
+   "source": "Actualites economiques",
+   "date": "2026-11-02 15:44",
+   "titre": "Bénin : Proparco et IFC mobilisent 28 millions d’euros pour quatre centrales solaires de 62 MWc",
+   "extrait": "Le Bénin entend réduire sa dépendance aux centrales thermiques en s'appuyant davantage sur les investissements privés dans les énergies renouvelables. Dans cet...",
+   "url": "https://www.sikafinance.com/marches/benin-proparco-et-ifc-mobilisent-28-millions-deuros-pour-quatre-centrales-solaires-de-62-mwc_65434",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Financement",
+   "score": 2,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65430",
+   "source": "Actualites economiques",
+   "date": "2026-11-02 15:39",
+   "titre": "Côte d’Ivoire : Orange mise sur la formation des talents locaux pour accélérer la souveraineté numérique",
+   "extrait": "Le développement des compétences numériques s'impose comme un enjeu stratégique pour la Côte d'Ivoire, dans un contexte où les entreprises et les ...",
+   "url": "https://www.sikafinance.com/marches/cote-divoire-orange-mise-sur-la-formation-des-talents-locaux-pour-accelerer-la-souverainete-numerique_65430",
    "ticker": null,
    "premium": false,
    "categorie": "Autre",
@@ -86,30 +134,174 @@
    "tickers": []
   },
   {
-   "id": "65394",
+   "id": "65429",
    "source": "Actualites economiques",
-   "date": "2026-10-31 10:51",
-   "titre": "Gabon : Les revenus du minerai de manganèse d’Eramet bondissent de 31% à 190 milliards FCFA au troisième trimestre 2026",
-   "extrait": "Le groupe minier français Eramet a enregistré une progression de 31% du chiffre d'affaires de son activité minerai de manganèse au troisième trimestre 2...",
-   "url": "https://www.sikafinance.com/marches/gabon-les-revenus-du-minerai-de-manganese-deramet-bondissent-de-31-a-190-milliards-fcfa-au-troisieme-trimestre-2026_65394",
+   "date": "2026-11-02 15:31",
+   "titre": "Mediterrania Capital Partners investit dans AFG Assurances, pôle assurance d’Atlantic Group, pour accompagner son expansion en Afrique francophone",
+   "extrait": "Cet investissement accompagnera le plan de développement d'AFG Assurances, qui vise à doubler son réseau pour le porter à quatorze compagnies d'assurance, à re...",
+   "url": "https://www.sikafinance.com/marches/mediterrania-capital-partners-investit-dans-afg-assurances-pole-assurance-datlantic-group-pour-accompagner-son-expansion-en-afrique-francophone_65429",
    "ticker": null,
    "premium": false,
-   "categorie": "Hors zone UEMOA",
+   "categorie": "Autre",
    "score": 0,
-   "sentiment": 1,
+   "sentiment": 0,
    "tickers": []
   },
   {
-   "id": "65393",
+   "id": "65431",
    "source": "Actualites economiques",
-   "date": "2026-10-31 10:48",
-   "titre": "Guinée équatoriale : Le chinois Beijing Weineng confirme son ambition et porte son projet énergétique à 500 MW",
-   "extrait": "Le groupe chinois Beijing Weineng Investment poursuit ses discussions avec les autorités équato-guinéennes pour développer les capacités de production électriqu...",
-   "url": "https://www.sikafinance.com/marches/guinee-equatoriale-le-chinois-beijing-weineng-confirme-son-ambition-et-porte-son-projet-energetique-a-500-mw_65393",
+   "date": "2026-11-02 15:31",
+   "titre": "La Centrafrique et le russe Power Machines vont s’associer pour construire deux barrages hydroélectriques de 120 MW",
+   "extrait": "La République centrafricaine entend renforcer ses capacités de production électrique grâce à deux nouveaux projets hydroélectriques développés ave...",
+   "url": "https://www.sikafinance.com/marches/la-centrafrique-et-le-russe-power-machines-vont-sassocier-pour-construire-deux-barrages-hydroelectriques-de-120-mw_65431",
    "ticker": null,
    "premium": false,
    "categorie": "Hors zone UEMOA",
    "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65427",
+   "source": "Actualites economiques",
+   "date": "2026-11-02 15:26",
+   "titre": "Cameroun : Canyon Resources cherche 160 millions USD pour sécuriser le volet logistique de son projet de bauxite",
+   "extrait": "L'australien Canyon Resources doit mobiliser environ 160 millions USD pour mener à bien la deuxième phase de son projet de bauxite de Minim Martap, au Cameroun...",
+   "url": "https://www.sikafinance.com/marches/cameroun-canyon-resources-cherche-160-millions-usd-pour-securiser-le-volet-logistique-de-son-projet-de-bauxite_65427",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65422",
+   "source": "Actualites du marche",
+   "date": "2026-11-02 13:04",
+   "titre": "SMB CI : Hausse de 57% du résultat net au 30 septembre 2026",
+   "extrait": "La Société Multinationale de Bitumes (SMB CI) voit son résultat net nettement progresser à fin septembre 2026, ap...",
+   "url": "https://www.sikafinance.com/marches/smb-ci-hausse-de-57-du-resultat-net-au-30-septembre-2026_65422",
+   "ticker": "SMBC",
+   "premium": true,
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 1,
+   "tickers": [
+    "SMBC"
+   ]
+  },
+  {
+   "id": "65426",
+   "source": "Actualites economiques",
+   "date": "2026-11-02 00:00",
+   "titre": "Journées de l'expérience client en Afrique francophone : NSIA Banque Côte d'Ivoire partage sa vision",
+   "extrait": "02/11/2026",
+   "url": "https://www.sikafinance.com/marches/journees-de-l-experience-client-en-afrique-francophone-nsia-banque-cote-d-ivoire-partage-sa-vision_65426",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": [
+    "NSBC"
+   ]
+  },
+  {
+   "id": "65439",
+   "source": "Actualites economiques",
+   "date": "2026-11-02 00:00",
+   "titre": "Gabon : Après la création de la Compagnie nationale de transport, l’État envisage d’élargir les missions de Fly Gabon Holding",
+   "extrait": "02/11/2026",
+   "url": "https://www.sikafinance.com/marches/gabon-apres-la-creation-de-la-compagnie-nationale-de-transport-letat-envisage-delargir-les-missions-de-fly-gabon-holding_65439",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65425",
+   "source": "Actualites economiques",
+   "date": "2026-11-02 00:00",
+   "titre": "Cameroun : La Caisse des dépôts a collecté 162,3 milliards FCFA en trois ans, mais le transfert des fonds reste conflictuel",
+   "extrait": "02/11/2026",
+   "url": "https://www.sikafinance.com/marches/cameroun-la-caisse-des-depots-a-collecte-162-3-milliards-fcfa-en-trois-ans-mais-le-transfert-des-fonds-reste-conflictuel_65425",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65419",
+   "source": "Actualites economiques",
+   "date": "2026-11-02 00:00",
+   "titre": "Côte d’Ivoire : Forvis Mazars et Sciences Po lancent une certification pour renforcer les compétences des administrateurs",
+   "extrait": "02/11/2026",
+   "url": "https://www.sikafinance.com/marches/cote-divoire-forvis-mazars-et-sciences-po-lancent-une-certification-pour-renforcer-les-competences-des-administrateurs_65419",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65418",
+   "source": "Actualites economiques",
+   "date": "2026-11-02 00:00",
+   "titre": "Côte d’Ivoire : L’École d’agriculture numérique inaugurée à l’INP-HB, 50 talents composent la première promotion Agritech",
+   "extrait": "02/11/2026",
+   "url": "https://www.sikafinance.com/marches/cote-divoire-lecole-dagriculture-numerique-inauguree-a-linp-hb-50-talents-composent-la-premiere-promotion-agritech_65418",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65417",
+   "source": "Actualites economiques",
+   "date": "2026-11-02 00:00",
+   "titre": "Connectivité en Afrique : La 24e réunion du Fratel explore les grands défis de l'investissement public et de la régulation",
+   "extrait": "02/11/2026",
+   "url": "https://www.sikafinance.com/marches/connectivite-en-afrique-la-24e-reunion-du-fratel-explore-les-grands-defis-de-l-investissement-public-et-de-la-regulation_65417",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65411",
+   "source": "Actualites economiques",
+   "date": "2026-11-02 00:00",
+   "titre": "Sénégal : Le gouvernement craint des arriérés et des manquements dans l’approvisionnement des centrales",
+   "extrait": "01/11/2026",
+   "url": "https://www.sikafinance.com/marches/senegal-le-gouvernement-craint-des-arrieres-et-des-manquements-dans-lapprovisionnement-des-centrales_65411",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65402",
+   "source": "Actualites economiques",
+   "date": "2026-11-01 00:00",
+   "titre": "Avec la Banque africaine de l’énergie, l’Afrique reprend en main le financement de ses ressources pétrogazières",
+   "extrait": "31/10/2026",
+   "url": "https://www.sikafinance.com/marches/avec-la-banque-africaine-de-lenergie-lafrique-reprend-en-main-le-financement-de-ses-ressources-petrogazieres_65402",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Financement",
+   "score": 2,
    "sentiment": 0,
    "tickers": []
   },
@@ -138,6 +330,118 @@
    "premium": false,
    "categorie": "Gouvernance",
    "score": 1,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65399",
+   "source": "Actualites economiques",
+   "date": "2026-10-31 00:00",
+   "titre": "Gabon : L’État muscle sa planification des investissements publics avec 487 projets supplémentaires recensés, portant le total à 1 162",
+   "extrait": "31/10/2026",
+   "url": "https://www.sikafinance.com/marches/gabon-letat-muscle-sa-planification-des-investissements-publics-avec-487-projets-supplementaires-recenses-portant-le-total-a-1-162_65399",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65398",
+   "source": "Actualites economiques",
+   "date": "2026-10-31 00:00",
+   "titre": "Gabon: Face à une subventions de 30 milliards FCFA en septembre, l’État augmente les carburants mais préserve le gaz domestique",
+   "extrait": "31/10/2026",
+   "url": "https://www.sikafinance.com/marches/gabon-face-a-une-subventions-de-30-milliards-fcfa-en-septembre-letat-augmente-les-carburants-mais-preserve-le-gaz-domestique_65398",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65400",
+   "source": "Actualites economiques",
+   "date": "2026-10-31 00:00",
+   "titre": "Libreville réussi à collecter 210 millions FCFA par paiements mobiles et veut désormais réduire les encaissements manuels de taxes",
+   "extrait": "31/10/2026",
+   "url": "https://www.sikafinance.com/marches/libreville-reussi-a-collecter-210-millions-fcfa-par-paiements-mobiles-et-veut-desormais-reduire-les-encaissements-manuels-de-taxes_65400",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65397",
+   "source": "Actualites economiques",
+   "date": "2026-10-31 00:00",
+   "titre": "Gabon : Rougier accuse une perte de 1,3 milliard FCFA au premier semestre malgré ses efforts de redressement",
+   "extrait": "31/10/2026",
+   "url": "https://www.sikafinance.com/marches/gabon-rougier-accuse-une-perte-de-1-3-milliard-fcfa-au-premier-semestre-malgre-ses-efforts-de-redressement_65397",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": -1,
+   "tickers": []
+  },
+  {
+   "id": "65396",
+   "source": "Actualites economiques",
+   "date": "2026-10-31 00:00",
+   "titre": "Gabon : Fortescue double ses équipements de forage à Bélinga et prolonge de deux ans son contrat avec Capital Limited",
+   "extrait": "31/10/2026",
+   "url": "https://www.sikafinance.com/marches/gabon-fortescue-double-ses-equipements-de-forage-a-belinga-et-prolonge-de-deux-ans-son-contrat-avec-capital-limited_65396",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65395",
+   "source": "Actualites economiques",
+   "date": "2026-10-31 00:00",
+   "titre": "Petroci fait face à une fuite enflammée au niveau de son installation de gaz de Vridi",
+   "extrait": "31/10/2026",
+   "url": "https://www.sikafinance.com/marches/petroci-fait-face-a-une-fuite-enflammee-au-niveau-de-son-installation-de-gaz-de-vridi_65395",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65394",
+   "source": "Actualites economiques",
+   "date": "2026-10-31 00:00",
+   "titre": "Gabon : Les revenus du minerai de manganèse d’Eramet bondissent de 31% à 190 milliards FCFA au troisième trimestre 2026",
+   "extrait": "31/10/2026",
+   "url": "https://www.sikafinance.com/marches/gabon-les-revenus-du-minerai-de-manganese-deramet-bondissent-de-31-a-190-milliards-fcfa-au-troisieme-trimestre-2026_65394",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65393",
+   "source": "Actualites economiques",
+   "date": "2026-10-31 00:00",
+   "titre": "Guinée équatoriale : Le chinois Beijing Weineng confirme son ambition et porte son projet énergétique à 500 MW",
+   "extrait": "05/06/2026",
+   "url": "https://www.sikafinance.com/marches/guinee-equatoriale-le-chinois-beijing-weineng-confirme-son-ambition-et-porte-son-projet-energetique-a-500-mw_65393",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
    "sentiment": 0,
    "tickers": []
   },
@@ -728,6 +1032,344 @@
  ],
  "communiques": [
   {
+   "date": "2026-10-30",
+   "societe": "NSIA BANQUE",
+   "titre": "NSIA BANQUE CI - Rapport dactivites - 3e trimestre 2026",
+   "url": "https://www.sikafinance.com/docs/nsia-banque-nsia-banque-ci--rapport-dactivites--3e-trimestre-2026.pdf",
+   "ticker": "NSBC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "NSBC"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "societe": "SOGB",
+   "titre": "SOGB CI - Attestation des Commissaires Aux Comptes sur le rapport dactivites - 1er semestre 2026",
+   "url": "https://www.sikafinance.com/docs/sogb-sogb-ci--attestation-des-commissaires-aux-comptes-sur-le-rapport-dactivites--1er-semestre-2026.pdf",
+   "ticker": "SOGC",
+   "categorie": "Attestation",
+   "score": 1,
+   "sentiment": 0,
+   "tickers": [
+    "SOGC"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "societe": "NEI CEDA CI",
+   "titre": "NEI-CEDA CI - Rapport dactivites - 3e trimestre 2026",
+   "url": "https://www.sikafinance.com/docs/nei-ceda-ci-nei-ceda-ci--rapport-dactivites--3e-trimestre-2026.pdf",
+   "ticker": "NEIC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "NEIC"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "societe": "SITAB",
+   "titre": "SITAB CI - Rapport dactivites - 1er semestre 2026",
+   "url": "https://www.sikafinance.com/docs/sitab-sitab-ci--rapport-dactivites--1er-semestre-2026.pdf",
+   "ticker": "STBC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "STBC"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "societe": "SETAO CI",
+   "titre": "SETAO CI - Attestation des Commissaires Aux Comptes sur le rapport dactivites - 1er semestre 2026",
+   "url": "https://www.sikafinance.com/docs/setao-ci-setao-ci--attestation-des-commissaires-aux-comptes-sur-le-rapport-dactivites--1er-semestre-2026.pdf",
+   "ticker": "STAC",
+   "categorie": "Attestation",
+   "score": 1,
+   "sentiment": 0,
+   "tickers": [
+    "STAC"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "societe": "SETAO CI",
+   "titre": "SETAO CI - Rapport dactivites - 3e trimestre 2026",
+   "url": "https://www.sikafinance.com/docs/setao-ci-setao-ci--rapport-dactivites--3e-trimestre-2026.pdf",
+   "ticker": "STAC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "STAC"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "societe": "SICABLE CI",
+   "titre": "SICABLE CI - Attestation des Commissaires Aux Comptes sur le rapport dactivites - 1er semestre 2026",
+   "url": "https://www.sikafinance.com/docs/sicable-ci-sicable-ci--attestation-des-commissaires-aux-comptes-sur-le-rapport-dactivites--1er-semestre-2026.pdf",
+   "ticker": "CABC",
+   "categorie": "Attestation",
+   "score": 1,
+   "sentiment": 0,
+   "tickers": [
+    "CABC"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "societe": "SICABLE CI",
+   "titre": "SICABLE CI - Rapport dactivites - 1er semestre 2026",
+   "url": "https://www.sikafinance.com/docs/sicable-ci-sicable-ci--rapport-dactivites--1er-semestre-2026.pdf",
+   "ticker": "CABC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "CABC"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "societe": "SMB CI",
+   "titre": "SMB CI - Rapport dactivites - 1er semestre 2026",
+   "url": "https://www.sikafinance.com/docs/smb-ci-smb-ci--rapport-dactivites--1er-semestre-2026.pdf",
+   "ticker": "SMBC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "SMBC"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "societe": "SODECI",
+   "titre": "SODE CI - Rapport dactivites - 1er semestre 2026",
+   "url": "https://www.sikafinance.com/docs/sodeci-sode-ci--rapport-dactivites--1er-semestre-2026.pdf",
+   "ticker": "SDCC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "SDCC"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "societe": "SITAB",
+   "titre": "SITAB CI - Rapport dactivites - 3e trimestre 2026",
+   "url": "https://www.sikafinance.com/docs/sitab-sitab-ci--rapport-dactivites--3e-trimestre-2026.pdf",
+   "ticker": "STBC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "STBC"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "societe": "BICICI",
+   "titre": "BICICI - Rapport dactivites - 3e trimestre 2026",
+   "url": "https://www.sikafinance.com/docs/bicici-bicici--rapport-dactivites--3e-trimestre-2026.pdf",
+   "ticker": "BICC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "BICC"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "societe": "SMB CI",
+   "titre": "SMB CI - Attestation des Commissaires Aux Comptes sur le rapport dactivites - 1er semestre 2026",
+   "url": "https://www.sikafinance.com/docs/smb-ci-smb-ci--attestation-des-commissaires-aux-comptes-sur-le-rapport-dactivites--1er-semestre-2026.pdf",
+   "ticker": "SMBC",
+   "categorie": "Attestation",
+   "score": 1,
+   "sentiment": 0,
+   "tickers": [
+    "SMBC"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "societe": "SOLIBRA CI",
+   "titre": "SOLIBRA CI - Rapport dactivites - 1er semestre 2026",
+   "url": "https://www.sikafinance.com/docs/solibra-ci-solibra-ci--rapport-dactivites--1er-semestre-2026.pdf",
+   "ticker": "SLBC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "SLBC"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "societe": "CFAO CI",
+   "titre": "CFAO MOTORS CI - Rapport dactivites - 1er semestre 2026",
+   "url": "https://www.sikafinance.com/docs/cfao-ci-cfao-motors-ci--rapport-dactivites--1er-semestre-2026.pdf",
+   "ticker": "CFAC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "CFAC"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "societe": "SOGB",
+   "titre": "SOGB CI - Rapport dactivites - 3e trimestre 2026",
+   "url": "https://www.sikafinance.com/docs/sogb-sogb-ci--rapport-dactivites--3e-trimestre-2026.pdf",
+   "ticker": "SOGC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "SOGC"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "societe": "TOTAL SENEGAL",
+   "titre": "TOTALENERGIES MARKETING SN - Rapport dactivites - 1er semestre 2026",
+   "url": "https://www.sikafinance.com/docs/total-senegal-totalenergies-marketing-sn--rapport-dactivites--1er-semestre-2026.pdf",
+   "ticker": "TTLS",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "TTLS"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "societe": "SETAO CI",
+   "titre": "SETAO CI - Rapport dactivites - 1er semestre 2026",
+   "url": "https://www.sikafinance.com/docs/setao-ci-setao-ci--rapport-dactivites--1er-semestre-2026.pdf",
+   "ticker": "STAC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "STAC"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "societe": "NEI CEDA CI",
+   "titre": "NEI-CEDA CI - Attestation des Commissaires Aux Comptes sur le rapport dactivites - 1er semestre 2026",
+   "url": "https://www.sikafinance.com/docs/nei-ceda-ci-nei-ceda-ci--attestation-des-commissaires-aux-comptes-sur-le-rapport-dactivites--1er-semestre-2026.pdf",
+   "ticker": "NEIC",
+   "categorie": "Attestation",
+   "score": 1,
+   "sentiment": 0,
+   "tickers": [
+    "NEIC"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "societe": "SGBCI",
+   "titre": "SOCIETE GENERALE CI - Rapport dactivites - 3e trimestre 2026",
+   "url": "https://www.sikafinance.com/docs/sgbci-societe-generale-ci--rapport-dactivites--3e-trimestre-2026.pdf",
+   "ticker": "SGBC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "SGBC"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "societe": "SOGB",
+   "titre": "SOGB CI - Rapport dactivites - 1er semestre 2026",
+   "url": "https://www.sikafinance.com/docs/sogb-sogb-ci--rapport-dactivites--1er-semestre-2026.pdf",
+   "ticker": "SOGC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "SOGC"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "societe": "SICABLE CI",
+   "titre": "SICABLE CI - Rapport dactivites - 3e trimestre 2026",
+   "url": "https://www.sikafinance.com/docs/sicable-ci-sicable-ci--rapport-dactivites--3e-trimestre-2026.pdf",
+   "ticker": "CABC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "CABC"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "societe": "NEI CEDA CI",
+   "titre": "NEI-CEDA CI - Rapport dactivites - 1er semestre 2026",
+   "url": "https://www.sikafinance.com/docs/nei-ceda-ci-nei-ceda-ci--rapport-dactivites--1er-semestre-2026.pdf",
+   "ticker": "NEIC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "NEIC"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "societe": "SMB CI",
+   "titre": "SMB CI - Rapport dactivites - 3e trimestre 2026",
+   "url": "https://www.sikafinance.com/docs/smb-ci-smb-ci--rapport-dactivites--3e-trimestre-2026.pdf",
+   "ticker": "SMBC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "SMBC"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "societe": "TOTAL SENEGAL",
+   "titre": "TOTALENERGIES MARKETING SN - Rapport dactivites - 3e trimestre 2026",
+   "url": "https://www.sikafinance.com/docs/total-senegal-totalenergies-marketing-sn--rapport-dactivites--3e-trimestre-2026.pdf",
+   "ticker": "TTLS",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "TTLS"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "societe": "SODECI",
+   "titre": "SODE CI - Rapport dactivites - 3e trimestre 2026",
+   "url": "https://www.sikafinance.com/docs/sodeci-sode-ci--rapport-dactivites--3e-trimestre-2026.pdf",
+   "ticker": "SDCC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "SDCC"
+   ]
+  },
+  {
    "date": "2026-10-29",
    "societe": "TRACTAFRIC MOTORS CI",
    "titre": "TRACTAFRIC MOTORS CI - Rapport dactivites - 1er semestre 2026",
@@ -1242,18 +1884,11 @@
  ],
  "dividendes_a_venir": [
   {
-   "date": "26/10/2026",
-   "ticker": "SDSC",
-   "nom": "AFRICA GLOBAL LOGISTICS",
-   "montant": 92.0,
-   "rendement": 3.02
-  },
-  {
    "date": "A préciser",
    "ticker": "LNBB",
    "nom": "LOTERIE NATIONALE DU BENIN",
    "montant": 164.0,
-   "rendement": 4.15
+   "rendement": 4.17
   }
  ]
 }

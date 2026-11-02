@@ -163,5 +163,17 @@
    "signaux": []
   }
  },
- "_traites": {}
+ "_traites": {},
+ "_operations": {
+  "SNTS": [
+   {
+    "type": "fractionnement",
+    "date": "2026-10-23",
+    "url": "https://www.sikafinance.com/docs/sonatel-sonatel-sn--fractionnement-dactions--valeur-theorique.pdf",
+    "titre": "SONATEL SN - Fractionnement dactions - Valeur theorique",
+    "facteur": null,
+    "essais": 1
+   }
+  ]
+ }
 }
