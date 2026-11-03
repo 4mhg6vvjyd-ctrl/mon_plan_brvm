@@ -2334,5 +2334,58 @@
    "signaux": [],
    "a_verifier": false
   }
+ },
+ "ORAC": {
+  "2025": {
+   "ticker": "ORAC",
+   "source": "ORAC_2025.pdf (Orange CI, comptes consolidés IFRS, en milliards)",
+   "norme": "ifrs",
+   "exercice": 2025,
+   "valeurs": {
+    "2025": {
+     "ca": 1197100000000,
+     "res_exploitation": 287200000000,
+     "res_financier": -28800000000,
+     "impot": -90600000000,
+     "res_net": 167800000000,
+     "res_net_part_groupe": 129100000000,
+     "capitaux_propres": 713800000000,
+     "dette_fin_nc": 159800000000,
+     "dette_fin_c": 176000000000,
+     "investissements": -184200000000,
+     "tresorerie": 225800000000
+    },
+    "2024": {
+     "ca": 1084100000000,
+     "res_exploitation": 263200000000,
+     "res_financier": -20500000000,
+     "impot": -84500000000,
+     "res_net": 158200000000,
+     "res_net_part_groupe": 112800000000,
+     "capitaux_propres": 707800000000,
+     "dette_fin_nc": 224000000000,
+     "dette_fin_c": 111900000000,
+     "investissements": -159500000000,
+     "tresorerie": 287000000000
+    }
+   },
+   "dividende_brut_par_action": null,
+   "dividende_total": null,
+   "nombre_actions": 150600000,
+   "notes": [
+    "Montants publiés en milliards à une décimale.",
+    "Nombre d’actions approché à partir du bénéfice par action publié (857 FCFA).",
+    "Chiffres relevés à la main sur le rapport scanné."
+   ],
+   "saisie_manuelle": true,
+   "controles": [
+    {
+     "ok": true,
+     "texte": "Resultat net = exploitation + financier - impot : calcule 167 800 000 000 / publie 167 800 000 000"
+    }
+   ],
+   "signaux": [],
+   "a_verifier": false
+  }
  }
 }
