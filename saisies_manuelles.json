@@ -349,5 +349,390 @@
     "capital": 40000000000
    }
   }
+ },
+ "FTSC": {
+  "2025": {
+   "norme": "syscohada",
+   "source": "FTSC_2025.pdf (Filtisac)",
+   "n": {
+    "ca": 32108628000,
+    "res_exploitation": 275039000,
+    "res_financier": -132714000,
+    "res_ordinaire": 142325000,
+    "res_hao": 381643000,
+    "impot": 57987000,
+    "res_net": 465981000,
+    "capital": 8814838000
+   },
+   "n1": {
+    "ca": 30694517000,
+    "res_exploitation": -882181000,
+    "res_financier": 5222667000,
+    "res_ordinaire": 4340485000,
+    "res_hao": 18862687000,
+    "impot": 4607897000,
+    "res_net": 18595275000,
+    "capital": 8814838000
+   },
+   "dividende_total": 0,
+   "notes": [
+    "Pas de dividende proposé pour 2025. Le bénéfice 2024 venait surtout d’éléments exceptionnels (HAO) et financiers."
+   ]
+  }
+ },
+ "PALC": {
+  "2025": {
+   "norme": "syscohada",
+   "source": "PALC_2025.pdf (Palm CI)",
+   "n": {
+    "ca": 197629996000,
+    "res_exploitation": 18163004000,
+    "res_financier": 2213587000,
+    "res_ordinaire": 20376592000,
+    "res_hao": -156403000,
+    "impot": 4711534000,
+    "res_net": 15508655000,
+    "capitaux_propres": 142638984000,
+    "capital": 20406297000
+   },
+   "n1": {
+    "ca": 172182502000,
+    "res_exploitation": 19393765000,
+    "res_financier": 2530871000,
+    "res_ordinaire": 21924637000,
+    "res_hao": 194706000,
+    "impot": 6257700000,
+    "res_net": 15861643000,
+    "capitaux_propres": 135061151000,
+    "capital": 20406297000
+   },
+   "dpa": 502,
+   "dividende_total": 7754327000,
+   "nombre_actions": 15446866
+  }
+ },
+ "SOGC": {
+  "2025": {
+   "norme": "syscohada",
+   "source": "SOGC_2025.pdf (SOGB)",
+   "n": {
+    "ca": 98979032000,
+    "res_exploitation": 17061019000,
+    "res_financier": 100506000,
+    "res_ordinaire": 17161525000,
+    "res_hao": -70717000,
+    "impot": 4598185000,
+    "res_net": 12492623000,
+    "capital": 21601840000
+   },
+   "n1": {
+    "ca": 89415277000,
+    "res_exploitation": 18383382000,
+    "res_financier": -343158000,
+    "res_ordinaire": 18040224000,
+    "res_hao": -791614000,
+    "impot": 4137820000,
+    "res_net": 13110790000,
+    "capital": 21601840000
+   },
+   "dividende_total": 12313049000,
+   "notes": [
+    "Résultats financier et HAO déduits des sous-totaux publiés."
+   ]
+  }
+ },
+ "SPHC": {
+  "2025": {
+   "norme": "syscohada",
+   "source": "SPHC_2025.pdf (SAPH)",
+   "n": {
+    "ca": 340830548704,
+    "res_exploitation": 38134121165,
+    "res_financier": -3482371255,
+    "res_ordinaire": 34651749910,
+    "res_hao": -84639956,
+    "impot": 9595039804,
+    "res_net": 24972070150,
+    "capitaux_propres": 137936908394,
+    "capital": 14593620855
+   },
+   "n1": {
+    "ca": 279437727425,
+    "res_exploitation": 29445590532,
+    "res_financier": -3708013677,
+    "res_ordinaire": 25737576855,
+    "res_hao": -30921205,
+    "impot": 6916437745,
+    "res_net": 18790217905,
+    "capitaux_propres": 122370184084,
+    "capital": 14593620855
+   },
+   "dividende_total": 12497864445
+  }
+ },
+ "STBC": {
+  "2025": {
+   "norme": "syscohada",
+   "source": "STBC_2025.pdf (SITAB)",
+   "n": {
+    "ca": 268537063096,
+    "res_exploitation": 45935264330,
+    "res_financier": 2402828793,
+    "res_ordinaire": 48338093123,
+    "res_hao": 2313679965,
+    "impot": 14188156713,
+    "res_net": 36463616375,
+    "capital": 4488750000
+   },
+   "n1": {
+    "ca": 214312616965,
+    "res_exploitation": 57068888519,
+    "res_financier": 1575172860,
+    "res_ordinaire": 58644061379,
+    "res_hao": -3803375,
+    "impot": 14466495513,
+    "res_net": 44173762491,
+    "capital": 4488750000
+   },
+   "dpa": 1940,
+   "dividende_total": 30966517054,
+   "nombre_actions": 15962122
+  }
+ },
+ "BICC": {
+  "2025": {
+   "norme": "banque",
+   "source": "BICC_2025.pdf (BICICI, en millions)",
+   "n": {
+    "pnb": 79563000000,
+    "frais_generaux": -40441000000,
+    "res_brut_exploitation": 39122000000,
+    "cout_risque": 1498000000,
+    "res_exploitation": 40620000000,
+    "gains_immobilises": 1101000000,
+    "impot": -5201000000,
+    "res_net": 36520000000,
+    "capitaux_propres": 120570000000,
+    "depots_clientele": 952872000000,
+    "capital": 25000000000
+   },
+   "n1": {
+    "pnb": 68063000000,
+    "frais_generaux": -37985000000,
+    "res_brut_exploitation": 30078000000,
+    "cout_risque": -1309000000,
+    "res_exploitation": 28769000000,
+    "gains_immobilises": 771000000,
+    "impot": -3313000000,
+    "res_net": 26226000000,
+    "capitaux_propres": 99783000000,
+    "depots_clientele": 819426000000,
+    "capital": 25000000000
+   },
+   "notes": [
+    "Coût du risque positif en 2025 : reprises de provisions supérieures aux dotations."
+   ]
+  }
+ },
+ "NSBC": {
+  "2025": {
+   "norme": "banque",
+   "source": "NSBC_2025.pdf (NSIA Banque CI, en millions)",
+   "n": {
+    "pnb": 112928000000,
+    "frais_generaux": -61647000000,
+    "res_brut_exploitation": 51281000000,
+    "cout_risque": -8510000000,
+    "res_exploitation": 42771000000,
+    "gains_immobilises": 375000000,
+    "impot": -2434000000,
+    "res_net": 40712000000,
+    "capitaux_propres": 233303000000,
+    "depots_clientele": 2242218000000,
+    "capital": 24735000000
+   },
+   "n1": {
+    "pnb": 97819000000,
+    "frais_generaux": -58419000000,
+    "res_brut_exploitation": 39400000000,
+    "cout_risque": 537000000,
+    "res_exploitation": 39937000000,
+    "gains_immobilises": 282000000,
+    "impot": -2107000000,
+    "res_net": 38112000000,
+    "capitaux_propres": 211371000000,
+    "depots_clientele": 1700893000000,
+    "capital": 24735000000
+   },
+   "notes": [
+    "Données 2024 corrigées par la banque par rapport à la publication précédente."
+   ]
+  }
+ },
+ "SIBC": {
+  "2025": {
+   "norme": "banque",
+   "source": "SIBC_2025.pdf (SIB CI ; compte de résultat publié en milliards arrondis)",
+   "n": {
+    "pnb": 108700000000,
+    "frais_generaux": -41900000000,
+    "res_brut_exploitation": 66700000000,
+    "cout_risque": -3600000000,
+    "res_exploitation": 63100000000,
+    "gains_immobilises": -100000000,
+    "impot": -7400000000,
+    "res_net": 55600000000,
+    "capitaux_propres": 204765000000,
+    "depots_clientele": 1503441000000,
+    "capital": 20000000000
+   },
+   "n1": {
+    "pnb": 102800000000,
+    "frais_generaux": -40100000000,
+    "res_brut_exploitation": 62600000000,
+    "cout_risque": -5200000000,
+    "res_exploitation": 57400000000,
+    "gains_immobilises": 100000000,
+    "impot": -7300000000,
+    "res_net": 50200000000,
+    "capitaux_propres": 187136000000,
+    "depots_clientele": 1398752000000,
+    "capital": 20000000000
+   },
+   "dpa": 425,
+   "notes": [
+    "Compte de résultat publié en milliards à une décimale : résultat d’exploitation et impôt déduits des sous-totaux."
+   ]
+  }
+ },
+ "ECOC": {
+  "2025": {
+   "norme": "banque",
+   "source": "ECOC_2025.pdf (Ecobank CI, en millions)",
+   "n": {
+    "pnb": 132725000000,
+    "frais_generaux": -56931000000,
+    "res_brut_exploitation": 75794000000,
+    "cout_risque": -1799000000,
+    "res_exploitation": 73995000000,
+    "gains_immobilises": 32000000,
+    "impot": -10545000000,
+    "res_net": 63482000000,
+    "capitaux_propres": 218600000000,
+    "depots_clientele": 1626223000000
+   },
+   "n1": {
+    "pnb": 122316000000,
+    "frais_generaux": -54977000000,
+    "res_brut_exploitation": 67339000000,
+    "cout_risque": -2935000000,
+    "res_exploitation": 64404000000,
+    "gains_immobilises": 28000000,
+    "impot": -6955000000,
+    "res_net": 57477000000,
+    "depots_clientele": 1412512000000
+   },
+   "dpa": 888,
+   "notes": [
+    "Résultat d’exploitation et impôt déduits des sous-totaux publiés ; fonds propres 2025 arrondis (218,6 Mds)."
+   ]
+  }
+ },
+ "ORGT": {
+  "2025": {
+   "norme": "banque",
+   "source": "ORGT_2025.pdf (Oragroup, comptes consolidés IFRS, en millions)",
+   "n": {
+    "pnb": 186609000000,
+    "frais_generaux": -150472000000,
+    "res_brut_exploitation": 36137000000,
+    "cout_risque": -6971000000,
+    "res_exploitation": 29166000000,
+    "gains_immobilises": 573000000,
+    "impot": -8096000000,
+    "res_net": 21643000000,
+    "capitaux_propres": 113165000000
+   },
+   "n1": {
+    "pnb": 195436000000,
+    "frais_generaux": -171144000000,
+    "res_brut_exploitation": 24292000000,
+    "cout_risque": -69056000000,
+    "res_exploitation": -44764000000,
+    "gains_immobilises": 156000000,
+    "impot": 245000000,
+    "res_net": -44363000000,
+    "capitaux_propres": 96720000000
+   },
+   "notes": [
+    "Comptes consolidés du groupe. Fonds propres part du groupe : 69,5 Mds (54,8 Mds en 2024).",
+    "Retour au bénéfice après la lourde perte de 2024 (coût du risque de 69 Mds)."
+   ]
+  }
+ },
+ "SAFC": {
+  "2025": {
+   "norme": "banque",
+   "source": "SAFC_2025.pdf (Alios Finance CI, en millions)",
+   "n": {
+    "pnb": 5735000000,
+    "frais_generaux": -4452000000,
+    "res_brut_exploitation": 1283000000,
+    "cout_risque": -377000000,
+    "res_exploitation": 906000000,
+    "gains_immobilises": 15000000,
+    "impot": -219000000,
+    "res_net": 701000000,
+    "capitaux_propres": 5916000000,
+    "depots_clientele": 9112000000,
+    "capital": 3248000000
+   },
+   "n1": {
+    "pnb": 3980000000,
+    "frais_generaux": -3722000000,
+    "res_brut_exploitation": 258000000,
+    "cout_risque": -333000000,
+    "res_exploitation": -75000000,
+    "gains_immobilises": 0,
+    "impot": -90000000,
+    "res_net": -165000000,
+    "capitaux_propres": 5215000000,
+    "depots_clientele": 7821000000,
+    "capital": 3248000000
+   }
+  }
+ },
+ "BBGC": {
+  "2025": {
+   "norme": "banque",
+   "source": "BBGC_2025.pdf (Bridge Bank Group CI, en millions)",
+   "n": {
+    "pnb": 67824000000,
+    "frais_generaux": -28383000000,
+    "res_brut_exploitation": 39441000000,
+    "cout_risque": -6804000000,
+    "res_exploitation": 32637000000,
+    "gains_immobilises": 0,
+    "impot": -5440000000,
+    "res_net": 27197000000,
+    "capitaux_propres": 105139000000,
+    "depots_clientele": 1138119000000
+   },
+   "n1": {
+    "pnb": 59116000000,
+    "frais_generaux": -24810000000,
+    "res_brut_exploitation": 34306000000,
+    "cout_risque": -6406000000,
+    "res_exploitation": 27900000000,
+    "gains_immobilises": 261000000,
+    "impot": -5369000000,
+    "res_net": 22792000000,
+    "capitaux_propres": 90125000000,
+    "depots_clientele": 892178000000
+   },
+   "notes": [
+    "Impôt déduit du résultat avant impôt et du résultat net publiés."
+   ]
+  }
  }
 }
