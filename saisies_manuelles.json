@@ -252,5 +252,102 @@
     "Rapport d’activité : pas de bilan publié dans ce document."
    ]
   }
+ },
+ "BOAN": {
+  "2025": {
+   "norme": "banque",
+   "source": "BOAN_2025.pdf (BOA Niger, scan, en millions)",
+   "n": {
+    "pnb": 21125000000,
+    "frais_generaux": -15711000000,
+    "res_brut_exploitation": 5414000000,
+    "cout_risque": -4293000000,
+    "res_exploitation": 1122000000,
+    "gains_immobilises": 62000000,
+    "impot": -774000000,
+    "res_net": 409000000,
+    "capitaux_propres": 36064000000,
+    "depots_clientele": 183280000000,
+    "capital": 20800000000
+   },
+   "n1": {
+    "pnb": 21380000000,
+    "frais_generaux": -13130000000,
+    "res_brut_exploitation": 8251000000,
+    "cout_risque": -2716000000,
+    "res_exploitation": 5535000000,
+    "gains_immobilises": 35000000,
+    "impot": -568000000,
+    "res_net": 5002000000,
+    "capitaux_propres": 42156000000,
+    "depots_clientele": 170961000000,
+    "capital": 20800000000
+   },
+   "notes": [
+    "Report à nouveau négatif (–1,8 Md) : correction d’une erreur de comptabilisation sur un crédit (note 4.28 du rapport)."
+   ]
+  }
+ },
+ "CBIBF": {
+  "2025": {
+   "norme": "banque",
+   "source": "CBIBF_2025.pdf (Coris Bank International BF, scan, en millions)",
+   "n": {
+    "pnb": 138986000000,
+    "frais_generaux": -50574000000,
+    "res_brut_exploitation": 88412000000,
+    "cout_risque": -16454000000,
+    "res_exploitation": 71959000000,
+    "gains_immobilises": 130000000,
+    "impot": -6593000000,
+    "res_net": 65495000000,
+    "capitaux_propres": 330548000000,
+    "depots_clientele": 2015284000000,
+    "capital": 32000000000
+   },
+   "n1": {
+    "pnb": 133723000000,
+    "frais_generaux": -45454000000,
+    "res_brut_exploitation": 88269000000,
+    "cout_risque": -40514000000,
+    "res_exploitation": 47755000000,
+    "gains_immobilises": 1449000000,
+    "impot": -1267000000,
+    "res_net": 47937000000,
+    "capitaux_propres": 287734000000,
+    "depots_clientele": 1754521000000,
+    "capital": 32000000000
+   }
+  }
+ },
+ "BOAC": {
+  "2025": {
+   "norme": "banque",
+   "source": "BOAC_2025.pdf (BOA Côte d’Ivoire, scan, en millions)",
+   "n": {
+    "pnb": 73545000000,
+    "frais_generaux": -26988000000,
+    "res_brut_exploitation": 46557000000,
+    "cout_risque": -4902000000,
+    "res_exploitation": 41655000000,
+    "gains_immobilises": 17000000,
+    "impot": -6132000000,
+    "res_net": 35540000000,
+    "capitaux_propres": 127340000000,
+    "capital": 40000000000
+   },
+   "n1": {
+    "pnb": 72724000000,
+    "frais_generaux": -26710000000,
+    "res_brut_exploitation": 46014000000,
+    "cout_risque": -6791000000,
+    "res_exploitation": 39223000000,
+    "gains_immobilises": 39000000,
+    "impot": -7217000000,
+    "res_net": 32045000000,
+    "capitaux_propres": 112644000000,
+    "capital": 40000000000
+   }
+  }
  }
 }
