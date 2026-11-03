@@ -172,8 +172,119 @@
     "url": "https://www.sikafinance.com/docs/sonatel-sonatel-sn--fractionnement-dactions--valeur-theorique.pdf",
     "titre": "SONATEL SN - Fractionnement dactions - Valeur theorique",
     "facteur": null,
-    "essais": 1
+    "essais": 2
    }
   ]
+ },
+ "ABJC": {
+  "2025": {
+   "ticker": "ABJC",
+   "source": "ABJC_2025.pdf (Servair Abidjan, scan)",
+   "norme": "syscohada",
+   "exercice": 2025,
+   "valeurs": {
+    "2025": {
+     "ca": 13298319225,
+     "res_exploitation": 2178015658,
+     "res_financier": 24891641,
+     "res_ordinaire": 2202907299,
+     "res_hao": -12500000,
+     "impot": 839746778,
+     "res_net": 1350660521,
+     "capitaux_propres": 5159194517,
+     "dettes_financieres": 65893476,
+     "tresorerie_actif": 4034582580,
+     "capital": 1364000000
+    },
+    "2024": {
+     "ca": 12466921255,
+     "res_exploitation": 2100227044,
+     "res_financier": 17941052,
+     "res_ordinaire": 2118168096,
+     "res_hao": -4503390,
+     "impot": 594442771,
+     "res_net": 1519221935,
+     "capitaux_propres": 3808533996,
+     "dettes_financieres": 78886484,
+     "tresorerie_actif": 3427743369,
+     "capital": 1364000000
+    }
+   },
+   "dividende_brut_par_action": null,
+   "dividende_total": 1500000000,
+   "nombre_actions": null,
+   "notes": [
+    "Chiffres relevés à la main sur le rapport scanné."
+   ],
+   "saisie_manuelle": true,
+   "controles": [
+    {
+     "ok": true,
+     "texte": "Activites ordinaires = exploitation + financier : calcule 2 202 907 299 / publie 2 202 907 299"
+    },
+    {
+     "ok": true,
+     "texte": "Resultat net = ordinaire + HAO - impot : calcule 1 350 660 521 / publie 1 350 660 521"
+    }
+   ],
+   "signaux": [
+    "Dividende proposé : 111% du bénéfice de l’exercice."
+   ],
+   "a_verifier": false
+  }
+ },
+ "STAC": {
+  "2025": {
+   "ticker": "STAC",
+   "source": "STAC_2025.pdf (SETAO, scan)",
+   "norme": "syscohada",
+   "exercice": 2025,
+   "valeurs": {
+    "2025": {
+     "ca": 3878254000,
+     "res_exploitation": -771953000,
+     "res_financier": 227009000,
+     "res_ordinaire": -544944000,
+     "res_hao": 549285000,
+     "impot": 100899000,
+     "res_net": -96558000,
+     "capitaux_propres": 356746000,
+     "dettes_financieres": 463307000,
+     "tresorerie_actif": 1330324000
+    },
+    "2024": {
+     "ca": 1793360000,
+     "res_exploitation": -1007887000,
+     "res_financier": 85321000,
+     "res_ordinaire": -922567000,
+     "res_hao": 585477000,
+     "impot": 11106000,
+     "res_net": -348195000,
+     "capitaux_propres": 453306000,
+     "dettes_financieres": 412257000,
+     "tresorerie_actif": 3719280000
+    }
+   },
+   "dividende_brut_par_action": null,
+   "dividende_total": null,
+   "nombre_actions": null,
+   "notes": [
+    "Le chiffre d’affaires publié inclut les autres produits et transferts de charges.",
+    "Chiffres relevés à la main sur le rapport scanné."
+   ],
+   "saisie_manuelle": true,
+   "controles": [
+    {
+     "ok": true,
+     "texte": "Activites ordinaires = exploitation + financier : calcule -544 944 000 / publie -544 944 000"
+    },
+    {
+     "ok": true,
+     "texte": "Resultat net = ordinaire + HAO - impot : calcule -96 558 000 / publie -96 558 000"
+    }
+   ],
+   "signaux": [],
+   "a_verifier": false
+  }
  }
 }
