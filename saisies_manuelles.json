@@ -734,5 +734,442 @@
     "Impôt déduit du résultat avant impôt et du résultat net publiés."
    ]
   }
+ },
+ "NTLC": {
+  "2025": {
+   "norme": "syscohada",
+   "source": "NTLC_2025.pdf (Nestlé CI)",
+   "n": {
+    "ca": 233261162741,
+    "res_exploitation": 37687318144,
+    "res_financier": -7957177438,
+    "res_ordinaire": 29730140706,
+    "res_hao": 25836359,
+    "impot": 11329077586,
+    "res_net": 18426899479
+   },
+   "n1": {
+    "ca": 220113267165,
+    "res_exploitation": 35276845649,
+    "res_financier": -6308116719,
+    "res_ordinaire": 28968728930,
+    "res_hao": -48383175,
+    "impot": 10770378668,
+    "res_net": 18149967087
+   },
+   "dividende_total": 9269568000,
+   "notes": [
+    "Dividende proposé divisé par deux (9,3 Mds contre 18,1 Mds l’an dernier)."
+   ]
+  }
+ },
+ "ONTBF": {
+  "2025": {
+   "norme": "syscohada",
+   "source": "ONTBF_2025.pdf (Onatel BF)",
+   "n": {
+    "ca": 146176657128,
+    "res_exploitation": 25665215120,
+    "res_financier": -3276839943,
+    "res_ordinaire": 22388375177,
+    "res_net": 15886921152
+   },
+   "n1": {
+    "ca": 141841255383,
+    "res_exploitation": 33565159589,
+    "res_financier": -2957871977,
+    "res_ordinaire": 30607287612,
+    "res_net": 21471148928
+   },
+   "notes": [
+    "Impôt et résultat HAO illisibles dans le PDF (police non standard)."
+   ]
+  }
+ },
+ "LNBB": {
+  "2025": {
+   "norme": "syscohada",
+   "source": "LNBB_2025.pdf (Loterie Nationale du Bénin)",
+   "n": {
+    "ca": 98598057859,
+    "res_exploitation": 6376159291,
+    "res_financier": 535772581,
+    "res_ordinaire": 6911931872,
+    "res_hao": 71502749,
+    "impot": 2361190842,
+    "res_net": 4622243779,
+    "capital": 2000000000
+   },
+   "n1": {
+    "ca": 102543616960,
+    "res_exploitation": 4558341595,
+    "res_financier": 612922941,
+    "res_ordinaire": 5171264536,
+    "res_hao": 3097678492,
+    "impot": 1093388773,
+    "res_net": 7175554255,
+    "capital": 2000000000
+   },
+   "notes": [
+    "Résultat HAO déduit ; le bénéfice 2024 était porté par des éléments exceptionnels."
+   ]
+  }
+ },
+ "TTLC": {
+  "2025": {
+   "norme": "syscohada",
+   "source": "TTLC_2025.pdf (TotalEnergies Marketing CI, en millions)",
+   "n": {
+    "ca": 588709000000,
+    "res_exploitation": 12329000000,
+    "res_financier": 268000000,
+    "res_ordinaire": 12597000000,
+    "res_hao": 0,
+    "impot": 3510000000,
+    "res_net": 9087000000,
+    "capitaux_propres": 36202000000
+   },
+   "n1": {
+    "ca": 621042000000,
+    "res_exploitation": 10491000000,
+    "res_financier": 2687000000,
+    "res_ordinaire": 13178000000,
+    "res_hao": -869000000,
+    "impot": 2934000000,
+    "res_net": 9374000000,
+    "capitaux_propres": 41115000000
+   },
+   "dividende_total": 10000000000
+  }
+ },
+ "TTLS": {
+  "2025": {
+   "norme": "syscohada",
+   "source": "TTLS_2025.pdf (TotalEnergies Marketing Sénégal, en milliers)",
+   "n": {
+    "ca": 455209000000,
+    "res_exploitation": 7880032000,
+    "res_financier": 1263471000,
+    "res_ordinaire": 9143503000,
+    "res_hao": -8528000,
+    "impot": 2988448000,
+    "res_net": 6146527000
+   },
+   "n1": {
+    "res_exploitation": 7470764000,
+    "res_financier": 1854764000,
+    "res_ordinaire": 9325529000,
+    "res_hao": 109568000,
+    "impot": 2344286000,
+    "res_net": 7090811000
+   }
+  }
+ },
+ "SHEC": {
+  "2025": {
+   "norme": "syscohada",
+   "source": "SHEC_2025.pdf (Vivo Energy CI)",
+   "n": {
+    "ca": 604978411174,
+    "res_exploitation": 11682199864,
+    "res_financier": -3472355572,
+    "res_ordinaire": 8209844292,
+    "res_hao": -246010392,
+    "impot": 1935707942,
+    "res_net": 6028125958,
+    "capital": 3150000000
+   },
+   "n1": {
+    "ca": 600707830161,
+    "res_exploitation": 11336978953,
+    "res_financier": -3964784937,
+    "res_ordinaire": 7372194016,
+    "res_hao": 3347836,
+    "impot": 2021548474,
+    "res_net": 5353993378,
+    "capital": 3150000000
+   },
+   "dividende_total": 6090000000
+  }
+ },
+ "UNXC": {
+  "2025": {
+   "norme": "syscohada",
+   "source": "UNXC_2025.pdf (Uniwax)",
+   "n": {
+    "ca": 29031727207,
+    "res_exploitation": -423608525,
+    "res_financier": -12738892,
+    "res_ordinaire": -436347417,
+    "res_hao": -152764052,
+    "impot": 35000000,
+    "res_net": -624111469,
+    "capitaux_propres": 24619180792
+   },
+   "n1": {
+    "ca": 27333349555,
+    "res_exploitation": -2136021358,
+    "res_financier": -23146043,
+    "res_ordinaire": -2159167401,
+    "res_hao": 5229499,
+    "impot": 35000000,
+    "res_net": -2188937902,
+    "capitaux_propres": 15591475518
+   },
+   "notes": [
+    "Fonds propres en forte hausse malgré la perte : opération sur le capital à vérifier."
+   ]
+  }
+ },
+ "SIVC": {
+  "2025": {
+   "norme": "syscohada",
+   "source": "SIVC_2025.pdf",
+   "n": {
+    "ca": 10074573973,
+    "res_exploitation": 866372202,
+    "res_financier": -313968929,
+    "res_ordinaire": 552403273,
+    "res_hao": -114033582,
+    "impot": 259076409,
+    "res_net": 179293282,
+    "capitaux_propres": 2526541669
+   },
+   "n1": {
+    "ca": 9282599196,
+    "res_exploitation": 522305061,
+    "res_financier": -275057117,
+    "res_ordinaire": 247247944,
+    "res_hao": 316170056,
+    "impot": 186461182,
+    "res_net": 376956818,
+    "capitaux_propres": 3272424840
+   }
+  }
+ },
+ "SMBC": {
+  "2025": {
+   "norme": "syscohada",
+   "source": "SMBC_2025.pdf (SMB CI, en millions)",
+   "n": {
+    "ca": 206740000000,
+    "res_exploitation": 17828000000,
+    "res_financier": 147000000,
+    "res_ordinaire": 17975000000,
+    "res_hao": 9000000,
+    "impot": 4909000000,
+    "res_net": 13075000000,
+    "capitaux_propres": 42913000000
+   },
+   "n1": {
+    "ca": 229061000000,
+    "res_exploitation": 12036000000,
+    "res_financier": 412000000,
+    "res_ordinaire": 12448000000,
+    "res_hao": 0,
+    "impot": 3750000000,
+    "res_net": 8698000000,
+    "capitaux_propres": 35294000000
+   },
+   "dividende_total": 6236160000
+  }
+ },
+ "CIEC": {
+  "2025": {
+   "norme": "syscohada",
+   "source": "CIEC_2025.pdf (CIE, en millions)",
+   "n": {
+    "ca": 302320000000,
+    "res_exploitation": 22381000000,
+    "res_financier": -3188000000,
+    "res_ordinaire": 19194000000,
+    "res_hao": -110000000,
+    "impot": 5957000000,
+    "res_net": 13127000000
+   },
+   "n1": {
+    "ca": 263294000000,
+    "res_exploitation": 16591000000,
+    "res_financier": -2425000000,
+    "res_ordinaire": 14165000000,
+    "res_hao": 587000000,
+    "impot": 4651000000,
+    "res_net": 10101000000
+   },
+   "dividende_total": 13104000000
+  }
+ },
+ "SDCC": {
+  "2025": {
+   "norme": "syscohada",
+   "source": "SDCC_2025.pdf (SODECI, communiqué)",
+   "n": {
+    "ca": 189400000000,
+    "res_exploitation": 9100000000,
+    "res_net": 4663000000
+   },
+   "n1": {},
+   "dpa": 525,
+   "dividende_total": 4725000000,
+   "nombre_actions": 9000000,
+   "notes": [
+    "Chiffres issus du communiqué (arrondis) : états financiers détaillés à obtenir."
+   ]
+  }
+ },
+ "SCRC": {
+  "2025": {
+   "norme": "syscohada",
+   "source": "SCRC_2025.pdf (Sucrivoire, en milliers)",
+   "n": {
+    "ca": 80568589000,
+    "impot": 622883000,
+    "res_net": -7953932000
+   },
+   "n1": {
+    "ca": 87219127000,
+    "impot": 756593000,
+    "res_net": 2473760000
+   },
+   "notes": [
+    "Perte de 8 Mds en 2025 après un bénéfice de 2,5 Mds en 2024."
+   ]
+  }
+ },
+ "CABC": {
+  "2025": {
+   "norme": "syscohada",
+   "source": "CABC_2025.pdf (Sicable, en milliers)",
+   "n": {
+    "ca": 21263067000,
+    "res_exploitation": 2088527000,
+    "res_financier": 60209000,
+    "res_ordinaire": 2148736000,
+    "res_hao": -74878000,
+    "impot": 634384000,
+    "res_net": 1439474000
+   },
+   "n1": {
+    "ca": 19125319000,
+    "res_exploitation": 1629028000,
+    "res_financier": 80691000,
+    "res_ordinaire": 1709719000,
+    "res_hao": 321284000,
+    "impot": 655907000,
+    "res_net": 1375096000
+   }
+  }
+ },
+ "SLBC": {
+  "2025": {
+   "norme": "syscohada",
+   "source": "SLBC_2025.pdf (Solibra, en millions)",
+   "n": {
+    "ca": 378123000000,
+    "res_exploitation": 65165000000,
+    "res_financier": -1920000000,
+    "res_ordinaire": 63245000000,
+    "res_hao": -1275000000,
+    "impot": 16188000000,
+    "res_net": 45781000000,
+    "capitaux_propres": 195142000000
+   },
+   "n1": {
+    "ca": 309722000000,
+    "res_exploitation": 34735000000,
+    "res_financier": -4304000000,
+    "res_ordinaire": 30432000000,
+    "res_hao": -817000000,
+    "impot": 8143000000,
+    "res_net": 21472000000,
+    "capitaux_propres": 169443000000
+   },
+   "dividende_total": 35012206680,
+   "notes": [
+    "Le chiffre d’affaires publié inclut les autres produits."
+   ]
+  }
+ },
+ "NEIC": {
+  "2025": {
+   "norme": "syscohada",
+   "source": "NEIC_2025.pdf (NEI-CEDA)",
+   "n": {
+    "ca": 5139206354,
+    "res_exploitation": 1212792267,
+    "res_financier": 123148043,
+    "res_ordinaire": 1335940310,
+    "res_hao": 1130737785,
+    "impot": 430051861,
+    "res_net": 2036626234
+   },
+   "n1": {
+    "ca": 6744255774,
+    "res_exploitation": 603453112,
+    "res_financier": 111468666,
+    "res_ordinaire": 714921778,
+    "res_hao": -1179171097,
+    "impot": 295122039,
+    "res_net": -759371358
+   },
+   "notes": [
+    "Plus de la moitié du bénéfice 2025 vient d’éléments exceptionnels (HAO : 1,1 Md)."
+   ]
+  }
+ },
+ "BNBC": {
+  "2025": {
+   "norme": "syscohada",
+   "source": "BNBC_2025.pdf (Bernabé CI)",
+   "n": {
+    "ca": 42454158321,
+    "res_exploitation": 1048744980,
+    "res_financier": -1010528553,
+    "res_ordinaire": 38216427,
+    "res_hao": 5101695,
+    "impot": 21000000,
+    "res_net": 22318122,
+    "capitaux_propres": 17769953951,
+    "capital": 1656000000
+   },
+   "n1": {
+    "ca": 45312422329,
+    "res_exploitation": 1193257549,
+    "res_financier": -1276931844,
+    "res_ordinaire": -83674295,
+    "res_hao": 8520705,
+    "impot": -82467030,
+    "res_net": 7313440,
+    "capitaux_propres": 17747635829,
+    "capital": 1656000000
+   },
+   "dividende_total": 0,
+   "notes": [
+    "Les frais financiers absorbent presque tout le résultat d’exploitation. Pas de dividende proposé."
+   ]
+  }
+ },
+ "ETIT": {
+  "2025": {
+   "norme": "banque",
+   "source": "ETIT_2025.pdf (Ecobank Transnational, groupe, converti en FCFA)",
+   "n": {
+    "pnb": 1424261000000,
+    "impot": -120259000000,
+    "res_net": 345523000000,
+    "capitaux_propres": 1597846000000,
+    "depots_clientele": 14120139000000
+   },
+   "n1": {
+    "pnb": 1266559000000,
+    "impot": -102142000000,
+    "res_net": 299708000000,
+    "capitaux_propres": 1133230000000,
+    "depots_clientele": 12895459000000
+   },
+   "notes": [
+    "Comptes publiés en dollars ; montants convertis en FCFA par le groupe. Bénéfice par action : 10 FCFA."
+   ]
+  }
  }
 }
