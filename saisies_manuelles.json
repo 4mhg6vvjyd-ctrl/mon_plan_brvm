@@ -1171,5 +1171,90 @@
     "Comptes publiés en dollars ; montants convertis en FCFA par le groupe. Bénéfice par action : 10 FCFA."
    ]
   }
+ },
+ "BICB": {
+  "2025": {
+   "norme": "banque",
+   "source": "BICB_2025.pdf (BIIC, comptes IFRS, en millions)",
+   "n": {
+    "pnb": 52805000000,
+    "frais_generaux": -16434000000,
+    "res_brut_exploitation": 36371000000,
+    "cout_risque": 5075000000,
+    "res_exploitation": 41446000000,
+    "gains_immobilises": 0,
+    "impot": -5209000000,
+    "res_net": 36237000000,
+    "capitaux_propres": 135118000000,
+    "depots_clientele": 1181045000000,
+    "capital": 82514000000
+   },
+   "n1": {
+    "pnb": 45330000000,
+    "frais_generaux": -14470000000,
+    "res_brut_exploitation": 30860000000,
+    "cout_risque": -198000000,
+    "res_exploitation": 30662000000,
+    "gains_immobilises": 70000000,
+    "impot": -1675000000,
+    "res_net": 29058000000,
+    "capitaux_propres": 114620000000,
+    "depots_clientele": 912439000000,
+    "capital": 82514000000
+   },
+   "nombre_actions": 57790000,
+   "notes": [
+    "Premiers comptes IFRS : 2024 retraité. Coût du risque positif (+5,1 Mds) lié au recalibrage IFRS 9, à ne pas extrapoler.",
+    "Nombre d’actions approché à partir du bénéfice par action publié (627 FCFA)."
+   ]
+  }
+ },
+ "UNLC": {
+  "2023": {
+   "norme": "syscohada",
+   "source": "UNLC_2023.pdf (Unilever CI ; pas de comptes 2024-2025 publiés)",
+   "n": {
+    "ca": 34682083215,
+    "res_exploitation": 1573553337,
+    "res_financier": -740306075,
+    "res_ordinaire": 833247262,
+    "res_hao": 970615931,
+    "impot": 1163528338,
+    "res_net": 640334855,
+    "capitaux_propres": -10658856096,
+    "capital": 24336010000
+   },
+   "n1": {
+    "ca": 36174563379,
+    "res_exploitation": -4253583805,
+    "res_financier": -1267458562,
+    "res_ordinaire": -5521042367,
+    "res_hao": -257587187,
+    "impot": 1129732448,
+    "res_net": -6908362002,
+    "capitaux_propres": -11299190951,
+    "capital": 24336010000
+   },
+   "notes": [
+    "Capitaux propres NÉGATIFS (–10,7 Mds) : pertes accumulées supérieures au capital.",
+    "Derniers comptes disponibles : exercice 2023."
+   ]
+  }
+ },
+ "SEMC": {
+  "2023": {
+   "norme": "syscohada",
+   "source": "SIEM_2025.pdf (Crown Siem / Eviosys, rapport annuel 2023)",
+   "n": {
+    "res_net": 1012055129
+   },
+   "n1": {
+    "res_net": 3857800000
+   },
+   "dividende_total": 0,
+   "notes": [
+    "Derniers comptes reçus : exercice 2023 (rapport de gestion). Bénéfice en forte baisse, pas de dividende."
+   ]
+  }
  }
 }
