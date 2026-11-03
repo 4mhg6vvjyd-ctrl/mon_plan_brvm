@@ -160,5 +160,97 @@
     "capital": 36000000000
    }
   }
+ },
+ "BOAM": {
+  "2025": {
+   "norme": "banque",
+   "source": "BOAM_2025.pdf (BOA Mali, scan)",
+   "n": {
+    "pnb": 37996330474,
+    "frais_generaux": -23991960968,
+    "res_brut_exploitation": 14004369506,
+    "cout_risque": -4590037925,
+    "res_exploitation": 9414331581,
+    "gains_immobilises": 2007900892,
+    "impot": -341042566,
+    "res_net": 11081189907,
+    "capitaux_propres": 49820422180,
+    "depots_clientele": 502889695812,
+    "capital": 27450000000
+   },
+   "n1": {
+    "pnb": 36158817499,
+    "frais_generaux": -20296270188,
+    "res_brut_exploitation": 15862547311,
+    "cout_risque": -7303550434,
+    "res_exploitation": 8558996877,
+    "gains_immobilises": 910052783,
+    "impot": -345577756,
+    "res_net": 9123471904,
+    "capitaux_propres": 46195155867,
+    "depots_clientele": 420335811508,
+    "capital": 27450000000
+   }
+  }
+ },
+ "PRSC": {
+  "2025": {
+   "norme": "syscohada",
+   "source": "PRSC_2025.pdf (Tractafric Motors CI, scan)",
+   "n": {
+    "ca": 81126957415,
+    "res_exploitation": 4240878619,
+    "res_financier": -265980996,
+    "res_ordinaire": 3974897623,
+    "res_hao": -17839825,
+    "impot": 1589673396,
+    "res_net": 2367384402,
+    "capitaux_propres": 11530737895,
+    "dettes_financieres": 864121065,
+    "capital": 1280000000
+   },
+   "n1": {
+    "ca": 74676306247,
+    "res_exploitation": 1775583466,
+    "res_financier": -414746926,
+    "res_ordinaire": 1360836540,
+    "res_hao": 1861054906,
+    "impot": 875179839,
+    "res_net": 2346711607,
+    "capitaux_propres": 11283033493,
+    "dettes_financieres": 746050773,
+    "capital": 1280000000
+   },
+   "dpa": 209,
+   "dividende_total": 2140160000,
+   "nombre_actions": 10240000
+  }
+ },
+ "CFAC": {
+  "2025": {
+   "norme": "syscohada",
+   "source": "CFAC_2025.pdf (CFAO Mobility CI, rapport d'activité, scan)",
+   "n": {
+    "ca": 180544660176,
+    "res_exploitation": 12223965413,
+    "res_financier": -810522790,
+    "res_ordinaire": 11413442623,
+    "res_hao": -31530800,
+    "impot": 2965563000,
+    "res_net": 8416348823
+   },
+   "n1": {
+    "ca": 158313246307,
+    "res_exploitation": 7846693699,
+    "res_financier": -904823943,
+    "res_ordinaire": 6941869756,
+    "res_hao": 24903642,
+    "impot": 2273293948,
+    "res_net": 4693479450
+   },
+   "notes": [
+    "Rapport d’activité : pas de bilan publié dans ce document."
+   ]
+  }
  }
 }
