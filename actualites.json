@@ -1,6 +1,238 @@
 {
- "maj": "2026-11-03 01:21",
+ "maj": "2026-11-03 19:34",
  "articles": [
+  {
+   "id": "65474",
+   "source": "Actualites economiques",
+   "date": "2026-11-03 18:22",
+   "titre": "Cameroun : La taxe sur les transferts d’argent rapporte 42,7 milliards FCFA en 2025",
+   "extrait": "Le Cameroun a mobilisé 42,7 milliards FCFA en 2025 au titre de la taxe sur les opérations de transfert d'argent (TTA), dépassant de 4,7 milliards FCFA l'object...",
+   "url": "https://www.sikafinance.com/marches/cameroun-la-taxe-sur-les-transferts-dargent-rapporte-42-7-milliards-fcfa-en-2025_65474",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65473",
+   "source": "Actualites economiques",
+   "date": "2026-11-03 17:14",
+   "titre": "Face à la chute historique de l’aide au développement, l’UEMOA mise sur des financements innovants",
+   "extrait": "La contraction des financements extérieurs concessionnels accentue la pression sur les économies de l'Union économique et monétaire ouest-africaine (UEMOA), co...",
+   "url": "https://www.sikafinance.com/marches/face-a-la-chute-historique-de-laide-au-developpement-luemoa-mise-sur-des-financements-innovants_65473",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Operation sur titres",
+   "score": 3,
+   "sentiment": -1,
+   "tickers": []
+  },
+  {
+   "id": "65471",
+   "source": "Actualites du marche",
+   "date": "2026-11-03 17:12",
+   "titre": "BOA Côte d’Ivoire : Après les provisions, les revenus prennent le relais au troisième trimestre 2026",
+   "extrait": "Au terme des neuf premiers mois de 2026, la filiale du groupe marocain affiche un résultat net de 29,66 milliards de FC...",
+   "url": "https://www.sikafinance.com/marches/boa-cote-divoire-apres-les-provisions-les-revenus-prennent-le-relais-au-troisieme-trimestre-2026_65471",
+   "ticker": "BOAC",
+   "premium": true,
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "BOAC"
+   ]
+  },
+  {
+   "id": "65472",
+   "source": "Actualites economiques",
+   "date": "2026-11-03 17:03",
+   "titre": "JONPCI 2026 : NSIA Banque CI réaffirme son engagement aux côtés des professionnels de santé",
+   "extrait": "À l'occasion des Journées de l'Ordre National des Pharmaciens de Côte d'Ivoire (JNOPCI) 2026, organisées les 15 et 16 octobre à Abidjan, NSIA Banq...",
+   "url": "https://www.sikafinance.com/marches/jonpci-2026-nsia-banque-ci-reaffirme-son-engagement-aux-cotes-des-professionnels-de-sante_65472",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": [
+    "NSBC"
+   ]
+  },
+  {
+   "id": "65470",
+   "source": "Actualites economiques",
+   "date": "2026-11-03 17:03",
+   "titre": "BRVM : SMB garde le vent en poupe et signe un nouveau bond de 7,49 %",
+   "extrait": "La BRVM termine la séance sur une note positive. Ses trois principaux indices progressent, avec un BRVM-Composite en hausse de 0,78 % à 529,41 points, soit un ...",
+   "url": "https://www.sikafinance.com/marches/brvm-smb-garde-le-vent-en-poupe-et-signe-un-nouveau-bond-de-7-49-_65470",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 1,
+   "tickers": []
+  },
+  {
+   "id": "65468",
+   "source": "Actualites economiques",
+   "date": "2026-11-03 16:40",
+   "titre": "Cameroun : Après 1,5 milliard USD de recettes et 10 millions de tonnes de GNL, le départ du Hilli Episeyo laisse un vide majeur",
+   "extrait": "Pendant huit ans, le navire-usine Hilli Episeyo a permis au Cameroun de valoriser son gaz naturel en le transformant en gaz naturel liquéfié (GNL) destiné aux ...",
+   "url": "https://www.sikafinance.com/marches/cameroun-apres-1-5-milliard-usd-de-recettes-et-10-millions-de-tonnes-de-gnl-le-depart-du-hilli-episeyo-laisse-un-vide-majeur_65468",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65466",
+   "source": "Actualites economiques",
+   "date": "2026-11-03 16:12",
+   "titre": "AFIS 2026 : À Luanda, la finance africaine face au défi de canaliser 4 000 milliards USD d’épargne vers 400 milliards de besoins annuels",
+   "extrait": "Ouvert ce 3 novembre 2026 pour deux jours, l'Africa Financial Summit (AFIS) réunit plus de 1 500 décideurs. Quatre allocutions d'ouverture posent le même diagno...",
+   "url": "https://www.sikafinance.com/marches/afis-2026-a-luanda-la-finance-africaine-face-au-defi-de-canaliser-4-000-milliards-usd-depargne-vers-400-milliards-de-besoins-annuels_65466",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65464",
+   "source": "Actualites du marche",
+   "date": "2026-11-03 14:29",
+   "titre": "SOLIBRA : La croissance commerciale se heurte à la pression des coûts à fin juin 2026",
+   "extrait": "La Société de limonaderies et boissons rafraîchissantes d'Afrique poursuit sa progression au premier semestre 202...",
+   "url": "https://www.sikafinance.com/marches/solibra-la-croissance-commerciale-se-heurte-a-la-pression-des-couts-a-fin-juin-2026_65464",
+   "ticker": "SLBC",
+   "premium": true,
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 1,
+   "tickers": [
+    "SLBC"
+   ]
+  },
+  {
+   "id": "65460",
+   "source": "Actualites economiques",
+   "date": "2026-11-03 12:30",
+   "titre": "Sénégal : L’Assemblée nationale rejette le projet de loi de finances rectificative 2026",
+   "extrait": "Au Sénégal, l'Assemblée nationale a rejeté le projet de loi de finances rectificative 2026, ce mardi 3 novembre 2026. Ce verdict était prévisible puisque le te...",
+   "url": "https://www.sikafinance.com/marches/senegal-lassemblee-nationale-rejette-le-projet-de-loi-de-finances-rectificative-2026_65460",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65459",
+   "source": "Actualites du marche",
+   "date": "2026-11-03 11:20",
+   "titre": "SUCRIVOIRE ponctionne plus de 8 milliards FCFA sur une activité en forte croissance",
+   "extrait": "SUCRIVOIRE produit davantage et améliore nettement sa performance opérationnelle au premier semestre 2026, mais reste d...",
+   "url": "https://www.sikafinance.com/marches/sucrivoire-ponctionne-plus-de-8-milliards-fcfa-sur-une-activite-en-forte-croissance_65459",
+   "ticker": "SCRC",
+   "premium": true,
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 1,
+   "tickers": [
+    "SCRC"
+   ]
+  },
+  {
+   "id": "65458",
+   "source": "Actualites economiques",
+   "date": "2026-11-03 11:08",
+   "titre": "L'entreprise ivoirienne AYUF Holding met son savoir-faire au service des JOJ de Dakar 2026",
+   "extrait": "En faisant confiance aux entreprises du continent pour les différentes prestataires, le Comité d'organisation des Jeux olympiques de la jeunesse (COJOJ) prouve...",
+   "url": "https://www.sikafinance.com/marches/l-entreprise-ivoirienne-ayuf-holding-met-son-savoir-faire-au-service-des-joj-de-dakar-2026_65458",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65455",
+   "source": "Actualites economiques",
+   "date": "2026-11-03 00:00",
+   "titre": "CEMAC : Le Cameroun détient 50,3 % de la dette des pays voisins sur le marché des titres publics",
+   "extrait": "03/11/2026",
+   "url": "https://www.sikafinance.com/marches/cemac-le-cameroun-detient-50-3-de-la-dette-des-pays-voisins-sur-le-marche-des-titres-publics_65455",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65456",
+   "source": "Actualites economiques",
+   "date": "2026-11-03 00:00",
+   "titre": "Guinée équatoriale : Le FMI accompagne Malabo dans la réforme du recouvrement fiscal et l’identification des contribuables",
+   "extrait": "03/11/2026",
+   "url": "https://www.sikafinance.com/marches/guinee-equatoriale-le-fmi-accompagne-malabo-dans-la-reforme-du-recouvrement-fiscal-et-lidentification-des-contribuables_65456",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65454",
+   "source": "Actualites economiques",
+   "date": "2026-11-03 00:00",
+   "titre": "CEMAC : La BVMAC autorise l’entrée en Bourse de 1,24 milliard FCFA d’actions Renaprov",
+   "extrait": "03/11/2026",
+   "url": "https://www.sikafinance.com/marches/cemac-la-bvmac-autorise-lentree-en-bourse-de-1-24-milliard-fcfa-dactions-renaprov_65454",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65452",
+   "source": "Actualites economiques",
+   "date": "2026-11-03 00:00",
+   "titre": "Bénin : L'obtention du casier judiciaire devient instantanée depuis un téléphone portable",
+   "extrait": "03/11/2026",
+   "url": "https://www.sikafinance.com/marches/benin-l-obtention-du-casier-judiciaire-devient-instantanee-depuis-un-telephone-portable_65452",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65451",
+   "source": "Actualites economiques",
+   "date": "2026-11-03 00:00",
+   "titre": "Cameroun : La Caisse des Dépôts et Consignations veut collecter 375 milliards de FCFA supplémentaires d’ici 2028",
+   "extrait": "03/11/2026 Cameroun : Des",
+   "url": "https://www.sikafinance.com/marches/cameroun-la-caisse-des-depots-et-consignations-veut-collecter-375-milliards-de-fcfa-supplementaires-dici-2028_65451",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
   {
    "id": "65441",
    "source": "Actualites du marche",
@@ -64,118 +296,6 @@
    ]
   },
   {
-   "id": "65435",
-   "source": "Actualites economiques",
-   "date": "2026-11-02 16:21",
-   "titre": "Le nouveau numéro du magazine Sika Finance est disponible, avec à la Une Gilles Thierry Beugré, directeur général de l’ANSUT !",
-   "extrait": "Pour cette édition du troisième trimestre 2026, Sika Finance met le cap sur la transformation numérique de l'Afrique, avec un éclairage particulier sur les déf...",
-   "url": "https://www.sikafinance.com/marches/le-nouveau-numero-du-magazine-sika-finance-est-disponible-avec-a-la-une-gilles-thierry-beugre-directeur-general-de-lansut-_65435",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Resultats",
-   "score": 3,
-   "sentiment": 0,
-   "tickers": []
-  },
-  {
-   "id": "65440",
-   "source": "Actualites economiques",
-   "date": "2026-11-02 16:17",
-   "titre": "CEMAC : La BEAC s’allie au Cambodge pour accélérer la modernisation des paiements",
-   "extrait": "Après son adhésion au Système panafricain de paiement et de règlement (PAPSS) en juillet 2026 et le lancement de SYSTAC 2 en août, la Banque des É...",
-   "url": "https://www.sikafinance.com/marches/cemac-la-beac-sallie-au-cambodge-pour-accelerer-la-modernisation-des-paiements_65440",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Hors zone UEMOA",
-   "score": 0,
-   "sentiment": 0,
-   "tickers": []
-  },
-  {
-   "id": "65433",
-   "source": "Actualites economiques",
-   "date": "2026-11-02 15:50",
-   "titre": "RDC : L'accord commercial avec les Émirats arabes unis entre en vigueur et ouvre l’accès de 6 000 produits au marché émirati",
-   "extrait": "Depuis le 30 octobre 2026, quelque 6 000 produits d'origine congolaise peuvent accéder au marché des Émirats arabes unis en franchise de droits de douan...",
-   "url": "https://www.sikafinance.com/marches/rdc-l-accord-commercial-avec-les-emirats-arabes-unis-entre-en-vigueur-et-ouvre-lacces-de-6-000-produits-au-marche-emirati_65433",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Hors zone UEMOA",
-   "score": 0,
-   "sentiment": 0,
-   "tickers": []
-  },
-  {
-   "id": "65434",
-   "source": "Actualites economiques",
-   "date": "2026-11-02 15:44",
-   "titre": "Bénin : Proparco et IFC mobilisent 28 millions d’euros pour quatre centrales solaires de 62 MWc",
-   "extrait": "Le Bénin entend réduire sa dépendance aux centrales thermiques en s'appuyant davantage sur les investissements privés dans les énergies renouvelables. Dans cet...",
-   "url": "https://www.sikafinance.com/marches/benin-proparco-et-ifc-mobilisent-28-millions-deuros-pour-quatre-centrales-solaires-de-62-mwc_65434",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Financement",
-   "score": 2,
-   "sentiment": 0,
-   "tickers": []
-  },
-  {
-   "id": "65430",
-   "source": "Actualites economiques",
-   "date": "2026-11-02 15:39",
-   "titre": "Côte d’Ivoire : Orange mise sur la formation des talents locaux pour accélérer la souveraineté numérique",
-   "extrait": "Le développement des compétences numériques s'impose comme un enjeu stratégique pour la Côte d'Ivoire, dans un contexte où les entreprises et les ...",
-   "url": "https://www.sikafinance.com/marches/cote-divoire-orange-mise-sur-la-formation-des-talents-locaux-pour-accelerer-la-souverainete-numerique_65430",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Autre",
-   "score": 0,
-   "sentiment": 0,
-   "tickers": []
-  },
-  {
-   "id": "65429",
-   "source": "Actualites economiques",
-   "date": "2026-11-02 15:31",
-   "titre": "Mediterrania Capital Partners investit dans AFG Assurances, pôle assurance d’Atlantic Group, pour accompagner son expansion en Afrique francophone",
-   "extrait": "Cet investissement accompagnera le plan de développement d'AFG Assurances, qui vise à doubler son réseau pour le porter à quatorze compagnies d'assurance, à re...",
-   "url": "https://www.sikafinance.com/marches/mediterrania-capital-partners-investit-dans-afg-assurances-pole-assurance-datlantic-group-pour-accompagner-son-expansion-en-afrique-francophone_65429",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Autre",
-   "score": 0,
-   "sentiment": 0,
-   "tickers": []
-  },
-  {
-   "id": "65431",
-   "source": "Actualites economiques",
-   "date": "2026-11-02 15:31",
-   "titre": "La Centrafrique et le russe Power Machines vont s’associer pour construire deux barrages hydroélectriques de 120 MW",
-   "extrait": "La République centrafricaine entend renforcer ses capacités de production électrique grâce à deux nouveaux projets hydroélectriques développés ave...",
-   "url": "https://www.sikafinance.com/marches/la-centrafrique-et-le-russe-power-machines-vont-sassocier-pour-construire-deux-barrages-hydroelectriques-de-120-mw_65431",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Hors zone UEMOA",
-   "score": 0,
-   "sentiment": 0,
-   "tickers": []
-  },
-  {
-   "id": "65427",
-   "source": "Actualites economiques",
-   "date": "2026-11-02 15:26",
-   "titre": "Cameroun : Canyon Resources cherche 160 millions USD pour sécuriser le volet logistique de son projet de bauxite",
-   "extrait": "L'australien Canyon Resources doit mobiliser environ 160 millions USD pour mener à bien la deuxième phase de son projet de bauxite de Minim Martap, au Cameroun...",
-   "url": "https://www.sikafinance.com/marches/cameroun-canyon-resources-cherche-160-millions-usd-pour-securiser-le-volet-logistique-de-son-projet-de-bauxite_65427",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Hors zone UEMOA",
-   "score": 0,
-   "sentiment": 0,
-   "tickers": []
-  },
-  {
    "id": "65422",
    "source": "Actualites du marche",
    "date": "2026-11-02 13:04",
@@ -192,11 +312,123 @@
    ]
   },
   {
+   "id": "65435",
+   "source": "Actualites economiques",
+   "date": "2026-11-02 00:00",
+   "titre": "Le nouveau numéro du magazine Sika Finance est disponible, avec à la Une Gilles Thierry Beugré, directeur général de l’ANSUT !",
+   "extrait": "02/11/2026",
+   "url": "https://www.sikafinance.com/marches/le-nouveau-numero-du-magazine-sika-finance-est-disponible-avec-a-la-une-gilles-thierry-beugre-directeur-general-de-lansut-_65435",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Gouvernance",
+   "score": 1,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65440",
+   "source": "Actualites economiques",
+   "date": "2026-11-02 00:00",
+   "titre": "CEMAC : La BEAC s’allie au Cambodge pour accélérer la modernisation des paiements",
+   "extrait": "02/11/2026",
+   "url": "https://www.sikafinance.com/marches/cemac-la-beac-sallie-au-cambodge-pour-accelerer-la-modernisation-des-paiements_65440",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65433",
+   "source": "Actualites economiques",
+   "date": "2026-11-02 00:00",
+   "titre": "RDC : L'accord commercial avec les Émirats arabes unis entre en vigueur et ouvre l’accès de 6 000 produits au marché émirati",
+   "extrait": "02/11/2026",
+   "url": "https://www.sikafinance.com/marches/rdc-l-accord-commercial-avec-les-emirats-arabes-unis-entre-en-vigueur-et-ouvre-lacces-de-6-000-produits-au-marche-emirati_65433",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65434",
+   "source": "Actualites economiques",
+   "date": "2026-11-02 00:00",
+   "titre": "Bénin : Proparco et IFC mobilisent 28 millions d’euros pour quatre centrales solaires de 62 MWc",
+   "extrait": "02/11/2026",
+   "url": "https://www.sikafinance.com/marches/benin-proparco-et-ifc-mobilisent-28-millions-deuros-pour-quatre-centrales-solaires-de-62-mwc_65434",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Financement",
+   "score": 2,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65430",
+   "source": "Actualites economiques",
+   "date": "2026-11-02 00:00",
+   "titre": "Côte d’Ivoire : Orange mise sur la formation des talents locaux pour accélérer la souveraineté numérique",
+   "extrait": "02/11/2026",
+   "url": "https://www.sikafinance.com/marches/cote-divoire-orange-mise-sur-la-formation-des-talents-locaux-pour-accelerer-la-souverainete-numerique_65430",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65429",
+   "source": "Actualites economiques",
+   "date": "2026-11-02 00:00",
+   "titre": "Mediterrania Capital Partners investit dans AFG Assurances, pôle assurance d’Atlantic Group, pour accompagner son expansion en Afrique francophone",
+   "extrait": "02/11/2026",
+   "url": "https://www.sikafinance.com/marches/mediterrania-capital-partners-investit-dans-afg-assurances-pole-assurance-datlantic-group-pour-accompagner-son-expansion-en-afrique-francophone_65429",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65431",
+   "source": "Actualites economiques",
+   "date": "2026-11-02 00:00",
+   "titre": "La Centrafrique et le russe Power Machines vont s’associer pour construire deux barrages hydroélectriques de 120 MW",
+   "extrait": "02/11/2026",
+   "url": "https://www.sikafinance.com/marches/la-centrafrique-et-le-russe-power-machines-vont-sassocier-pour-construire-deux-barrages-hydroelectriques-de-120-mw_65431",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65427",
+   "source": "Actualites economiques",
+   "date": "2026-11-02 00:00",
+   "titre": "Cameroun : Canyon Resources cherche 160 millions USD pour sécuriser le volet logistique de son projet de bauxite",
+   "extrait": "02/11/2026",
+   "url": "https://www.sikafinance.com/marches/cameroun-canyon-resources-cherche-160-millions-usd-pour-securiser-le-volet-logistique-de-son-projet-de-bauxite_65427",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
    "id": "65426",
    "source": "Actualites economiques",
    "date": "2026-11-02 00:00",
    "titre": "Journées de l'expérience client en Afrique francophone : NSIA Banque Côte d'Ivoire partage sa vision",
-   "extrait": "02/11/2026",
+   "extrait": "05/06/2026",
    "url": "https://www.sikafinance.com/marches/journees-de-l-experience-client-en-afrique-francophone-nsia-banque-cote-d-ivoire-partage-sa-vision_65426",
    "ticker": null,
    "premium": false,
@@ -287,6 +519,20 @@
    "ticker": null,
    "premium": false,
    "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65438",
+   "source": "Actualites economiques",
+   "date": "2026-11-02 00:00",
+   "titre": "Gabon : Deux semaines après l’accord de rachat de Portek, Maersk explore de nouveaux projets portuaires",
+   "extrait": "02/11/2026",
+   "url": "https://www.sikafinance.com/marches/gabon-deux-semaines-apres-laccord-de-rachat-de-portek-maersk-explore-de-nouveaux-projets-portuaires_65438",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
    "score": 0,
    "sentiment": 0,
    "tickers": []
@@ -1032,6 +1278,97 @@
  ],
  "communiques": [
   {
+   "date": "2026-11-02",
+   "societe": "BANK OF AFRICA BENIN",
+   "titre": "BOA BN - Rapport d'activités - 3e trimestre 2026",
+   "url": "https://www.sikafinance.com/docs/bank-of-africa-benin-boa-bn--rapport-d-activites--3e-trimestre-2026.pdf",
+   "ticker": "BOAB",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "BOAB"
+   ]
+  },
+  {
+   "date": "2026-11-02",
+   "societe": "SUCRIVOIRE",
+   "titre": "SUCRIVOIRE CI - Rapport d'activités - 1er semestre 2026",
+   "url": "https://www.sikafinance.com/docs/sucrivoire-sucrivoire-ci--rapport-d-activites--1er-semestre-2026.pdf",
+   "ticker": "SCRC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "SCRC"
+   ]
+  },
+  {
+   "date": "2026-11-02",
+   "societe": "SOCIETE IVOIRIENNE DE BANQUE CI",
+   "titre": "SIB CI - Rapport d'activités - 3e trimestre 2026",
+   "url": "https://www.sikafinance.com/docs/societe-ivoirienne-de-banque-ci-sib-ci--rapport-d-activites--3e-trimestre-2026.pdf",
+   "ticker": "SIBC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "SIBC"
+   ]
+  },
+  {
+   "date": "2026-11-02",
+   "societe": "SAFCA CI",
+   "titre": "SAFCA CI - Rapport d'activités - 3e trimestre 2026",
+   "url": "https://www.sikafinance.com/docs/safca-ci-safca-ci--rapport-d-activites--3e-trimestre-2026.pdf",
+   "ticker": "SAFC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "SAFC"
+   ]
+  },
+  {
+   "date": "2026-11-02",
+   "societe": "BANK OF AFRICA CI",
+   "titre": "BOA CI - Rapport d'activités - 3e trimestre 2026",
+   "url": "https://www.sikafinance.com/docs/bank-of-africa-ci-boa-ci--rapport-d-activites--3e-trimestre-2026.pdf",
+   "ticker": "BOAC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "BOAC"
+   ]
+  },
+  {
+   "date": "2026-11-02",
+   "societe": "FILTISAC CI",
+   "titre": "FILTISAC CI - Rapport d'activités - 1er semestre 2026",
+   "url": "https://www.sikafinance.com/docs/filtisac-ci-filtisac-ci--rapport-d-activites--1er-semestre-2026.pdf",
+   "ticker": "FTSC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "FTSC"
+   ]
+  },
+  {
+   "date": "2026-11-02",
+   "societe": "FILTISAC CI",
+   "titre": "FILTISAC CI - Rapport d'activités - 3e trimestre 2026",
+   "url": "https://www.sikafinance.com/docs/filtisac-ci-filtisac-ci--rapport-d-activites--3e-trimestre-2026.pdf",
+   "ticker": "FTSC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "FTSC"
+   ]
+  },
+  {
    "date": "2026-10-30",
    "societe": "NSIA BANQUE",
    "titre": "NSIA BANQUE CI - Rapport dactivites - 3e trimestre 2026",
@@ -1367,6 +1704,19 @@
    "sentiment": 0,
    "tickers": [
     "SDCC"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "societe": "SOLIBRA CI",
+   "titre": "SOLIBRA CI - Rapport d'activités - 1er semestre 2026",
+   "url": "https://www.sikafinance.com/docs/solibra-ci-solibra-ci--rapport-d-activites--1er-semestre-2026.pdf",
+   "ticker": "SLBC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "SLBC"
    ]
   },
   {
@@ -1763,23 +2113,23 @@
  "matieres": [
   {
    "nom": "ALUMINIUM",
-   "dernier": 3310.5,
-   "variation": -0.65
+   "dernier": 3314.75,
+   "variation": 0.13
   },
   {
    "nom": "ARGENT (ONCE EN $)",
-   "dernier": 49.12,
-   "variation": -2.83
+   "dernier": 48.88,
+   "variation": -0.49
   },
   {
    "nom": "AVOINE",
-   "dernier": 343.75,
-   "variation": 0.22
+   "dernier": 341.0,
+   "variation": -0.8
   },
   {
    "nom": "BLÉ",
-   "dernier": 603.5,
-   "variation": -0.04
+   "dernier": 606.5,
+   "variation": 0.5
   },
   {
    "nom": "BOIS DE CONSTRUCTION",
@@ -1788,58 +2138,58 @@
   },
   {
    "nom": "CACAO",
-   "dernier": 5453.0,
-   "variation": -0.05
+   "dernier": 5392.0,
+   "variation": -1.12
   },
   {
    "nom": "CAFÉ",
-   "dernier": 287.2,
-   "variation": 0.61
+   "dernier": 292.1,
+   "variation": 1.71
   },
   {
    "nom": "CAOUTCHOUC",
-   "dernier": 441.0,
-   "variation": -0.23
+   "dernier": 436.3,
+   "variation": -1.07
   },
   {
    "nom": "COTON",
-   "dernier": 77.83,
-   "variation": -0.85
+   "dernier": 77.66,
+   "variation": -0.22
   },
   {
    "nom": "CUIVRE",
-   "dernier": 6.46,
-   "variation": -1.86
+   "dernier": 6.54,
+   "variation": 1.32
   },
   {
    "nom": "GAZ NATUREL",
-   "dernier": 2.9,
-   "variation": -1.83
+   "dernier": 2.86,
+   "variation": -1.45
   },
   {
    "nom": "JUS D'ORANGE",
-   "dernier": 115.35,
-   "variation": -10.27
+   "dernier": 132.0,
+   "variation": 14.43
   },
   {
    "nom": "MAIS",
-   "dernier": 447.75,
-   "variation": -0.78
+   "dernier": 448.25,
+   "variation": 0.11
   },
   {
    "nom": "NICKEL",
-   "dernier": 15226.88,
-   "variation": -1.76
+   "dernier": 15521.75,
+   "variation": 1.94
   },
   {
    "nom": "OR (ONCE EN $)",
-   "dernier": 3875.29,
-   "variation": -2.71
+   "dernier": 3906.68,
+   "variation": 0.81
   },
   {
    "nom": "PALLADIUM",
-   "dernier": 980.45,
-   "variation": -0.01
+   "dernier": 943.28,
+   "variation": -3.79
   },
   {
    "nom": "PALM OIL FUTURES ($)",
@@ -1848,18 +2198,18 @@
   },
   {
    "nom": "PETROLE BRENT",
-   "dernier": 111.75,
-   "variation": -0.97
+   "dernier": 104.92,
+   "variation": -6.11
   },
   {
    "nom": "PETROLE WTI",
-   "dernier": 104.12,
-   "variation": 1.3
+   "dernier": 96.46,
+   "variation": -7.36
   },
   {
    "nom": "PLATINE",
-   "dernier": 1434.59,
-   "variation": -0.58
+   "dernier": 1422.61,
+   "variation": -0.84
   },
   {
    "nom": "RIZ FUTURES ($)",
@@ -1868,13 +2218,13 @@
   },
   {
    "nom": "SOJA",
-   "dernier": 1234.25,
-   "variation": 1.19
+   "dernier": 1204.75,
+   "variation": -2.39
   },
   {
    "nom": "SUCRE",
-   "dernier": 19.36,
-   "variation": -0.56
+   "dernier": 19.06,
+   "variation": -1.55
   },
   {
    "nom": "ZINC",
@@ -1888,7 +2238,7 @@
    "ticker": "LNBB",
    "nom": "LOTERIE NATIONALE DU BENIN",
    "montant": 164.0,
-   "rendement": 4.17
+   "rendement": 4.16
   }
  ]
 }
