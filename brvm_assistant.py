@@ -54,6 +54,22 @@ def construire():
                        "grave": bool(r.get("grave")), "vigilance": bool(r.get("vigilance")),
                        "p1j": nb(r.get("p1j")), "ytd": nb(r.get("ytd")), "h": historique(px[r["t"]]), "news": actus_valeur(news.get(r["t"], []))})
     fin = max(r["fin"] for r in res)
+    # Nouvelles cotations : moins de 60 seances, pas encore de note mais elles apparaissent dans l'application
+    for t, df in px.items():
+        if 1 <= len(df) < 60 and not any(x["t"] == t for x in stocks):
+            nom, secteur = T.NOMS.get(t, (t, "Autres"))
+            c = df["Close"].dropna()
+            try:
+                med = float((df["Close"] * df["Volume"]).tail(120).median())
+            except Exception:
+                med = 0.0
+            p1j = float(c.iloc[-1] / c.iloc[-2] - 1) if len(c) >= 2 and c.iloc[-2] else None
+            stocks.append({"t": t, "nom": acc(nom), "secteur": acc(secteur), "pays": acc(REGLES.PAYS.get(mapping.get(t, ""), "?")),
+                           "prix": int(round(c.iloc[-1])), "score": 0, "etat": "Nouvelle cotation", "p1m": None, "p3m": None, "p6m": None,
+                           "p1a": None, "vol": None, "dd": None, "d50": None, "d200": None, "med": nb(med) or 0.0, "rend_der": None,
+                           "rend_moy": None, "divs": {}, "serie": 0, "croiss3": None, "suspect": False, "coupe": False, "grave": False,
+                           "vigilance": False, "p1j": nb(p1j), "ytd": nb(c.iloc[-1] / c.iloc[0] - 1) if len(c) > 1 else None,
+                           "h": historique(df), "news": actus_valeur(news.get(t, [])), "depuis": df.index[0].strftime("%d/%m/%Y")})
     fond, nb_act = lire_json("fondamentaux.json"), lire_json("actions.json")
     ops = fond.get("_operations", {})
     for c in actus.get("communiques", []):  # fractionnements annonces, meme si leur PDF n'a pas encore ete lu
@@ -121,9 +137,24 @@ def fondamentaux(st, par_exercice, nb_officiel, fractionnements=()):
         a_verifier = True
     if not nb_actions:
         notes.append("Nombre d’actions inconnu : à renseigner dans actions.json.")
+    # Alertes de lecture des comptes
+    alertes = []
+    rn, cp, hao = n.get(benef), n.get("capitaux_propres"), n.get("res_hao")
+    if cp is not None and cp < 0:
+        alertes.append("Capitaux propres négatifs : les pertes accumulées dépassent le capital. Situation financière fragile.")
+    if rn is not None and rn < 0:
+        alertes.append("L’exercice se solde par une perte.")
+    if rn and rn > 0 and hao and hao > 0.4 * rn:
+        alertes.append("Une grande partie du bénéfice vient d’éléments exceptionnels (hors activités ordinaires) : elle ne se répétera pas forcément.")
+    if rn and rn > 0 and e.get("dividende_total") and e["dividende_total"] > rn * 1.02:
+        alertes.append("Le dividende proposé dépasse le bénéfice de l’exercice : il est en partie puisé dans les réserves.")
+    if rn and rn > 0 and n.get("res_exploitation") is not None and n["res_exploitation"] < 0:
+        alertes.append("L’activité propre est déficitaire : le bénéfice vient des produits financiers ou exceptionnels.")
+    if int(an) < time.localtime().tm_year - 1:
+        alertes.append("Derniers comptes disponibles : exercice %s. Les comptes plus récents n’ont pas été publiés ou reçus." % an)
     garde = lambda d: {k: d[k] for k in d if k != "bpa"}
     return {"an": int(an), "norme": e["norme"], "n": garde(n), "n1": garde(n1), "benef": benef, "nb_actions": nb_actions,
-            "dpa": dpa, "signaux": e.get("signaux", []), "a_verifier": a_verifier, "notes": notes,
+            "dpa": dpa, "signaux": e.get("signaux", []), "alertes": alertes, "a_verifier": a_verifier, "notes": notes,
             "controles_ko": [c["texte"] for c in e.get("controles", []) if not c["ok"]], "source": e.get("source"), "url": e.get("url")}
 
 
@@ -146,11 +177,12 @@ def actus_valeur(lst, n=4, jours=120):
     return out
 
 
-def actus_marche(toutes, cotees, n=12):
+def actus_marche(toutes, cotees, n=40):
     out = []
     for x in toutes:
         if x.get("url") and (set(x.get("tickers", [])) & cotees or "BRVM" in x.get("titre", "").upper()):
-            out.append({"d": x["date"][:10], "titre": x.get("titre", "")[:140], "url": x["url"], "t": (x.get("tickers") or [""])[0]})
+            out.append({"d": x["date"][:10], "titre": x.get("titre", "")[:140], "url": x["url"], "t": (x.get("tickers") or [""])[0],
+                        "cat": x.get("categorie") or x.get("type") or ""})
         if len(out) >= n:
             break
     return out
