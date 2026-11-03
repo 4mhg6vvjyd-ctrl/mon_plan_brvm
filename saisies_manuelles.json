@@ -1,11 +1,164 @@
 {
  "_note": "Chiffres relevés à la main sur les rapports scannés (images). Montants en FCFA. Contrôlés par recoupement.",
- "ABJC": {"2025": {"norme": "syscohada", "source": "ABJC_2025.pdf (Servair Abidjan, scan)",
-   "n":  {"ca": 13298319225, "res_exploitation": 2178015658, "res_financier": 24891641, "res_ordinaire": 2202907299, "res_hao": -12500000, "impot": 839746778, "res_net": 1350660521, "capitaux_propres": 5159194517, "dettes_financieres": 65893476, "tresorerie_actif": 4034582580, "capital": 1364000000},
-   "n1": {"ca": 12466921255, "res_exploitation": 2100227044, "res_financier": 17941052, "res_ordinaire": 2118168096, "res_hao": -4503390, "impot": 594442771, "res_net": 1519221935, "capitaux_propres": 3808533996, "dettes_financieres": 78886484, "tresorerie_actif": 3427743369, "capital": 1364000000},
-   "dividende_total": 1500000000}},
- "STAC": {"2025": {"norme": "syscohada", "source": "STAC_2025.pdf (SETAO, scan)",
-   "n":  {"ca": 3878254000, "res_exploitation": -771953000, "res_financier": 227009000, "res_ordinaire": -544944000, "res_hao": 549285000, "impot": 100899000, "res_net": -96558000, "capitaux_propres": 356746000, "dettes_financieres": 463307000, "tresorerie_actif": 1330324000},
-   "n1": {"ca": 1793360000, "res_exploitation": -1007887000, "res_financier": 85321000, "res_ordinaire": -922567000, "res_hao": 585477000, "impot": 11106000, "res_net": -348195000, "capitaux_propres": 453306000, "dettes_financieres": 412257000, "tresorerie_actif": 3719280000},
-   "notes": ["Le chiffre d’affaires publié inclut les autres produits et transferts de charges."]}}
+ "ABJC": {
+  "2025": {
+   "norme": "syscohada",
+   "source": "ABJC_2025.pdf (Servair Abidjan, scan)",
+   "n": {
+    "ca": 13298319225,
+    "res_exploitation": 2178015658,
+    "res_financier": 24891641,
+    "res_ordinaire": 2202907299,
+    "res_hao": -12500000,
+    "impot": 839746778,
+    "res_net": 1350660521,
+    "capitaux_propres": 5159194517,
+    "dettes_financieres": 65893476,
+    "tresorerie_actif": 4034582580,
+    "capital": 1364000000
+   },
+   "n1": {
+    "ca": 12466921255,
+    "res_exploitation": 2100227044,
+    "res_financier": 17941052,
+    "res_ordinaire": 2118168096,
+    "res_hao": -4503390,
+    "impot": 594442771,
+    "res_net": 1519221935,
+    "capitaux_propres": 3808533996,
+    "dettes_financieres": 78886484,
+    "tresorerie_actif": 3427743369,
+    "capital": 1364000000
+   },
+   "dividende_total": 1500000000
+  }
+ },
+ "STAC": {
+  "2025": {
+   "norme": "syscohada",
+   "source": "STAC_2025.pdf (SETAO, scan)",
+   "n": {
+    "ca": 3878254000,
+    "res_exploitation": -771953000,
+    "res_financier": 227009000,
+    "res_ordinaire": -544944000,
+    "res_hao": 549285000,
+    "impot": 100899000,
+    "res_net": -96558000,
+    "capitaux_propres": 356746000,
+    "dettes_financieres": 463307000,
+    "tresorerie_actif": 1330324000
+   },
+   "n1": {
+    "ca": 1793360000,
+    "res_exploitation": -1007887000,
+    "res_financier": 85321000,
+    "res_ordinaire": -922567000,
+    "res_hao": 585477000,
+    "impot": 11106000,
+    "res_net": -348195000,
+    "capitaux_propres": 453306000,
+    "dettes_financieres": 412257000,
+    "tresorerie_actif": 3719280000
+   },
+   "notes": [
+    "Le chiffre d’affaires publié inclut les autres produits et transferts de charges."
+   ]
+  }
+ },
+ "BOAB": {
+  "2025": {
+   "norme": "banque",
+   "source": "BOAB_2025.pdf (BOA Bénin, scan)",
+   "n": {
+    "pnb": 51273938002,
+    "frais_generaux": -25397651738,
+    "res_brut_exploitation": 25876286264,
+    "cout_risque": -4685664328,
+    "res_exploitation": 21190621936,
+    "gains_immobilises": 234652407,
+    "impot": -1318044600,
+    "res_net": 20107229743,
+    "capitaux_propres": 117506988771,
+    "capital": 40561048000
+   },
+   "n1": {
+    "pnb": 46526723396,
+    "frais_generaux": -24946959975,
+    "res_brut_exploitation": 21579763421,
+    "cout_risque": -124264109,
+    "res_exploitation": 21455499312,
+    "gains_immobilises": 463005799,
+    "impot": -2271329400,
+    "res_net": 19647175711,
+    "capitaux_propres": 117396355692,
+    "capital": 40561048000
+   }
+  }
+ },
+ "BOABF": {
+  "2025": {
+   "norme": "banque",
+   "source": "BOABF_2025.pdf (BOA Burkina Faso, scan)",
+   "n": {
+    "pnb": 57819599384,
+    "frais_generaux": -27282737787,
+    "res_brut_exploitation": 30536861597,
+    "cout_risque": -8355052420,
+    "res_exploitation": 22181809177,
+    "gains_immobilises": -105931491,
+    "impot": -2823862525,
+    "res_net": 19252015161,
+    "capitaux_propres": 126516071556,
+    "capital": 44000000000
+   },
+   "n1": {
+    "pnb": 57489834311,
+    "frais_generaux": -27489690448,
+    "res_brut_exploitation": 30000143863,
+    "cout_risque": -4302883480,
+    "res_exploitation": 25697260383,
+    "gains_immobilises": 46337652,
+    "impot": -3324374350,
+    "res_net": 22419223685,
+    "capitaux_propres": 129272440868,
+    "capital": 44000000000
+   },
+   "notes": [
+    "Capitaux propres recalculés à partir de leurs composantes (capital, réserves, report à nouveau, résultat)."
+   ]
+  }
+ },
+ "BOAS": {
+  "2025": {
+   "norme": "banque",
+   "source": "BOAS_2025.pdf (BOA Sénégal, scan, en millions)",
+   "n": {
+    "pnb": 51926000000,
+    "frais_generaux": -22857000000,
+    "res_brut_exploitation": 29069000000,
+    "cout_risque": -4346000000,
+    "res_exploitation": 24723000000,
+    "gains_immobilises": 417000000,
+    "impot": -3235000000,
+    "res_net": 21905000000,
+    "capitaux_propres": 96526000000,
+    "depots_clientele": 686927000000,
+    "capital": 36000000000
+   },
+   "n1": {
+    "pnb": 49666000000,
+    "frais_generaux": -22564000000,
+    "res_brut_exploitation": 27102000000,
+    "cout_risque": -4429000000,
+    "res_exploitation": 22673000000,
+    "gains_immobilises": 215000000,
+    "impot": -2904000000,
+    "res_net": 19984000000,
+    "capitaux_propres": 88621000000,
+    "depots_clientele": 585770000000,
+    "capital": 36000000000
+   }
+  }
+ }
 }
