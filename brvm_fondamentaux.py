@@ -25,15 +25,16 @@ SORTIE = ICI / "fondamentaux.json"
 # Libelles recherches (debut de ligne, sans accents, en minuscules), par norme
 LIBELLES = {
     "syscohada": {
-        "ca": ["chiffre d'affaires"],
+        "ca": ["chiffre d'affaires", "sous total chiffre d'affaires", "total chiffre d'affaires", "sous-total chiffre d'affaires"],
         "res_exploitation": ["resultat d'exploitation"],
         "res_financier": ["resultat financier"],
-        "produits_financiers": ["produits financiers"],
+        "produits_financiers": ["produits financiers", "total produits financiers"],
         "res_ordinaire": ["resultat des activites ordinaires"],
         "res_hao": ["resultat h.a.o", "resultat hao"],
-        "impot": ["impots sur le resultat"],
-        "res_net": ["resultat net"],
-        "capitaux_propres": ["situation nette", "capitaux propres"],
+        "impot": ["impots sur le resultat", "impot sur le resultat", "impots sur les benefices"],
+        "res_net": ["resultat net", "benefice net"],
+        "capitaux_propres": ["situation nette", "total capitaux propres", "capitaux propres"],
+        "capital": ["capital social", "capital"],
         "tresorerie_actif": ["tresorerie - actif", "tresorerie actif"],
         "dettes_financieres": ["dettes financieres"],
         "dividendes_verses": ["dividendes verses"],
@@ -48,8 +49,9 @@ LIBELLES = {
         "res_exploitation": ["resultat d'exploitation"],
         "gains_immobilises": ["gains ou pertes nets sur actifs immobilises"],
         "impot": ["impots sur les benefices"],
-        "res_net": ["resultat net"],
-        "capitaux_propres": ["capitaux propres et ressources assimilees"],
+        "res_net": ["resultat net", "benefice net", "resultat de l'exercice"],
+        "capitaux_propres": ["capitaux propres et ressources assimilees", "total capitaux propres", "capitaux propres"],
+        "capital": ["capital souscrit", "capital social"],
         "credits_clientele": ["creances sur la clientele"],
         "depots_clientele": ["dettes a l'egard de la clientele"],
     },
@@ -70,6 +72,7 @@ LIBELLES = {
     },
 }
 PAR_ACTION = {"bpa"}
+CODES = {"XB": "ca", "XE": "res_exploitation", "XF": "res_financier", "XG": "res_ordinaire", "XH": "res_hao", "XI": "res_net", "CP": "capitaux_propres"}
 # Libelles qui peuvent se trouver dans la colonne de droite d'un tableau cote a cote
 PARTOUT = {"capitaux_propres", "tresorerie_actif", "dettes_financieres", "dividendes_verses", "investissements_corporels"}  # valeurs deja par action : pas de conversion d'unite
 
@@ -80,7 +83,7 @@ def sans_accents(s):
     return s.lower()
 
 
-NUM = re.compile(r"^\(?-?\d+\)?$")
+NUM = re.compile(r"^\(?-?\d+(?:[.,]\d{1,2})?\)?$")
 
 
 def nombres_possibles(jetons, k):
@@ -99,23 +102,39 @@ def nombres_possibles(jetons, k):
             brut = [t.strip("()") for t in g]
             neg = g[0].startswith("(") or g[0].startswith("-") or g[-1].endswith(")")
             brut[0] = brut[0].lstrip("-")
-            if any(len(x) != 3 for x in brut[1:]) or (len(g) > 1 and len(brut[0]) > 3):
+            ent = [re.split(r"[.,]", x)[0] for x in brut]
+            if any(len(x) != 3 for x in ent[1:]) or (len(g) > 1 and len(ent[0]) > 3):
                 vals = None
                 break
             if len(brut[0]) > 1 and brut[0].startswith("0"):
                 vals = None
                 break
-            v = int("".join(brut))
+            if any(re.search(r"[.,]", x) for x in brut[:-1]):
+                vals = None
+                break
+            v = float("".join(brut).replace(",", ".")) if re.search(r"[.,]", brut[-1]) else int("".join(brut))
             vals.append(-v if neg else v)
         if vals is not None:
             res.append(vals)
     return res
 
 
+def normaliser_nombres(s):
+    """1,234,567 ou 1.234.567 -> 1234567 ; les milliers separes par des espaces sont geres ensuite."""
+    s = re.sub(r"(?<![\d,.])(\d{1,3}(?:,\d{3}){2,})(?![\d,])", lambda m: m.group(1).replace(",", ""), s)
+    s = re.sub(r"(?<![\d,.])(\d{1,3}(?:\.\d{3}){2,})(?![\d.])", lambda m: m.group(1).replace(".", ""), s)
+    s = s.replace("\u202f", " ").replace("\u00a0", " ")
+    return s
+
+
 def lire_valeurs(apres, attendu=2):
     """Lit les nombres qui suivent un libelle, jusqu'au prochain mot (cas des tableaux cote a cote)."""
     jetons = []
-    for t in apres.split():
+    apres = normaliser_nombres(re.sub(r"^\s*\([^)]*[A-Za-z][^)]*\)", "", apres))
+    mots = apres.split()
+    while mots and re.match(r"^\d{1,2}\.\d{1,2}$", mots[0]) and len(mots) > 2:  # renvoi a une note (ex. 4.1)
+        mots = mots[1:]
+    for t in mots:
         if NUM.match(t):
             jetons.append(t)
         elif t in ("-", "–") and not jetons:
@@ -155,10 +174,14 @@ def detecter_norme(texte):
 
 def unite_de(texte_page):
     t = sans_accents(texte_page)
-    if "en milliers" in t:
-        return 1_000
-    if "en millions" in t:
+    if re.search(r"en milliards|\(milliards", t):
+        return 1_000_000_000
+    if re.search(r"en millions|\(millions|millions de f", t):
         return 1_000_000
+    if re.search(r"en milliers|\(milliers|milliers de f|en kfcfa|en k ?fcfa", t):
+        return 1_000
+    if re.search(r"en (?:francs? )?f\.? ?cfa|\(f\.? ?cfa\)|en xof|\(en francs", t):
+        return 1
     return None
 
 
@@ -182,25 +205,71 @@ def exercice_du_document(texte, nom):
     return max(set(ans), key=ans.count) if ans else None
 
 
+NOM_FICHIER = re.compile(r"^([A-Z]{3,6})_?(20\d\d)(S\d|T\d)?\.pdf$", re.I)
+
+
+def lire_pages(pdf_path, max_pages=60):
+    """Texte de chaque page ; si le PDF est une image scannee, reconnaissance de caracteres (tesseract)."""
+    with pdfplumber.open(pdf_path) as pdf:
+        pages = [(p.extract_text() or "", p.extract_text_lines()) for p in pdf.pages[:max_pages]]
+    if sum(len(t.strip()) for t, _ in pages) >= 300 * max(1, len(pages)):
+        return pages, False
+    import shutil, subprocess, tempfile
+    if not shutil.which("tesseract"):
+        return pages, False
+    langs = subprocess.run(["tesseract", "--list-langs"], capture_output=True, text=True).stdout
+    lang = "fra" if "\nfra" in langs else "eng"
+    out = []
+    with tempfile.TemporaryDirectory() as d:
+        subprocess.run(["pdftoppm", "-r", "200", "-l", str(max_pages), "-gray", "-png", str(pdf_path), d + "/p"], check=True)
+        for img in sorted(Path(d).glob("p*.png")):
+            t = subprocess.run(["tesseract", str(img), "-", "-l", lang, "--psm", "6"], capture_output=True, text=True).stdout
+            out.append((t, [{"text": x} for x in t.splitlines() if x.strip()]))
+    return out, True
+
+
+def deduire_unite(texte, n):
+    m = re.search(r"capital (?:social )?de ([\d .,]{5,}) ?(?:f\.? ?cfa|fcfa|francs)", sans_accents(texte))
+    cap = n.get("capital")
+    if m and cap:
+        try:
+            vrai = int(re.sub(r"\D", "", m.group(1)))
+            r = vrai / cap
+            for f in (1, 1_000, 1_000_000):
+                if 0.9 < r / f < 1.1:
+                    return f
+        except Exception:
+            pass
+    ref = max(abs(n.get(k) or 0) for k in ("ca", "pnb", "res_net", "capitaux_propres"))
+    return 1 if ref >= 1e9 else 1_000
+
+
 def extraire(pdf_path, ticker=None, historique_div=None):
     nom = Path(pdf_path).name
-    with pdfplumber.open(pdf_path) as pdf:
-        pages = [(p.extract_text() or "", p.extract_text_lines()) for p in pdf.pages]
+    pages, ocr = lire_pages(pdf_path)
     tout = "\n".join(t for t, _ in pages)
     norme = detecter_norme(tout)
-    annee = exercice_du_document(tout, nom)
+    m_nom = NOM_FICHIER.match(nom)
+    annee = int(m_nom.group(2)) if m_nom else exercice_du_document(tout, nom)
     libs = LIBELLES[norme]
     n, n1, notes = {}, {}, []
     unite_doc = unite_de(tout)
+    # une seule unite dans tout le document : on l'applique partout ; plusieurs : page par page
     for texte_page, lignes in pages:
-        unite = unite_de(texte_page) or unite_doc
-        if unite is None:
-            continue
+        unite = unite_de(texte_page) or unite_doc or 1
+        sans_unite = not (unite_de(texte_page) or unite_doc)
         devant = ordre_colonnes(texte_page, annee)
         for l in lignes:
             brut = l["text"]
             s = sans_accents(brut)
-            off = 2 if re.match(r"^[a-z] (?=[a-z])", s) else 0  # lettre parasite d'un titre vertical
+            mc = re.match(r"^([A-Z]{1,2}\d?) (?=\S)", brut)  # code SYSCOHADA (XB, XE...) ou lettre parasite
+            off = mc.end() if mc else 0
+            code = CODES.get(mc.group(1)) if mc and norme == "syscohada" else None
+            if code and code not in n:
+                vals = lire_valeurs(re.sub(r"^[^\d(\-]*", "", re.sub(r"\([^)]*[A-Za-z][^)]*\)", "", brut[off:])))
+                if vals and len(vals) == 2:
+                    cur, prev = (vals[0], vals[1]) if devant else (vals[1], vals[0])
+                    n[code], n1[code] = cur * unite, prev * unite
             for cle, variantes in libs.items():
                 if cle in n:
                     continue
@@ -221,6 +290,17 @@ def extraire(pdf_path, ticker=None, historique_div=None):
                     else:
                         n[cle] = vals[0] * mult
                     break
+    # Unite non indiquee : on la deduit du capital social ecrit en toutes lettres dans l'en-tete
+    if not unite_doc and n:
+        f = deduire_unite(tout, n)
+        if f != 1:
+            for d in (n, n1):
+                for k in list(d):
+                    if k not in PAR_ACTION:
+                        d[k] = d[k] * f
+            notes.append("Unité non indiquée : déduite du capital social (x%d)." % f)
+    if ocr:
+        notes.append("Rapport scanné, lu par reconnaissance de caractères : chiffres à contrôler.")
     # Dividende et nombre d'actions
     t = sans_accents(tout)
     dpa = None
@@ -304,7 +384,7 @@ def signaux(e):
         return n[k] / n1[k] - 1
     ca = var("ca") if "ca" in n else var("pnb")
     rn = var("res_net")
-    if ca is not None and rn is not None and ca > 0 and rn < -0.5:
+    if ca is not None and rn is not None and ca > 0 and rn < -0.5 and (n1.get("res_net") or 0) > 0:
         out.append(f"Titre trompeur possible : l’activité progresse ({ca:+.0%}) mais le bénéfice chute ({rn:+.0%}). Regardez d’où vient la baisse avant de conclure.")
     if n.get("res_exploitation") is not None and n["res_exploitation"] < 0 < (n.get("res_net") or 0):
         out.append("Le bénéfice ne vient pas de l’activité propre (résultat d’exploitation négatif) : il vient des produits financiers, souvent les dividendes des filiales.")
@@ -434,6 +514,25 @@ def enregistrer(base, chemin, ticker, nom=None, url=None):
     return e
 
 
+def fusionner_saisies(base):
+    """Ajoute les chiffres releves a la main (rapports scannes) : ils priment sur la lecture automatique."""
+    f = ICI / "saisies_manuelles.json"
+    if not f.exists():
+        return
+    for t, par_an in json.loads(f.read_text(encoding="utf-8")).items():
+        if t.startswith("_"):
+            continue
+        for a, x in par_an.items():
+            e = {"ticker": t, "source": x.get("source"), "norme": x["norme"], "exercice": int(a),
+                 "valeurs": {a: x["n"], str(int(a) - 1): x.get("n1", {})}, "dividende_brut_par_action": x.get("dpa"),
+                 "dividende_total": x.get("dividende_total"), "nombre_actions": x.get("nombre_actions"),
+                 "notes": x.get("notes", []) + ["Chiffres relevés à la main sur le rapport scanné."], "saisie_manuelle": True}
+            e["controles"] = controler(e["norme"], x["n"], x.get("n1", {}))
+            e["signaux"] = signaux(e)
+            e["a_verifier"] = any(not c["ok"] for c in e["controles"])
+            base.setdefault(t, {})[a] = e
+
+
 def main(args):
     base = json.loads(SORTIE.read_text(encoding="utf-8")) if SORTIE.exists() else {}
     if args and args[0] == "--auto":
@@ -446,6 +545,7 @@ def main(args):
                 t = args[i + 1]; i += 1
             i += 1
             enregistrer(base, f, t or Path(f).stem, Path(f).name)
+    fusionner_saisies(base)
     SORTIE.write_text(json.dumps(base, ensure_ascii=False, indent=1), encoding="utf-8")
 
 

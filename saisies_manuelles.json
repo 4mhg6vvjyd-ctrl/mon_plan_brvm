@@ -1,0 +1,11 @@
+{
+ "_note": "Chiffres relevés à la main sur les rapports scannés (images). Montants en FCFA. Contrôlés par recoupement.",
+ "ABJC": {"2025": {"norme": "syscohada", "source": "ABJC_2025.pdf (Servair Abidjan, scan)",
+   "n":  {"ca": 13298319225, "res_exploitation": 2178015658, "res_financier": 24891641, "res_ordinaire": 2202907299, "res_hao": -12500000, "impot": 839746778, "res_net": 1350660521, "capitaux_propres": 5159194517, "dettes_financieres": 65893476, "tresorerie_actif": 4034582580, "capital": 1364000000},
+   "n1": {"ca": 12466921255, "res_exploitation": 2100227044, "res_financier": 17941052, "res_ordinaire": 2118168096, "res_hao": -4503390, "impot": 594442771, "res_net": 1519221935, "capitaux_propres": 3808533996, "dettes_financieres": 78886484, "tresorerie_actif": 3427743369, "capital": 1364000000},
+   "dividende_total": 1500000000}},
+ "STAC": {"2025": {"norme": "syscohada", "source": "STAC_2025.pdf (SETAO, scan)",
+   "n":  {"ca": 3878254000, "res_exploitation": -771953000, "res_financier": 227009000, "res_ordinaire": -544944000, "res_hao": 549285000, "impot": 100899000, "res_net": -96558000, "capitaux_propres": 356746000, "dettes_financieres": 463307000, "tresorerie_actif": 1330324000},
+   "n1": {"ca": 1793360000, "res_exploitation": -1007887000, "res_financier": 85321000, "res_ordinaire": -922567000, "res_hao": 585477000, "impot": 11106000, "res_net": -348195000, "capitaux_propres": 453306000, "dettes_financieres": 412257000, "tresorerie_actif": 3719280000},
+   "notes": ["Le chiffre d’affaires publié inclut les autres produits et transferts de charges."]}}
+}
