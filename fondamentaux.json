@@ -172,7 +172,7 @@
     "url": "https://www.sikafinance.com/docs/sonatel-sonatel-sn--fractionnement-dactions--valeur-theorique.pdf",
     "titre": "SONATEL SN - Fractionnement dactions - Valeur theorique",
     "facteur": null,
-    "essais": 2
+    "essais": 3
    }
   ]
  },
@@ -281,6 +281,490 @@
     {
      "ok": true,
      "texte": "Resultat net = ordinaire + HAO - impot : calcule -96 558 000 / publie -96 558 000"
+    }
+   ],
+   "signaux": [],
+   "a_verifier": false
+  }
+ },
+ "BOAB": {
+  "2025": {
+   "ticker": "BOAB",
+   "source": "BOAB_2025.pdf (BOA Bénin, scan)",
+   "norme": "banque",
+   "exercice": 2025,
+   "valeurs": {
+    "2025": {
+     "pnb": 51273938002,
+     "frais_generaux": -25397651738,
+     "res_brut_exploitation": 25876286264,
+     "cout_risque": -4685664328,
+     "res_exploitation": 21190621936,
+     "gains_immobilises": 234652407,
+     "impot": -1318044600,
+     "res_net": 20107229743,
+     "capitaux_propres": 117506988771,
+     "capital": 40561048000
+    },
+    "2024": {
+     "pnb": 46526723396,
+     "frais_generaux": -24946959975,
+     "res_brut_exploitation": 21579763421,
+     "cout_risque": -124264109,
+     "res_exploitation": 21455499312,
+     "gains_immobilises": 463005799,
+     "impot": -2271329400,
+     "res_net": 19647175711,
+     "capitaux_propres": 117396355692,
+     "capital": 40561048000
+    }
+   },
+   "dividende_brut_par_action": null,
+   "dividende_total": null,
+   "nombre_actions": null,
+   "notes": [
+    "Chiffres relevés à la main sur le rapport scanné."
+   ],
+   "saisie_manuelle": true,
+   "controles": [
+    {
+     "ok": true,
+     "texte": "RBE = PNB + frais generaux : calcule 25 876 286 264 / publie 25 876 286 264"
+    },
+    {
+     "ok": true,
+     "texte": "Resultat net = exploitation + gains - impot : calcule 20 107 229 743 / publie 20 107 229 743"
+    }
+   ],
+   "signaux": [],
+   "a_verifier": false
+  }
+ },
+ "BOABF": {
+  "2025": {
+   "ticker": "BOABF",
+   "source": "BOABF_2025.pdf (BOA Burkina Faso, scan)",
+   "norme": "banque",
+   "exercice": 2025,
+   "valeurs": {
+    "2025": {
+     "pnb": 57819599384,
+     "frais_generaux": -27282737787,
+     "res_brut_exploitation": 30536861597,
+     "cout_risque": -8355052420,
+     "res_exploitation": 22181809177,
+     "gains_immobilises": -105931491,
+     "impot": -2823862525,
+     "res_net": 19252015161,
+     "capitaux_propres": 126516071556,
+     "capital": 44000000000
+    },
+    "2024": {
+     "pnb": 57489834311,
+     "frais_generaux": -27489690448,
+     "res_brut_exploitation": 30000143863,
+     "cout_risque": -4302883480,
+     "res_exploitation": 25697260383,
+     "gains_immobilises": 46337652,
+     "impot": -3324374350,
+     "res_net": 22419223685,
+     "capitaux_propres": 129272440868,
+     "capital": 44000000000
+    }
+   },
+   "dividende_brut_par_action": null,
+   "dividende_total": null,
+   "nombre_actions": null,
+   "notes": [
+    "Capitaux propres recalculés à partir de leurs composantes (capital, réserves, report à nouveau, résultat).",
+    "Chiffres relevés à la main sur le rapport scanné."
+   ],
+   "saisie_manuelle": true,
+   "controles": [
+    {
+     "ok": true,
+     "texte": "RBE = PNB + frais generaux : calcule 30 536 861 597 / publie 30 536 861 597"
+    },
+    {
+     "ok": true,
+     "texte": "Resultat net = exploitation + gains - impot : calcule 19 252 015 161 / publie 19 252 015 161"
+    }
+   ],
+   "signaux": [],
+   "a_verifier": false
+  }
+ },
+ "BOAS": {
+  "2025": {
+   "ticker": "BOAS",
+   "source": "BOAS_2025.pdf (BOA Sénégal, scan, en millions)",
+   "norme": "banque",
+   "exercice": 2025,
+   "valeurs": {
+    "2025": {
+     "pnb": 51926000000,
+     "frais_generaux": -22857000000,
+     "res_brut_exploitation": 29069000000,
+     "cout_risque": -4346000000,
+     "res_exploitation": 24723000000,
+     "gains_immobilises": 417000000,
+     "impot": -3235000000,
+     "res_net": 21905000000,
+     "capitaux_propres": 96526000000,
+     "depots_clientele": 686927000000,
+     "capital": 36000000000
+    },
+    "2024": {
+     "pnb": 49666000000,
+     "frais_generaux": -22564000000,
+     "res_brut_exploitation": 27102000000,
+     "cout_risque": -4429000000,
+     "res_exploitation": 22673000000,
+     "gains_immobilises": 215000000,
+     "impot": -2904000000,
+     "res_net": 19984000000,
+     "capitaux_propres": 88621000000,
+     "depots_clientele": 585770000000,
+     "capital": 36000000000
+    }
+   },
+   "dividende_brut_par_action": null,
+   "dividende_total": null,
+   "nombre_actions": null,
+   "notes": [
+    "Chiffres relevés à la main sur le rapport scanné."
+   ],
+   "saisie_manuelle": true,
+   "controles": [
+    {
+     "ok": true,
+     "texte": "RBE = PNB + frais generaux : calcule 29 069 000 000 / publie 29 069 000 000"
+    },
+    {
+     "ok": true,
+     "texte": "Resultat net = exploitation + gains - impot : calcule 21 905 000 000 / publie 21 905 000 000"
+    }
+   ],
+   "signaux": [],
+   "a_verifier": false
+  }
+ },
+ "BOAM": {
+  "2025": {
+   "ticker": "BOAM",
+   "source": "BOAM_2025.pdf (BOA Mali, scan)",
+   "norme": "banque",
+   "exercice": 2025,
+   "valeurs": {
+    "2025": {
+     "pnb": 37996330474,
+     "frais_generaux": -23991960968,
+     "res_brut_exploitation": 14004369506,
+     "cout_risque": -4590037925,
+     "res_exploitation": 9414331581,
+     "gains_immobilises": 2007900892,
+     "impot": -341042566,
+     "res_net": 11081189907,
+     "capitaux_propres": 49820422180,
+     "depots_clientele": 502889695812,
+     "capital": 27450000000
+    },
+    "2024": {
+     "pnb": 36158817499,
+     "frais_generaux": -20296270188,
+     "res_brut_exploitation": 15862547311,
+     "cout_risque": -7303550434,
+     "res_exploitation": 8558996877,
+     "gains_immobilises": 910052783,
+     "impot": -345577756,
+     "res_net": 9123471904,
+     "capitaux_propres": 46195155867,
+     "depots_clientele": 420335811508,
+     "capital": 27450000000
+    }
+   },
+   "dividende_brut_par_action": null,
+   "dividende_total": null,
+   "nombre_actions": null,
+   "notes": [
+    "Chiffres relevés à la main sur le rapport scanné."
+   ],
+   "saisie_manuelle": true,
+   "controles": [
+    {
+     "ok": true,
+     "texte": "RBE = PNB + frais generaux : calcule 14 004 369 506 / publie 14 004 369 506"
+    },
+    {
+     "ok": true,
+     "texte": "Resultat net = exploitation + gains - impot : calcule 11 081 189 907 / publie 11 081 189 907"
+    }
+   ],
+   "signaux": [],
+   "a_verifier": false
+  }
+ },
+ "PRSC": {
+  "2025": {
+   "ticker": "PRSC",
+   "source": "PRSC_2025.pdf (Tractafric Motors CI, scan)",
+   "norme": "syscohada",
+   "exercice": 2025,
+   "valeurs": {
+    "2025": {
+     "ca": 81126957415,
+     "res_exploitation": 4240878619,
+     "res_financier": -265980996,
+     "res_ordinaire": 3974897623,
+     "res_hao": -17839825,
+     "impot": 1589673396,
+     "res_net": 2367384402,
+     "capitaux_propres": 11530737895,
+     "dettes_financieres": 864121065,
+     "capital": 1280000000
+    },
+    "2024": {
+     "ca": 74676306247,
+     "res_exploitation": 1775583466,
+     "res_financier": -414746926,
+     "res_ordinaire": 1360836540,
+     "res_hao": 1861054906,
+     "impot": 875179839,
+     "res_net": 2346711607,
+     "capitaux_propres": 11283033493,
+     "dettes_financieres": 746050773,
+     "capital": 1280000000
+    }
+   },
+   "dividende_brut_par_action": 209,
+   "dividende_total": 2140160000,
+   "nombre_actions": 10240000,
+   "notes": [
+    "Chiffres relevés à la main sur le rapport scanné."
+   ],
+   "saisie_manuelle": true,
+   "controles": [
+    {
+     "ok": true,
+     "texte": "Activites ordinaires = exploitation + financier : calcule 3 974 897 623 / publie 3 974 897 623"
+    },
+    {
+     "ok": true,
+     "texte": "Resultat net = ordinaire + HAO - impot : calcule 2 367 384 402 / publie 2 367 384 402"
+    }
+   ],
+   "signaux": [
+    "Dividende proposé : 90% du bénéfice de l’exercice."
+   ],
+   "a_verifier": false
+  }
+ },
+ "CFAC": {
+  "2025": {
+   "ticker": "CFAC",
+   "source": "CFAC_2025.pdf (CFAO Mobility CI, rapport d'activité, scan)",
+   "norme": "syscohada",
+   "exercice": 2025,
+   "valeurs": {
+    "2025": {
+     "ca": 180544660176,
+     "res_exploitation": 12223965413,
+     "res_financier": -810522790,
+     "res_ordinaire": 11413442623,
+     "res_hao": -31530800,
+     "impot": 2965563000,
+     "res_net": 8416348823
+    },
+    "2024": {
+     "ca": 158313246307,
+     "res_exploitation": 7846693699,
+     "res_financier": -904823943,
+     "res_ordinaire": 6941869756,
+     "res_hao": 24903642,
+     "impot": 2273293948,
+     "res_net": 4693479450
+    }
+   },
+   "dividende_brut_par_action": null,
+   "dividende_total": null,
+   "nombre_actions": null,
+   "notes": [
+    "Rapport d’activité : pas de bilan publié dans ce document.",
+    "Chiffres relevés à la main sur le rapport scanné."
+   ],
+   "saisie_manuelle": true,
+   "controles": [
+    {
+     "ok": true,
+     "texte": "Activites ordinaires = exploitation + financier : calcule 11 413 442 623 / publie 11 413 442 623"
+    },
+    {
+     "ok": true,
+     "texte": "Resultat net = ordinaire + HAO - impot : calcule 8 416 348 823 / publie 8 416 348 823"
+    }
+   ],
+   "signaux": [],
+   "a_verifier": false
+  }
+ },
+ "BOAN": {
+  "2025": {
+   "ticker": "BOAN",
+   "source": "BOAN_2025.pdf (BOA Niger, scan, en millions)",
+   "norme": "banque",
+   "exercice": 2025,
+   "valeurs": {
+    "2025": {
+     "pnb": 21125000000,
+     "frais_generaux": -15711000000,
+     "res_brut_exploitation": 5414000000,
+     "cout_risque": -4293000000,
+     "res_exploitation": 1122000000,
+     "gains_immobilises": 62000000,
+     "impot": -774000000,
+     "res_net": 409000000,
+     "capitaux_propres": 36064000000,
+     "depots_clientele": 183280000000,
+     "capital": 20800000000
+    },
+    "2024": {
+     "pnb": 21380000000,
+     "frais_generaux": -13130000000,
+     "res_brut_exploitation": 8251000000,
+     "cout_risque": -2716000000,
+     "res_exploitation": 5535000000,
+     "gains_immobilises": 35000000,
+     "impot": -568000000,
+     "res_net": 5002000000,
+     "capitaux_propres": 42156000000,
+     "depots_clientele": 170961000000,
+     "capital": 20800000000
+    }
+   },
+   "dividende_brut_par_action": null,
+   "dividende_total": null,
+   "nombre_actions": null,
+   "notes": [
+    "Report à nouveau négatif (–1,8 Md) : correction d’une erreur de comptabilisation sur un crédit (note 4.28 du rapport).",
+    "Chiffres relevés à la main sur le rapport scanné."
+   ],
+   "saisie_manuelle": true,
+   "controles": [
+    {
+     "ok": true,
+     "texte": "RBE = PNB + frais generaux : calcule 5 414 000 000 / publie 5 414 000 000"
+    },
+    {
+     "ok": true,
+     "texte": "Resultat net = exploitation + gains - impot : calcule 410 000 000 / publie 409 000 000"
+    }
+   ],
+   "signaux": [],
+   "a_verifier": false
+  }
+ },
+ "CBIBF": {
+  "2025": {
+   "ticker": "CBIBF",
+   "source": "CBIBF_2025.pdf (Coris Bank International BF, scan, en millions)",
+   "norme": "banque",
+   "exercice": 2025,
+   "valeurs": {
+    "2025": {
+     "pnb": 138986000000,
+     "frais_generaux": -50574000000,
+     "res_brut_exploitation": 88412000000,
+     "cout_risque": -16454000000,
+     "res_exploitation": 71959000000,
+     "gains_immobilises": 130000000,
+     "impot": -6593000000,
+     "res_net": 65495000000,
+     "capitaux_propres": 330548000000,
+     "depots_clientele": 2015284000000,
+     "capital": 32000000000
+    },
+    "2024": {
+     "pnb": 133723000000,
+     "frais_generaux": -45454000000,
+     "res_brut_exploitation": 88269000000,
+     "cout_risque": -40514000000,
+     "res_exploitation": 47755000000,
+     "gains_immobilises": 1449000000,
+     "impot": -1267000000,
+     "res_net": 47937000000,
+     "capitaux_propres": 287734000000,
+     "depots_clientele": 1754521000000,
+     "capital": 32000000000
+    }
+   },
+   "dividende_brut_par_action": null,
+   "dividende_total": null,
+   "nombre_actions": null,
+   "notes": [
+    "Chiffres relevés à la main sur le rapport scanné."
+   ],
+   "saisie_manuelle": true,
+   "controles": [
+    {
+     "ok": true,
+     "texte": "RBE = PNB + frais generaux : calcule 88 412 000 000 / publie 88 412 000 000"
+    },
+    {
+     "ok": true,
+     "texte": "Resultat net = exploitation + gains - impot : calcule 65 496 000 000 / publie 65 495 000 000"
+    }
+   ],
+   "signaux": [],
+   "a_verifier": false
+  }
+ },
+ "BOAC": {
+  "2025": {
+   "ticker": "BOAC",
+   "source": "BOAC_2025.pdf (BOA Côte d’Ivoire, scan, en millions)",
+   "norme": "banque",
+   "exercice": 2025,
+   "valeurs": {
+    "2025": {
+     "pnb": 73545000000,
+     "frais_generaux": -26988000000,
+     "res_brut_exploitation": 46557000000,
+     "cout_risque": -4902000000,
+     "res_exploitation": 41655000000,
+     "gains_immobilises": 17000000,
+     "impot": -6132000000,
+     "res_net": 35540000000,
+     "capitaux_propres": 127340000000,
+     "capital": 40000000000
+    },
+    "2024": {
+     "pnb": 72724000000,
+     "frais_generaux": -26710000000,
+     "res_brut_exploitation": 46014000000,
+     "cout_risque": -6791000000,
+     "res_exploitation": 39223000000,
+     "gains_immobilises": 39000000,
+     "impot": -7217000000,
+     "res_net": 32045000000,
+     "capitaux_propres": 112644000000,
+     "capital": 40000000000
+    }
+   },
+   "dividende_brut_par_action": null,
+   "dividende_total": null,
+   "nombre_actions": null,
+   "notes": [
+    "Chiffres relevés à la main sur le rapport scanné."
+   ],
+   "saisie_manuelle": true,
+   "controles": [
+    {
+     "ok": true,
+     "texte": "RBE = PNB + frais generaux : calcule 46 557 000 000 / publie 46 557 000 000"
+    },
+    {
+     "ok": true,
+     "texte": "Resultat net = exploitation + gains - impot : calcule 35 540 000 000 / publie 35 540 000 000"
     }
    ],
    "signaux": [],
