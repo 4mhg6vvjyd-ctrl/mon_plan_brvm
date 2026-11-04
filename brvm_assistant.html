@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="theme-color" content="#f1f4f8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>NAFA – faites travailler votre épargne</title>
+<title>NAFA – comprendre le marché avant d’investir</title>
 <style>
 :root{
   box-sizing:border-box;
@@ -193,6 +193,13 @@ header.haut #progression{flex-basis:100%}
 .annonce.neuve{border-left:3px solid var(--acc);padding-left:8px}
 .bandeau{background:var(--acc-t);color:var(--ink);border-radius:10px;padding:8px 12px;font-size:14px;margin:6px 0}
 .avatar{flex:0 0 auto;width:42px;height:42px;border-radius:12px;background:var(--acc-t);color:var(--acc);display:grid;place-items:center;font-weight:700;font-size:12px;letter-spacing:.3px}
+
+/* ===== Tirer pour actualiser (application installee) ===== */
+#ptr{position:fixed;left:50%;top:calc(env(safe-area-inset-top,0px) + 6px);transform:translate(-50%,-80px);z-index:30;background:var(--surf);color:var(--ink);border:1px solid var(--line);border-radius:999px;padding:8px 14px;font-size:14px;font-weight:650;box-shadow:var(--ombre);display:flex;align-items:center;gap:8px;pointer-events:none;transition:transform .2s}
+#ptr .rond{width:18px;height:18px;border-radius:50%;border:2.5px solid var(--line);border-top-color:var(--acc)}
+#ptr.charge .rond{animation:tourne .8s linear infinite}
+@keyframes tourne{to{transform:rotate(360deg)}}
+@media (display-mode:standalone){html,body{overscroll-behavior-y:contain}}
 @media print{
   header.haut,.barre,.pied .ne-pas-imprimer,#progression,.actions,details>summary,.onglets,.basnav{display:none!important}
   body{background:#fff;color:#000;font-size:12pt}
@@ -215,6 +222,7 @@ header.haut #progression{flex-basis:100%}
     <p><span id="avert"></span> <span id="maj"></span>.</p>
     <p class="ne-pas-imprimer"><button class="petit" id="recommencer" type="button">Tout effacer et recommencer</button></p>
   </footer>
+  <div id="ptr" role="status" aria-live="polite"><span class="rond" aria-hidden="true"></span><span id="ptr-txt"></span></div>
   <nav class="basnav" id="onglets" aria-label="Sections"></nav>
   <div class="barre" id="barre">
     <button id="retour" type="button">Retour</button>
@@ -767,7 +775,7 @@ const agendaDe = t => DATA.agenda.find(a => a.t === t && !datePassee(a.date));
 
 /* ===== Langue, thème, navigation du bas, annonces ===== */
 const I18N = {
-  fr: { accroche: "Faites travailler votre épargne, pas à pas.", marche: "Marché", actus: "Annonces", plan: "Plan", portefeuille: "Portefeuille", apprendre: "Apprendre",
+  fr: { accroche: "Comprendre le marché avant d’investir.", marche: "Marché", actus: "Annonces", plan: "Plan", portefeuille: "Portefeuille", apprendre: "Apprendre",
     theme_auto: "Thème automatique", theme_light: "Thème clair", theme_dark: "Thème sombre", langue: "Changer de langue",
     marche_titre: "Le marché aujourd’hui", cloture: "Cours de clôture au", hausse: "En hausse", baisse: "En baisse", etudier: "À étudier",
     partager: "Partager le résumé sur WhatsApp", div_annonces: "Dividendes annoncés", toutes_valeurs: "Toutes les valeurs", chercher: "Chercher une société ou un code (ex. SNTS)",
@@ -784,8 +792,9 @@ const I18N = {
     pf_titre: "Mon portefeuille", valeur_act: "Valeur actuelle", gain: "Gain ou perte", div_an: "Dividendes par an (estimés, nets)", ajout_achat: "Ajouter un achat",
     app_titre: "Apprendre en une minute",
     avert: "<b>À lire avant de continuer.</b> Cet outil aide à réfléchir ; il ne constitue pas un conseil en investissement. Les chiffres sont des simulations fondées sur des données passées et des hypothèses : ils ne garantissent rien. Vous pouvez perdre une partie, voire la totalité, de l’argent investi. Les tarifs des intermédiaires (SGI) sont indicatifs : demandez-les par écrit avant d’ouvrir un compte. Données de marché au",
+    ptr_tirer: "Tirez pour actualiser", ptr_lacher: "Relâchez pour actualiser", ptr_charge: "Actualisation…", ptr_info: "Données au",
     partiel: "" },
-  en: { accroche: "Put your savings to work, step by step.", marche: "Market", actus: "News", plan: "Plan", portefeuille: "Portfolio", apprendre: "Learn",
+  en: { accroche: "Understand the market before you invest.", marche: "Market", actus: "News", plan: "Plan", portefeuille: "Portfolio", apprendre: "Learn",
     theme_auto: "Automatic theme", theme_light: "Light theme", theme_dark: "Dark theme", langue: "Change language",
     marche_titre: "Today’s market", cloture: "Closing prices on", hausse: "Up", baisse: "Down", etudier: "Worth a look",
     partager: "Share the summary on WhatsApp", div_annonces: "Announced dividends", toutes_valeurs: "All stocks", chercher: "Search a company or ticker (e.g. SNTS)",
@@ -802,6 +811,7 @@ const I18N = {
     pf_titre: "My portfolio", valeur_act: "Current value", gain: "Gain or loss", div_an: "Dividends per year (estimated, net)", ajout_achat: "Add a purchase",
     app_titre: "Learn in one minute",
     avert: "<b>Please read.</b> This tool helps you think; it is not investment advice. Figures are simulations based on past data and assumptions: they guarantee nothing. You may lose part or all of the money invested. Broker (SGI) fees are indicative: ask for them in writing before opening an account. Market data as of",
+    ptr_tirer: "Pull to refresh", ptr_lacher: "Release to refresh", ptr_charge: "Refreshing…", ptr_info: "Data as of",
     partiel: "English version in progress: some detailed texts are still in French." }
 };
 let LANGUE = (() => { try { return localStorage.getItem("brvm_lang") || ((navigator.language || "fr").startsWith("en") ? "en" : "fr"); } catch (e) { return "fr"; } })();
@@ -1105,6 +1115,32 @@ document.addEventListener("click", e => {
   if (e.target.closest("#b-langue")) { LANGUE = LANGUE === "fr" ? "en" : "fr"; try { localStorage.setItem("brvm_lang", LANGUE); } catch (x) {} rendre(); }
 });
 window.addEventListener("hashchange", () => { rendre(); window.scrollTo({ top: 0, behavior: "auto" }); });
+
+
+/* ===== Tirer vers le bas pour actualiser (uniquement dans l'application installee) ===== */
+(function () {
+  const installee = (window.matchMedia && matchMedia("(display-mode: standalone)").matches) || navigator.standalone === true;
+  if (!installee || !("ontouchstart" in window)) return;
+  const el = $("#ptr"), txt = $("#ptr-txt"), SEUIL = 80;
+  let y0 = null, dy = 0, actif = false;
+  const montrer = (d, msg) => { el.style.transform = `translate(-50%, ${Math.min(d, 110) - 80}px)`; txt.textContent = msg; };
+  window.addEventListener("touchstart", e => {
+    if (window.scrollY > 0 || e.touches.length !== 1 || e.target.closest("input,select,textarea,.tablewrap,.graphe")) { y0 = null; return; }
+    y0 = e.touches[0].clientY; dy = 0; actif = false;
+  }, { passive: true });
+  window.addEventListener("touchmove", e => {
+    if (y0 == null) return;
+    dy = (e.touches[0].clientY - y0) * 0.55;
+    if (dy <= 0) { el.style.transform = ""; return; }
+    actif = true; montrer(dy, dy > SEUIL ? tr("ptr_lacher") : tr("ptr_tirer") + " · " + tr("ptr_info") + " " + DATA.maj);
+  }, { passive: true });
+  window.addEventListener("touchend", () => {
+    if (y0 == null || !actif) { y0 = null; return; }
+    if (dy > SEUIL) { el.classList.add("charge"); montrer(SEUIL + 30, tr("ptr_charge")); setTimeout(() => location.reload(), 150); }
+    else el.style.transform = "";
+    y0 = null; actif = false;
+  });
+})();
 
 /* ===== Démarrage ===== */
 let tempo = null; window.addEventListener("resize", () => { clearTimeout(tempo); tempo = setTimeout(() => { if (S.step === 4 && window.__majGraphe) window.__majGraphe(); }, 150); });
