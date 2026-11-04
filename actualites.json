@@ -1,6 +1,22 @@
 {
- "maj": "2026-11-04 16:54",
+ "maj": "2026-11-04 19:41",
  "articles": [
+  {
+   "id": "65506",
+   "source": "Actualites du marche",
+   "date": "2026-11-04 16:59",
+   "titre": "BRVM : NEI Ceda paie le prix de son résultat",
+   "extrait": "La BRVM termine la séance de ce mercredi sur une note légèrement négative, pénalisée par le repli de plusieurs valeurs,...",
+   "url": "https://www.sikafinance.com/marches/brvm-nei-ceda-paie-le-prix-de-son-resultat_65506",
+   "ticker": "NEIC",
+   "premium": false,
+   "categorie": "Autre",
+   "score": 1,
+   "sentiment": -1,
+   "tickers": [
+    "NEIC"
+   ]
+  },
   {
    "id": "65505",
    "source": "Actualites du marche",
