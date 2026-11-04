@@ -35,6 +35,7 @@ jobs:
           python brvm_actus.py
           if [ ! -d brvm_dividendes ] || [ "$(date +%d)" = "01" ]; then python brvm_dividendes.py; fi
           python brvm_fondamentaux.py --auto || echo "Fondamentaux : échec, on continue sans"
+          python brvm_obligations.py --auto || echo "Obligations : échec, on continue sans"
 
       - name: Calculer le tableau de bord et mettre à jour l'application
         run: |
@@ -46,7 +47,7 @@ jobs:
         run: |
           git config user.name "robot-brvm"
           git config user.email "robot-brvm@users.noreply.github.com"
-          git add brvm_donnees brvm_dividendes actualites.json candidats.json brvm_assistant.html fondamentaux.json || true
+          git add brvm_donnees brvm_dividendes actualites.json candidats.json brvm_assistant.html fondamentaux.json obligations.json || true
           git commit -m "Données du $(date -u +%F)" || echo "Rien de nouveau à enregistrer"
           git push || echo "Enregistrement impossible"
 
