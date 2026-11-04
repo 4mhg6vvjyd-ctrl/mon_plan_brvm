@@ -8,7 +8,7 @@ import time
 MODELE = "pwa_modele"
 SORTIE = "site"
 BALISES = ('<meta name="theme-color" content="#2a3f8f">\n<link rel="manifest" href="manifest.webmanifest">\n<link rel="apple-touch-icon" href="apple-touch-icon.png">\n'
-           '<meta name="apple-mobile-web-app-capable" content="yes">\n<meta name="mobile-web-app-capable" content="yes">\n<meta name="apple-mobile-web-app-title" content="Mon plan BRVM">\n'
+           '<meta name="apple-mobile-web-app-capable" content="yes">\n<meta name="mobile-web-app-capable" content="yes">\n<meta name="apple-mobile-web-app-title" content="NAFA">\n'
            '<meta name="apple-mobile-web-app-status-bar-style" content="default">\n')
 ENREGISTREMENT = 'if ("serviceWorker" in navigator) { window.addEventListener("load", () => { navigator.serviceWorker.register("sw.js").catch(() => { /* hors ligne indisponible */ }); }); }\n'
 
