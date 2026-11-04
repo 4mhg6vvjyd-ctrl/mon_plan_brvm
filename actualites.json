@@ -1,13 +1,45 @@
 {
- "maj": "2026-11-03 19:34",
+ "maj": "2026-11-04 16:54",
  "articles": [
   {
-   "id": "65474",
+   "id": "65505",
+   "source": "Actualites du marche",
+   "date": "2026-11-04 16:35",
+   "titre": "FILTISAC CI : les ventes bondissent de 40 %, mais le résultat reste sous pression",
+   "extrait": "Avec 25,69 milliards FCFA de chiffre d'affaires sur neuf mois, FILTISAC CI affiche une forte accélération commerciale, ...",
+   "url": "https://www.sikafinance.com/marches/filtisac-ci-les-ventes-bondissent-de-40--mais-le-resultat-reste-sous-pression_65505",
+   "ticker": "FTSC",
+   "premium": true,
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "FTSC"
+   ]
+  },
+  {
+   "id": "65504",
    "source": "Actualites economiques",
-   "date": "2026-11-03 18:22",
-   "titre": "Cameroun : La taxe sur les transferts d’argent rapporte 42,7 milliards FCFA en 2025",
-   "extrait": "Le Cameroun a mobilisé 42,7 milliards FCFA en 2025 au titre de la taxe sur les opérations de transfert d'argent (TTA), dépassant de 4,7 milliards FCFA l'object...",
-   "url": "https://www.sikafinance.com/marches/cameroun-la-taxe-sur-les-transferts-dargent-rapporte-42-7-milliards-fcfa-en-2025_65474",
+   "date": "2026-11-04 15:49",
+   "titre": "Easy leasing : NSIA Banque Côte d’Ivoire et Rimco motors facilitent l’accès aux véhicules neufs",
+   "extrait": "&nbsp; &nbsp; &nbsp; &nbsp;Jusqu'à 100 % du véhicule financé, sans apport initial exigé sous conditions&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &...",
+   "url": "https://www.sikafinance.com/marches/easy-leasing-nsia-banque-cote-divoire-et-rimco-motors-facilitent-lacces-aux-vehicules-neufs_65504",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": [
+    "NSBC"
+   ]
+  },
+  {
+   "id": "65503",
+   "source": "Actualites economiques",
+   "date": "2026-11-04 15:35",
+   "titre": "Nigeria : La fintech Bamboo facilite 99 milliards de nairas de souscriptions à l’introduction en bourse de Dangote Refinery",
+   "extrait": "Lors de la récente introduction en bourse de la gigantesque raffinerie Dangote au Nigeria, la fintech Bamboo a créé la surprise en traitant plus de 600 000 tra...",
+   "url": "https://www.sikafinance.com/marches/nigeria-la-fintech-bamboo-facilite-99-milliards-de-nairas-de-souscriptions-a-lintroduction-en-bourse-de-dangote-refinery_65503",
    "ticker": null,
    "premium": false,
    "categorie": "Hors zone UEMOA",
@@ -16,17 +48,231 @@
    "tickers": []
   },
   {
-   "id": "65473",
+   "id": "65502",
    "source": "Actualites economiques",
-   "date": "2026-11-03 17:14",
-   "titre": "Face à la chute historique de l’aide au développement, l’UEMOA mise sur des financements innovants",
-   "extrait": "La contraction des financements extérieurs concessionnels accentue la pression sur les économies de l'Union économique et monétaire ouest-africaine (UEMOA), co...",
-   "url": "https://www.sikafinance.com/marches/face-a-la-chute-historique-de-laide-au-developpement-luemoa-mise-sur-des-financements-innovants_65473",
+   "date": "2026-11-04 15:29",
+   "titre": "Côte d’Ivoire : Cybastion ouvre un centre régional de cybersécurité",
+   "extrait": "L'entreprise technologique américaine Cybastion inaugure, ce jeudi 5 novembre 2026 à Abidjan, un centre régional de cybersécurité équipé des technologies de po...",
+   "url": "https://www.sikafinance.com/marches/cote-divoire-cybastion-ouvre-un-centre-regional-de-cybersecurite_65502",
    "ticker": null,
    "premium": false,
-   "categorie": "Operation sur titres",
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65501",
+   "source": "Actualites economiques",
+   "date": "2026-11-04 14:48",
+   "titre": "Gabon : La TVA prend du poids dans les recettes de l'État avec 570 milliards FCFA attendus en 2027",
+   "extrait": "Le gouvernement gabonais table sur 570,58 milliards FCFA de recettes issues de la taxe sur la valeur ajoutée (TVA) en 2027, selon les projections inscrites dans...",
+   "url": "https://www.sikafinance.com/marches/gabon-la-tva-prend-du-poids-dans-les-recettes-de-l-etat-avec-570-milliards-fcfa-attendus-en-2027_65501",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65500",
+   "source": "Actualites economiques",
+   "date": "2026-11-04 14:42",
+   "titre": "AFIS Awards 2026 : Wave et 5 autres acteurs récompensés pour leur rôle dans la transformation de la finance africaine",
+   "extrait": "La finance africaine ne manque ni de capitaux ni d'ambitions. Son principal défi reste de transformer cette puissance financière en investissements productifs,...",
+   "url": "https://www.sikafinance.com/marches/afis-awards-2026-wave-et-5-autres-acteurs-recompenses-pour-leur-role-dans-la-transformation-de-la-finance-africaine_65500",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65498",
+   "source": "Actualites economiques",
+   "date": "2026-11-04 14:19",
+   "titre": "Afrique : La BAD veut mobiliser le capital de la diaspora pour financer le développement du continent",
+   "extrait": "Les transferts d'argent des Africains établis à l'étranger constituent déjà une source importante de financement pour le continent. Mais au-delà de ces flux de...",
+   "url": "https://www.sikafinance.com/marches/afrique-la-bad-veut-mobiliser-le-capital-de-la-diaspora-pour-financer-le-developpement-du-continent_65498",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Financement",
+   "score": 2,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65497",
+   "source": "Actualites du marche",
+   "date": "2026-11-04 14:09",
+   "titre": "Le résultat net de la SIB progresse à 46 milliards FCFA à fin septembre 2026",
+   "extrait": "La capacité d'une banque à transformer la croissance de ses revenus en bénéfices constitue un indicateur essentiel de s...",
+   "url": "https://www.sikafinance.com/marches/le-resultat-net-de-la-sib-progresse-a-46-milliards-fcfa-a-fin-septembre-2026_65497",
+   "ticker": "SIBC",
+   "premium": false,
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 1,
+   "tickers": [
+    "SIBC"
+   ]
+  },
+  {
+   "id": "65496",
+   "source": "Actualites du marche",
+   "date": "2026-11-04 13:46",
+   "titre": "AFIS 2026 : Le 6e Baromètre du secteur financier africain dresse un bilan contrasté des avancées de l’intégration régionale",
+   "extrait": "Les dirigeants financiers africains se disent confiants, à 8 sur 10. Pourtant, deux tiers d'entre eux constatent une ha...",
+   "url": "https://www.sikafinance.com/marches/afis-2026-le-6e-barometre-du-secteur-financier-africain-dresse-un-bilan-contraste-des-avancees-de-lintegration-regionale_65496",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65494",
+   "source": "Actualites economiques",
+   "date": "2026-11-04 12:17",
+   "titre": "Sénégal : Le rejet du budget rectificatif fait planer des incertitudes sur les dépenses sociales et les investissements publics",
+   "extrait": "L'Assemblée nationale du Sénégal a rejeté, mardi 3 novembre 2026, le projet de loi de finances rectificative (LFR) 2026, à la suite de l'adoption de la questio...",
+   "url": "https://www.sikafinance.com/marches/senegal-le-rejet-du-budget-rectificatif-fait-planer-des-incertitudes-sur-les-depenses-sociales-et-les-investissements-publics_65494",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Macro / monnaie",
+   "score": 2,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65491",
+   "source": "Actualites du marche",
+   "date": "2026-11-04 11:46",
+   "titre": "SETAO réduit ses pertes dans le sillage de la reprise des grands travaux",
+   "extrait": "Dans le secteur du BTP, le calendrier d'exécution des marchés peut peser lourdement sur le rythme de l'activité et la f...",
+   "url": "https://www.sikafinance.com/marches/setao-reduit-ses-pertes-dans-le-sillage-de-la-reprise-des-grands-travaux_65491",
+   "ticker": "STAC",
+   "premium": true,
+   "categorie": "Resultats",
    "score": 3,
    "sentiment": -1,
+   "tickers": [
+    "STAC"
+   ]
+  },
+  {
+   "id": "65490",
+   "source": "Actualites economiques",
+   "date": "2026-11-04 11:28",
+   "titre": "Dangote va construire en Namibie un terminal pétrolier, point de départ d’un réseau de pipelines de plus de 2 600 km vers la RDC",
+   "extrait": "Le groupe nigérian Dangote Industries lance, ce 4 novembre 2026, les travaux de construction d'un terminal de stockage de produits pétroliers à Walvis B...",
+   "url": "https://www.sikafinance.com/marches/dangote-va-construire-en-namibie-un-terminal-petrolier-point-de-depart-dun-reseau-de-pipelines-de-plus-de-2-600-km-vers-la-rdc_65490",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65487",
+   "source": "Actualites economiques",
+   "date": "2026-11-04 10:44",
+   "titre": "Paiements : Mastercard confie son développement en Afrique subsaharienne francophone à Christelle N’Guessan-Rigaud",
+   "extrait": "Vice-présidente chargée du développement commercial pays pour l'Afrique subsaharienne francophone depuis juin 2026, la dirigeante ivoirienne pilote la croissan...",
+   "url": "https://www.sikafinance.com/marches/paiements-mastercard-confie-son-developpement-en-afrique-subsaharienne-francophone-a-christelle-nguessan-rigaud_65487",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65488",
+   "source": "Actualites economiques",
+   "date": "2026-11-04 00:00",
+   "titre": "La BAD conserve pour la 3e fois son titre de banque multilatérale la plus transparente au monde",
+   "extrait": "04/11/2026",
+   "url": "https://www.sikafinance.com/marches/la-bad-conserve-pour-la-3e-fois-son-titre-de-banque-multilaterale-la-plus-transparente-au-monde_65488",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65484",
+   "source": "Actualites economiques",
+   "date": "2026-11-04 00:00",
+   "titre": "Côte d’Ivoire : Le gouvernement maintient le prix du coton-graine à 310 FCFA/kg pour la campagne 2026-2027",
+   "extrait": "04/11/2026",
+   "url": "https://www.sikafinance.com/marches/cote-divoire-le-gouvernement-maintient-le-prix-du-coton-graine-a-310-fcfakg-pour-la-campagne-2026-2027_65484",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Matieres premieres",
+   "score": 1,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65483",
+   "source": "Actualites economiques",
+   "date": "2026-11-04 00:00",
+   "titre": "Gabon : BGFI propose de porter sa levée de fonds à 146 milliards FCFA, soit 20 milliards de plus que prévu",
+   "extrait": "04/11/2026",
+   "url": "https://www.sikafinance.com/marches/gabon-bgfi-propose-de-porter-sa-levee-de-fonds-a-146-milliards-fcfa-soit-20-milliards-de-plus-que-prevu_65483",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65482",
+   "source": "Actualites economiques",
+   "date": "2026-11-04 00:00",
+   "titre": "CEMAC : Les échanges de titres bondissent à fin septembre, tandis que la demande aux nouvelles émissions fléchit",
+   "extrait": "04/11/2026",
+   "url": "https://www.sikafinance.com/marches/cemac-les-echanges-de-titres-bondissent-a-fin-septembre-tandis-que-la-demande-aux-nouvelles-emissions-flechit_65482",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65480",
+   "source": "Actualites economiques",
+   "date": "2026-11-04 00:00",
+   "titre": "Côte d’Ivoire : Sept banques locales mobilisent 148 milliards FCFA pour la construction de la mine d’or de Doropo",
+   "extrait": "04/11/2026",
+   "url": "https://www.sikafinance.com/marches/cote-divoire-sept-banques-locales-mobilisent-148-milliards-fcfa-pour-la-construction-de-la-mine-dor-de-doropo_65480",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Financement",
+   "score": 2,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65478",
+   "source": "Actualites economiques",
+   "date": "2026-11-04 00:00",
+   "titre": "BRVM : Sika Finance lance Sika Forecast pour éclairer les choix d’investissement en 2027",
+   "extrait": "03/11/2026",
+   "url": "https://www.sikafinance.com/marches/brvm-sika-finance-lance-sika-forecast-pour-eclairer-les-choix-dinvestissement-en-2027_65478",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
    "tickers": []
   },
   {
@@ -46,64 +292,6 @@
    ]
   },
   {
-   "id": "65472",
-   "source": "Actualites economiques",
-   "date": "2026-11-03 17:03",
-   "titre": "JONPCI 2026 : NSIA Banque CI réaffirme son engagement aux côtés des professionnels de santé",
-   "extrait": "À l'occasion des Journées de l'Ordre National des Pharmaciens de Côte d'Ivoire (JNOPCI) 2026, organisées les 15 et 16 octobre à Abidjan, NSIA Banq...",
-   "url": "https://www.sikafinance.com/marches/jonpci-2026-nsia-banque-ci-reaffirme-son-engagement-aux-cotes-des-professionnels-de-sante_65472",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Autre",
-   "score": 0,
-   "sentiment": 0,
-   "tickers": [
-    "NSBC"
-   ]
-  },
-  {
-   "id": "65470",
-   "source": "Actualites economiques",
-   "date": "2026-11-03 17:03",
-   "titre": "BRVM : SMB garde le vent en poupe et signe un nouveau bond de 7,49 %",
-   "extrait": "La BRVM termine la séance sur une note positive. Ses trois principaux indices progressent, avec un BRVM-Composite en hausse de 0,78 % à 529,41 points, soit un ...",
-   "url": "https://www.sikafinance.com/marches/brvm-smb-garde-le-vent-en-poupe-et-signe-un-nouveau-bond-de-7-49-_65470",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Autre",
-   "score": 0,
-   "sentiment": 1,
-   "tickers": []
-  },
-  {
-   "id": "65468",
-   "source": "Actualites economiques",
-   "date": "2026-11-03 16:40",
-   "titre": "Cameroun : Après 1,5 milliard USD de recettes et 10 millions de tonnes de GNL, le départ du Hilli Episeyo laisse un vide majeur",
-   "extrait": "Pendant huit ans, le navire-usine Hilli Episeyo a permis au Cameroun de valoriser son gaz naturel en le transformant en gaz naturel liquéfié (GNL) destiné aux ...",
-   "url": "https://www.sikafinance.com/marches/cameroun-apres-1-5-milliard-usd-de-recettes-et-10-millions-de-tonnes-de-gnl-le-depart-du-hilli-episeyo-laisse-un-vide-majeur_65468",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Hors zone UEMOA",
-   "score": 0,
-   "sentiment": 0,
-   "tickers": []
-  },
-  {
-   "id": "65466",
-   "source": "Actualites economiques",
-   "date": "2026-11-03 16:12",
-   "titre": "AFIS 2026 : À Luanda, la finance africaine face au défi de canaliser 4 000 milliards USD d’épargne vers 400 milliards de besoins annuels",
-   "extrait": "Ouvert ce 3 novembre 2026 pour deux jours, l'Africa Financial Summit (AFIS) réunit plus de 1 500 décideurs. Quatre allocutions d'ouverture posent le même diagno...",
-   "url": "https://www.sikafinance.com/marches/afis-2026-a-luanda-la-finance-africaine-face-au-defi-de-canaliser-4-000-milliards-usd-depargne-vers-400-milliards-de-besoins-annuels_65466",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Autre",
-   "score": 0,
-   "sentiment": 0,
-   "tickers": []
-  },
-  {
    "id": "65464",
    "source": "Actualites du marche",
    "date": "2026-11-03 14:29",
@@ -118,20 +306,6 @@
    "tickers": [
     "SLBC"
    ]
-  },
-  {
-   "id": "65460",
-   "source": "Actualites economiques",
-   "date": "2026-11-03 12:30",
-   "titre": "Sénégal : L’Assemblée nationale rejette le projet de loi de finances rectificative 2026",
-   "extrait": "Au Sénégal, l'Assemblée nationale a rejeté le projet de loi de finances rectificative 2026, ce mardi 3 novembre 2026. Ce verdict était prévisible puisque le te...",
-   "url": "https://www.sikafinance.com/marches/senegal-lassemblee-nationale-rejette-le-projet-de-loi-de-finances-rectificative-2026_65460",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Autre",
-   "score": 0,
-   "sentiment": 0,
-   "tickers": []
   },
   {
    "id": "65459",
@@ -156,6 +330,106 @@
    "titre": "L'entreprise ivoirienne AYUF Holding met son savoir-faire au service des JOJ de Dakar 2026",
    "extrait": "En faisant confiance aux entreprises du continent pour les différentes prestataires, le Comité d'organisation des Jeux olympiques de la jeunesse (COJOJ) prouve...",
    "url": "https://www.sikafinance.com/marches/l-entreprise-ivoirienne-ayuf-holding-met-son-savoir-faire-au-service-des-joj-de-dakar-2026_65458",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65474",
+   "source": "Actualites economiques",
+   "date": "2026-11-03 00:00",
+   "titre": "Cameroun : La taxe sur les transferts d’argent rapporte 42,7 milliards FCFA en 2025",
+   "extrait": "03/11/2026 Afrique : L'IA au cœur d'un prix de jeunes innova",
+   "url": "https://www.sikafinance.com/marches/cameroun-la-taxe-sur-les-transferts-dargent-rapporte-42-7-milliards-fcfa-en-2025_65474",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65473",
+   "source": "Actualites economiques",
+   "date": "2026-11-03 00:00",
+   "titre": "Face à la chute historique de l’aide au développement, l’UEMOA mise sur des financements innovants",
+   "extrait": "03/11/2026",
+   "url": "https://www.sikafinance.com/marches/face-a-la-chute-historique-de-laide-au-developpement-luemoa-mise-sur-des-financements-innovants_65473",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Macro / monnaie",
+   "score": 2,
+   "sentiment": -1,
+   "tickers": []
+  },
+  {
+   "id": "65472",
+   "source": "Actualites economiques",
+   "date": "2026-11-03 00:00",
+   "titre": "JONPCI 2026 : NSIA Banque CI réaffirme son engagement aux côtés des professionnels de santé",
+   "extrait": "03/11/2026",
+   "url": "https://www.sikafinance.com/marches/jonpci-2026-nsia-banque-ci-reaffirme-son-engagement-aux-cotes-des-professionnels-de-sante_65472",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": [
+    "NSBC"
+   ]
+  },
+  {
+   "id": "65470",
+   "source": "Actualites economiques",
+   "date": "2026-11-03 00:00",
+   "titre": "BRVM : SMB garde le vent en poupe et signe un nouveau bond de 7,49 %",
+   "extrait": "03/11/2026 Congo-Cameroun : bois, ciment et produit",
+   "url": "https://www.sikafinance.com/marches/brvm-smb-garde-le-vent-en-poupe-et-signe-un-nouveau-bond-de-7-49-_65470",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65468",
+   "source": "Actualites economiques",
+   "date": "2026-11-03 00:00",
+   "titre": "Cameroun : Après 1,5 milliard USD de recettes et 10 millions de tonnes de GNL, le départ du Hilli Episeyo laisse un vide majeur",
+   "extrait": "03/11/2026",
+   "url": "https://www.sikafinance.com/marches/cameroun-apres-1-5-milliard-usd-de-recettes-et-10-millions-de-tonnes-de-gnl-le-depart-du-hilli-episeyo-laisse-un-vide-majeur_65468",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65466",
+   "source": "Actualites economiques",
+   "date": "2026-11-03 00:00",
+   "titre": "AFIS 2026 : À Luanda, la finance africaine face au défi de canaliser 4 000 milliards USD d’épargne vers 400 milliards de besoins annuels",
+   "extrait": "03/11/2026",
+   "url": "https://www.sikafinance.com/marches/afis-2026-a-luanda-la-finance-africaine-face-au-defi-de-canaliser-4-000-milliards-usd-depargne-vers-400-milliards-de-besoins-annuels_65466",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65460",
+   "source": "Actualites economiques",
+   "date": "2026-11-03 00:00",
+   "titre": "Sénégal : L’Assemblée nationale rejette le projet de loi de finances rectificative 2026",
+   "extrait": "05/06/2026",
+   "url": "https://www.sikafinance.com/marches/senegal-lassemblee-nationale-rejette-le-projet-de-loi-de-finances-rectificative-2026_65460",
    "ticker": null,
    "premium": false,
    "categorie": "Autre",
@@ -229,6 +503,20 @@
    "ticker": null,
    "premium": false,
    "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65475",
+   "source": "Actualites economiques",
+   "date": "2026-11-03 00:00",
+   "titre": "Commerce mondial : Election historique du Sénégalais Ibrahima Nour Eddine Diagne à la tête de l'UN/CEFACT",
+   "extrait": "03/11/2026",
+   "url": "https://www.sikafinance.com/marches/commerce-mondial-election-historique-du-senegalais-ibrahima-nour-eddine-diagne-a-la-tete-de-l-uncefact_65475",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
    "score": 0,
    "sentiment": 0,
    "tickers": []
@@ -2113,23 +2401,23 @@
  "matieres": [
   {
    "nom": "ALUMINIUM",
-   "dernier": 3314.75,
-   "variation": 0.13
+   "dernier": 3235.25,
+   "variation": -2.4
   },
   {
    "nom": "ARGENT (ONCE EN $)",
-   "dernier": 48.88,
-   "variation": -0.49
+   "dernier": 52.13,
+   "variation": 6.65
   },
   {
    "nom": "AVOINE",
-   "dernier": 341.0,
-   "variation": -0.8
+   "dernier": 339.25,
+   "variation": -0.51
   },
   {
    "nom": "BLÉ",
-   "dernier": 606.5,
-   "variation": 0.5
+   "dernier": 599.75,
+   "variation": -1.11
   },
   {
    "nom": "BOIS DE CONSTRUCTION",
@@ -2138,13 +2426,13 @@
   },
   {
    "nom": "CACAO",
-   "dernier": 5392.0,
-   "variation": -1.12
+   "dernier": 5420.0,
+   "variation": 0.52
   },
   {
    "nom": "CAFÉ",
-   "dernier": 292.1,
-   "variation": 1.71
+   "dernier": 283.95,
+   "variation": -2.79
   },
   {
    "nom": "CAOUTCHOUC",
@@ -2153,43 +2441,43 @@
   },
   {
    "nom": "COTON",
-   "dernier": 77.66,
-   "variation": -0.22
+   "dernier": 77.04,
+   "variation": -0.8
   },
   {
    "nom": "CUIVRE",
-   "dernier": 6.54,
-   "variation": 1.32
+   "dernier": 6.38,
+   "variation": -2.52
   },
   {
    "nom": "GAZ NATUREL",
-   "dernier": 2.86,
-   "variation": -1.45
+   "dernier": 2.9,
+   "variation": 1.37
   },
   {
    "nom": "JUS D'ORANGE",
-   "dernier": 132.0,
-   "variation": 14.43
+   "dernier": 135.45,
+   "variation": 2.61
   },
   {
    "nom": "MAIS",
-   "dernier": 448.25,
-   "variation": 0.11
+   "dernier": 442.5,
+   "variation": -1.28
   },
   {
    "nom": "NICKEL",
-   "dernier": 15521.75,
-   "variation": 1.94
+   "dernier": 15299.25,
+   "variation": -1.43
   },
   {
    "nom": "OR (ONCE EN $)",
-   "dernier": 3906.68,
-   "variation": 0.81
+   "dernier": 4045.29,
+   "variation": 3.55
   },
   {
    "nom": "PALLADIUM",
-   "dernier": 943.28,
-   "variation": -3.79
+   "dernier": 992.23,
+   "variation": 5.19
   },
   {
    "nom": "PALM OIL FUTURES ($)",
@@ -2198,18 +2486,18 @@
   },
   {
    "nom": "PETROLE BRENT",
-   "dernier": 104.92,
-   "variation": -6.11
+   "dernier": 101.43,
+   "variation": -3.33
   },
   {
    "nom": "PETROLE WTI",
-   "dernier": 96.46,
-   "variation": -7.36
+   "dernier": 96.09,
+   "variation": -0.38
   },
   {
    "nom": "PLATINE",
-   "dernier": 1422.61,
-   "variation": -0.84
+   "dernier": 1462.98,
+   "variation": 2.84
   },
   {
    "nom": "RIZ FUTURES ($)",
@@ -2218,13 +2506,13 @@
   },
   {
    "nom": "SOJA",
-   "dernier": 1204.75,
-   "variation": -2.39
+   "dernier": 1203.0,
+   "variation": -0.15
   },
   {
    "nom": "SUCRE",
-   "dernier": 19.06,
-   "variation": -1.55
+   "dernier": 18.33,
+   "variation": -3.83
   },
   {
    "nom": "ZINC",
@@ -2238,7 +2526,7 @@
    "ticker": "LNBB",
    "nom": "LOTERIE NATIONALE DU BENIN",
    "montant": 164.0,
-   "rendement": 4.16
+   "rendement": 4.1
   }
  ]
 }
