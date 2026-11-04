@@ -1,0 +1,81 @@
+{
+ "id": "demo",
+ "nom": "Sahel Bourse",
+ "sous": "SGI fictive · démonstration",
+ "initiales": "SB",
+ "couleur": "#0e6b55",
+ "couleur_sombre": "#5fd3ae",
+ "pays": "Mali",
+ "contact": {
+  "tel": "+223 20 00 00 00",
+  "email": "ouverture@sahel-bourse.example",
+  "whatsapp": "22300000000"
+ },
+ "sgi_fee": {
+  "id": "demo",
+  "nom": "Sahel Bourse (démo)",
+  "tout": 1.2,
+  "garde": 0.4,
+  "tenue_ligne": 0,
+  "fixe": 10000,
+  "depot": 100000,
+  "src": "grille de démonstration",
+  "fiab": "grille",
+  "note": "Frais fictifs, pour la démonstration uniquement"
+ },
+ "demo": true,
+ "emissions": [
+  {
+   "nom": "Emprunt de démonstration 6,50 % 2026-2033",
+   "emetteur": "Émetteur fictif (démo)",
+   "montant": 50000000000,
+   "taux": 6.5,
+   "duree_ans": 7,
+   "nominal": 10000,
+   "periode_debut": "2026-11-02",
+   "periode_fin": "2026-11-27",
+   "amortissement": "Remboursement par tranches après 2 ans de différé",
+   "fiscalite": "Intérêts nets d’impôt pour les résidents (exemple)",
+   "arrangeur": "Sahel Bourse (démo)",
+   "lien": null
+  }
+ ],
+ "opcvm": [
+  {
+   "nom": "Sahel Monétaire (démo)",
+   "type": "Monétaire",
+   "vl": 11240,
+   "date_vl": "2026-10-30",
+   "perf_1an": 4.1,
+   "risque": 1,
+   "minimum": 10000,
+   "frais_entree": 0,
+   "frais_gestion": 0.8,
+   "objectif": "Placement de trésorerie à court terme, très peu risqué."
+  },
+  {
+   "nom": "Sahel Obligations (démo)",
+   "type": "Obligataire",
+   "vl": 13580,
+   "date_vl": "2026-10-30",
+   "perf_1an": 6.2,
+   "risque": 2,
+   "minimum": 25000,
+   "frais_entree": 1,
+   "frais_gestion": 1.2,
+   "objectif": "Revenus réguliers grâce aux obligations d’États de l’UEMOA."
+  },
+  {
+   "nom": "Sahel Actions BRVM (démo)",
+   "type": "Actions",
+   "vl": 18950,
+   "date_vl": "2026-10-30",
+   "perf_1an": 24.5,
+   "risque": 4,
+   "minimum": 50000,
+   "frais_entree": 2,
+   "frais_gestion": 2,
+   "objectif": "Croissance à long terme via les actions de la BRVM ; fortes variations possibles."
+  }
+ ]
+}
