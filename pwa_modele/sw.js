@@ -1,4 +1,4 @@
-/* Mon plan BRVM : fonctionne sans connexion apres la premiere visite.
+/* NAFA : fonctionne sans connexion apres la premiere visite.
    Pour publier une mise a jour, changez le numero de VERSION ci-dessous. */
 const VERSION = "v2";
 const CACHE = "mon-plan-brvm-" + VERSION;

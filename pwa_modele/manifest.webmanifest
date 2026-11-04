@@ -1,7 +1,7 @@
 {
- "name": "Mon plan BRVM – épargner en actions, pas à pas",
- "short_name": "Mon plan BRVM",
- "description": "Simulateur guidé pour épargner en actions de la BRVM.",
+ "name": "NAFA – faites travailler votre épargne",
+ "short_name": "NAFA",
+ "description": "Suivre la bourse régionale, comprendre les sociétés et épargner en actions, pas à pas.",
  "lang": "fr",
  "start_url": "./index.html",
  "scope": "./",
