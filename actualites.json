@@ -1,12 +1,88 @@
 {
- "maj": "2026-11-04 23:46",
+ "maj": "2026-11-05 12:11",
  "articles": [
+  {
+   "id": "65520",
+   "source": "Actualites du marche",
+   "date": "2026-11-05 11:02",
+   "titre": "Baisse de 89% du bénéfice de SICABLE à fin septembre 2026",
+   "extrait": "Dans l'industrie du câble, la performance repose autant sur la capacité à capter les commandes que sur la ma&icir...",
+   "url": "https://www.sikafinance.com/marches/baisse-de-89-du-benefice-de-sicable-a-fin-septembre-2026_65520",
+   "ticker": "CABC",
+   "premium": true,
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "CABC"
+   ]
+  },
+  {
+   "id": "65519",
+   "source": "Actualites du marche",
+   "date": "2026-11-05 10:40",
+   "titre": "TotalEnergies Marketing SN : 7 milliards FCFA de bénéfice à fin septembre 2026",
+   "extrait": "La baisse du chiffre d'affaires ne rime pas nécessairement avec une dégradation de la rentabilité. Dans le secteur pétr...",
+   "url": "https://www.sikafinance.com/marches/totalenergies-marketing-sn-7-milliards-fcfa-de-benefice-a-fin-septembre-2026_65519",
+   "ticker": "TTLS",
+   "premium": true,
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": -1,
+   "tickers": [
+    "TTLS"
+   ]
+  },
+  {
+   "id": "65515",
+   "source": "Actualites du marche",
+   "date": "2026-11-05 09:55",
+   "titre": "Le bénéfice de CFAO Mobility CI recule de 27 % au 1er semestre 2026",
+   "extrait": "Nonobstant le maintien de sa position de leader sur le marché ivoirien de la distribution automobile, avec 38 % de part...",
+   "url": "https://www.sikafinance.com/marches/le-benefice-de-cfao-mobility-ci-recule-de-27-au-1er-semestre-2026_65515",
+   "ticker": "CFAC",
+   "premium": true,
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "CFAC"
+   ]
+  },
+  {
+   "id": "65514",
+   "source": "Actualites economiques",
+   "date": "2026-11-05 09:49",
+   "titre": "Après le Nigeria, l’Inde met en garde le secteur financier contre les cyberattaques dopées à l’IA",
+   "extrait": "&Agrave; l'instar de la Banque centrale du Nigeria, qui tirait la sonnette d'alarme en septembre dernier, le Centre indien de coordination de la lutte contre l...",
+   "url": "https://www.sikafinance.com/marches/apres-le-nigeria-linde-met-en-garde-le-secteur-financier-contre-les-cyberattaques-dopees-a-lia_65514",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65511",
+   "source": "Actualites economiques",
+   "date": "2026-11-05 08:33",
+   "titre": "Côte d’Ivoire : PETROCI expédie sa première cargaison de brut depuis la reprise du champ Espoir",
+   "extrait": "Trois mois après avoir repris les opérations du bloc CI-26, la compagnie pétrolière nationale a procédé, le 31 octobre 2026, au premier chargement de brut réal...",
+   "url": "https://www.sikafinance.com/marches/cote-divoire-petroci-expedie-sa-premiere-cargaison-de-brut-depuis-la-reprise-du-champ-espoir_65511",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
   {
    "id": "65509",
    "source": "Actualites economiques",
    "date": "2026-11-04 20:22",
    "titre": "Cameroun : L’État a encaissé 70,2 milliards FCFA de dividendes issus de ses participations en 2025",
-   "extrait": "L'&Eacute;tat du Cameroun a encaissé 70,2 milliards FCFA en 2025 au titre des participations qu'il détient dans diverses entreprises et institutions. Comptabil...",
+   "extrait": "L'État du Cameroun a encaissé 70,2 milliards FCFA en 2025 au titre des participations qu'il détient dans diverses entreprises et institutions. Comptabil...",
    "url": "https://www.sikafinance.com/marches/cameroun-letat-a-encaisse-70-2-milliards-fcfa-de-dividendes-issus-de-ses-participations-en-2025_65509",
    "ticker": null,
    "premium": false,
@@ -134,20 +210,6 @@
    "tickers": []
   },
   {
-   "id": "65498",
-   "source": "Actualites economiques",
-   "date": "2026-11-04 14:19",
-   "titre": "Afrique : La BAD veut mobiliser le capital de la diaspora pour financer le développement du continent",
-   "extrait": "Les transferts d'argent des Africains établis à l'étranger constituent déjà une source importante de financement pour le continent. Mais au-delà de ces flux de...",
-   "url": "https://www.sikafinance.com/marches/afrique-la-bad-veut-mobiliser-le-capital-de-la-diaspora-pour-financer-le-developpement-du-continent_65498",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Financement",
-   "score": 2,
-   "sentiment": 0,
-   "tickers": []
-  },
-  {
    "id": "65497",
    "source": "Actualites du marche",
    "date": "2026-11-04 14:09",
@@ -178,20 +240,6 @@
    "tickers": []
   },
   {
-   "id": "65494",
-   "source": "Actualites economiques",
-   "date": "2026-11-04 12:17",
-   "titre": "Sénégal : Le rejet du budget rectificatif fait planer des incertitudes sur les dépenses sociales et les investissements publics",
-   "extrait": "L'Assemblée nationale du Sénégal a rejeté, mardi 3 novembre 2026, le projet de loi de finances rectificative (LFR) 2026, à la suite de l'adoption de la questio...",
-   "url": "https://www.sikafinance.com/marches/senegal-le-rejet-du-budget-rectificatif-fait-planer-des-incertitudes-sur-les-depenses-sociales-et-les-investissements-publics_65494",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Macro / monnaie",
-   "score": 2,
-   "sentiment": 0,
-   "tickers": []
-  },
-  {
    "id": "65491",
    "source": "Actualites du marche",
    "date": "2026-11-04 11:46",
@@ -206,6 +254,34 @@
    "tickers": [
     "STAC"
    ]
+  },
+  {
+   "id": "65498",
+   "source": "Actualites economiques",
+   "date": "2026-11-04 00:00",
+   "titre": "Afrique : La BAD veut mobiliser le capital de la diaspora pour financer le développement du continent",
+   "extrait": "04/11/2026",
+   "url": "https://www.sikafinance.com/marches/afrique-la-bad-veut-mobiliser-le-capital-de-la-diaspora-pour-financer-le-developpement-du-continent_65498",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Financement",
+   "score": 2,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65494",
+   "source": "Actualites economiques",
+   "date": "2026-11-04 00:00",
+   "titre": "Sénégal : Le rejet du budget rectificatif fait planer des incertitudes sur les dépenses sociales et les investissements publics",
+   "extrait": "04/11/2026",
+   "url": "https://www.sikafinance.com/marches/senegal-le-rejet-du-budget-rectificatif-fait-planer-des-incertitudes-sur-les-depenses-sociales-et-les-investissements-publics_65494",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Macro / monnaie",
+   "score": 2,
+   "sentiment": 0,
+   "tickers": []
   },
   {
    "id": "65490",
@@ -430,7 +506,7 @@
    "source": "Actualites economiques",
    "date": "2026-11-03 00:00",
    "titre": "BRVM : SMB garde le vent en poupe et signe un nouveau bond de 7,49 %",
-   "extrait": "03/11/2026 Congo-Cameroun : bois, ciment et produit",
+   "extrait": "05/06/2026",
    "url": "https://www.sikafinance.com/marches/brvm-smb-garde-le-vent-en-poupe-et-signe-un-nouveau-bond-de-7-49-_65470",
    "ticker": null,
    "premium": false,
@@ -2445,23 +2521,23 @@
  "matieres": [
   {
    "nom": "ALUMINIUM",
-   "dernier": 3235.25,
-   "variation": -2.4
+   "dernier": 3253.75,
+   "variation": 0.57
   },
   {
    "nom": "ARGENT (ONCE EN $)",
-   "dernier": 52.13,
-   "variation": 6.65
+   "dernier": 52.74,
+   "variation": 1.17
   },
   {
    "nom": "AVOINE",
-   "dernier": 339.25,
-   "variation": -0.51
+   "dernier": 336.25,
+   "variation": -0.88
   },
   {
    "nom": "BLÉ",
-   "dernier": 599.75,
-   "variation": -1.11
+   "dernier": 598.5,
+   "variation": -0.21
   },
   {
    "nom": "BOIS DE CONSTRUCTION",
@@ -2470,58 +2546,58 @@
   },
   {
    "nom": "CACAO",
-   "dernier": 5420.0,
-   "variation": 0.52
+   "dernier": 5456.0,
+   "variation": 0.66
   },
   {
    "nom": "CAFÉ",
-   "dernier": 283.95,
-   "variation": -2.79
+   "dernier": 279.75,
+   "variation": -1.48
   },
   {
    "nom": "CAOUTCHOUC",
-   "dernier": 436.3,
-   "variation": -1.07
+   "dernier": 431.2,
+   "variation": -1.17
   },
   {
    "nom": "COTON",
-   "dernier": 77.04,
-   "variation": -0.8
+   "dernier": 78.11,
+   "variation": 1.39
   },
   {
    "nom": "CUIVRE",
-   "dernier": 6.38,
-   "variation": -2.52
+   "dernier": 6.4,
+   "variation": 0.38
   },
   {
    "nom": "GAZ NATUREL",
-   "dernier": 2.9,
-   "variation": 1.37
+   "dernier": 2.96,
+   "variation": 2.21
   },
   {
    "nom": "JUS D'ORANGE",
-   "dernier": 135.45,
-   "variation": 2.61
+   "dernier": 131.5,
+   "variation": -2.92
   },
   {
    "nom": "MAIS",
-   "dernier": 442.5,
-   "variation": -1.28
+   "dernier": 444.25,
+   "variation": 0.4
   },
   {
    "nom": "NICKEL",
-   "dernier": 15299.25,
-   "variation": -1.43
+   "dernier": 15844.5,
+   "variation": 3.56
   },
   {
    "nom": "OR (ONCE EN $)",
-   "dernier": 4045.29,
-   "variation": 3.55
+   "dernier": 4126.06,
+   "variation": 2.0
   },
   {
    "nom": "PALLADIUM",
-   "dernier": 992.23,
-   "variation": 5.19
+   "dernier": 1025.96,
+   "variation": 3.4
   },
   {
    "nom": "PALM OIL FUTURES ($)",
@@ -2530,18 +2606,18 @@
   },
   {
    "nom": "PETROLE BRENT",
-   "dernier": 101.43,
-   "variation": -3.33
+   "dernier": 95.09,
+   "variation": -6.25
   },
   {
    "nom": "PETROLE WTI",
-   "dernier": 96.09,
-   "variation": -0.38
+   "dernier": 88.48,
+   "variation": -7.92
   },
   {
    "nom": "PLATINE",
-   "dernier": 1462.98,
-   "variation": 2.84
+   "dernier": 1521.62,
+   "variation": 4.01
   },
   {
    "nom": "RIZ FUTURES ($)",
@@ -2550,13 +2626,13 @@
   },
   {
    "nom": "SOJA",
-   "dernier": 1203.0,
-   "variation": -0.15
+   "dernier": 1193.25,
+   "variation": -0.81
   },
   {
    "nom": "SUCRE",
-   "dernier": 18.33,
-   "variation": -3.83
+   "dernier": 18.47,
+   "variation": 0.76
   },
   {
    "nom": "ZINC",
@@ -2570,7 +2646,7 @@
    "ticker": "LNBB",
    "nom": "LOTERIE NATIONALE DU BENIN",
    "montant": 164.0,
-   "rendement": 4.1
+   "rendement": 4.33
   }
  ]
 }
