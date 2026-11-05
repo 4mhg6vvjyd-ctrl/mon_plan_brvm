@@ -26,12 +26,16 @@ def main():
     sw = open(os.path.join(SORTIE, "sw.js"), encoding="utf-8").read()
     sw = re.sub(r'const VERSION = "[^"]*";', 'const VERSION = "%s";' % time.strftime("%Y%m%d%H%M"), sw)
     open(os.path.join(SORTIE, "sw.js"), "w", encoding="utf-8").write(sw)
+    # Donnees chargees a la demande (allege l'ouverture de l'application)
+    if os.path.exists("obligations.json"):
+        shutil.copy("obligations.json", os.path.join(SORTIE, "obligations.json"))
     # Versions marque blanche (une par fichier marques/*.json), branchees sur les comptes en ligne
     brut = open("brvm_assistant.html", encoding="utf-8").read()
     for f in sorted(glob.glob(os.path.join("marques", "*.json"))):
         m = json.load(open(f, encoding="utf-8"))
         m["serveur"] = True
         page = brut.replace("<script>\n/*DATA_DEBUT*/", "<script>window.MARQUE = %s;</script>\n<script>\n/*DATA_DEBUT*/" % json.dumps(m, ensure_ascii=False), 1)
+        page = page.replace("fetch(\"obligations.json\"", "fetch(\"../obligations.json\"")
         os.makedirs(os.path.join(SORTIE, m["id"]), exist_ok=True)
         open(os.path.join(SORTIE, m["id"], "index.html"), "w", encoding="utf-8").write(page)
     print("Dossier '%s' pret (%d fichiers)." % (SORTIE, len(os.listdir(SORTIE))))
