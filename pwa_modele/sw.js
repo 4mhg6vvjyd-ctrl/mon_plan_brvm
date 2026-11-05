@@ -9,11 +9,19 @@ self.addEventListener("fetch", e => {
   if (e.request.method !== "GET" || new URL(e.request.url).origin !== location.origin) return;
   const page = e.request.mode === "navigate" || /\/(index\.html)?$/.test(new URL(e.request.url).pathname);
   if (page) {
-    // La page (avec les cours du jour) : d'abord le reseau, le cache seulement hors connexion
-    e.respondWith(fetch(e.request, { cache: "no-store" }).then(r => {
+    // La page (avec les cours du jour) : le reseau, mais pas plus de 2,5 s d'attente.
+    // Au-dela, on affiche la derniere copie et on previent la page des que la nouvelle arrive.
+    const reseau = fetch(e.request, { cache: "no-store" }).then(r => {
       if (r && r.ok) { const copie = r.clone(); caches.open(CACHE).then(c => c.put(e.request, copie)); }
       return r;
-    }).catch(() => caches.match(e.request).then(rep => rep || caches.match("index.html"))));
+    });
+    e.respondWith(caches.match(e.request).then(enCache => {
+      if (!enCache) return reseau.catch(() => caches.match("index.html"));
+      let expire = false;
+      const delai = new Promise(ok => setTimeout(() => { expire = true; ok(enCache); }, 2500));
+      reseau.then(() => { if (expire) self.clients.matchAll().then(cs => cs.forEach(c => c.postMessage({ type: "maj" }))); }).catch(() => {});
+      return Promise.race([reseau.catch(() => enCache), delai]);
+    }));
     return;
   }
   // Icones et fichiers fixes : le cache d'abord, mis a jour en arriere-plan
