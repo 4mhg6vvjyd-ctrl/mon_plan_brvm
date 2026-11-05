@@ -123,7 +123,35 @@ def lire_boc(pdf):
             "periodicite": d["per"], "amort": d["am"], "coupon_net": nombre(d["mnt"]), "prochain_coupon": d["ech"],
             "coupon_couru": nombre(d["couru"]), "volume": nombre(d["vol"]), "valeur": nombre(d["val"]),
             "cote_du_jour": d["jour"] not in ("NC", "SP"), "suspendue": d["jour"] == "SP"})
+    try:
+        ind = lire_indices(texte, date_boc)
+        if ind["principaux"]:
+            (ICI / "indices.json").write_text(json.dumps(ind, ensure_ascii=False, indent=1), encoding="utf-8")
+            print("Indices : %d principaux, %d par compartiment ou secteur" % (len(ind["principaux"]), len(ind["secteurs"])))
+    except Exception as ex:
+        print("Indices : lecture impossible (%s)" % ex)
     return {"source": "Bulletin officiel de la cote BRVM", "date": date_boc, "obligations": out}
+
+
+def lire_indices(texte, date_boc):
+    """Indices de la premiere page du BOC : Composite, BRVM 30, Prestige, compartiments et secteurs."""
+    num = lambda x: float(x.replace(" ", "").replace(",", ".").replace("%", ""))
+    out = {"date": date_boc, "principaux": [], "secteurs": []}
+    l_val = re.search(r"BRVM COMPOSITE\s+([\d ,]+?)\s{2,}BRVM 30\s+([\d ,]+?)\s{2,}BRVM PRESTIGE\s+([\d ,]+)", texte)
+    l_j = re.search(r"Variation Jour\s+(-?[\d,]+) %\s+Variation Jour\s+(-?[\d,]+) %\s+Variation Jour\s+(-?[\d,]+) %", texte)
+    l_a = re.search(r"Variation annuelle\s+(-?[\d,]+) %\s+Variation annuelle\s+(-?[\d,]+) %\s+Variation annuelle\s+(-?[\d,]+) %", texte)
+    if l_val:
+        for i, nom in enumerate(["BRVM Composite", "BRVM 30", "BRVM Prestige"]):
+            out["principaux"].append({"nom": nom, "valeur": num(l_val.group(i + 1)),
+                                      "var_jour": num(l_j.group(i + 1)) if l_j else None, "var_an": num(l_a.group(i + 1)) if l_a else None})
+    for m in re.finditer(r"^\s*(BRVM\s*[-–]\s*[A-Z][A-Z ’'ÉÈ-]+?)\s*(?:\(\*\*\))?\s{2,}(\d+)\s{2,}([\d ,]+?)\s{2,}(-?[\d,]+) %\s{2,}(-?[\d,]+) %\s{2,}[\d ]+?\s{2,}[\d ]+?\s{2,}([\d ,]+)\s*$", texte, re.M):
+        nom = re.sub(r"\s+", " ", m.group(1)).replace("BRVM - ", "").replace("BRVM – ", "").replace("BRVM-", "").strip().title()
+        out["secteurs"].append({"nom": nom, "societes": int(m.group(2)), "valeur": num(m.group(3)), "var_jour": num(m.group(4)),
+                                "var_an": num(m.group(5)), "per": num(m.group(6))})
+    m = re.search(r"Capitalisation boursi[èe]re \(FCFA\)\(Actions & Droits\)\s+([\d ]+?)\s{2,}", texte)
+    if m:
+        out["capitalisation_actions"] = int(m.group(1).replace(" ", ""))
+    return out
 
 
 def automatique():

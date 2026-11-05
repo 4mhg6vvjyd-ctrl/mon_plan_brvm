@@ -1,0 +1,106 @@
+{
+ "date": "3 novembre 2026",
+ "principaux": [
+  {
+   "nom": "BRVM Composite",
+   "valeur": 529.41,
+   "var_jour": 0.78,
+   "var_an": 53.12
+  },
+  {
+   "nom": "BRVM 30",
+   "valeur": 256.5,
+   "var_jour": 0.9,
+   "var_an": 54.29
+  },
+  {
+   "nom": "BRVM Prestige",
+   "valeur": 198.02,
+   "var_jour": 1.22,
+   "var_an": 37.28
+  }
+ ],
+ "secteurs": [
+  {
+   "nom": "Prestige",
+   "societes": 12,
+   "valeur": 198.02,
+   "var_jour": 1.22,
+   "var_an": 37.28,
+   "per": 14.16
+  },
+  {
+   "nom": "Principal",
+   "societes": 36,
+   "valeur": 365.44,
+   "var_jour": -0.23,
+   "var_an": 67.9,
+   "per": 22.3
+  },
+  {
+   "nom": "Composite Total Return",
+   "societes": 48,
+   "valeur": 213.34,
+   "var_jour": 0.78,
+   "var_an": 60.24,
+   "per": 17.49
+  },
+  {
+   "nom": "Telecommunications",
+   "societes": 3,
+   "valeur": 149.15,
+   "var_jour": 2.03,
+   "var_an": 57.17,
+   "per": 14.22
+  },
+  {
+   "nom": "Consommation Discretionnaire",
+   "societes": 7,
+   "valeur": 172.62,
+   "var_jour": -0.86,
+   "var_an": -0.23,
+   "per": 40.18
+  },
+  {
+   "nom": "Services Financiers",
+   "societes": 17,
+   "valeur": 239.29,
+   "var_jour": -0.04,
+   "var_an": 64.05,
+   "per": 16.22
+  },
+  {
+   "nom": "Consommation De Base",
+   "societes": 9,
+   "valeur": 259.62,
+   "var_jour": 0.62,
+   "var_an": 20.15,
+   "per": 12.43
+  },
+  {
+   "nom": "Industriels",
+   "societes": 6,
+   "valeur": 210.13,
+   "var_jour": -1.12,
+   "var_an": 58.79,
+   "per": 152.08
+  },
+  {
+   "nom": "Energie",
+   "societes": 4,
+   "valeur": 161.91,
+   "var_jour": 1.52,
+   "var_an": 45.98,
+   "per": 18.05
+  },
+  {
+   "nom": "Services Publics",
+   "societes": 2,
+   "valeur": 230.92,
+   "var_jour": -1.28,
+   "var_an": 118.05,
+   "per": 21.27
+  }
+ ],
+ "capitalisation_actions": 20760721305645
+}

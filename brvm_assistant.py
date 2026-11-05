@@ -208,7 +208,7 @@ def main():
     if os.path.exists("frais_sgi.json"):
         fees = json.load(open("frais_sgi.json", encoding="utf-8"))
     data = {"maj": fin.strftime("%d/%m/%Y"), "stocks": stocks, "fees": fees, "agenda": agd, "actus": act,
-            "obl_date": lire_json("obligations.json").get("date"), "emissions": lire_json("emissions.json").get("emissions", [])}
+            "obl_date": lire_json("obligations.json").get("date"), "indices": lire_json("indices.json"), "emissions": lire_json("emissions.json").get("emissions", [])}
     nouveau = html[:m.start()] + "/*DATA_DEBUT*/const DATA = " + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";/*DATA_FIN*/" + html[m.end():]
     open(FICHIER, "w", encoding="utf-8").write(nouveau)
     n_etude = sum(1 for s in stocks if s["etat"] == "A etudier")
