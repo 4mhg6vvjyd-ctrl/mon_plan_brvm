@@ -1,13 +1,267 @@
 {
- "maj": "2026-11-09 19:40",
+ "maj": "2026-11-10 19:35",
  "articles": [
   {
-   "id": "65602",
+   "id": "65633",
    "source": "Actualites economiques",
-   "date": "2026-11-09 17:17",
-   "titre": "NSIA Banque accueille la première visite du programme \" champions nationaux \"",
-   "extrait": "NSIA Banque C&ocirc;te d'Ivoire a re&ccedil;u, ce lundi 2 novembre, M. Ibrahim Kalil KONAT&Eacute;, Ministre du Commerce, de l'Industrie et de l'Artisanat, dan...",
-   "url": "https://www.sikafinance.com/marches/nsia-banque-accueille-la-premiere-visite-du-programme-champions-nationaux-_65602",
+   "date": "2026-11-10 17:37",
+   "titre": "Nigeria : Dangote Cement abandonne son projet de cotation à Londres",
+   "extrait": "Le groupe nigérian Dangote Cement renonce à son projet de cotation secondaire à la Bourse de Londres. Annoncée ce 10 novembre, cette décision intervient dans u...",
+   "url": "https://www.sikafinance.com/marches/nigeria-dangote-cement-abandonne-son-projet-de-cotation-a-londres_65633",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65634",
+   "source": "Actualites du marche",
+   "date": "2026-11-10 17:23",
+   "titre": "Fonction publique ivoirienne : 404 000 FCFA de salaire moyen, mais combien touchent réellement les hauts cadres ?",
+   "extrait": "Dans l'administration publique ivoirienne, les rémunérations ont progressivement retrouvé une dynamique haussière après...",
+   "url": "https://www.sikafinance.com/marches/fonction-publique-ivoirienne-404-000-fcfa-de-salaire-moyen-mais-combien-touchent-reellement-les-hauts-cadres-_65634",
+   "ticker": null,
+   "premium": true,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 1,
+   "tickers": []
+  },
+  {
+   "id": "65632",
+   "source": "Actualites economiques",
+   "date": "2026-11-10 16:51",
+   "titre": "Sénégal : L’IFC s’allie à Tolbi pour faciliter l’accès au financement de 2 millions d’agriculteurs d’ici 2030",
+   "extrait": "L'accès au financement et aux marchés demeure un défi majeur pour les petits exploitants agricoles en Afrique de l'Ouest. Pour lever ces contraintes, la Sociét...",
+   "url": "https://www.sikafinance.com/marches/senegal-lifc-sallie-a-tolbi-pour-faciliter-lacces-au-financement-de-2-millions-dagriculteurs-dici-2030_65632",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Financement",
+   "score": 2,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65630",
+   "source": "Actualites du marche",
+   "date": "2026-11-10 16:34",
+   "titre": "BRVM : Le marché décroche de 1,74 %, les télécoms en première ligne",
+   "extrait": "La BRVM termine la séance en nette baisse, avec un repli simultané de ses trois principaux indices. Le BRVM-Composite a...",
+   "url": "https://www.sikafinance.com/marches/brvm-le-marche-decroche-de-1-74--les-telecoms-en-premiere-ligne_65630",
+   "ticker": "SIVC",
+   "premium": false,
+   "categorie": "Autre",
+   "score": 1,
+   "sentiment": -1,
+   "tickers": [
+    "SIVC"
+   ]
+  },
+  {
+   "id": "65627",
+   "source": "Actualites economiques",
+   "date": "2026-11-10 16:08",
+   "titre": "Congo : Dangote Cement porte sa part de marché à 73% grâce à une hausse de 11,9% de ses ventes",
+   "extrait": "Le cimentier nigérian Dangote Cement renforce sa position sur le marché congolais. Selon ses résultats financiers publiés le 28 octobre 2026, sa filiale locale...",
+   "url": "https://www.sikafinance.com/marches/congo-dangote-cement-porte-sa-part-de-marche-a-73-grace-a-une-hausse-de-11-9-de-ses-ventes_65627",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 1,
+   "tickers": []
+  },
+  {
+   "id": "65629",
+   "source": "Actualites economiques",
+   "date": "2026-11-10 16:05",
+   "titre": "Nigeria : Un projet pour connecter son marché financier à ceux de l’UEMOA et du Ghana",
+   "extrait": "Le Nigeria veut faciliter les investissements entre les marchés financiers d'Afrique de l'Ouest en permettant aux investisseurs d'acheter plus facilement des o...",
+   "url": "https://www.sikafinance.com/marches/nigeria-un-projet-pour-connecter-son-marche-financier-a-ceux-de-luemoa-et-du-ghana_65629",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Macro / monnaie",
+   "score": 2,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65626",
+   "source": "Actualites du marche",
+   "date": "2026-11-10 15:36",
+   "titre": "Côte d’Ivoire : Le broyage du cacao en hausse de 25% au 1er semestre 2026, porté par les investissements industriels",
+   "extrait": "Dans les champs ivoiriens, les récoltes ne suivent pas toutes la même trajectoire. À fin juin 2026, le cacao et ...",
+   "url": "https://www.sikafinance.com/marches/cote-divoire-le-broyage-du-cacao-en-hausse-de-25-au-1er-semestre-2026-porte-par-les-investissements-industriels_65626",
+   "ticker": null,
+   "premium": true,
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 1,
+   "tickers": []
+  },
+  {
+   "id": "65625",
+   "source": "Actualites economiques",
+   "date": "2026-11-10 14:42",
+   "titre": "Gouvernance : La BOAD décroche la certification internationale ISO 37001 pour son dispositif anticorruption",
+   "extrait": "La Banque ouest africaine de développement (BOAD) passe un cap nouveau dans le renforcement de sa gouvernance institutionnelle. L'institution financière région...",
+   "url": "https://www.sikafinance.com/marches/gouvernance-la-boad-decroche-la-certification-internationale-iso-37001-pour-son-dispositif-anticorruption_65625",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65623",
+   "source": "Actualites economiques",
+   "date": "2026-11-10 14:19",
+   "titre": "Congo : Zanaga Iron cherche de nouveaux financements après le report de son accord avec Red Arc",
+   "extrait": "Le développement du gigantesque gisement de fer de Zanaga, en République du Congo, connaît un nouvel ajustement de son calendrier financier. Dans un comm...",
+   "url": "https://www.sikafinance.com/marches/congo-zanaga-iron-cherche-de-nouveaux-financements-apres-le-report-de-son-accord-avec-red-arc_65623",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65622",
+   "source": "Actualites economiques",
+   "date": "2026-11-10 14:15",
+   "titre": "Congo : 2 investisseurs restent en lice pour racheter Kore Potash et ses projets miniers",
+   "extrait": "Le groupe minier Kore Potash, qui développe plusieurs projets de potasse en République du Congo, poursuit son processus de vente engagé le 4 novembre 2025. Sel...",
+   "url": "https://www.sikafinance.com/marches/congo-2-investisseurs-restent-en-lice-pour-racheter-kore-potash-et-ses-projets-miniers_65622",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65621",
+   "source": "Actualites economiques",
+   "date": "2026-11-10 13:50",
+   "titre": "La Fintech Send Chap lance ses services de transfert d’argent du Canada vers l’Afrique et la Chine",
+   "extrait": "Une solution numérique portée par l'entrepreneur ivoirien Ange Philippe Oteyami, qui entend simplifier les transferts internationaux et rapprocher les familles...",
+   "url": "https://www.sikafinance.com/marches/la-fintech-send-chap-lance-ses-services-de-transfert-dargent-du-canada-vers-lafrique-et-la-chine_65621",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65618",
+   "source": "Actualites economiques",
+   "date": "2026-11-10 11:59",
+   "titre": "Burkina Faso : Un nouveau partenariat avec l’ONU pour accélérer les ambitions de développement à l’horizon 2030",
+   "extrait": "Le Burkina Faso entend davantage orienter l'appui des Nations Unies vers ses priorités économiques, sociales et sécuritaires. Le gouvernement burkinabè et l'or...",
+   "url": "https://www.sikafinance.com/marches/burkina-faso-un-nouveau-partenariat-avec-lonu-pour-accelerer-les-ambitions-de-developpement-a-lhorizon-2030_65618",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65616",
+   "source": "Actualites economiques",
+   "date": "2026-11-10 00:00",
+   "titre": "À Abidjan, THE FINTECH EVENT mise sur les partenariats pour faire grandir les fintechs francophones",
+   "extrait": "10/11/2026",
+   "url": "https://www.sikafinance.com/marches/a-abidjan-the-fintech-event-mise-sur-les-partenariats-pour-faire-grandir-les-fintechs-francophones_65616",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65614",
+   "source": "Actualites economiques",
+   "date": "2026-11-10 00:00",
+   "titre": "Politiques publiques : La Côte d’Ivoire deuxième au classement CPIA",
+   "extrait": "10/11/2026",
+   "url": "https://www.sikafinance.com/marches/politiques-publiques-la-cote-divoire-deuxieme-au-classement-cpia_65614",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65613",
+   "source": "Actualites economiques",
+   "date": "2026-11-10 00:00",
+   "titre": "Gabon : Le budget 2027 de 6 223 milliards FCFA bientôt ajusté pour répondre aux engagements pris avec la CEMAC ?",
+   "extrait": "10/11/2026",
+   "url": "https://www.sikafinance.com/marches/gabon-le-budget-2027-de-6-223-milliards-fcfa-bientot-ajuste-pour-repondre-aux-engagements-pris-avec-la-cemac-_65613",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65612",
+   "source": "Actualites economiques",
+   "date": "2026-11-10 00:00",
+   "titre": "Gabon : Uranium, scandium et phosphates, les autres ressources que Dusk envisage de valoriser dans son projet de Mabounié",
+   "extrait": "10/11/2026",
+   "url": "https://www.sikafinance.com/marches/gabon-uranium-scandium-et-phosphates-les-autres-ressources-que-dusk-envisage-de-valoriser-dans-son-projet-de-mabounie_65612",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65610",
+   "source": "Actualites economiques",
+   "date": "2026-11-10 00:00",
+   "titre": "Entrepreneuriat et IA : À Lomé, 18 pays africains réclament un nouveau contrat de confiance avec les investisseurs",
+   "extrait": "10/11/2026",
+   "url": "https://www.sikafinance.com/marches/entrepreneuriat-et-ia-a-lome-18-pays-africains-reclament-un-nouveau-contrat-de-confiance-avec-les-investisseurs_65610",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65611",
+   "source": "Actualites economiques",
+   "date": "2026-11-10 00:00",
+   "titre": "Sénégal : L’industrie et les services accusent un net repli en août 2026",
+   "extrait": "10/11/2026",
+   "url": "https://www.sikafinance.com/marches/senegal-lindustrie-et-les-services-accusent-un-net-repli-en-aout-2026_65611",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": -1,
+   "tickers": []
+  },
+  {
+   "id": "65608",
+   "source": "Actualites economiques",
+   "date": "2026-11-10 00:00",
+   "titre": "Côte d'Ivoire : NSIA Banque signe un partenariat avec l'Ordre des urbanistes pour accompagner les professionnels de l'urbanisme",
+   "extrait": "10/11/2026",
+   "url": "https://www.sikafinance.com/marches/cote-d-ivoire-nsia-banque-signe-un-partenariat-avec-l-ordre-des-urbanistes-pour-accompagner-les-professionnels-de-l-urbanisme_65608",
    "ticker": null,
    "premium": false,
    "categorie": "Autre",
@@ -16,6 +270,20 @@
    "tickers": [
     "NSBC"
    ]
+  },
+  {
+   "id": "65606",
+   "source": "Actualites economiques",
+   "date": "2026-11-10 00:00",
+   "titre": "PIRME : La Côte d’Ivoire veut devenir une puissance extractive et énergétique d’ici 2040",
+   "extrait": "09/11/2026",
+   "url": "https://www.sikafinance.com/marches/pirme-la-cote-divoire-veut-devenir-une-puissance-extractive-et-energetique-dici-2040_65606",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
   },
   {
    "id": "65601",
@@ -48,104 +316,6 @@
    ]
   },
   {
-   "id": "65599",
-   "source": "Actualites economiques",
-   "date": "2026-11-09 16:41",
-   "titre": "Guinée équatoriale : Comment les États-Unis sont passés de la 14e à la 1re place des clients de Malabo avec 670 milliards FCFA d'achats",
-   "extrait": "Les États-Unis ont réalisé une percée spectaculaire dans le commerce extérieur de la Guinée équatoriale en 2025. Selon les données publiées en octobre 20...",
-   "url": "https://www.sikafinance.com/marches/guinee-equatoriale-comment-les-etats-unis-sont-passes-de-la-14e-a-la-1re-place-des-clients-de-malabo-avec-670-milliards-fcfa-d-achats_65599",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Hors zone UEMOA",
-   "score": 0,
-   "sentiment": 0,
-   "tickers": []
-  },
-  {
-   "id": "65597",
-   "source": "Actualites economiques",
-   "date": "2026-11-09 15:58",
-   "titre": "Santé et IA : Orange Cyber Connect diagnostique les enjeux vitaux de la protection des données médicales",
-   "extrait": "Organisée à Orange Village le jeudi 5 novembre 2026 autour du thème ‘'Penser comme un hacker à l'ère de l'IA'', la première édition d'Orange Cyber Connec...",
-   "url": "https://www.sikafinance.com/marches/sante-et-ia-orange-cyber-connect-diagnostique-les-enjeux-vitaux-de-la-protection-des-donnees-medicales_65597",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Autre",
-   "score": 0,
-   "sentiment": 0,
-   "tickers": []
-  },
-  {
-   "id": "65595",
-   "source": "Actualites economiques",
-   "date": "2026-11-09 14:42",
-   "titre": "Gabon : Le gouvernement vise un accord avec le FMI dès novembre pour un programme de trois ans",
-   "extrait": "Le Gabon entend faire un peu plus bouger les lignes dans ses discussions avec le Fonds monétaire international (FMI), avec un possible accord avant la fin du m...",
-   "url": "https://www.sikafinance.com/marches/gabon-le-gouvernement-vise-un-accord-avec-le-fmi-des-novembre-pour-un-programme-de-trois-ans_65595",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Hors zone UEMOA",
-   "score": 0,
-   "sentiment": 0,
-   "tickers": []
-  },
-  {
-   "id": "65594",
-   "source": "Actualites economiques",
-   "date": "2026-11-09 14:24",
-   "titre": "Afrique : la BAD ouvre les candidatures à ses bourses de master et de doctorat pour 2027 en Chine",
-   "extrait": "Les étudiants africains souhaitant se spécialiser dans les domaines de l'économie bleue, des sciences marines et de la gestion des ressources halieutique...",
-   "url": "https://www.sikafinance.com/marches/afrique-la-bad-ouvre-les-candidatures-a-ses-bourses-de-master-et-de-doctorat-pour-2027-en-chine_65594",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Autre",
-   "score": 0,
-   "sentiment": 0,
-   "tickers": []
-  },
-  {
-   "id": "65593",
-   "source": "Actualites economiques",
-   "date": "2026-11-09 14:12",
-   "titre": "Air Côte d’Ivoire lance le Club, un cercle très fermé réservé à ses voyageurs les plus fidèles",
-   "extrait": "Lancé le 6 novembre 2026 au Palais WIA, le Club Air Côte d'Ivoire réunit, sur invitation uniquement, une communauté restreinte de passagers des classes F...",
-   "url": "https://www.sikafinance.com/marches/air-cote-divoire-lance-le-club-un-cercle-tres-ferme-reserve-a-ses-voyageurs-les-plus-fideles_65593",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Autre",
-   "score": 0,
-   "sentiment": 0,
-   "tickers": []
-  },
-  {
-   "id": "65592",
-   "source": "Actualites economiques",
-   "date": "2026-11-09 14:05",
-   "titre": "Côte d’Ivoire : L’Internet fixe franchit pour la première fois le cap du million d’abonnés avec l’arrivée de Starlink",
-   "extrait": "Le marché ivoirien de l'internet fixe franchit pour la première fois le seuil du million d'abonnés. Au troisième trimestre 2026, le parc global s'établit exact...",
-   "url": "https://www.sikafinance.com/marches/cote-divoire-linternet-fixe-franchit-pour-la-premiere-fois-le-cap-du-million-dabonnes-avec-larrivee-de-starlink_65592",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Resultats",
-   "score": 3,
-   "sentiment": 0,
-   "tickers": []
-  },
-  {
-   "id": "65596",
-   "source": "Actualites economiques",
-   "date": "2026-11-09 13:45",
-   "titre": "Gabon : Après 1,5 milliard de dollars levés, l'État renforce le dialogue avec ses créanciers internationaux",
-   "extrait": "Trois mois après son retour sur les marchés financiers internationaux, le Gabon multiplie les contacts avec les détenteurs de sa dette souveraine. Entre le 29 ...",
-   "url": "https://www.sikafinance.com/marches/gabon-apres-1-5-milliard-de-dollars-leves-l-etat-renforce-le-dialogue-avec-ses-creanciers-internationaux_65596",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Hors zone UEMOA",
-   "score": 0,
-   "sentiment": 0,
-   "tickers": []
-  },
-  {
    "id": "65587",
    "source": "Actualites du marche",
    "date": "2026-11-09 11:56",
@@ -169,6 +339,120 @@
    "ticker": null,
    "premium": false,
    "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65602",
+   "source": "Actualites economiques",
+   "date": "2026-11-09 00:00",
+   "titre": "NSIA Banque accueille la première visite du programme \" champions nationaux \"",
+   "extrait": "09/11/2026",
+   "url": "https://www.sikafinance.com/marches/nsia-banque-accueille-la-premiere-visite-du-programme-champions-nationaux-_65602",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": [
+    "NSBC"
+   ]
+  },
+  {
+   "id": "65599",
+   "source": "Actualites economiques",
+   "date": "2026-11-09 00:00",
+   "titre": "Guinée équatoriale : Comment les États-Unis sont passés de la 14e à la 1re place des clients de Malabo avec 670 milliards FCFA d'achats",
+   "extrait": "09/11/2026",
+   "url": "https://www.sikafinance.com/marches/guinee-equatoriale-comment-les-etats-unis-sont-passes-de-la-14e-a-la-1re-place-des-clients-de-malabo-avec-670-milliards-fcfa-d-achats_65599",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65597",
+   "source": "Actualites economiques",
+   "date": "2026-11-09 00:00",
+   "titre": "Santé et IA : Orange Cyber Connect diagnostique les enjeux vitaux de la protection des données médicales",
+   "extrait": "09/11/2026",
+   "url": "https://www.sikafinance.com/marches/sante-et-ia-orange-cyber-connect-diagnostique-les-enjeux-vitaux-de-la-protection-des-donnees-medicales_65597",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65595",
+   "source": "Actualites economiques",
+   "date": "2026-11-09 00:00",
+   "titre": "Gabon : Le gouvernement vise un accord avec le FMI dès novembre pour un programme de trois ans",
+   "extrait": "09/11/2026",
+   "url": "https://www.sikafinance.com/marches/gabon-le-gouvernement-vise-un-accord-avec-le-fmi-des-novembre-pour-un-programme-de-trois-ans_65595",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65594",
+   "source": "Actualites economiques",
+   "date": "2026-11-09 00:00",
+   "titre": "Afrique : la BAD ouvre les candidatures à ses bourses de master et de doctorat pour 2027 en Chine",
+   "extrait": "09/11/2026",
+   "url": "https://www.sikafinance.com/marches/afrique-la-bad-ouvre-les-candidatures-a-ses-bourses-de-master-et-de-doctorat-pour-2027-en-chine_65594",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65593",
+   "source": "Actualites economiques",
+   "date": "2026-11-09 00:00",
+   "titre": "Air Côte d’Ivoire lance le Club, un cercle très fermé réservé à ses voyageurs les plus fidèles",
+   "extrait": "09/11/2026",
+   "url": "https://www.sikafinance.com/marches/air-cote-divoire-lance-le-club-un-cercle-tres-ferme-reserve-a-ses-voyageurs-les-plus-fideles_65593",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65592",
+   "source": "Actualites economiques",
+   "date": "2026-11-09 00:00",
+   "titre": "Côte d’Ivoire : L’Internet fixe franchit pour la première fois le cap du million d’abonnés avec l’arrivée de Starlink",
+   "extrait": "09/11/2026",
+   "url": "https://www.sikafinance.com/marches/cote-divoire-linternet-fixe-franchit-pour-la-premiere-fois-le-cap-du-million-dabonnes-avec-larrivee-de-starlink_65592",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65596",
+   "source": "Actualites economiques",
+   "date": "2026-11-09 00:00",
+   "titre": "Gabon : Après 1,5 milliard de dollars levés, l'État renforce le dialogue avec ses créanciers internationaux",
+   "extrait": "05/06/2026",
+   "url": "https://www.sikafinance.com/marches/gabon-apres-1-5-milliard-de-dollars-leves-l-etat-renforce-le-dialogue-avec-ses-creanciers-internationaux_65596",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
    "score": 0,
    "sentiment": 0,
    "tickers": []
@@ -2426,6 +2710,19 @@
  ],
  "communiques": [
   {
+   "date": "2026-11-09",
+   "societe": "TOTAL SENEGAL",
+   "titre": "TOTALENERGIES MARKETING SN - Attestation des Commissaires Aux Comptes sur le rapport dactivites - 1er semestre 2026",
+   "url": "https://www.sikafinance.com/docs/total-senegal-totalenergies-marketing-sn--attestation-des-commissaires-aux-comptes-sur-le-rapport-dactivites--1er-semestre-2026.pdf",
+   "ticker": "TTLS",
+   "categorie": "Attestation",
+   "score": 1,
+   "sentiment": 0,
+   "tickers": [
+    "TTLS"
+   ]
+  },
+  {
    "date": "2026-11-02",
    "societe": "BANK OF AFRICA BENIN",
    "titre": "BOA BN - Rapport d'activités - 3e trimestre 2026",
@@ -3261,23 +3558,23 @@
  "matieres": [
   {
    "nom": "ALUMINIUM",
-   "dernier": 3236.25,
-   "variation": 0.83
+   "dernier": 3230.25,
+   "variation": -0.19
   },
   {
    "nom": "ARGENT (ONCE EN $)",
-   "dernier": 51.95,
-   "variation": -0.15
+   "dernier": 52.47,
+   "variation": 1.0
   },
   {
    "nom": "AVOINE",
    "dernier": 334.0,
-   "variation": 0.38
+   "variation": 0.0
   },
   {
    "nom": "BLÉ",
-   "dernier": 591.25,
-   "variation": -1.34
+   "dernier": 588.0,
+   "variation": -0.55
   },
   {
    "nom": "BOIS DE CONSTRUCTION",
@@ -3286,58 +3583,58 @@
   },
   {
    "nom": "CACAO",
-   "dernier": 5155.0,
-   "variation": -0.5
+   "dernier": 5120.0,
+   "variation": -0.68
   },
   {
    "nom": "CAFÉ",
-   "dernier": 280.0,
-   "variation": 1.03
+   "dernier": 273.6,
+   "variation": -2.29
   },
   {
    "nom": "CAOUTCHOUC",
-   "dernier": 424.1,
-   "variation": -2.12
+   "dernier": 419.2,
+   "variation": -1.16
   },
   {
    "nom": "COTON",
-   "dernier": 79.11,
-   "variation": 0.51
+   "dernier": 78.78,
+   "variation": -0.42
   },
   {
    "nom": "CUIVRE",
-   "dernier": 6.22,
-   "variation": -0.5
+   "dernier": 6.33,
+   "variation": 1.78
   },
   {
    "nom": "GAZ NATUREL",
-   "dernier": 3.0,
-   "variation": 1.73
+   "dernier": 3.22,
+   "variation": 7.34
   },
   {
    "nom": "JUS D'ORANGE",
-   "dernier": 133.05,
-   "variation": 3.58
+   "dernier": 138.35,
+   "variation": 3.98
   },
   {
    "nom": "MAIS",
-   "dernier": 441.5,
-   "variation": 0.34
+   "dernier": 439.25,
+   "variation": -0.51
   },
   {
    "nom": "NICKEL",
-   "dernier": 16313.25,
-   "variation": 0.07
+   "dernier": 16224.5,
+   "variation": -0.54
   },
   {
    "nom": "OR (ONCE EN $)",
-   "dernier": 4066.03,
-   "variation": -0.07
+   "dernier": 4083.19,
+   "variation": 0.42
   },
   {
    "nom": "PALLADIUM",
-   "dernier": 1027.89,
-   "variation": 0.19
+   "dernier": 1039.45,
+   "variation": 1.12
   },
   {
    "nom": "PALM OIL FUTURES ($)",
@@ -3346,18 +3643,18 @@
   },
   {
    "nom": "PETROLE BRENT",
-   "dernier": 97.02,
-   "variation": 0.88
+   "dernier": 88.82,
+   "variation": -8.45
   },
   {
    "nom": "PETROLE WTI",
-   "dernier": 90.83,
-   "variation": 2.66
+   "dernier": 86.85,
+   "variation": -4.38
   },
   {
    "nom": "PLATINE",
-   "dernier": 1533.24,
-   "variation": 0.8
+   "dernier": 1558.08,
+   "variation": 1.62
   },
   {
    "nom": "RIZ FUTURES ($)",
@@ -3366,13 +3663,13 @@
   },
   {
    "nom": "SOJA",
-   "dernier": 1193.75,
-   "variation": 1.08
+   "dernier": 1182.25,
+   "variation": -0.96
   },
   {
    "nom": "SUCRE",
-   "dernier": 18.24,
-   "variation": -1.72
+   "dernier": 18.21,
+   "variation": -0.16
   },
   {
    "nom": "ZINC",
@@ -3386,7 +3683,7 @@
    "ticker": "LNBB",
    "nom": "LOTERIE NATIONALE DU BENIN",
    "montant": 164.0,
-   "rendement": 4.17
+   "rendement": 4.16
   }
  ]
 }
