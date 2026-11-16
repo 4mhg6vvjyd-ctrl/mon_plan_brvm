@@ -1,6 +1,372 @@
 {
- "maj": "2026-11-13 19:38",
+ "maj": "2026-11-16 19:40",
  "articles": [
+  {
+   "id": "65763",
+   "source": "Actualites du marche",
+   "date": "2026-11-16 17:19",
+   "titre": "Marchés émergents : 1 000 milliards USD en jeu pour financer la prochaine génération de croissance",
+   "extrait": "Le prochain grand gisement de rendement financier pourrait se trouver là où les capitaux internationaux restent ...",
+   "url": "https://www.sikafinance.com/marches/marches-emergents-1-000-milliards-usd-en-jeu-pour-financer-la-prochaine-generation-de-croissance_65763",
+   "ticker": null,
+   "premium": true,
+   "categorie": "Macro / monnaie",
+   "score": 2,
+   "sentiment": 1,
+   "tickers": []
+  },
+  {
+   "id": "65762",
+   "source": "Actualites du marche",
+   "date": "2026-11-16 16:20",
+   "titre": "Côte d’Ivoire : Le riz et le poisson ont coûté près de 1 260 milliards FCFA d’importation en 2025",
+   "extrait": "Les importations ivoiriennes de riz et de poissons congelés ont atteint 1,917 milliard d'euros en 2025, soit environ 1 ...",
+   "url": "https://www.sikafinance.com/marches/cote-divoire-le-riz-et-le-poisson-ont-coute-pres-de-1-260-milliards-fcfa-dimportation-en-2025_65762",
+   "ticker": null,
+   "premium": true,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65761",
+   "source": "Actualites du marche",
+   "date": "2026-11-16 16:18",
+   "titre": "BRVM : SETAO CI prend de la hauteur malgré le recul généralisé",
+   "extrait": "La BRVM entame la semaine sur une note négative, avec un repli généralisé de ses principaux indices. Le BRVM-Composite ...",
+   "url": "https://www.sikafinance.com/marches/brvm-setao-ci-prend-de-la-hauteur-malgre-le-recul-generalise_65761",
+   "ticker": "STAC",
+   "premium": false,
+   "categorie": "Autre",
+   "score": 1,
+   "sentiment": -1,
+   "tickers": [
+    "STAC"
+   ]
+  },
+  {
+   "id": "65760",
+   "source": "Actualites economiques",
+   "date": "2026-11-16 15:52",
+   "titre": "Ghana : TikTok et ICC inaugurent des laboratoires de commerce numérique pour propulser les microentreprises vers de nouveaux marchés",
+   "extrait": "Le géant technologique TikTok et la Chambre de commerce internationale (ICC) ont inauguré des laboratoires de commerce numérique novateurs, le 11 novembre 2026...",
+   "url": "https://www.sikafinance.com/marches/ghana-tiktok-et-icc-inaugurent-des-laboratoires-de-commerce-numerique-pour-propulser-les-microentreprises-vers-de-nouveaux-marches_65760",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65757",
+   "source": "Actualites economiques",
+   "date": "2026-11-16 14:52",
+   "titre": "Schneider Electric présente l'intelligence énergétique au SIREXE 2026",
+   "extrait": "Schneider Electric présentera des solutions pour renforcer la fiabilité et l'efficacité des infrastructures énergétiques africaines De Homaya à AVEVA, le parco...",
+   "url": "https://www.sikafinance.com/marches/schneider-electric-presente-l-intelligence-energetique-au-sirexe-2026_65757",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65756",
+   "source": "Actualites economiques",
+   "date": "2026-11-16 14:51",
+   "titre": "Numérique : Près de 168 milliards USD de revenus attendus pour le marché mondial des données en 2026",
+   "extrait": "Le marché mondial des services de données et d'analyse connaît une expansion fulgurante et attire des investissements massifs de la part de dirigeants so...",
+   "url": "https://www.sikafinance.com/marches/numerique-pres-de-168-milliards-usd-de-revenus-attendus-pour-le-marche-mondial-des-donnees-en-2026_65756",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65755",
+   "source": "Actualites economiques",
+   "date": "2026-11-16 14:28",
+   "titre": "Distribution, cybersécurité, intégration : Où se trouve l'argent dans la Tech ivoirienne ?",
+   "extrait": "Dans l'univers ivoirien de la tech, un échantillon de plus d'une trentaine d'entreprises dont les données sont disponibles sur SIKA Pro a généré 136,8 milliard...",
+   "url": "https://www.sikafinance.com/marches/distribution-cybersecurite-integration-ou-se-trouve-l-argent-dans-la-tech-ivoirienne-_65755",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65753",
+   "source": "Actualites economiques",
+   "date": "2026-11-16 14:14",
+   "titre": "Cybersécurité : L’IA et le cloud en tête des priorités confiées aux fournisseurs de services managés",
+   "extrait": "Faute d'experts en interne et face à la hausse rapide des attaques informatiques, les entreprises confient de plus en plus leur sécurité à des sociétés spécial...",
+   "url": "https://www.sikafinance.com/marches/cybersecurite-lia-et-le-cloud-en-tete-des-priorites-confiees-aux-fournisseurs-de-services-manages_65753",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 1,
+   "tickers": []
+  },
+  {
+   "id": "65751",
+   "source": "Actualites economiques",
+   "date": "2026-11-16 13:43",
+   "titre": "Cameroun : Le Britannique BWA met en pause ses activités d’exploration faute de nouveaux permis",
+   "extrait": "Dans son rapport annuel publié le 16 novembre 2026, le groupe britannique BWA indique que ses travaux de terrain au Cameroun sont suspendus dans l'attente de n...",
+   "url": "https://www.sikafinance.com/marches/cameroun-le-britannique-bwa-met-en-pause-ses-activites-dexploration-faute-de-nouveaux-permis_65751",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65749",
+   "source": "Actualites du marche",
+   "date": "2026-11-16 13:07",
+   "titre": "UMOA : Près d’une banque sur 4 perd de l’argent, le revers caché du classement des plus rentables",
+   "extrait": "Combien rapporte 100 FCFA investis dans une banque de l'UEMOA ? En moyenne, 15,2 FCFA de bénéfice en 2024. Mais ce...",
+   "url": "https://www.sikafinance.com/marches/umoa-pres-dune-banque-sur-4-perd-de-largent-le-revers-cache-du-classement-des-plus-rentables_65749",
+   "ticker": null,
+   "premium": true,
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 1,
+   "tickers": []
+  },
+  {
+   "id": "65750",
+   "source": "Actualites economiques",
+   "date": "2026-11-16 13:02",
+   "titre": "SIREXE 2026 : Ce que le Centre d’analyses et de recherche de PETROCI s’apprête à révéler au public",
+   "extrait": "A l'occasion du SIREXE 2026, qui s'ouvre ce mercredi 18 novembre, le Centre d'analyses et de recherche de PETROCI ouvrira ses portes au grand public. De la car...",
+   "url": "https://www.sikafinance.com/marches/sirexe-2026-ce-que-le-centre-danalyses-et-de-recherche-de-petroci-sapprete-a-reveler-au-public_65750",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Financement",
+   "score": 2,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65743",
+   "source": "Actualites economiques",
+   "date": "2026-11-16 09:59",
+   "titre": "Congo : 7 ministères pilotes retenus pour renforcer le contrôle des dépenses publiques d'ici 2027",
+   "extrait": "Le Congo-Brazzaville prépare un renforcement du contrôle de ses dépenses publiques à travers sept ministères pilotes. Selon une publication du ministère ...",
+   "url": "https://www.sikafinance.com/marches/congo-7-ministeres-pilotes-retenus-pour-renforcer-le-controle-des-depenses-publiques-d-ici-2027_65743",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65740",
+   "source": "Actualites economiques",
+   "date": "2026-11-16 00:00",
+   "titre": "Après le pétrole, le ciment, le sucre et les engrais, Dangote ouvre un nouveau chapitre dans le cacao au Ghana",
+   "extrait": "16/11/2026 Ivoire Tech Forum 2026 : L’ANSUT au cœur des solutions numériques in",
+   "url": "https://www.sikafinance.com/marches/apres-le-petrole-le-ciment-le-sucre-et-les-engrais-dangote-ouvre-un-nouveau-chapitre-dans-le-cacao-au-ghana_65740",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Matieres premieres",
+   "score": 1,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65738",
+   "source": "Actualites economiques",
+   "date": "2026-11-16 00:00",
+   "titre": "Sénégal : Ces sociétés qui ont absorbé les subventions de l’État à fin septembre 2026",
+   "extrait": "16/11/2026",
+   "url": "https://www.sikafinance.com/marches/senegal-ces-societes-qui-ont-absorbe-les-subventions-de-letat-a-fin-septembre-2026_65738",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65741",
+   "source": "Actualites economiques",
+   "date": "2026-11-16 00:00",
+   "titre": "Gabon : Le chinois Inner Mongolia Xinchuang Metallurgical Co. Ltd projette deux usines de transformation de manganèse",
+   "extrait": "16/11/2026",
+   "url": "https://www.sikafinance.com/marches/gabon-le-chinois-inner-mongolia-xinchuang-metallurgical-co-ltd-projette-deux-usines-de-transformation-de-manganese_65741",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65734",
+   "source": "Actualites economiques",
+   "date": "2026-11-16 00:00",
+   "titre": "La BAD et la JICA signent un prêt de 583 millions USD pour financer les infrastructures, l’énergie et la sécurité alimentaire en Afrique",
+   "extrait": "16/11/2026",
+   "url": "https://www.sikafinance.com/marches/la-bad-et-la-jica-signent-un-pret-de-583-millions-usd-pour-financer-les-infrastructures-lenergie-et-la-securite-alimentaire-en-afrique_65734",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Financement",
+   "score": 2,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65733",
+   "source": "Actualites economiques",
+   "date": "2026-11-16 00:00",
+   "titre": "Cameroun : 182 milliards FCFA de recettes pétrolières à transférer à l'État au premier semestre 2026",
+   "extrait": "16/11/2026",
+   "url": "https://www.sikafinance.com/marches/cameroun-182-milliards-fcfa-de-recettes-petrolieres-a-transferer-a-l-etat-au-premier-semestre-2026_65733",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65732",
+   "source": "Actualites economiques",
+   "date": "2026-11-16 00:00",
+   "titre": "Cameroun : Le Français Parlym décroche un marché de 11,1 milliards FCFA pour la construction d’un hub logistique GPL",
+   "extrait": "16/11/2026",
+   "url": "https://www.sikafinance.com/marches/cameroun-le-francais-parlym-decroche-un-marche-de-11-1-milliards-fcfa-pour-la-construction-dun-hub-logistique-gpl_65732",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65731",
+   "source": "Actualites economiques",
+   "date": "2026-11-16 00:00",
+   "titre": "Cameroun : Le Suisse SGS révèle un système de fausses factures et de transferts illicites de devises dans sa filiale locale",
+   "extrait": "14/11/2026",
+   "url": "https://www.sikafinance.com/marches/cameroun-le-suisse-sgs-revele-un-systeme-de-fausses-factures-et-de-transferts-illicites-de-devises-dans-sa-filiale-locale_65731",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65728",
+   "source": "Actualites economiques",
+   "date": "2026-11-14 00:00",
+   "titre": "Gabon : 15 sites pétroliers offshore pourraient être intégrés au futur dispositif de conservation marine",
+   "extrait": "14/11/2026",
+   "url": "https://www.sikafinance.com/marches/gabon-15-sites-petroliers-offshore-pourraient-etre-integres-au-futur-dispositif-de-conservation-marine_65728",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65726",
+   "source": "Actualites economiques",
+   "date": "2026-11-14 00:00",
+   "titre": "RDC : Proxima Capital obtient son agrément et fait son entrée sur le marché de la microfinance",
+   "extrait": "14/11/2026",
+   "url": "https://www.sikafinance.com/marches/rdc-proxima-capital-obtient-son-agrement-et-fait-son-entree-sur-le-marche-de-la-microfinance_65726",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65725",
+   "source": "Actualites economiques",
+   "date": "2026-11-14 00:00",
+   "titre": "Sénégal : Le plan de redressement accuse un manque à gagner de 162,3 milliards FCFA à fin septembre 2026",
+   "extrait": "14/11/2026 RCA : Recettes fiscales et dette",
+   "url": "https://www.sikafinance.com/marches/senegal-le-plan-de-redressement-accuse-un-manque-a-gagner-de-162-3-milliards-fcfa-a-fin-septembre-2026_65725",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Macro / monnaie",
+   "score": 2,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65724",
+   "source": "Actualites economiques",
+   "date": "2026-11-14 00:00",
+   "titre": "RDC : Après la microfinance, les dirigeants de Proxima se lancent dans le capital-investissement",
+   "extrait": "14/11/2026",
+   "url": "https://www.sikafinance.com/marches/rdc-apres-la-microfinance-les-dirigeants-de-proxima-se-lancent-dans-le-capital-investissement_65724",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65722",
+   "source": "Actualites economiques",
+   "date": "2026-11-14 00:00",
+   "titre": "Gabon : China Harbour Engineering sélectionné pour un corridor minier de 10 milliards de dollars à Bélinga",
+   "extrait": "14/11/2026",
+   "url": "https://www.sikafinance.com/marches/gabon-china-harbour-engineering-selectionne-pour-un-corridor-minier-de-10-milliards-de-dollars-a-belinga_65722",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65727",
+   "source": "Actualites economiques",
+   "date": "2026-11-14 00:00",
+   "titre": "Gabon : La production pétrolière rebondit de 2,4% en octobre à 212 000 barils par jour",
+   "extrait": "14/11/2026",
+   "url": "https://www.sikafinance.com/marches/gabon-la-production-petroliere-rebondit-de-2-4-en-octobre-a-212-000-barils-par-jour_65727",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 1,
+   "tickers": []
+  },
+  {
+   "id": "65721",
+   "source": "Actualites economiques",
+   "date": "2026-11-14 00:00",
+   "titre": "Cameroun : 8 millions de personnes exposées au risque de crise alimentaire à fin juin",
+   "extrait": "05/06/2026",
+   "url": "https://www.sikafinance.com/marches/cameroun-8-millions-de-personnes-exposees-au-risque-de-crise-alimentaire-a-fin-juin_65721",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
   {
    "id": "65717",
    "source": "Actualites du marche",
@@ -4351,23 +4717,23 @@
  "matieres": [
   {
    "nom": "ALUMINIUM",
-   "dernier": 3160.25,
-   "variation": -2.1
+   "dernier": 3133.25,
+   "variation": -0.85
   },
   {
    "nom": "ARGENT (ONCE EN $)",
-   "dernier": 50.04,
-   "variation": -2.13
+   "dernier": 48.87,
+   "variation": -2.34
   },
   {
    "nom": "AVOINE",
-   "dernier": 352.0,
-   "variation": 0.36
+   "dernier": 361.5,
+   "variation": 2.7
   },
   {
    "nom": "BLÉ",
-   "dernier": 599.25,
-   "variation": -0.04
+   "dernier": 606.75,
+   "variation": 1.25
   },
   {
    "nom": "BOIS DE CONSTRUCTION",
@@ -4376,58 +4742,58 @@
   },
   {
    "nom": "CACAO",
-   "dernier": 5204.0,
-   "variation": 3.13
+   "dernier": 5260.0,
+   "variation": 1.08
   },
   {
    "nom": "CAFÉ",
-   "dernier": 280.2,
-   "variation": 4.16
+   "dernier": 278.65,
+   "variation": -0.55
   },
   {
    "nom": "CAOUTCHOUC",
-   "dernier": 436.5,
-   "variation": -0.98
+   "dernier": 441.7,
+   "variation": 1.19
   },
   {
    "nom": "COTON",
-   "dernier": 78.67,
-   "variation": 0.19
+   "dernier": 78.78,
+   "variation": 0.14
   },
   {
    "nom": "CUIVRE",
-   "dernier": 6.18,
-   "variation": -1.47
+   "dernier": 6.08,
+   "variation": -1.67
   },
   {
    "nom": "GAZ NATUREL",
-   "dernier": 3.34,
-   "variation": 3.89
+   "dernier": 3.23,
+   "variation": -3.29
   },
   {
    "nom": "JUS D'ORANGE",
-   "dernier": 140.6,
-   "variation": -3.53
+   "dernier": 136.3,
+   "variation": -3.06
   },
   {
    "nom": "MAIS",
-   "dernier": 442.5,
-   "variation": -1.23
+   "dernier": 445.5,
+   "variation": 0.68
   },
   {
    "nom": "NICKEL",
-   "dernier": 16175.5,
-   "variation": -0.09
+   "dernier": 15903.0,
+   "variation": -1.68
   },
   {
    "nom": "OR (ONCE EN $)",
-   "dernier": 3902.3,
-   "variation": -1.13
+   "dernier": 3878.26,
+   "variation": -0.62
   },
   {
    "nom": "PALLADIUM",
-   "dernier": 1007.37,
-   "variation": -2.01
+   "dernier": 1003.43,
+   "variation": -0.39
   },
   {
    "nom": "PALM OIL FUTURES ($)",
@@ -4436,18 +4802,18 @@
   },
   {
    "nom": "PETROLE BRENT",
-   "dernier": 94.01,
-   "variation": 3.54
+   "dernier": 94.42,
+   "variation": 0.44
   },
   {
    "nom": "PETROLE WTI",
-   "dernier": 88.74,
-   "variation": 3.14
+   "dernier": 88.56,
+   "variation": -0.2
   },
   {
    "nom": "PLATINE",
-   "dernier": 1516.75,
-   "variation": -0.79
+   "dernier": 1494.23,
+   "variation": -1.48
   },
   {
    "nom": "RIZ FUTURES ($)",
@@ -4456,13 +4822,13 @@
   },
   {
    "nom": "SOJA",
-   "dernier": 1227.0,
-   "variation": -0.16
+   "dernier": 1243.0,
+   "variation": 1.3
   },
   {
    "nom": "SUCRE",
-   "dernier": 18.22,
-   "variation": -1.41
+   "dernier": 18.41,
+   "variation": 1.04
   },
   {
    "nom": "ZINC",
