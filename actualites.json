@@ -1,12 +1,238 @@
 {
- "maj": "2026-11-17 19:45",
+ "maj": "2026-11-18 19:42",
  "articles": [
+  {
+   "id": "65820",
+   "source": "Actualites economiques",
+   "date": "2026-11-18 17:52",
+   "titre": "Ghana : Dramani Mahama veut transformer localement une plus grande part des 94% de cajou encore exportés bruts",
+   "extrait": "Le Ghana ne veut plus voir ses noix de cajou prendre le chemin de l'étranger avant d'avoir alimenté ses propres usines. &Agrave; Techiman, le 16 novembre, le p...",
+   "url": "https://www.sikafinance.com/marches/ghana-dramani-mahama-veut-transformer-localement-une-plus-grande-part-des-94-de-cajou-encore-exportes-bruts_65820",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65819",
+   "source": "Actualites du marche",
+   "date": "2026-11-18 16:55",
+   "titre": "UEMOA : Les réserves de change grimpent à 41 milliards USD en 2025",
+   "extrait": "Après avoir frôlé la zone de vulnérabilité en 2023, l'UEMOA a reconstitué une bonne partie de son matelas de sécu...",
+   "url": "https://www.sikafinance.com/marches/uemoa-les-reserves-de-change-grimpent-a-41-milliards-usd-en-2025_65819",
+   "ticker": null,
+   "premium": true,
+   "categorie": "Macro / monnaie",
+   "score": 2,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65818",
+   "source": "Actualites du marche",
+   "date": "2026-11-18 16:44",
+   "titre": "BRVM : Quelques éclaircies dans un marché toujours sous pression",
+   "extrait": "Après la séance historique de mardi, marquée par l'absence totale de valeurs en hausse, la BRVM a retrouvé quelques cou...",
+   "url": "https://www.sikafinance.com/marches/brvm-quelques-eclaircies-dans-un-marche-toujours-sous-pression_65818",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 1,
+   "tickers": []
+  },
+  {
+   "id": "65816",
+   "source": "Actualites du marche",
+   "date": "2026-11-18 15:12",
+   "titre": "Gazoduc transsaharien : Le Niger accélère les préparatifs pour capter les retombées économiques du projet",
+   "extrait": "Le Niger veut accélérer la concrétisation du Gazoduc transsaharien (TSGP) et se positionner comme un acteur incontourna...",
+   "url": "https://www.sikafinance.com/marches/gazoduc-transsaharien-le-niger-accelere-les-preparatifs-pour-capter-les-retombees-economiques-du-projet_65816",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65815",
+   "source": "Actualites du marche",
+   "date": "2026-11-18 14:52",
+   "titre": "Sénégal : Où vont les 447 milliards FCFA de salaires versés par les entreprises formelles au 1er trimestre ?",
+   "extrait": "Au premier trimestre 2026, la masse salariale au Sénégal s'est établie à 447,1 milliards FCFA selon un rapport de l'Age...",
+   "url": "https://www.sikafinance.com/marches/senegal-ou-vont-les-447-milliards-fcfa-de-salaires-verses-par-les-entreprises-formelles-au-1er-trimestre-_65815",
+   "ticker": null,
+   "premium": true,
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65813",
+   "source": "Actualites economiques",
+   "date": "2026-11-18 14:18",
+   "titre": "Cameroun : Le britannique Oriole Resources envisage de réduire de 13,7 millions USD le coût de développement de sa mine d’or",
+   "extrait": "La compagnie minière britannique Oriole Resources envisage de réduire de 13,7 millions USD les investissements nécessaires au développement de son proje...",
+   "url": "https://www.sikafinance.com/marches/cameroun-le-britannique-oriole-resources-envisage-de-reduire-de-13-7-millions-usd-le-cout-de-developpement-de-sa-mine-dor_65813",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65811",
+   "source": "Actualites du marche",
+   "date": "2026-11-18 12:49",
+   "titre": "Comptes inactifs, croissance record, PI-SPI… Le défi du mobile money dans l’UEMOA derrière les 219 000 milliards FCFA de transactions",
+   "extrait": "En 2025, l'inclusion financière a bondi dans l'UEMOA avec 16,36 milliards de transactions pour un total exact de 219 15...",
+   "url": "https://www.sikafinance.com/marches/comptes-inactifs-croissance-record-pi-spi-le-defi-du-mobile-money-dans-luemoa-derriere-les-219-000-milliards-fcfa-de-transactions_65811",
+   "ticker": null,
+   "premium": true,
+   "categorie": "Macro / monnaie",
+   "score": 2,
+   "sentiment": 1,
+   "tickers": []
+  },
+  {
+   "id": "65810",
+   "source": "Actualites du marche",
+   "date": "2026-11-18 12:41",
+   "titre": "UEMOA : Le risque souverain pèse sur 37,6% des actifs bancaires",
+   "extrait": "Le financement des États prend une place grandissante dans les bilans bancaires de l'UEMOA, au risque de réduire...",
+   "url": "https://www.sikafinance.com/marches/uemoa-le-risque-souverain-pese-sur-37-6-des-actifs-bancaires_65810",
+   "ticker": null,
+   "premium": true,
+   "categorie": "Macro / monnaie",
+   "score": 2,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65807",
+   "source": "Actualites economiques",
+   "date": "2026-11-18 11:49",
+   "titre": "Gabon : Débordé par une utilisation cinq fois supérieure à la normale, le SIGFiP victime de son succès",
+   "extrait": "Le Système intégré de gestion des finances publiques (SIGFiP) a connu ses premières grandes difficultés de fin d'exercice, dix mois seulement après son lanceme...",
+   "url": "https://www.sikafinance.com/marches/gabon-deborde-par-une-utilisation-cinq-fois-superieure-a-la-normale-le-sigfip-victime-de-son-succes_65807",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65806",
+   "source": "Actualites economiques",
+   "date": "2026-11-18 11:46",
+   "titre": "Gabon : Millennial Potash découvre 132 mètres de minerai supplémentaires sur son projet de Banio",
+   "extrait": "La société canadienne Millennial Potash a annoncé, le 10 novembre 2026, de nouveaux résultats d'exploration sur son projet de potasse de Banio, dans le sud du ...",
+   "url": "https://www.sikafinance.com/marches/gabon-millennial-potash-decouvre-132-metres-de-minerai-supplementaires-sur-son-projet-de-banio_65806",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65808",
+   "source": "Actualites economiques",
+   "date": "2026-11-18 11:30",
+   "titre": "Gabon : De 327 à 514,5 millions USD, le portefeuille de la Banque mondiale s'épaissit",
+   "extrait": "La Banque mondiale renforce sa présence financière au Gabon. Son portefeuille de projets en cours atteint désormais 514,5 millions de dollars, soit environ 307...",
+   "url": "https://www.sikafinance.com/marches/gabon-de-327-a-514-5-millions-usd-le-portefeuille-de-la-banque-mondiale-s-epaissit_65808",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65805",
+   "source": "Actualites economiques",
+   "date": "2026-11-18 11:09",
+   "titre": "Cameroun : Les minerais critiques, nouvelle cible potentielle des réseaux de contrebande",
+   "extrait": "La perspective d'une montée en puissance de la production de cobalt, de nickel, de manganèse et de lithium au Cameroun pourrait attirer des acteurs déjà...",
+   "url": "https://www.sikafinance.com/marches/cameroun-les-minerais-critiques-nouvelle-cible-potentielle-des-reseaux-de-contrebande_65805",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65803",
+   "source": "Actualites economiques",
+   "date": "2026-11-18 10:51",
+   "titre": "Cameroun : Les assureurs mettent fin aux couvertures accordées avant paiement des primes",
+   "extrait": "Au Cameroun, obtenir une attestation d'assurance automobile, une carte d'assurance maladie ou renouveler un contrat sans avoir préalablement payé sa prime ne s...",
+   "url": "https://www.sikafinance.com/marches/cameroun-les-assureurs-mettent-fin-aux-couvertures-accordees-avant-paiement-des-primes_65803",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65801",
+   "source": "Actualites economiques",
+   "date": "2026-11-18 09:46",
+   "titre": "Bénin : Avec 8,1% de croissance, 2025 signe la meilleure performance en près de 20 ans",
+   "extrait": "Après une année 2025 particulièrement dynamique, marquée par une croissance économique de 8,1%, un niveau inédit depuis près de 20 ans, le Bénin devrait conser...",
+   "url": "https://www.sikafinance.com/marches/benin-avec-8-1-de-croissance-2025-signe-la-meilleure-performance-en-pres-de-20-ans_65801",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Macro / monnaie",
+   "score": 2,
+   "sentiment": 1,
+   "tickers": []
+  },
+  {
+   "id": "65800",
+   "source": "Actualites du marche",
+   "date": "2026-11-18 09:30",
+   "titre": "Vivo Energy CI : Un résultat net an hausse de 15% à fin septembre 2026",
+   "extrait": "Vivo Energy Côte d'Ivoire distribue les carburants, les lubrifiants et le butane sous la marque Shell, avec des p...",
+   "url": "https://www.sikafinance.com/marches/vivo-energy-ci-un-resultat-net-an-hausse-de-15-a-fin-septembre-2026_65800",
+   "ticker": "SHEC",
+   "premium": true,
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 1,
+   "tickers": [
+    "SHEC"
+   ]
+  },
+  {
+   "id": "65797",
+   "source": "Actualites du marche",
+   "date": "2026-11-17 19:36",
+   "titre": "Dangote, CIMAF, LafargeHolcim, Dossongui.. : Qui domine le marché du ciment en Côte d’Ivoire ?",
+   "extrait": "Le marché ivoirien du ciment connaît une recomposition progressive avec la montée en puissance de nouveaux acteur...",
+   "url": "https://www.sikafinance.com/marches/dangote-cimaf-lafargeholcim-dossongui-qui-domine-le-marche-du-ciment-en-cote-divoire-_65797",
+   "ticker": null,
+   "premium": true,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 1,
+   "tickers": []
+  },
   {
    "id": "65796",
    "source": "Actualites economiques",
    "date": "2026-11-17 18:32",
    "titre": "Orange dote sa filiale de capital-risque de 250 millions d’euros pour investir dans les startups sur la période 2027-32",
-   "extrait": "Le groupe fran&ccedil;ais de télécommunications Orange a annoncé, mardi 17 novembre, l'allocation d'une enveloppe supplémentaire de 250 millions d'euros à sa f...",
+   "extrait": "Le groupe français de télécommunications Orange a annoncé, mardi 17 novembre, l'allocation d'une enveloppe supplémentaire de 250 millions d'euros à sa f...",
    "url": "https://www.sikafinance.com/marches/orange-dote-sa-filiale-de-capital-risque-de-250-millions-deuros-pour-investir-dans-les-startups-sur-la-periode-2027-32_65796",
    "ticker": null,
    "premium": false,
@@ -44,92 +270,6 @@
    "tickers": []
   },
   {
-   "id": "65793",
-   "source": "Actualites economiques",
-   "date": "2026-11-17 15:42",
-   "titre": "Cameroun : Washington pourrait troquer son soutien sécuritaire contre l’accès aux gisements de cobalt et de manganèse",
-   "extrait": "Les États-Unis pourraient faire de l'accès aux minerais critiques camerounais un paramètre de leur coopération sécuritaire avec Yaoundé. C'est l'hypothè...",
-   "url": "https://www.sikafinance.com/marches/cameroun-washington-pourrait-troquer-son-soutien-securitaire-contre-lacces-aux-gisements-de-cobalt-et-de-manganese_65793",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Hors zone UEMOA",
-   "score": 0,
-   "sentiment": 0,
-   "tickers": []
-  },
-  {
-   "id": "65792",
-   "source": "Actualites economiques",
-   "date": "2026-11-17 15:38",
-   "titre": "Guinée équatoriale : Malabo présente à Singapour son projet gazier Aseng de 690 millions de dollars",
-   "extrait": "La Guinée équatoriale cherche à élargir le cercle de ses partenaires industriels autour du développement du gaz naturel. Le 16 novembre 2026, le vice-président...",
-   "url": "https://www.sikafinance.com/marches/guinee-equatoriale-malabo-presente-a-singapour-son-projet-gazier-aseng-de-690-millions-de-dollars_65792",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Hors zone UEMOA",
-   "score": 0,
-   "sentiment": 0,
-   "tickers": []
-  },
-  {
-   "id": "65790",
-   "source": "Actualites economiques",
-   "date": "2026-11-17 15:08",
-   "titre": "Nigeria : Dangote investit 2,2 milliards USD dans les routes pour sécuriser la logistique de son empire industriel",
-   "extrait": "Aliko Dangote ne se contente plus de construire des usines, de raffiner du pétrole ou de produire du ciment. Le milliardaire nigérian investit également dans l...",
-   "url": "https://www.sikafinance.com/marches/nigeria-dangote-investit-2-2-milliards-usd-dans-les-routes-pour-securiser-la-logistique-de-son-empire-industriel_65790",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Hors zone UEMOA",
-   "score": 0,
-   "sentiment": 0,
-   "tickers": []
-  },
-  {
-   "id": "65788",
-   "source": "Actualites economiques",
-   "date": "2026-11-17 14:22",
-   "titre": "Côte d’Ivoire : NSIA Asset Management encourage les particuliers à investir progressivement pour se constituer un patrimoine",
-   "extrait": "L'accès à l'investissement ne passe pas nécessairement par la mobilisation d'importantes sommes d'argent. Les particuliers peuvent également se constituer un p...",
-   "url": "https://www.sikafinance.com/marches/cote-divoire-nsia-asset-management-encourage-les-particuliers-a-investir-progressivement-pour-se-constituer-un-patrimoine_65788",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Autre",
-   "score": 0,
-   "sentiment": 1,
-   "tickers": []
-  },
-  {
-   "id": "65787",
-   "source": "Actualites economiques",
-   "date": "2026-11-17 14:17",
-   "titre": "BRVM : Le groupe Coris prépare l’introduction en bourse de ses filiales de Côte d’Ivoire et du Bénin",
-   "extrait": "Le groupe bancaire burkinabè prévoit de mobiliser 62 milliards FCFA avec Coris Bank Côte d'Ivoire et 19 milliards FCFA avec Coris Bank Bénin. Attendues à...",
-   "url": "https://www.sikafinance.com/marches/brvm-le-groupe-coris-prepare-lintroduction-en-bourse-de-ses-filiales-de-cote-divoire-et-du-benin_65787",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Operation sur titres",
-   "score": 3,
-   "sentiment": 0,
-   "tickers": [
-    "CBIBF"
-   ]
-  },
-  {
-   "id": "65786",
-   "source": "Actualites economiques",
-   "date": "2026-11-17 13:23",
-   "titre": "Nigeria : L’inflation recule à 14 % en octobre, malgré les pressions alimentaires",
-   "extrait": "L'inflation poursuit son ralentissement au Nigeria, où la hausse annuelle des prix à la consommation est ressortie à 14,06 % en octobre 2026, contre 14,...",
-   "url": "https://www.sikafinance.com/marches/nigeria-linflation-recule-a-14-en-octobre-malgre-les-pressions-alimentaires_65786",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Hors zone UEMOA",
-   "score": 0,
-   "sentiment": 0,
-   "tickers": []
-  },
-  {
    "id": "65782",
    "source": "Actualites du marche",
    "date": "2026-11-17 12:30",
@@ -144,25 +284,109 @@
    "tickers": []
   },
   {
+   "id": "65793",
+   "source": "Actualites economiques",
+   "date": "2026-11-17 00:00",
+   "titre": "Cameroun : Washington pourrait troquer son soutien sécuritaire contre l’accès aux gisements de cobalt et de manganèse",
+   "extrait": "17/11/2026",
+   "url": "https://www.sikafinance.com/marches/cameroun-washington-pourrait-troquer-son-soutien-securitaire-contre-lacces-aux-gisements-de-cobalt-et-de-manganese_65793",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65792",
+   "source": "Actualites economiques",
+   "date": "2026-11-17 00:00",
+   "titre": "Guinée équatoriale : Malabo présente à Singapour son projet gazier Aseng de 690 millions de dollars",
+   "extrait": "17/11/2026",
+   "url": "https://www.sikafinance.com/marches/guinee-equatoriale-malabo-presente-a-singapour-son-projet-gazier-aseng-de-690-millions-de-dollars_65792",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65790",
+   "source": "Actualites economiques",
+   "date": "2026-11-17 00:00",
+   "titre": "Nigeria : Dangote investit 2,2 milliards USD dans les routes pour sécuriser la logistique de son empire industriel",
+   "extrait": "17/11/2026",
+   "url": "https://www.sikafinance.com/marches/nigeria-dangote-investit-2-2-milliards-usd-dans-les-routes-pour-securiser-la-logistique-de-son-empire-industriel_65790",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65788",
+   "source": "Actualites economiques",
+   "date": "2026-11-17 00:00",
+   "titre": "Côte d’Ivoire : NSIA Asset Management encourage les particuliers à investir progressivement pour se constituer un patrimoine",
+   "extrait": "17/11/2026",
+   "url": "https://www.sikafinance.com/marches/cote-divoire-nsia-asset-management-encourage-les-particuliers-a-investir-progressivement-pour-se-constituer-un-patrimoine_65788",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 1,
+   "tickers": []
+  },
+  {
+   "id": "65787",
+   "source": "Actualites economiques",
+   "date": "2026-11-17 00:00",
+   "titre": "BRVM : Le groupe Coris prépare l’introduction en bourse de ses filiales de Côte d’Ivoire et du Bénin",
+   "extrait": "17/11/2026",
+   "url": "https://www.sikafinance.com/marches/brvm-le-groupe-coris-prepare-lintroduction-en-bourse-de-ses-filiales-de-cote-divoire-et-du-benin_65787",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Operation sur titres",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65786",
+   "source": "Actualites economiques",
+   "date": "2026-11-17 00:00",
+   "titre": "Nigeria : L’inflation recule à 14 % en octobre, malgré les pressions alimentaires",
+   "extrait": "17/11/2026",
+   "url": "https://www.sikafinance.com/marches/nigeria-linflation-recule-a-14-en-octobre-malgre-les-pressions-alimentaires_65786",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": -1,
+   "tickers": []
+  },
+  {
    "id": "65781",
    "source": "Actualites economiques",
-   "date": "2026-11-17 11:42",
+   "date": "2026-11-17 00:00",
    "titre": "COP31 : La Banque mondiale veut mobiliser 17,6 milliards USD pour des investissements climatiques créateurs d’emplois",
-   "extrait": "Le groupe de la Banque mondiale entend faire de la lutte contre le changement climatique un moteur de croissance économique et de création d'emplois. À ...",
+   "extrait": "17/11/2026",
    "url": "https://www.sikafinance.com/marches/cop31-la-banque-mondiale-veut-mobiliser-17-6-milliards-usd-pour-des-investissements-climatiques-createurs-demplois_65781",
    "ticker": null,
    "premium": false,
    "categorie": "Macro / monnaie",
    "score": 2,
-   "sentiment": 1,
+   "sentiment": 0,
    "tickers": []
   },
   {
    "id": "65791",
    "source": "Actualites economiques",
-   "date": "2026-11-17 11:31",
+   "date": "2026-11-17 00:00",
    "titre": "Gabon : 10 milliards FCFA pour une usine capable de transformer jusqu'à 50 tonnes de poisson par jour",
-   "extrait": "Le Gabon pourrait accueillir, dès mai 2027, une nouvelle unité industrielle capable de transformer jusqu'à 50 tonnes de poisson par jour. Implanté dans la zone...",
+   "extrait": "17/11/2026",
    "url": "https://www.sikafinance.com/marches/gabon-10-milliards-fcfa-pour-une-usine-capable-de-transformer-jusqu-a-50-tonnes-de-poisson-par-jour_65791",
    "ticker": null,
    "premium": false,
@@ -274,7 +498,7 @@
    "source": "Actualites economiques",
    "date": "2026-11-17 00:00",
    "titre": "Côte d’Ivoire : Fatim Cissé-Kouadio prend la présidence des conseils d’administration de Kaydan Technology et Kaydan Mining",
-   "extrait": "17/11/2026",
+   "extrait": "05/06/2026",
    "url": "https://www.sikafinance.com/marches/cote-divoire-fatim-cisse-kouadio-prend-la-presidence-des-conseils-dadministration-de-kaydan-technology-et-kaydan-mining_65772",
    "ticker": null,
    "premium": false,
@@ -4126,6 +4350,19 @@
  ],
  "communiques": [
   {
+   "date": "2026-11-17",
+   "societe": "VIVO ENERGY CI",
+   "titre": "VIVO ENERGY CI - Rapport dactivites - 3e trimestre 2026",
+   "url": "https://www.sikafinance.com/docs/vivo-energy-ci-vivo-energy-ci--rapport-dactivites--3e-trimestre-2026.pdf",
+   "ticker": "SHEC",
+   "categorie": "Resultats",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "SHEC"
+   ]
+  },
+  {
    "date": "2026-11-16",
    "societe": "SOGB",
    "titre": "SOGB CI - Communique de Presse",
@@ -5052,23 +5289,23 @@
  "matieres": [
   {
    "nom": "ALUMINIUM",
-   "dernier": 3124.5,
-   "variation": -0.28
+   "dernier": 3040.75,
+   "variation": -2.68
   },
   {
    "nom": "ARGENT (ONCE EN $)",
-   "dernier": 47.31,
-   "variation": -3.19
+   "dernier": 45.77,
+   "variation": -3.26
   },
   {
    "nom": "AVOINE",
-   "dernier": 356.0,
-   "variation": -1.52
+   "dernier": 360.5,
+   "variation": 1.26
   },
   {
    "nom": "BLÉ",
-   "dernier": 601.0,
-   "variation": -0.95
+   "dernier": 610.25,
+   "variation": 1.54
   },
   {
    "nom": "BOIS DE CONSTRUCTION",
@@ -5077,58 +5314,58 @@
   },
   {
    "nom": "CACAO",
-   "dernier": 5184.0,
-   "variation": -1.44
+   "dernier": 5177.0,
+   "variation": -0.14
   },
   {
    "nom": "CAFÉ",
-   "dernier": 280.7,
-   "variation": 0.74
+   "dernier": 286.6,
+   "variation": 2.1
   },
   {
    "nom": "CAOUTCHOUC",
-   "dernier": 441.9,
-   "variation": 0.05
+   "dernier": 436.5,
+   "variation": -1.22
   },
   {
    "nom": "COTON",
-   "dernier": 77.0,
-   "variation": -2.26
+   "dernier": 77.32,
+   "variation": 0.42
   },
   {
    "nom": "CUIVRE",
-   "dernier": 6.0,
-   "variation": -1.35
+   "dernier": 5.98,
+   "variation": -0.36
   },
   {
    "nom": "GAZ NATUREL",
-   "dernier": 3.12,
-   "variation": -3.34
+   "dernier": 3.21,
+   "variation": 2.75
   },
   {
    "nom": "JUS D'ORANGE",
-   "dernier": 136.15,
-   "variation": -0.11
+   "dernier": 135.0,
+   "variation": -0.84
   },
   {
    "nom": "MAIS",
-   "dernier": 448.75,
-   "variation": 0.73
+   "dernier": 446.75,
+   "variation": -0.45
   },
   {
    "nom": "NICKEL",
-   "dernier": 15832.25,
-   "variation": -0.44
+   "dernier": 16395.75,
+   "variation": 3.56
   },
   {
    "nom": "OR (ONCE EN $)",
-   "dernier": 3856.18,
-   "variation": -0.57
+   "dernier": 3773.85,
+   "variation": -2.14
   },
   {
    "nom": "PALLADIUM",
-   "dernier": 973.57,
-   "variation": -2.98
+   "dernier": 953.17,
+   "variation": -2.1
   },
   {
    "nom": "PALM OIL FUTURES ($)",
@@ -5137,18 +5374,18 @@
   },
   {
    "nom": "PETROLE BRENT",
-   "dernier": 90.96,
-   "variation": -3.66
+   "dernier": 90.25,
+   "variation": -0.78
   },
   {
    "nom": "PETROLE WTI",
-   "dernier": 85.72,
-   "variation": -3.21
+   "dernier": 86.01,
+   "variation": 0.34
   },
   {
    "nom": "PLATINE",
-   "dernier": 1442.64,
-   "variation": -3.45
+   "dernier": 1383.55,
+   "variation": -4.1
   },
   {
    "nom": "RIZ FUTURES ($)",
@@ -5157,13 +5394,13 @@
   },
   {
    "nom": "SOJA",
-   "dernier": 1229.0,
-   "variation": -1.13
+   "dernier": 1225.5,
+   "variation": -0.28
   },
   {
    "nom": "SUCRE",
-   "dernier": 18.1,
-   "variation": -1.68
+   "dernier": 18.17,
+   "variation": 0.39
   },
   {
    "nom": "ZINC",
