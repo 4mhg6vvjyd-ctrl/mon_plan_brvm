@@ -1,13 +1,69 @@
 {
- "maj": "2026-11-19 19:45",
+ "maj": "2026-11-20 19:43",
  "articles": [
   {
-   "id": "65851",
+   "id": "65867",
    "source": "Actualites economiques",
-   "date": "2026-11-19 17:46",
-   "titre": "Transport aérien : Alors que la demande mondiale de passagers recule de 0,5% en septembre, l’Afrique affiche une croissance de 8%",
-   "extrait": "Le transport aérien mondial peine à retrouver son altitude de croisière. En septembre 2026, la demande de passagers a diminué de 0,5% sur un an, pénalisée nota...",
-   "url": "https://www.sikafinance.com/marches/transport-aerien-alors-que-la-demande-mondiale-de-passagers-recule-de-0-5-en-septembre-lafrique-affiche-une-croissance-de-8_65851",
+   "date": "2026-11-20 16:55",
+   "titre": "Cameroun : Un groupe industriel ivoirien s'apprête à entrer au capital du raffineur Maya",
+   "extrait": "Selon les informations de Sika Finance, un accord a été trouvé pour l'entrée d'un groupe industriel ivoirien au capital de la Société camerounaise de raffinage...",
+   "url": "https://www.sikafinance.com/marches/cameroun-un-groupe-industriel-ivoirien-s-apprete-a-entrer-au-capital-du-raffineur-maya_65867",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Financement",
+   "score": 2,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65866",
+   "source": "Actualites economiques",
+   "date": "2026-11-20 16:52",
+   "titre": "Côte d’Ivoire : Société Générale et SanlamAllianz célèbrent les 20 ans de leur produit d’épargne retraite, PRZ",
+   "extrait": "Préparer sa retraite pendant que l'on dispose encore de revenus professionnels reste un défi pour de nombreux actifs. Lancé en 2006 par Société Générale C&ocir...",
+   "url": "https://www.sikafinance.com/marches/cote-divoire-societe-generale-et-sanlamallianz-celebrent-les-20-ans-de-leur-produit-depargne-retraite-prz_65866",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Matieres premieres",
+   "score": 1,
+   "sentiment": -1,
+   "tickers": []
+  },
+  {
+   "id": "65865",
+   "source": "Actualites economiques",
+   "date": "2026-11-20 16:42",
+   "titre": "Le Congo s’associe au russe Geoscan pour mieux évaluer son potentiel minier",
+   "extrait": "La société congolaise Papagallo Congo Limited (PCL), spécialisée dans la numérisation et les technologies de l'information, s'associe au groupe russe Geoscan, ...",
+   "url": "https://www.sikafinance.com/marches/le-congo-sassocie-au-russe-geoscan-pour-mieux-evaluer-son-potentiel-minier_65865",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65864",
+   "source": "Actualites du marche",
+   "date": "2026-11-20 16:27",
+   "titre": "BRVM : L'équilibre des variations ne suffit pas à redresser les indices",
+   "extrait": "La BRVM termine la séance dans le rouge, prolongeant une semaine de marché hésitant, sur fond d'attentisme autour des d...",
+   "url": "https://www.sikafinance.com/marches/brvm-l-equilibre-des-variations-ne-suffit-pas-a-redresser-les-indices_65864",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65862",
+   "source": "Actualites economiques",
+   "date": "2026-11-20 11:54",
+   "titre": "BDEAC : Après son premier Eurobond réussi, la banque ambitionne de lever près de 300 milliards FCFA supplémentaires sur les marchés internationaux",
+   "extrait": "La Banque de développement des États de l'Afrique centrale (BDEAC) prévoit de mobiliser 298,3 milliards FCFA supplémentaires auprès de partenaire...",
+   "url": "https://www.sikafinance.com/marches/bdeac-apres-son-premier-eurobond-reussi-la-banque-ambitionne-de-lever-pres-de-300-milliards-fcfa-supplementaires-sur-les-marches-internationaux_65862",
    "ticker": null,
    "premium": false,
    "categorie": "Macro / monnaie",
@@ -16,12 +72,54 @@
    "tickers": []
   },
   {
-   "id": "65849",
+   "id": "65860",
    "source": "Actualites economiques",
-   "date": "2026-11-19 17:03",
-   "titre": "SIREXE 2026 : Sangafowa-Coulibaly lance ''SIREXE Invest'' pour rapprocher projets et capitaux",
-   "extrait": "La plateforme met en relation des porteurs de projets miniers, pétroliers et énergétiques avec des investisseurs. Pour cette première édition, consacrée à des ...",
-   "url": "https://www.sikafinance.com/marches/sirexe-2026-sangafowa-coulibaly-lance--sirexe-invest--pour-rapprocher-projets-et-capitaux_65849",
+   "date": "2026-11-20 11:12",
+   "titre": "SIREXE 2026 : Pour Schneider Electric, la fiabilité de l’énergie conditionne l’industrialisation",
+   "extrait": "Ouvert ce mercredi au Parc des expositions d'Abidjan, le Salon international des ressources extractives et de l'énergie met l'or, le manganèse et les hydrocarbu...",
+   "url": "https://www.sikafinance.com/marches/sirexe-2026-pour-schneider-electric-la-fiabilite-de-lenergie-conditionne-lindustrialisation_65860",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65858",
+   "source": "Actualites economiques",
+   "date": "2026-11-20 10:22",
+   "titre": "SIREXE/Gaz : La Côte d’Ivoire, le Bénin et le Togo posent les bases d’un marché régional",
+   "extrait": "En signant un accord de coopération gazière au SIREXE 2026, les 3 pays ouvrent la voie à une mutualisation de leurs approvisionnements en gaz naturel. Soutenue...",
+   "url": "https://www.sikafinance.com/marches/sirexegaz-la-cote-divoire-le-benin-et-le-togo-posent-les-bases-dun-marche-regional_65858",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65856",
+   "source": "Actualites economiques",
+   "date": "2026-11-20 09:57",
+   "titre": "Sénégal : Controverse autour de la ‘’légalité’’ de l’acte de mise en vigueur de la LFR 2026",
+   "extrait": "Malgré la mise en vigueur d'un décret présidentiel, le débat sur la Loi de finances rectificative LFR 2026 ne s'éteint pas. Une vive controverse est née sur la...",
+   "url": "https://www.sikafinance.com/marches/senegal-controverse-autour-de-la-legalite-de-lacte-de-mise-en-vigueur-de-la-lfr-2026_65856",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65855",
+   "source": "Actualites economiques",
+   "date": "2026-11-20 09:35",
+   "titre": "Or ivoirien : AFG Bank veut que la mine se finance à Abidjan",
+   "extrait": "Trois ans après sa création, AFG Bank Côte d'Ivoire s'est fait une place dans les tours de table miniers. Présente au SIREXE 2026, la banque veut désormai...",
+   "url": "https://www.sikafinance.com/marches/or-ivoirien-afg-bank-veut-que-la-mine-se-finance-a-abidjan_65855",
    "ticker": null,
    "premium": false,
    "categorie": "Autre",
@@ -44,11 +142,53 @@
    "tickers": []
   },
   {
+   "id": "65835",
+   "source": "Actualites du marche",
+   "date": "2026-11-19 12:47",
+   "titre": "Afrique : 1 800 milliards USD ont transité par les systèmes de paiement instantané en 2025",
+   "extrait": "À la fin de l'année 2025, les systèmes de paiement instantané actifs sur le continent ont enregistré près de 71 ...",
+   "url": "https://www.sikafinance.com/marches/afrique-1-800-milliards-usd-ont-transite-par-les-systemes-de-paiement-instantane-en-2025_65835",
+   "ticker": null,
+   "premium": true,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65851",
+   "source": "Actualites economiques",
+   "date": "2026-11-19 00:00",
+   "titre": "Transport aérien : Alors que la demande mondiale de passagers recule de 0,5% en septembre, l’Afrique affiche une croissance de 8%",
+   "extrait": "19/11/2026",
+   "url": "https://www.sikafinance.com/marches/transport-aerien-alors-que-la-demande-mondiale-de-passagers-recule-de-0-5-en-septembre-lafrique-affiche-une-croissance-de-8_65851",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Macro / monnaie",
+   "score": 2,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65849",
+   "source": "Actualites economiques",
+   "date": "2026-11-19 00:00",
+   "titre": "SIREXE 2026 : Sangafowa-Coulibaly lance ''SIREXE Invest'' pour rapprocher projets et capitaux",
+   "extrait": "19/11/2026",
+   "url": "https://www.sikafinance.com/marches/sirexe-2026-sangafowa-coulibaly-lance--sirexe-invest--pour-rapprocher-projets-et-capitaux_65849",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
    "id": "65847",
    "source": "Actualites economiques",
-   "date": "2026-11-19 16:28",
+   "date": "2026-11-19 00:00",
    "titre": "BGFIBank Côte d’Ivoire mobilise 100 millions d’euros pour financer la campagne cacao",
-   "extrait": "Kafèhè Silué, directeur général de BGFIBank Côte d'Ivoire La banque a obtenu un crédit syndiqué de 100 millions d'euros sur un an, arrangé par la bri...",
+   "extrait": "19/11/2026",
    "url": "https://www.sikafinance.com/marches/bgfibank-cote-divoire-mobilise-100-millions-deuros-pour-financer-la-campagne-cacao_65847",
    "ticker": null,
    "premium": false,
@@ -60,9 +200,9 @@
   {
    "id": "65845",
    "source": "Actualites economiques",
-   "date": "2026-11-19 15:47",
+   "date": "2026-11-19 00:00",
    "titre": "Togo : L’État porte à 34 milliards FCFA les subventions aux carburants pour limiter la hausse des prix à la pompe",
-   "extrait": "Face à la hausse des cours pétroliers, le Togo desserre les cordons de la bourse pour préserver le pouvoir d'achat des ménages. Le gouvernement augmente de 20 ...",
+   "extrait": "19/11/2026",
    "url": "https://www.sikafinance.com/marches/togo-letat-porte-a-34-milliards-fcfa-les-subventions-aux-carburants-pour-limiter-la-hausse-des-prix-a-la-pompe_65845",
    "ticker": null,
    "premium": false,
@@ -74,9 +214,9 @@
   {
    "id": "65842",
    "source": "Actualites economiques",
-   "date": "2026-11-19 15:04",
+   "date": "2026-11-19 00:00",
    "titre": "Côte d’Ivoire : La BAD finance à hauteur de 12 milliards FCFA une usine de ciment à faible empreinte carbone",
-   "extrait": "La Côte d'Ivoire entend renforcer sa production locale de ciment tout en réduisant son recours au clinker importé, un composant essentiel à la fabricatio...",
+   "extrait": "19/11/2026",
    "url": "https://www.sikafinance.com/marches/cote-divoire-la-bad-finance-a-hauteur-de-12-milliards-fcfa-une-usine-de-ciment-a-faible-empreinte-carbone_65842",
    "ticker": null,
    "premium": false,
@@ -88,9 +228,9 @@
   {
    "id": "65840",
    "source": "Actualites economiques",
-   "date": "2026-11-19 14:27",
+   "date": "2026-11-19 00:00",
    "titre": "Afrique : La BAD mobilise ses financements pour renforcer la protection contre les catastrophes climatiques",
-   "extrait": "Plus de 42 millions de personnes en Afrique bénéficient déjà d'une meilleure protection contre les phénomènes météorologiques extrêmes grâce aux systèmes...",
+   "extrait": "19/11/2026",
    "url": "https://www.sikafinance.com/marches/afrique-la-bad-mobilise-ses-financements-pour-renforcer-la-protection-contre-les-catastrophes-climatiques_65840",
    "ticker": null,
    "premium": false,
@@ -102,9 +242,9 @@
   {
    "id": "65839",
    "source": "Actualites economiques",
-   "date": "2026-11-19 13:53",
+   "date": "2026-11-19 00:00",
    "titre": "90 collaborateurs distingués : La SIB célèbre l’engagement et la fidélité de son personnel",
-   "extrait": "La Société Ivoirienne de Banque (SIB) a célébré, le vendredi 13 novembre 2026, l'engagement et la fidélité de ses collaborateurs à l'occasion d'une cérémonie d...",
+   "extrait": "19/11/2026",
    "url": "https://www.sikafinance.com/marches/90-collaborateurs-distingues-la-sib-celebre-lengagement-et-la-fidelite-de-son-personnel_65839",
    "ticker": null,
    "premium": false,
@@ -116,9 +256,9 @@
   {
    "id": "65838",
    "source": "Actualites economiques",
-   "date": "2026-11-19 13:51",
+   "date": "2026-11-19 00:00",
    "titre": "Minerais critiques: Washington lorgne la production tchadienne d'antimoine",
-   "extrait": "Les Etats-Unis lorgnent désormais la production tchadienne d'Antimoine, un minerai stratégique utilisé dans l'électronique ou encore l'industrie de la défense....",
+   "extrait": "19/11/2026",
    "url": "https://www.sikafinance.com/marches/minerais-critiques-washington-lorgne-la-production-tchadienne-d-antimoine_65838",
    "ticker": null,
    "premium": false,
@@ -130,27 +270,13 @@
   {
    "id": "65837",
    "source": "Actualites economiques",
-   "date": "2026-11-19 13:43",
+   "date": "2026-11-19 00:00",
    "titre": "Cameroun : La zone industrielle de Dibamba retenue pour accueillir le data center de 75 millions USD de l’américain Cybastion",
-   "extrait": "Le pôle industrialo-portuaire de Dibamba, près de Douala, devrait accueillir le centre de données que l'entreprise américaine Cybastion projette de const...",
+   "extrait": "19/11/2026",
    "url": "https://www.sikafinance.com/marches/cameroun-la-zone-industrielle-de-dibamba-retenue-pour-accueillir-le-data-center-de-75-millions-usd-de-lamericain-cybastion_65837",
    "ticker": null,
    "premium": false,
    "categorie": "Hors zone UEMOA",
-   "score": 0,
-   "sentiment": 0,
-   "tickers": []
-  },
-  {
-   "id": "65835",
-   "source": "Actualites du marche",
-   "date": "2026-11-19 12:47",
-   "titre": "Afrique : 1 800 milliards USD ont transité par les systèmes de paiement instantané en 2025",
-   "extrait": "À la fin de l'année 2025, les systèmes de paiement instantané actifs sur le continent ont enregistré près de 71 ...",
-   "url": "https://www.sikafinance.com/marches/afrique-1-800-milliards-usd-ont-transite-par-les-systemes-de-paiement-instantane-en-2025_65835",
-   "ticker": null,
-   "premium": true,
-   "categorie": "Autre",
    "score": 0,
    "sentiment": 0,
    "tickers": []
@@ -244,7 +370,7 @@
    "source": "Actualites economiques",
    "date": "2026-11-19 00:00",
    "titre": "RDC : L’américain Wave décroche une licence pour proposer des services de monnaie électronique",
-   "extrait": "19/11/2026",
+   "extrait": "05/06/2026",
    "url": "https://www.sikafinance.com/marches/rdc-lamericain-wave-decroche-une-licence-pour-proposer-des-services-de-monnaie-electronique_65825",
    "ticker": null,
    "premium": false,
@@ -5555,23 +5681,23 @@
  "matieres": [
   {
    "nom": "ALUMINIUM",
-   "dernier": 2919.0,
-   "variation": -4.0
+   "dernier": 2839.5,
+   "variation": -2.72
   },
   {
    "nom": "ARGENT (ONCE EN $)",
-   "dernier": 45.36,
-   "variation": -0.9
+   "dernier": 42.39,
+   "variation": -6.55
   },
   {
    "nom": "AVOINE",
-   "dernier": 350.5,
-   "variation": -2.77
+   "dernier": 355.5,
+   "variation": 1.43
   },
   {
    "nom": "BLÉ",
-   "dernier": 586.0,
-   "variation": -3.97
+   "dernier": 595.0,
+   "variation": 1.54
   },
   {
    "nom": "BOIS DE CONSTRUCTION",
@@ -5580,58 +5706,58 @@
   },
   {
    "nom": "CACAO",
-   "dernier": 5002.0,
-   "variation": -3.38
+   "dernier": 5201.0,
+   "variation": 3.98
   },
   {
    "nom": "CAFÉ",
-   "dernier": 280.95,
-   "variation": -1.97
+   "dernier": 282.05,
+   "variation": 0.39
   },
   {
    "nom": "CAOUTCHOUC",
-   "dernier": 430.6,
-   "variation": -1.35
+   "dernier": 422.8,
+   "variation": -1.81
   },
   {
    "nom": "COTON",
-   "dernier": 74.97,
-   "variation": -3.04
+   "dernier": 75.95,
+   "variation": 1.31
   },
   {
    "nom": "CUIVRE",
-   "dernier": 5.66,
-   "variation": -5.3
+   "dernier": 5.63,
+   "variation": -0.61
   },
   {
    "nom": "GAZ NATUREL",
-   "dernier": 3.37,
-   "variation": 5.11
+   "dernier": 3.27,
+   "variation": -3.08
   },
   {
    "nom": "JUS D'ORANGE",
-   "dernier": 129.55,
-   "variation": -4.04
+   "dernier": 132.55,
+   "variation": 2.32
   },
   {
    "nom": "MAIS",
-   "dernier": 435.5,
-   "variation": -2.52
+   "dernier": 439.0,
+   "variation": 0.8
   },
   {
    "nom": "NICKEL",
-   "dernier": 15860.25,
-   "variation": -3.27
+   "dernier": 15591.0,
+   "variation": -1.7
   },
   {
    "nom": "OR (ONCE EN $)",
-   "dernier": 3731.25,
-   "variation": -1.13
+   "dernier": 3575.48,
+   "variation": -4.17
   },
   {
    "nom": "PALLADIUM",
-   "dernier": 961.57,
-   "variation": 0.88
+   "dernier": 900.24,
+   "variation": -6.38
   },
   {
    "nom": "PALM OIL FUTURES ($)",
@@ -5640,18 +5766,18 @@
   },
   {
    "nom": "PETROLE BRENT",
-   "dernier": 90.41,
-   "variation": 0.18
+   "dernier": 88.12,
+   "variation": -2.53
   },
   {
    "nom": "PETROLE WTI",
-   "dernier": 83.26,
-   "variation": -3.2
+   "dernier": 83.21,
+   "variation": -0.06
   },
   {
    "nom": "PLATINE",
-   "dernier": 1387.05,
-   "variation": 0.25
+   "dernier": 1307.8,
+   "variation": -5.71
   },
   {
    "nom": "RIZ FUTURES ($)",
@@ -5660,13 +5786,13 @@
   },
   {
    "nom": "SOJA",
-   "dernier": 1216.75,
-   "variation": -0.71
+   "dernier": 1207.5,
+   "variation": -0.76
   },
   {
    "nom": "SUCRE",
-   "dernier": 18.04,
-   "variation": -0.72
+   "dernier": 17.16,
+   "variation": -4.88
   },
   {
    "nom": "ZINC",
