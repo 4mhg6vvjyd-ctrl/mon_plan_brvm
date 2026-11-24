@@ -1,13 +1,113 @@
 {
- "maj": "2026-11-23 19:44",
+ "maj": "2026-11-24 19:44",
  "articles": [
   {
-   "id": "65898",
+   "id": "65923",
    "source": "Actualites economiques",
-   "date": "2026-11-23 17:58",
-   "titre": "Burkina : Inauguration d’une académie technologique de plus de 37 milliards FCFA pour accélérer la souveraineté industrielle",
-   "extrait": "Le Burkina Faso entend faire de la ma&icirc;trise technologique un nouveau moteur de sa transformation économique. Pour concrétiser cette ambition, les autorit...",
-   "url": "https://www.sikafinance.com/marches/burkina-inauguration-dune-academie-technologique-de-plus-de-37-milliards-fcfa-pour-accelerer-la-souverainete-industrielle_65898",
+   "date": "2026-11-24 18:37",
+   "titre": "Cameroun : Selon la Banque mondiale, le maintien du pays sur la liste grise du GAFI a renchéri le coût du financement des PME",
+   "extrait": "&nbsp; L'inscription du Cameroun sur la liste grise du Groupe d'action financière (GAFI) ne se traduit pas uniquement par une dégradation de son image auprès d...",
+   "url": "https://www.sikafinance.com/marches/cameroun-selon-la-banque-mondiale-le-maintien-du-pays-sur-la-liste-grise-du-gafi-a-rencheri-le-cout-du-financement-des-pme_65923",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": -1,
+   "tickers": []
+  },
+  {
+   "id": "65922",
+   "source": "Actualites economiques",
+   "date": "2026-11-24 17:22",
+   "titre": "Ghana : Tullow Oil conclut un accord avec l’État pour régler un litige fiscal de 387 millions USD",
+   "extrait": "Tullow Oil tourne une page importante de son bras de fer fiscal avec les autorités ghanéennes. En effet, le groupe pétrolier britannique, fortement implanté en...",
+   "url": "https://www.sikafinance.com/marches/ghana-tullow-oil-conclut-un-accord-avec-letat-pour-regler-un-litige-fiscal-de-387-millions-usd_65922",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65921",
+   "source": "Actualites du marche",
+   "date": "2026-11-24 17:12",
+   "titre": "BRVM : La pression retombe d’un cran, TotalEnergies Marketing CI s’illustre",
+   "extrait": "La BRVM achève la séance de ce mardi dans une dynamique nettement plus calme que celle observée à l'ouverture de ...",
+   "url": "https://www.sikafinance.com/marches/brvm-la-pression-retombe-dun-cran-totalenergies-marketing-ci-sillustre_65921",
+   "ticker": "TTLC",
+   "premium": false,
+   "categorie": "Autre",
+   "score": 1,
+   "sentiment": 0,
+   "tickers": [
+    "TTLC"
+   ]
+  },
+  {
+   "id": "65920",
+   "source": "Actualites economiques",
+   "date": "2026-11-24 16:53",
+   "titre": "Massetou Traoré nommée Directrice générale de CREDAF GROUP",
+   "extrait": "CREDAF GROUP annonce la nomination de Massetou Traoré à sa direction générale. Son mandat couvre l'ensemble des activités du Groupe, dont celles de ses entités...",
+   "url": "https://www.sikafinance.com/marches/massetou-traore-nommee-directrice-generale-de-credaf-group_65920",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Gouvernance",
+   "score": 1,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65917",
+   "source": "Actualites du marche",
+   "date": "2026-11-24 16:08",
+   "titre": "Pays en développement : Le déficit de financement des PME atteint 4 000 milliards USD, soit 11% du PIB",
+   "extrait": "Les petites entreprises pourraient être l'un des principaux réservoirs d'emplois des économies émergentes au cours de l...",
+   "url": "https://www.sikafinance.com/marches/pays-en-developpement-le-deficit-de-financement-des-pme-atteint-4-000-milliards-usd-soit-11-du-pib_65917",
+   "ticker": null,
+   "premium": true,
+   "categorie": "Macro / monnaie",
+   "score": 2,
+   "sentiment": -1,
+   "tickers": []
+  },
+  {
+   "id": "65918",
+   "source": "Actualites economiques",
+   "date": "2026-11-24 16:01",
+   "titre": "Nigeria : Après la forte sursouscription de son IPO, Dangote obtient le feu vert pour augmenter le nombre d’actions à attribuer",
+   "extrait": "La Securities and Exchange Commission (SEC), l'autorité de régulation du marché financier nigérian, a approuvé le 23 novembre 2026 le plan de répartition des a...",
+   "url": "https://www.sikafinance.com/marches/nigeria-apres-la-forte-sursouscription-de-son-ipo-dangote-obtient-le-feu-vert-pour-augmenter-le-nombre-dactions-a-attribuer_65918",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65916",
+   "source": "Actualites economiques",
+   "date": "2026-11-24 15:14",
+   "titre": "Le Tchad veut mobiliser 3,3 milliards FCFA pour protéger ses activités agropastorales des chocs climatiques",
+   "extrait": "Le Tchad recherche 3,3 milliards FCFA pour financer quatre projets destinés à renforcer la résilience des populations et des activités économiques face aux cha...",
+   "url": "https://www.sikafinance.com/marches/le-tchad-veut-mobiliser-3-3-milliards-fcfa-pour-proteger-ses-activites-agropastorales-des-chocs-climatiques_65916",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65915",
+   "source": "Actualites economiques",
+   "date": "2026-11-24 15:01",
+   "titre": "Côte d’Ivoire : L’australien MetalsGrove identifie 7 cibles aurifères et prépare des forages dès 2027",
+   "extrait": "La Côte d'Ivoire continue d'attirer les compagnies minières internationales à la recherche de nouveaux gisements d'or. Dans le centre-ouest du pays, la s...",
+   "url": "https://www.sikafinance.com/marches/cote-divoire-laustralien-metalsgrove-identifie-7-cibles-auriferes-et-prepare-des-forages-des-2027_65915",
    "ticker": null,
    "premium": false,
    "categorie": "Autre",
@@ -16,12 +116,12 @@
    "tickers": []
   },
   {
-   "id": "65897",
+   "id": "65914",
    "source": "Actualites economiques",
-   "date": "2026-11-23 17:38",
-   "titre": "Côte d’Ivoire : L’organisme panafricain de prévoyance sociale, CIPRES, forme une centaine de cadres aux nouveaux outils de gestion des pensions",
-   "extrait": "La gestion des ressources destinées au financement des pensions et des prestations sociales exige des outils de contrôle et de suivi à la hauteur des eng...",
-   "url": "https://www.sikafinance.com/marches/cote-divoire-lorganisme-panafricain-de-prevoyance-sociale-cipres-forme-une-centaine-de-cadres-aux-nouveaux-outils-de-gestion-des-pensions_65897",
+   "date": "2026-11-24 14:57",
+   "titre": "Énergie numérique : ‘’Avant mars 2028, la Côte d’Ivoire sera le 1er réseau électrique africain certifié’’ ISO 24001",
+   "extrait": "La Côte d'Ivoire s'apprête à devenir une référence continentale en matière de sécurité énergétique grâce au programme national d'électrification et ...",
+   "url": "https://www.sikafinance.com/marches/energie-numerique-avant-mars-2028-la-cote-divoire-sera-le-1er-reseau-electrique-africain-certifie-iso-24001_65914",
    "ticker": null,
    "premium": false,
    "categorie": "Financement",
@@ -30,16 +130,88 @@
    "tickers": []
   },
   {
-   "id": "65896",
+   "id": "65912",
+   "source": "Actualites du marche",
+   "date": "2026-11-24 13:24",
+   "titre": "Pour la 1ère fois, la Côte d’Ivoire enregistre un excédent commercial de 412 milliards FCFA vis-à-vis de la France à fin 2025",
+   "extrait": "La Côte d'Ivoire renforce progressivement sa position dans les échanges commerciaux avec la France. En 2025, selo...",
+   "url": "https://www.sikafinance.com/marches/pour-la-1ere-fois-la-cote-divoire-enregistre-un-excedent-commercial-de-412-milliards-fcfa-vis-a-vis-de-la-france-a-fin-2025_65912",
+   "ticker": null,
+   "premium": true,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 1,
+   "tickers": []
+  },
+  {
+   "id": "65910",
    "source": "Actualites economiques",
-   "date": "2026-11-23 17:28",
-   "titre": "Afrique : Afreximbank vise 240 milliards d’euros d’affacturage pour financer les PME",
-   "extrait": "Les factures impayées pourraient devenir l'une des principales sources de financement des PME africaines. C'est le pari d'Afreximbank, qui entend accélérer le ...",
-   "url": "https://www.sikafinance.com/marches/afrique-afreximbank-vise-240-milliards-deuros-daffacturage-pour-financer-les-pme_65896",
+   "date": "2026-11-24 11:52",
+   "titre": "Côte d’Ivoire : Pétro Ivoire crée une nouvelle filiale dédiée à la maintenance des véhicules",
+   "extrait": "Permettre aux automobilistes de faire le plein de carburant, mais aussi d'entretenir et de réparer leurs véhicules au même endroit. C'est l'ambition que poursu...",
+   "url": "https://www.sikafinance.com/marches/cote-divoire-petro-ivoire-cree-une-nouvelle-filiale-dediee-a-la-maintenance-des-vehicules_65910",
    "ticker": null,
    "premium": false,
-   "categorie": "Financement",
-   "score": 2,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65909",
+   "source": "Actualites economiques",
+   "date": "2026-11-24 11:45",
+   "titre": "Cameroun : Ces nouvelles règles qui devraient renchérir les coûts d’exploitation des drones",
+   "extrait": "L'importation et l'exploitation commerciale des drones au Cameroun seront désormais soumises à des exigences administratives et techniques plus strictes. &Agra...",
+   "url": "https://www.sikafinance.com/marches/cameroun-ces-nouvelles-regles-qui-devraient-rencherir-les-couts-dexploitation-des-drones_65909",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65907",
+   "source": "Actualites economiques",
+   "date": "2026-11-24 00:00",
+   "titre": "Énergie et télécoms : Comment Orange CI utilise les mini-grids pour apporter électricité et Internet aux localités enclavées",
+   "extrait": "24/11/2026",
+   "url": "https://www.sikafinance.com/marches/energie-et-telecoms-comment-orange-ci-utilise-les-mini-grids-pour-apporter-electricite-et-internet-aux-localites-enclavees_65907",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": [
+    "ORAC"
+   ]
+  },
+  {
+   "id": "65905",
+   "source": "Actualites economiques",
+   "date": "2026-11-24 00:00",
+   "titre": "Cameroun : Apple réajuste les revenus des développeurs d’applications commercialisées sur son App Store",
+   "extrait": "24/11/2026",
+   "url": "https://www.sikafinance.com/marches/cameroun-apple-reajuste-les-revenus-des-developpeurs-dapplications-commercialisees-sur-son-app-store_65905",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65906",
+   "source": "Actualites economiques",
+   "date": "2026-11-24 00:00",
+   "titre": "Côte d’Ivoire : AGF, FIN’Elle et HEC Paris s’unissent pour former 105 femmes entrepreneures",
+   "extrait": "23/11/2026",
+   "url": "https://www.sikafinance.com/marches/cote-divoire-agf-finelle-et-hec-paris-sunissent-pour-former-105-femmes-entrepreneures_65906",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
    "sentiment": 0,
    "tickers": []
   },
@@ -60,22 +232,6 @@
    ]
   },
   {
-   "id": "65892",
-   "source": "Actualites economiques",
-   "date": "2026-11-23 16:20",
-   "titre": "Télécoms : Orange Côte d’Ivoire mise sur la transparence pour consolider la confiance des consommateurs",
-   "extrait": "La confiance des consommateurs ne se décrète pas, elle se construit. C'est le pari que fait Orange Côte d'Ivoire en multipliant les initiatives de proxim...",
-   "url": "https://www.sikafinance.com/marches/telecoms-orange-cote-divoire-mise-sur-la-transparence-pour-consolider-la-confiance-des-consommateurs_65892",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Autre",
-   "score": 0,
-   "sentiment": 0,
-   "tickers": [
-    "ORAC"
-   ]
-  },
-  {
    "id": "65894",
    "source": "Actualites du marche",
    "date": "2026-11-23 16:13",
@@ -88,64 +244,6 @@
    "score": 0,
    "sentiment": 0,
    "tickers": []
-  },
-  {
-   "id": "65888",
-   "source": "Actualites economiques",
-   "date": "2026-11-23 12:59",
-   "titre": "Le Cameroun veut boucler une levée de 35 milliards FCFA sur le marché des titres publics",
-   "extrait": "Deux émissions de Bons du Trésor assimilables (BTA), programmées le 23 novembre 2026, doivent permettre au Cameroun de mobiliser 35 milliards FCFA auprès des i...",
-   "url": "https://www.sikafinance.com/marches/le-cameroun-veut-boucler-une-levee-de-35-milliards-fcfa-sur-le-marche-des-titres-publics_65888",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Hors zone UEMOA",
-   "score": 0,
-   "sentiment": 0,
-   "tickers": []
-  },
-  {
-   "id": "65887",
-   "source": "Actualites economiques",
-   "date": "2026-11-23 12:57",
-   "titre": "Côte d’Ivoire : Perseus Mining célèbre ses partenaires et mise sur des relations durables avec les communautés",
-   "extrait": "Dix ans après son implantation en Côte d'Ivoire, Perseus Mining entend inscrire son développement dans la durée, avec les communautés locales, les instit...",
-   "url": "https://www.sikafinance.com/marches/cote-divoire-perseus-mining-celebre-ses-partenaires-et-mise-sur-des-relations-durables-avec-les-communautes_65887",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Autre",
-   "score": 0,
-   "sentiment": 0,
-   "tickers": []
-  },
-  {
-   "id": "65886",
-   "source": "Actualites economiques",
-   "date": "2026-11-23 12:52",
-   "titre": "Cameroun : AFG-Bank revendique 652 millions d’euros de financement du commerce",
-   "extrait": "Dans une note de synthèse publiée en octobre 2026 et consacrée à un projet de facilité de 40 millions d'euros en faveur d'AFG-Bank Cameroun, la Banque africain...",
-   "url": "https://www.sikafinance.com/marches/cameroun-afg-bank-revendique-652-millions-deuros-de-financement-du-commerce_65886",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Hors zone UEMOA",
-   "score": 0,
-   "sentiment": 0,
-   "tickers": []
-  },
-  {
-   "id": "65881",
-   "source": "Actualites economiques",
-   "date": "2026-11-23 12:48",
-   "titre": "Coris Bank International CI prépare son introduction à la BRVM à travers une offre publique de vente de 20% de son capital",
-   "extrait": "Coris Bank International Côte d'Ivoire (CBI Côte d'Ivoire), filiale du Groupe Coris présente sur le marché ivoirien depuis 2013, a annoncé le 20 no...",
-   "url": "https://www.sikafinance.com/marches/coris-bank-international-ci-prepare-son-introduction-a-la-brvm-a-travers-une-offre-publique-de-vente-de-20-de-son-capital_65881",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Operation sur titres",
-   "score": 3,
-   "sentiment": 0,
-   "tickers": [
-    "CBIBF"
-   ]
   },
   {
    "id": "65889",
@@ -164,11 +262,127 @@
    ]
   },
   {
+   "id": "65898",
+   "source": "Actualites economiques",
+   "date": "2026-11-23 00:00",
+   "titre": "Burkina : Inauguration d’une académie technologique de plus de 37 milliards FCFA pour accélérer la souveraineté industrielle",
+   "extrait": "23/11/2026",
+   "url": "https://www.sikafinance.com/marches/burkina-inauguration-dune-academie-technologique-de-plus-de-37-milliards-fcfa-pour-accelerer-la-souverainete-industrielle_65898",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65897",
+   "source": "Actualites economiques",
+   "date": "2026-11-23 00:00",
+   "titre": "Côte d’Ivoire : L’organisme panafricain de prévoyance sociale, CIPRES, forme une centaine de cadres aux nouveaux outils de gestion des pensions",
+   "extrait": "23/11/2026",
+   "url": "https://www.sikafinance.com/marches/cote-divoire-lorganisme-panafricain-de-prevoyance-sociale-cipres-forme-une-centaine-de-cadres-aux-nouveaux-outils-de-gestion-des-pensions_65897",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65896",
+   "source": "Actualites economiques",
+   "date": "2026-11-23 00:00",
+   "titre": "Afrique : Afreximbank vise 240 milliards d’euros d’affacturage pour financer les PME",
+   "extrait": "23/11/2026",
+   "url": "https://www.sikafinance.com/marches/afrique-afreximbank-vise-240-milliards-deuros-daffacturage-pour-financer-les-pme_65896",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65892",
+   "source": "Actualites economiques",
+   "date": "2026-11-23 00:00",
+   "titre": "Télécoms : Orange Côte d’Ivoire mise sur la transparence pour consolider la confiance des consommateurs",
+   "extrait": "23/11/2026",
+   "url": "https://www.sikafinance.com/marches/telecoms-orange-cote-divoire-mise-sur-la-transparence-pour-consolider-la-confiance-des-consommateurs_65892",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": [
+    "ORAC"
+   ]
+  },
+  {
+   "id": "65888",
+   "source": "Actualites economiques",
+   "date": "2026-11-23 00:00",
+   "titre": "Le Cameroun veut boucler une levée de 35 milliards FCFA sur le marché des titres publics",
+   "extrait": "23/11/2026",
+   "url": "https://www.sikafinance.com/marches/le-cameroun-veut-boucler-une-levee-de-35-milliards-fcfa-sur-le-marche-des-titres-publics_65888",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65887",
+   "source": "Actualites economiques",
+   "date": "2026-11-23 00:00",
+   "titre": "Côte d’Ivoire : Perseus Mining célèbre ses partenaires et mise sur des relations durables avec les communautés",
+   "extrait": "23/11/2026",
+   "url": "https://www.sikafinance.com/marches/cote-divoire-perseus-mining-celebre-ses-partenaires-et-mise-sur-des-relations-durables-avec-les-communautes_65887",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65886",
+   "source": "Actualites economiques",
+   "date": "2026-11-23 00:00",
+   "titre": "Cameroun : AFG-Bank revendique 652 millions d’euros de financement du commerce",
+   "extrait": "23/11/2026",
+   "url": "https://www.sikafinance.com/marches/cameroun-afg-bank-revendique-652-millions-deuros-de-financement-du-commerce_65886",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65881",
+   "source": "Actualites economiques",
+   "date": "2026-11-23 00:00",
+   "titre": "Coris Bank International CI prépare son introduction à la BRVM à travers une offre publique de vente de 20% de son capital",
+   "extrait": "23/11/2026",
+   "url": "https://www.sikafinance.com/marches/coris-bank-international-ci-prepare-son-introduction-a-la-brvm-a-travers-une-offre-publique-de-vente-de-20-de-son-capital_65881",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Operation sur titres",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": [
+    "CBIBF"
+   ]
+  },
+  {
    "id": "65883",
    "source": "Actualites economiques",
-   "date": "2026-11-23 11:01",
+   "date": "2026-11-23 00:00",
    "titre": "SIREXE Awards 2026 : PETROCI Holding doublement récompensée",
-   "extrait": "À l'occasion de la première édition des SIREXE Awards, organisée le 21 novembre 2026 en marge du Salon International des Ressources Extractives et &Eacu...",
+   "extrait": "23/11/2026",
    "url": "https://www.sikafinance.com/marches/sirexe-awards-2026-petroci-holding-doublement-recompensee_65883",
    "ticker": null,
    "premium": false,
@@ -206,11 +420,25 @@
    "tickers": []
   },
   {
+   "id": "65900",
+   "source": "Actualites economiques",
+   "date": "2026-11-23 00:00",
+   "titre": "La RDC suspend à nouveau ses exportations de cobalt face à la surproduction",
+   "extrait": "23/11/2026",
+   "url": "https://www.sikafinance.com/marches/la-rdc-suspend-a-nouveau-ses-exportations-de-cobalt-face-a-la-surproduction_65900",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
    "id": "65873",
    "source": "Actualites economiques",
    "date": "2026-11-21 00:00",
    "titre": "Gabon : Fitch maintient sa note souveraine à ‘’CCC-‘’, malgré une amélioration attendue des finances publiques",
-   "extrait": "21/11/2026 Gabon : ExxonMobil ouvre la voie à u",
+   "extrait": "05/06/2026",
    "url": "https://www.sikafinance.com/marches/gabon-fitch-maintient-sa-note-souveraine-a-ccc--malgre-une-amelioration-attendue-des-finances-publiques_65873",
    "ticker": null,
    "premium": false,
@@ -5927,23 +6155,23 @@
  "matieres": [
   {
    "nom": "ALUMINIUM",
-   "dernier": 2860.0,
-   "variation": 0.72
+   "dernier": 2897.5,
+   "variation": 1.31
   },
   {
    "nom": "ARGENT (ONCE EN $)",
-   "dernier": 40.97,
-   "variation": -3.35
+   "dernier": 42.03,
+   "variation": 2.59
   },
   {
    "nom": "AVOINE",
-   "dernier": 361.5,
-   "variation": 1.69
+   "dernier": 364.25,
+   "variation": 0.76
   },
   {
    "nom": "BLÉ",
-   "dernier": 592.0,
-   "variation": -0.5
+   "dernier": 595.5,
+   "variation": 0.59
   },
   {
    "nom": "BOIS DE CONSTRUCTION",
@@ -5952,58 +6180,58 @@
   },
   {
    "nom": "CACAO",
-   "dernier": 5270.0,
-   "variation": 1.33
+   "dernier": 5299.0,
+   "variation": 0.55
   },
   {
    "nom": "CAFÉ",
-   "dernier": 274.85,
-   "variation": -2.55
+   "dernier": 274.35,
+   "variation": -0.18
   },
   {
    "nom": "CAOUTCHOUC",
-   "dernier": 423.3,
-   "variation": 0.12
+   "dernier": 424.4,
+   "variation": 0.26
   },
   {
    "nom": "COTON",
-   "dernier": 75.47,
-   "variation": -0.63
+   "dernier": 81.36,
+   "variation": 7.8
   },
   {
    "nom": "CUIVRE",
-   "dernier": 5.48,
-   "variation": -2.63
+   "dernier": 5.63,
+   "variation": 2.74
   },
   {
    "nom": "GAZ NATUREL",
-   "dernier": 3.41,
-   "variation": 4.38
+   "dernier": 3.18,
+   "variation": -6.65
   },
   {
    "nom": "JUS D'ORANGE",
-   "dernier": 127.6,
-   "variation": -3.73
+   "dernier": 134.3,
+   "variation": 5.25
   },
   {
    "nom": "MAIS",
-   "dernier": 434.5,
-   "variation": -1.03
+   "dernier": 434.25,
+   "variation": -0.06
   },
   {
    "nom": "NICKEL",
-   "dernier": 15370.75,
-   "variation": -1.41
+   "dernier": 15456.0,
+   "variation": 0.55
   },
   {
    "nom": "OR (ONCE EN $)",
-   "dernier": 3525.42,
-   "variation": -1.4
+   "dernier": 3623.14,
+   "variation": 2.77
   },
   {
    "nom": "PALLADIUM",
-   "dernier": 892.65,
-   "variation": -0.84
+   "dernier": 879.91,
+   "variation": -1.43
   },
   {
    "nom": "PALM OIL FUTURES ($)",
@@ -6012,18 +6240,18 @@
   },
   {
    "nom": "PETROLE BRENT",
-   "dernier": 90.58,
-   "variation": 2.79
+   "dernier": 86.77,
+   "variation": -4.21
   },
   {
    "nom": "PETROLE WTI",
-   "dernier": 83.98,
-   "variation": 0.93
+   "dernier": 80.17,
+   "variation": -4.54
   },
   {
    "nom": "PLATINE",
-   "dernier": 1300.58,
-   "variation": -0.55
+   "dernier": 1290.24,
+   "variation": -0.8
   },
   {
    "nom": "RIZ FUTURES ($)",
@@ -6032,13 +6260,13 @@
   },
   {
    "nom": "SOJA",
-   "dernier": 1220.5,
-   "variation": 1.08
+   "dernier": 1228.75,
+   "variation": 0.68
   },
   {
    "nom": "SUCRE",
-   "dernier": 17.03,
-   "variation": -0.76
+   "dernier": 17.61,
+   "variation": 3.41
   },
   {
    "nom": "ZINC",
@@ -6052,7 +6280,7 @@
    "ticker": "LNBB",
    "nom": "LOTERIE NATIONALE DU BENIN",
    "montant": 164.0,
-   "rendement": 4.36
+   "rendement": 4.32
   }
  ]
 }
