@@ -1,13 +1,13 @@
 {
- "maj": "2026-11-25 19:39",
+ "maj": "2026-11-26 19:46",
  "articles": [
   {
-   "id": "65959",
+   "id": "65985",
    "source": "Actualites economiques",
-   "date": "2026-11-25 18:58",
-   "titre": "La Guinée équatoriale s’allie au russe Uniconf pour relancer la culture et la transformation industrielle du cacao",
-   "extrait": "La Guinée équatoriale ouvre sa filière cacao aux capitaux et au savoir-faire industriel russes. Le 25 novembre 2026, le gouvernement a signé avec Nueva Producc...",
-   "url": "https://www.sikafinance.com/marches/la-guinee-equatoriale-sallie-au-russe-uniconf-pour-relancer-la-culture-et-la-transformation-industrielle-du-cacao_65959",
+   "date": "2026-11-26 18:22",
+   "titre": "Le Cameroun veut convertir le boom du mobile money en épargne et en financements pour l'économie",
+   "extrait": "Avec 30,9 millions de comptes de monnaie mobile et 26 773 milliards FCFA de transactions enregistrées en 2024, le Cameroun dispose d'une base importante pour d...",
+   "url": "https://www.sikafinance.com/marches/le-cameroun-veut-convertir-le-boom-du-mobile-money-en-epargne-et-en-financements-pour-l-economie_65985",
    "ticker": null,
    "premium": false,
    "categorie": "Hors zone UEMOA",
@@ -16,12 +16,212 @@
    "tickers": []
   },
   {
-   "id": "65958",
+   "id": "65984",
+   "source": "Actualites du marche",
+   "date": "2026-11-26 18:00",
+   "titre": "Côte d’Ivoire : Ces 10 plus grandes entreprises ayant dépassé pour la 1ère fois les 100 milliards FCFA de chiffre d’affaires en 2025",
+   "extrait": "Entre infrastructures, agro-industrie, distribution et jeux en ligne, un nouveau groupe d'entreprises s'installe dans l...",
+   "url": "https://www.sikafinance.com/marches/cote-divoire-ces-10-plus-grandes-entreprises-ayant-depasse-pour-la-1ere-fois-les-100-milliards-fcfa-de-chiffre-daffaires-en-2025_65984",
+   "ticker": null,
+   "premium": true,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65983",
+   "source": "Actualites du marche",
+   "date": "2026-11-26 16:38",
+   "titre": "Les 7 pays africains où les grandes entreprises soutiennent le plus les startups technologiques",
+   "extrait": "En mobilisant des investissements financiers, des programmes d'incubation et des acquisitions, ces nations cherchent à ...",
+   "url": "https://www.sikafinance.com/marches/les-7-pays-africains-ou-les-grandes-entreprises-soutiennent-le-plus-les-startups-technologiques_65983",
+   "ticker": null,
+   "premium": true,
+   "categorie": "Operation sur titres",
+   "score": 3,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65982",
+   "source": "Actualites du marche",
+   "date": "2026-11-26 16:16",
+   "titre": "BRVM : NSIA Banque CI à contre-courant d'un marché sous pression",
+   "extrait": "La BRVM poursuit sa spirale baissière ce jeudi 26 novembre, dans un marché où les vendeurs conservent largement ...",
+   "url": "https://www.sikafinance.com/marches/brvm-nsia-banque-ci-a-contre-courant-d-un-marche-sous-pression_65982",
+   "ticker": "NSBC",
+   "premium": false,
+   "categorie": "Autre",
+   "score": 1,
+   "sentiment": 0,
+   "tickers": [
+    "NSBC"
+   ]
+  },
+  {
+   "id": "65981",
+   "source": "Actualites du marche",
+   "date": "2026-11-26 15:59",
+   "titre": "Côte d’Ivoire : 79% des recettes fiscales collectées par voie électronique en 2025",
+   "extrait": "En 2025, sur la plateforme fiscale e-impôts en Côte d'Ivoire, 85 404 contribuables ont réglé 2 843,6 millia...",
+   "url": "https://www.sikafinance.com/marches/cote-divoire-79-des-recettes-fiscales-collectees-par-voie-electronique-en-2025_65981",
+   "ticker": null,
+   "premium": true,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65980",
    "source": "Actualites economiques",
-   "date": "2026-11-25 18:51",
-   "titre": "Côte d’Ivoire : L’alerte de la BAD sur les besoins énergétiques des datacenters à l’horizon 2040",
-   "extrait": "Face à l'essor fulgurant des infrastructures de stockage de données en Côte d'Ivoire, la Banque africaine de développement (BAD) invite les autorités nat...",
-   "url": "https://www.sikafinance.com/marches/cote-divoire-lalerte-de-la-bad-sur-les-besoins-energetiques-des-datacenters-a-lhorizon-2040_65958",
+   "date": "2026-11-26 15:28",
+   "titre": "Côte d’Ivoire : Dix nouveaux permis de recherche minière attribués à des entreprises",
+   "extrait": "La Côte d'Ivoire poursuit l'intensification de l'exploration de son potentiel minier. Le gouvernement a approuvé, ce mercredi 25 novembre, l'attribution ...",
+   "url": "https://www.sikafinance.com/marches/cote-divoire-dix-nouveaux-permis-de-recherche-miniere-attribues-a-des-entreprises_65980",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65977",
+   "source": "Actualites economiques",
+   "date": "2026-11-26 13:06",
+   "titre": "Le Cameroun songe au nucléaire pour renforcer son offre énergétique",
+   "extrait": "Depuis des décennies, le Cameroun peine à garantir aux populations une alimentation électrique régulière et suffisante. Dans les grandes villes, les dél...",
+   "url": "https://www.sikafinance.com/marches/le-cameroun-songe-au-nucleaire-pour-renforcer-son-offre-energetique_65977",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65975",
+   "source": "Actualites du marche",
+   "date": "2026-11-26 12:30",
+   "titre": "Nigeria : La raffinerie Dangote fera son entrée à la Bourse de Lagos le 1er décembre",
+   "extrait": "La raffinerie de pétrole Dangote s'apprête à ouvrir son capital aux investisseurs du marché financier nigérian. Les act...",
+   "url": "https://www.sikafinance.com/marches/nigeria-la-raffinerie-dangote-fera-son-entree-a-la-bourse-de-lagos-le-1er-decembre_65975",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65973",
+   "source": "Actualites economiques",
+   "date": "2026-11-26 11:51",
+   "titre": "Société Générale Côte d’Ivoire s’allie à la BERD pour mobiliser 250 millions d’euros en faveur des entreprises",
+   "extrait": "Le financement des entreprises ivoiriennes franchit une étape nouvelle avec le rapprochement entre Société Générale Côte d'Ivoire (SGCI) et la Banque eur...",
+   "url": "https://www.sikafinance.com/marches/societe-generale-cote-divoire-sallie-a-la-berd-pour-mobiliser-250-millions-deuros-en-faveur-des-entreprises_65973",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Financement",
+   "score": 2,
+   "sentiment": 0,
+   "tickers": [
+    "SGBC"
+   ]
+  },
+  {
+   "id": "65971",
+   "source": "Actualites economiques",
+   "date": "2026-11-26 10:41",
+   "titre": "Côte d’Ivoire : Le gouvernement approuve le contrat de déploiement de dix centres de livraison médicale par drones",
+   "extrait": "Le déploiement du réseau national de distribution de produits médicaux par drones franchit une nouvelle étape en Côte d'Ivoire. Réuni le 25 novembre 2026...",
+   "url": "https://www.sikafinance.com/marches/cote-divoire-le-gouvernement-approuve-le-contrat-de-deploiement-de-dix-centres-de-livraison-medicale-par-drones_65971",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65968",
+   "source": "Actualites du marche",
+   "date": "2026-11-26 10:21",
+   "titre": "Côte d’Ivoire : A la tonne, les produits transformés exportés rapportent deux fois plus que les bruts",
+   "extrait": "Avec un cinquième des tonnages agricoles exportés, la première transformation génère un tiers de la valeur. Dans la sou...",
+   "url": "https://www.sikafinance.com/marches/cote-divoire-a-la-tonne-les-produits-transformes-exportes-rapportent-deux-fois-plus-que-les-bruts_65968",
+   "ticker": null,
+   "premium": true,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65967",
+   "source": "Actualites economiques",
+   "date": "2026-11-26 09:59",
+   "titre": "Cameroun : 60 millions USD supplémentaires et 2 ans de plus pour achever un programme d’aménagement agricole dans le nord du pays",
+   "extrait": "La Banque mondiale accorde 60 millions de dollars supplémentaires, soit environ 36 milliards FCFA, au Projet d'aménagement et de valorisation des investissemen...",
+   "url": "https://www.sikafinance.com/marches/cameroun-60-millions-usd-supplementaires-et-2-ans-de-plus-pour-achever-un-programme-damenagement-agricole-dans-le-nord-du-pays_65967",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65970",
+   "source": "Actualites du marche",
+   "date": "2026-11-26 09:48",
+   "titre": "Ovic M’Bi Mabiala, DG de CIMPOR Côte d’Ivoire : ‘’La Côte d’Ivoire peut devenir un hub régional de l’argile calcinée ou de ciment bas carbone’’",
+   "extrait": "Ovic M'Bi Mabiala, Directeur général de CIMPOR Côte d'Ivoire : La Côte d'Ivoire peut devenir un hub rég...",
+   "url": "https://www.sikafinance.com/marches/ovic-mbi-mabiala-dg-de-cimpor-cote-divoire-la-cote-divoire-peut-devenir-un-hub-regional-de-largile-calcinee-ou-de-ciment-bas-carbone_65970",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Gouvernance",
+   "score": 1,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65965",
+   "source": "Actualites economiques",
+   "date": "2026-11-26 09:16",
+   "titre": "Sénégal : Le secteur privé retrouve de ‘’l’appétit’’ sur le marché financier régional",
+   "extrait": "Au Sénégal après un temps d'accalmie marqué par de nombreuses opérations de l'État, le secteur privé semble avoir repris goût ou de la marge sur l...",
+   "url": "https://www.sikafinance.com/marches/senegal-le-secteur-prive-retrouve-de-lappetit-sur-le-marche-financier-regional_65965",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65963",
+   "source": "Actualites economiques",
+   "date": "2026-11-26 08:52",
+   "titre": "Sénégal : 3MD INDUSTRIES s’allie à l’APIX et engage près de 3 milliards FCFA d’investissement dans la zone économique de Diass",
+   "extrait": "Au Sénégal, l'ambition d'industrialisation se poursuit avec la Zone économique spéciale intégrée de Diass (ZESID). Dans ce cadre, l'entreprise 3MD INDUSTRIES a...",
+   "url": "https://www.sikafinance.com/marches/senegal-3md-industries-sallie-a-lapix-et-engage-pres-de-3-milliards-fcfa-dinvestissement-dans-la-zone-economique-de-diass_65963",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65978",
+   "source": "Actualites economiques",
+   "date": "2026-11-26 08:01",
+   "titre": "L'Ivoirien Yacouba Diarra prend la tête de l’organisation patronale du secteur minier ouest africain",
+   "extrait": "Élu à la présidence de l'organisation fédérant les chambres des mines de la CEDEAO, le Dr Yacouba Diarra entend renforcer la voix des opérateurs m...",
+   "url": "https://www.sikafinance.com/marches/l-ivoirien-yacouba-diarra-prend-la-tete-de-lorganisation-patronale-du-secteur-minier-ouest-africain_65978",
    "ticker": null,
    "premium": false,
    "categorie": "Autre",
@@ -44,20 +244,6 @@
    "tickers": []
   },
   {
-   "id": "65956",
-   "source": "Actualites economiques",
-   "date": "2026-11-25 16:41",
-   "titre": "BRT et Métro : Abidjan accélère ses deux grands chantiers à l'approche de 2029",
-   "extrait": "Abidjan s'apprête à franchir un cap important dans la modernisation de son système de transport urbain. Face à l'explosion démographique, à l'étalement de la c...",
-   "url": "https://www.sikafinance.com/marches/brt-et-metro-abidjan-accelere-ses-deux-grands-chantiers-a-l-approche-de-2029_65956",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Financement",
-   "score": 2,
-   "sentiment": 0,
-   "tickers": []
-  },
-  {
    "id": "65955",
    "source": "Actualites du marche",
    "date": "2026-11-25 16:03",
@@ -72,48 +258,6 @@
    "tickers": [
     "BOAN"
    ]
-  },
-  {
-   "id": "65954",
-   "source": "Actualites economiques",
-   "date": "2026-11-25 15:31",
-   "titre": "Togo : Le FMI envisage un accord de 22 mois au titre de la facilité pour la résilience et la durabilité",
-   "extrait": "Le Fonds monétaire international (FMI) et les autorités togolaises discutent de la possibilité de conclure un accord de 22 mois au titre de la Facilité pour la...",
-   "url": "https://www.sikafinance.com/marches/togo-le-fmi-envisage-un-accord-de-22-mois-au-titre-de-la-facilite-pour-la-resilience-et-la-durabilite_65954",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Macro / monnaie",
-   "score": 2,
-   "sentiment": 0,
-   "tickers": []
-  },
-  {
-   "id": "65951",
-   "source": "Actualites economiques",
-   "date": "2026-11-25 14:49",
-   "titre": "Le Cameroun ramène à 603 millions USD le montant de son premier emprunt ESG avec un bouclage attendu mi-décembre",
-   "extrait": "Le Cameroun revoit à la baisse le montant de son premier emprunt souverain à composante environnementale, sociale et de gouvernance (ESG). L'opération, ...",
-   "url": "https://www.sikafinance.com/marches/le-cameroun-ramene-a-603-millions-usd-le-montant-de-son-premier-emprunt-esg-avec-un-bouclage-attendu-mi-decembre_65951",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Hors zone UEMOA",
-   "score": 0,
-   "sentiment": -1,
-   "tickers": []
-  },
-  {
-   "id": "65950",
-   "source": "Actualites economiques",
-   "date": "2026-11-25 14:27",
-   "titre": "UEMOA : La BOAD et la BERD envisagent un mécanisme de financement réciproque de 400 millions d’euros pour dynamiser les investissements",
-   "extrait": "La Banque ouest-africaine de développement (BOAD) et la Banque européenne pour la reconstruction et le développement (BERD) veulent franchir un nouveau cap dan...",
-   "url": "https://www.sikafinance.com/marches/uemoa-la-boad-et-la-berd-envisagent-un-mecanisme-de-financement-reciproque-de-400-millions-deuros-pour-dynamiser-les-investissements_65950",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Macro / monnaie",
-   "score": 2,
-   "sentiment": 0,
-   "tickers": []
   },
   {
    "id": "65948",
@@ -144,22 +288,6 @@
    "tickers": []
   },
   {
-   "id": "65941",
-   "source": "Actualites economiques",
-   "date": "2026-11-25 12:00",
-   "titre": "Société Générale Côte d’Ivoire lance son club expérience client",
-   "extrait": "Le vendredi 20 novembre 2026, Société Générale Côte d'Ivoire (SGCI) a officiellement lancé son Club Expérience Client lors d'une cérémonie organisée dans...",
-   "url": "https://www.sikafinance.com/marches/societe-generale-cote-divoire-lance-son-club-experience-client_65941",
-   "ticker": null,
-   "premium": false,
-   "categorie": "Autre",
-   "score": 0,
-   "sentiment": 0,
-   "tickers": [
-    "SGBC"
-   ]
-  },
-  {
    "id": "65939",
    "source": "Actualites du marche",
    "date": "2026-11-25 11:21",
@@ -176,11 +304,111 @@
    ]
   },
   {
+   "id": "65959",
+   "source": "Actualites economiques",
+   "date": "2026-11-25 00:00",
+   "titre": "La Guinée équatoriale s’allie au russe Uniconf pour relancer la culture et la transformation industrielle du cacao",
+   "extrait": "25/11/2026",
+   "url": "https://www.sikafinance.com/marches/la-guinee-equatoriale-sallie-au-russe-uniconf-pour-relancer-la-culture-et-la-transformation-industrielle-du-cacao_65959",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65958",
+   "source": "Actualites economiques",
+   "date": "2026-11-25 00:00",
+   "titre": "Côte d’Ivoire : L’alerte de la BAD sur les besoins énergétiques des datacenters à l’horizon 2040",
+   "extrait": "25/11/2026",
+   "url": "https://www.sikafinance.com/marches/cote-divoire-lalerte-de-la-bad-sur-les-besoins-energetiques-des-datacenters-a-lhorizon-2040_65958",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65956",
+   "source": "Actualites economiques",
+   "date": "2026-11-25 00:00",
+   "titre": "BRT et Métro : Abidjan accélère ses deux grands chantiers à l'approche de 2029",
+   "extrait": "25/11/2026",
+   "url": "https://www.sikafinance.com/marches/brt-et-metro-abidjan-accelere-ses-deux-grands-chantiers-a-l-approche-de-2029_65956",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65954",
+   "source": "Actualites economiques",
+   "date": "2026-11-25 00:00",
+   "titre": "Togo : Le FMI envisage un accord de 22 mois au titre de la facilité pour la résilience et la durabilité",
+   "extrait": "25/11/2026",
+   "url": "https://www.sikafinance.com/marches/togo-le-fmi-envisage-un-accord-de-22-mois-au-titre-de-la-facilite-pour-la-resilience-et-la-durabilite_65954",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Macro / monnaie",
+   "score": 2,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65951",
+   "source": "Actualites economiques",
+   "date": "2026-11-25 00:00",
+   "titre": "Le Cameroun ramène à 603 millions USD le montant de son premier emprunt ESG avec un bouclage attendu mi-décembre",
+   "extrait": "25/11/2026",
+   "url": "https://www.sikafinance.com/marches/le-cameroun-ramene-a-603-millions-usd-le-montant-de-son-premier-emprunt-esg-avec-un-bouclage-attendu-mi-decembre_65951",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Hors zone UEMOA",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65950",
+   "source": "Actualites economiques",
+   "date": "2026-11-25 00:00",
+   "titre": "UEMOA : La BOAD et la BERD envisagent un mécanisme de financement réciproque de 400 millions d’euros pour dynamiser les investissements",
+   "extrait": "25/11/2026",
+   "url": "https://www.sikafinance.com/marches/uemoa-la-boad-et-la-berd-envisagent-un-mecanisme-de-financement-reciproque-de-400-millions-deuros-pour-dynamiser-les-investissements_65950",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Macro / monnaie",
+   "score": 2,
+   "sentiment": 0,
+   "tickers": []
+  },
+  {
+   "id": "65941",
+   "source": "Actualites economiques",
+   "date": "2026-11-25 00:00",
+   "titre": "Société Générale Côte d’Ivoire lance son club expérience client",
+   "extrait": "25/11/2026",
+   "url": "https://www.sikafinance.com/marches/societe-generale-cote-divoire-lance-son-club-experience-client_65941",
+   "ticker": null,
+   "premium": false,
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": [
+    "SGBC"
+   ]
+  },
+  {
    "id": "65938",
    "source": "Actualites economiques",
-   "date": "2026-11-25 11:12",
+   "date": "2026-11-25 00:00",
    "titre": "Fintech : First Circle Capital boucle 26 millions USD pour propulser 24 pépites africaines en phase de démarrage",
-   "extrait": "First Circle Capital, fonds panafricain dédié aux startups fintech à fort potentiel, annonce la clôture d'une enveloppe finale de 26 millions USD entre P...",
+   "extrait": "25/11/2026",
    "url": "https://www.sikafinance.com/marches/fintech-first-circle-capital-boucle-26-millions-usd-pour-propulser-24-pepites-africaines-en-phase-de-demarrage_65938",
    "ticker": null,
    "premium": false,
@@ -192,9 +420,9 @@
   {
    "id": "65936",
    "source": "Actualites economiques",
-   "date": "2026-11-25 10:22",
+   "date": "2026-11-25 00:00",
    "titre": "Côte d’Ivoire : La BERD déploie une offre intégrée pour faciliter le financement et la croissance des PME",
-   "extrait": "L'accès au financement reste l'un des principaux freins au développement des petites et moyennes entreprises (PME) en Côte d'Ivoire. Pour répondre à cett...",
+   "extrait": "25/11/2026",
    "url": "https://www.sikafinance.com/marches/cote-divoire-la-berd-deploie-une-offre-integree-pour-faciliter-le-financement-et-la-croissance-des-pme_65936",
    "ticker": null,
    "premium": false,
@@ -506,7 +734,7 @@
    "source": "Actualites economiques",
    "date": "2026-11-24 00:00",
    "titre": "Cameroun : Le maintien du pays sur la liste grise du GAFI a renchéri le coût du financement des PME, selon la Banque mondiale",
-   "extrait": "24/11/2026",
+   "extrait": "05/06/2026",
    "url": "https://www.sikafinance.com/marches/cameroun-le-maintien-du-pays-sur-la-liste-grise-du-gafi-a-rencheri-le-cout-du-financement-des-pme-selon-la-banque-mondiale_65923",
    "ticker": null,
    "premium": false,
@@ -5530,6 +5758,45 @@
  ],
  "communiques": [
   {
+   "date": "2026-11-25",
+   "societe": "ETI TG",
+   "titre": "ETI TG - Press Release",
+   "url": "https://www.sikafinance.com/docs/eti-tg-eti-tg--press-release.pdf",
+   "ticker": "ETIT",
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": [
+    "ETIT"
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "societe": "ETI TG",
+   "titre": "ETI TG - Communique de Presse",
+   "url": "https://www.sikafinance.com/docs/eti-tg-eti-tg--communique-de-presse.pdf",
+   "ticker": "ETIT",
+   "categorie": "Autre",
+   "score": 0,
+   "sentiment": 0,
+   "tickers": [
+    "ETIT"
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "societe": "NESTLE CI",
+   "titre": "NESTLE CI - Attestation des Commissaires Aux Comptes sur le rapport dactivites - 1er semestre 2026",
+   "url": "https://www.sikafinance.com/docs/nestle-ci-nestle-ci--attestation-des-commissaires-aux-comptes-sur-le-rapport-dactivites--1er-semestre-2026.pdf",
+   "ticker": "NTLC",
+   "categorie": "Attestation",
+   "score": 1,
+   "sentiment": 0,
+   "tickers": [
+    "NTLC"
+   ]
+  },
+  {
    "date": "2026-11-17",
    "societe": "VIVO ENERGY CI",
    "titre": "VIVO ENERGY CI - Rapport dactivites - 3e trimestre 2026",
@@ -6469,23 +6736,23 @@
  "matieres": [
   {
    "nom": "ALUMINIUM",
-   "dernier": 2872.5,
-   "variation": -0.86
+   "dernier": 2822.75,
+   "variation": -1.73
   },
   {
    "nom": "ARGENT (ONCE EN $)",
-   "dernier": 40.33,
-   "variation": -4.04
+   "dernier": 41.64,
+   "variation": 3.25
   },
   {
    "nom": "AVOINE",
-   "dernier": 362.0,
-   "variation": -0.62
+   "dernier": 353.25,
+   "variation": -2.42
   },
   {
    "nom": "BLÉ",
-   "dernier": 589.25,
-   "variation": -1.05
+   "dernier": 587.5,
+   "variation": -0.3
   },
   {
    "nom": "BOIS DE CONSTRUCTION",
@@ -6494,58 +6761,58 @@
   },
   {
    "nom": "CACAO",
-   "dernier": 5413.0,
-   "variation": 2.15
+   "dernier": 5434.0,
+   "variation": 0.39
   },
   {
    "nom": "CAFÉ",
-   "dernier": 268.55,
-   "variation": -2.11
+   "dernier": 275.65,
+   "variation": 2.64
   },
   {
    "nom": "CAOUTCHOUC",
-   "dernier": 421.0,
-   "variation": -0.54
+   "dernier": 423.3,
+   "variation": 0.55
   },
   {
    "nom": "COTON",
-   "dernier": 82.05,
-   "variation": 0.85
+   "dernier": 82.97,
+   "variation": 1.12
   },
   {
    "nom": "CUIVRE",
-   "dernier": 5.36,
-   "variation": -4.7
+   "dernier": 5.33,
+   "variation": -0.56
   },
   {
    "nom": "GAZ NATUREL",
-   "dernier": 3.32,
-   "variation": 4.37
+   "dernier": 3.27,
+   "variation": -1.63
   },
   {
    "nom": "JUS D'ORANGE",
-   "dernier": 131.4,
-   "variation": -2.16
+   "dernier": 125.25,
+   "variation": -4.68
   },
   {
    "nom": "MAIS",
-   "dernier": 434.0,
-   "variation": -0.06
+   "dernier": 439.75,
+   "variation": 1.32
   },
   {
    "nom": "NICKEL",
-   "dernier": 15169.75,
-   "variation": -1.85
+   "dernier": 15311.5,
+   "variation": 0.93
   },
   {
    "nom": "OR (ONCE EN $)",
-   "dernier": 3534.85,
-   "variation": -2.44
+   "dernier": 3566.51,
+   "variation": 0.9
   },
   {
    "nom": "PALLADIUM",
-   "dernier": 851.28,
-   "variation": -3.25
+   "dernier": 882.41,
+   "variation": 3.66
   },
   {
    "nom": "PALM OIL FUTURES ($)",
@@ -6554,18 +6821,18 @@
   },
   {
    "nom": "PETROLE BRENT",
-   "dernier": 88.56,
-   "variation": 2.06
+   "dernier": 90.25,
+   "variation": 1.91
   },
   {
    "nom": "PETROLE WTI",
-   "dernier": 82.05,
-   "variation": 2.35
+   "dernier": 83.68,
+   "variation": 1.99
   },
   {
    "nom": "PLATINE",
-   "dernier": 1258.82,
-   "variation": -2.44
+   "dernier": 1305.9,
+   "variation": 3.74
   },
   {
    "nom": "RIZ FUTURES ($)",
@@ -6574,13 +6841,13 @@
   },
   {
    "nom": "SOJA",
-   "dernier": 1234.0,
-   "variation": 0.43
+   "dernier": 1243.0,
+   "variation": 0.73
   },
   {
    "nom": "SUCRE",
-   "dernier": 17.66,
-   "variation": 0.28
+   "dernier": 18.34,
+   "variation": 3.85
   },
   {
    "nom": "ZINC",
@@ -6594,7 +6861,7 @@
    "ticker": "LNBB",
    "nom": "LOTERIE NATIONALE DU BENIN",
    "montant": 164.0,
-   "rendement": 4.32
+   "rendement": 4.21
   }
  ]
 }
